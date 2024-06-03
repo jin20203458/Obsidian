@@ -6,7 +6,7 @@
 크게 재귀를 활용한 **Top-Down (Memoization) 방식**, 
 과 반복문을 활용한 **Bottom-Up (Tabulation) 방식** 으로 구현가능하다.
 
-ex1) TopDown
+**ex1) TopDown**
 ```
 #include <iostream>
 #include <vector>
@@ -31,4 +31,32 @@ int main() {
     return 0;
 }
 ```
-ex1) BottomUp
+
+**ex1) BottomUp**
+```
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int fibonacci_bottom_up(int n) { 
+    if (n <= 1) return n;
+
+    vector<int> dp(n + 1);
+    dp[0] = 0; dp[1] = 1;
+
+    for (int i = 2; i <= n; ++i)
+        dp[i] = dp[i - 1] + dp[i - 2];
+
+    return dp[n];
+}
+
+int main() {
+    int n;
+    cin >> n;
+
+    cout << "Fibonacci number at position " << n << " is: " << fibonacci_bottom_up(n) << endl;
+
+    return 0;
+}
+```
