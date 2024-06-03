@@ -1,2 +1,2 @@
-- 공부할것, 공부한것 정리
+#### 공부할것, 공부한것 정리
  Cpp, Algorithms, DataStructure, Oracle, OpenGL...
