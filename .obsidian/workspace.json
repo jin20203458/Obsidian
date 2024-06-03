@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenGL/무제 파일.md",
+                "file": "OpenGL/2. OpenGL의기초.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenGL/무제 파일.md",
+                "file": "OpenGL/2. OpenGL의기초.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenGL/무제 파일.md",
+                "file": "OpenGL/2. OpenGL의기초.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenGL/무제 파일.md"
+                "file": "OpenGL/2. OpenGL의기초.md"
               }
             }
           }
@@ -195,10 +195,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "816cbcd0ff6621fa",
+  "active": "95a0d7585d1f1827",
   "lastOpenFiles": [
     "OpenGL/1. OpenGL.md",
-    "OpenGL/무제 파일.md",
+    "OpenGL/2. OpenGL의기초.md",
     "README.md",
     "알고리즘_예제/백준(2210)숫자판점프.md",
     "Obsidian.md",
