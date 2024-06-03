@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/다이나믹 프로그래밍 (Dynamic Programming).md",
+                "file": "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/다이나믹 프로그래밍 (Dynamic Programming).md",
+                "file": "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/다이나믹 프로그래밍 (Dynamic Programming).md",
+                "file": "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/다이나믹 프로그래밍 (Dynamic Programming).md"
+                "file": "알고리즘/다이나믹프로그래밍(DynamicProgramming).md"
               }
             }
           }
@@ -161,9 +161,9 @@
   },
   "active": "356210307c6227d6",
   "lastOpenFiles": [
-    "무제 파일 1.md",
-    "알고리즘/다이나믹 프로그래밍 (Dynamic Programming).md",
     "알고리즘/백트래킹.md",
+    "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
+    "무제 파일 1.md",
     "C++/Main.cpp",
     "OpenGL",
     "기타_자료",
