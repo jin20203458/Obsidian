@@ -54,21 +54,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ef4720a7a800afdc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +122,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +138,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +181,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ef4720a7a800afdc",
+  "active": "816cbcd0ff6621fa",
   "lastOpenFiles": [
     "알고리즘_예제/백준(2210)숫자판점프.md",
     "Obsidian.md",

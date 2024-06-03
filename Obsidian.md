@@ -1,3 +1,0 @@
-
-- 공부할것, 공부한것 정리
- Cpp, Algorithms, Data structure, Oracle, OpenGl...
