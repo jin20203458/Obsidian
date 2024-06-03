@@ -122,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "알고리즘_예제/백준(2210)숫자판점프.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,6 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "알고리즘_예제/백준(2210)숫자판점프.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian.md"
+                "file": "알고리즘_예제/백준(2210)숫자판점프.md"
               }
             }
           }
@@ -181,11 +183,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "816cbcd0ff6621fa",
+  "active": "816f4da2277665d2",
   "lastOpenFiles": [
+    "Obsidian.md",
     "README.md",
     "알고리즘_예제/백준(2210)숫자판점프.md",
-    "Obsidian.md",
     "알고리즘_예제/백준(4097)수익.md",
     "OpenGL/무제 파일.md",
     "알고리즘/백트래킹(Backtracking).md",
