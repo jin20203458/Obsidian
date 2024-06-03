@@ -6,9 +6,6 @@
 
 예시  문제 : 백준 N과M
 
-시간복잡도  N!
-
-ex)
 ```
 #include <iostream>
 #include<vector>
