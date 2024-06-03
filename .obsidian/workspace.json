@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ef4720a7a800afdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘_예제/백준(2210)숫자판점프.md",
+                "file": "Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘_예제/백준(2210)숫자판점프.md",
+                "file": "Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘_예제/백준(2210)숫자판점프.md"
+                "file": "Obsidian.md"
               }
             }
           }
@@ -183,10 +195,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "816f4da2277665d2",
+  "active": "ef4720a7a800afdc",
   "lastOpenFiles": [
-    "알고리즘_예제/백준(4097)수익.md",
     "알고리즘_예제/백준(2210)숫자판점프.md",
+    "Obsidian.md",
+    "알고리즘_예제/백준(4097)수익.md",
     "OpenGL/무제 파일.md",
     "알고리즘/백트래킹(Backtracking).md",
     "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
