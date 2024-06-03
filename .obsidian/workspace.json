@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "95a0d7585d1f1827",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenGL/무제 파일.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenGL/1. OpenGL.md",
+                "file": "OpenGL/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenGL/1. OpenGL.md",
+                "file": "OpenGL/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenGL/1. OpenGL.md"
+                "file": "OpenGL/무제 파일.md"
               }
             }
           }
@@ -183,13 +195,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "816f4da2277665d2",
+  "active": "816cbcd0ff6621fa",
   "lastOpenFiles": [
+    "OpenGL/1. OpenGL.md",
+    "OpenGL/무제 파일.md",
     "README.md",
     "알고리즘_예제/백준(2210)숫자판점프.md",
     "Obsidian.md",
     "알고리즘_예제/백준(4097)수익.md",
-    "OpenGL/1. OpenGL.md",
     "알고리즘/백트래킹(Backtracking).md",
     "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
     "알고리즘/브루트포스(BruteForce).md",
