@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/백트래킹(Backtracking).md",
+                "file": "알고리즘_예제/백준(2210)숫자판점프.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "816f4da2277665d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenGL/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/백트래킹(Backtracking).md",
+                "file": "OpenGL/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/백트래킹(Backtracking).md",
+                "file": "OpenGL/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/백트래킹(Backtracking).md"
+                "file": "OpenGL/무제 파일.md"
               }
             }
           }
@@ -171,12 +183,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4ad5d3039d96865b",
+  "active": "816cbcd0ff6621fa",
   "lastOpenFiles": [
-    "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
-    "알고리즘/백트래킹(Backtracking).md",
     "알고리즘_예제/백준(2210)숫자판점프.md",
+    "OpenGL/무제 파일.md",
     "알고리즘_예제/백준(4097)수익.md",
+    "알고리즘/백트래킹(Backtracking).md",
+    "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
     "알고리즘/브루트포스(BruteForce).md",
     "무제 파일 1.md",
     "C++/Main.cpp",
