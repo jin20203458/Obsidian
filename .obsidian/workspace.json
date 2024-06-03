@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/브루트포스(BruteForce).md",
+                "file": "알고리즘/백트래킹(Backtracking).md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/브루트포스(BruteForce).md",
+                "file": "알고리즘/백트래킹(Backtracking).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/브루트포스(BruteForce).md",
+                "file": "알고리즘/백트래킹(Backtracking).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/브루트포스(BruteForce).md"
+                "file": "알고리즘/백트래킹(Backtracking).md"
               }
             }
           }
@@ -161,9 +161,9 @@
   },
   "active": "5103f944b6dd951c",
   "lastOpenFiles": [
+    "알고리즘/브루트포스(BruteForce).md",
     "알고리즘/백트래킹(Backtracking).md",
     "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
-    "알고리즘/브루트포스(BruteForce).md",
     "알고리즘_예제/백준(4097)수익.md",
     "무제 파일 1.md",
     "C++/Main.cpp",
