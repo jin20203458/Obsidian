@@ -6,4 +6,29 @@
 크게 재귀를 활용한 **Top-Down (Memoization) 방식**, 
 과 반복문을 활용한 **Bottom-Up (Tabulation) 방식** 으로 구현가능하다.
 
-ex1 TopDown 
+ex1) TopDown
+```
+#include <iostream>
+#include <vector>
+using namespace std;
+
+vector<int> memo;
+int fibonacci_top_down(int n) {
+    if (n <= 1)
+        return n;
+    if (memo[n] != -1)
+        return memo[n];
+    return memo[n] = fibonacci_top_down(n - 1) + fibonacci_top_down(n - 2);
+}
+
+int main() {
+    int n;
+    cin >> n;
+   
+    memo.assign(n + 1, -1);
+    cout << "Fibonacci number at position " << n << " is: " << fibonacci_top_down(n) << endl;
+
+    return 0;
+}
+```
+ex1) BottomUp
