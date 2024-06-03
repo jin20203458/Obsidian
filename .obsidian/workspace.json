@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenGL/2. OpenGL의기초.md",
+                "file": "x,y,z,w.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenGL/2. OpenGL의기초.md",
+                "file": "x,y,z,w.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenGL/2. OpenGL의기초.md",
+                "file": "x,y,z,w.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenGL/2. OpenGL의기초.md"
+                "file": "x,y,z,w.md"
               }
             }
           }
@@ -148,11 +148,11 @@
   },
   "active": "95a0d7585d1f1827",
   "lastOpenFiles": [
+    "OpenGL/2. OpenGL의기초.md",
+    "OpenGL/3. OpenGL기본도형.md",
+    "x,y,z,w.md",
     "기타_자료/Pasted image 20240604015205.png",
     "기타_자료/Pasted image 20240604014434.png",
-    "OpenGL/3. OpenGL기본도형.md",
-    "OpenGL/2. OpenGL의기초.md",
-    "x,y,z,w.md",
     "OpenGL/1. OpenGL.md",
     "README.md",
     "알고리즘_예제/백준(2210)숫자판점프.md",
