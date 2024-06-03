@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "356210307c6227d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘/다이나믹 프로그래밍 (Dynamic Programming).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/백트래킹.md",
+                "file": "알고리즘/다이나믹 프로그래밍 (Dynamic Programming).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/백트래킹.md",
+                "file": "알고리즘/다이나믹 프로그래밍 (Dynamic Programming).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/백트래킹.md"
+                "file": "알고리즘/다이나믹 프로그래밍 (Dynamic Programming).md"
               }
             }
           }
@@ -146,13 +159,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "816cbcd0ff6621fa",
+  "active": "356210307c6227d6",
   "lastOpenFiles": [
+    "무제 파일 1.md",
+    "알고리즘/다이나믹 프로그래밍 (Dynamic Programming).md",
+    "알고리즘/백트래킹.md",
     "C++/Main.cpp",
     "OpenGL",
-    "무제 파일.md",
     "기타_자료",
-    "알고리즘/백트래킹.md",
     "알고리즘.md",
     "알고리즘_예제",
     "알고리즘",
