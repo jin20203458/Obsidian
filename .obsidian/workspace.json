@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/백트래킹.md",
+                "file": "알고리즘/백트래킹(Backtracking).md",
                 "mode": "source",
                 "source": false
               }
@@ -161,7 +161,7 @@
   },
   "active": "356210307c6227d6",
   "lastOpenFiles": [
-    "알고리즘/백트래킹.md",
+    "알고리즘/백트래킹(Backtracking).md",
     "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
     "무제 파일 1.md",
     "C++/Main.cpp",
