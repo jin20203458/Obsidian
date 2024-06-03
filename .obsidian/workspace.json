@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b59de0e2bb57608c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알고리즘/백트래킹(Backtracking).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "356210307c6227d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "37ecfd2e28373d6e",
             "type": "leaf",
             "state": {
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
