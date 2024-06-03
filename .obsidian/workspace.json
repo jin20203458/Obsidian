@@ -23,11 +23,9 @@
             "id": "216407cfa1178719",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "OpenGL/3. OpenGL기본도형.md",
-                "mode": "source",
-                "source": false
+                "file": "기타_자료/Pasted image 20240604015205.png"
               }
             }
           }
@@ -98,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenGL/3. OpenGL기본도형.md",
+                "file": "기타_자료/Pasted image 20240604015205.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenGL/3. OpenGL기본도형.md",
+                "file": "기타_자료/Pasted image 20240604015205.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenGL/3. OpenGL기본도형.md"
+                "file": "기타_자료/Pasted image 20240604015205.png"
               }
             }
           }
@@ -161,11 +159,11 @@
   },
   "active": "216407cfa1178719",
   "lastOpenFiles": [
-    "OpenGL/2. OpenGL의기초.md",
+    "기타_자료/Pasted image 20240604014434.png",
     "OpenGL/3. OpenGL기본도형.md",
+    "OpenGL/2. OpenGL의기초.md",
     "기타_자료/Pasted image 20240604015205.png",
     "x,y,z,w.md",
-    "기타_자료/Pasted image 20240604014434.png",
     "OpenGL/1. OpenGL.md",
     "README.md",
     "알고리즘_예제/백준(2210)숫자판점프.md",
