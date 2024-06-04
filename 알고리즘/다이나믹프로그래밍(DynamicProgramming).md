@@ -6,7 +6,7 @@
 크게 재귀를 활용한 **Top-Down (Memoization) 방식**, 
 과 반복문을 활용한 **Bottom-Up (Tabulation) 방식** 으로 구현가능하다.
 
-
+##### 예시) 피보나치 함수
 **ex1) TopDown**
 ```
 #include <iostream>
