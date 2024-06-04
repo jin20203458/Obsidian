@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/투포인터(TwoPointers).md",
+                "file": "알고리즘_예제/백준(4097)수익.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/투포인터(TwoPointers).md",
+                "file": "알고리즘_예제/백준(4097)수익.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/투포인터(TwoPointers).md",
+                "file": "알고리즘_예제/백준(4097)수익.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/투포인터(TwoPointers).md"
+                "file": "알고리즘_예제/백준(4097)수익.md"
               }
             }
           }
@@ -173,14 +173,14 @@
   },
   "active": "2ebcd377d3ce3fa1",
   "lastOpenFiles": [
-    "OpenGL/2. OpenGL의기초.md",
     "알고리즘_예제/백준(2559)수열.md",
-    "알고리즘_예제/백준(4097)수익.md",
+    "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
     "알고리즘/투포인터(TwoPointers).md",
+    "OpenGL/2. OpenGL의기초.md",
+    "알고리즘_예제/백준(4097)수익.md",
     "기타_자료/Pasted image 20240604015205.png",
     "기타_자료/Pasted image 20240604014434.png",
     "알고리즘/브루트포스(BruteForce).md",
-    "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
     "알고리즘/백트래킹(Backtracking).md",
     "OpenGL/3. OpenGL기본도형.md",
     "OpenGL/1. OpenGL.md",
