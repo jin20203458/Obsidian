@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘_예제/백준(2559)수열.md",
+                "file": "알고리즘/슬라이딩윈도우(SlidingWindow).md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘_예제/백준(2559)수열.md",
+                "file": "알고리즘/슬라이딩윈도우(SlidingWindow).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘_예제/백준(2559)수열.md",
+                "file": "알고리즘/슬라이딩윈도우(SlidingWindow).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘_예제/백준(2559)수열.md"
+                "file": "알고리즘/슬라이딩윈도우(SlidingWindow).md"
               }
             }
           }
@@ -161,6 +161,7 @@
   },
   "active": "879d45ae7c723c44",
   "lastOpenFiles": [
+    "기타_자료/Pasted image 20240604215525.png",
     "알고리즘/투포인터(TwoPointers).md",
     "알고리즘/슬라이딩윈도우(SlidingWindow).md",
     "알고리즘_예제/백준(2559)수열.md",
