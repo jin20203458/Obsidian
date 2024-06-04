@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenGL/3. OpenGL기본도형.md",
+                "file": "알고리즘/브루트포스(BruteForce).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6abf611ad8a2f8a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenGL/3. OpenGL기본도형.md",
+                "file": "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenGL/3. OpenGL기본도형.md",
+                "file": "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenGL/3. OpenGL기본도형.md"
+                "file": "알고리즘/다이나믹프로그래밍(DynamicProgramming).md"
               }
             }
           }
@@ -146,21 +159,22 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "95a0d7585d1f1827",
+  "active": "6abf611ad8a2f8a1",
   "lastOpenFiles": [
+    "알고리즘/백트래킹(Backtracking).md",
+    "알고리즘/브루트포스(BruteForce).md",
+    "알고리즘/투포인터(TwoPointers).md",
+    "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
+    "OpenGL/3. OpenGL기본도형.md",
     "OpenGL/2. OpenGL의기초.md",
     "OpenGL/1. OpenGL.md",
     "README.md",
     "x,y,z,w.md",
-    "OpenGL/3. OpenGL기본도형.md",
     "기타_자료/Pasted image 20240604015205.png",
     "기타_자료/Pasted image 20240604014434.png",
     "알고리즘_예제/백준(2210)숫자판점프.md",
     "Obsidian.md",
     "알고리즘_예제/백준(4097)수익.md",
-    "알고리즘/백트래킹(Backtracking).md",
-    "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
-    "알고리즘/브루트포스(BruteForce).md",
     "무제 파일 1.md",
     "C++/Main.cpp",
     "OpenGL",
