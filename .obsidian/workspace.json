@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘_예제/백준(1806)부분합.md",
+                "file": "알고리즘/투포인터(TwoPointers).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "110c025c7dbfe6d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘/누적합.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘_예제/백준(1806)부분합.md",
+                "file": "알고리즘/누적합.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘_예제/백준(1806)부분합.md",
+                "file": "알고리즘/누적합.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘_예제/백준(1806)부분합.md"
+                "file": "알고리즘/누적합.md"
               }
             }
           }
@@ -171,15 +183,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "34febac600128cc9",
+  "active": "110c025c7dbfe6d2",
   "lastOpenFiles": [
-    "알고리즘_예제/백준(2210)숫자판점프.md",
-    "알고리즘_예제/백준(1806)부분합.md",
+    "알고리즘/투포인터(TwoPointers).md",
+    "알고리즘/누적합.md",
     "알고리즘_예제/백준(4097)수익.md",
+    "알고리즘_예제/백준(2210)숫자판점프.md",
     "알고리즘_예제/백준(2559)수열.md",
+    "알고리즘_예제/백준(1806)부분합.md",
     "알고리즘/슬라이딩윈도우(SlidingWindow).md",
     "기타_자료/Pasted image 20240604215525.png",
-    "알고리즘/투포인터(TwoPointers).md",
     "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
     "OpenGL/2. OpenGL의기초.md",
     "기타_자료/Pasted image 20240604015205.png",
