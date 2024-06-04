@@ -5,4 +5,4 @@
 ![image](https://github.com/jin20203458/Obsidian/assets/127675852/9dc90886-9505-462d-a95b-3f690548309b)
 
 
-ex) [[백준(2559)수열]]
+ex) [[백준(2559)수열]] https://github.com/jin20203458/Obsidian/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_%EC%98%88%EC%A0%9C/%EB%B0%B1%EC%A4%80(2559)%EC%88%98%EC%97%B4.md
