@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/누적합.md",
+                "file": "알고리즘/누적합(PrefixSum).md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/누적합.md",
+                "file": "알고리즘/누적합(PrefixSum).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/누적합.md",
+                "file": "알고리즘/누적합(PrefixSum).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/누적합.md"
+                "file": "알고리즘/누적합(PrefixSum).md"
               }
             }
           }
@@ -186,7 +186,7 @@
   "active": "110c025c7dbfe6d2",
   "lastOpenFiles": [
     "알고리즘/투포인터(TwoPointers).md",
-    "알고리즘/누적합.md",
+    "알고리즘/누적합(PrefixSum).md",
     "알고리즘_예제/백준(4097)수익.md",
     "알고리즘_예제/백준(2210)숫자판점프.md",
     "알고리즘_예제/백준(2559)수열.md",
