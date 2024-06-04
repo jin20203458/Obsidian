@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "95a0d7585d1f1827",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알고리즘/브루트포스(BruteForce).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6abf611ad8a2f8a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알고리즘_예제/백준(4097)수익.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2ebcd377d3ce3fa1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘_예제/백준(4097)수익.md",
+                "file": "알고리즘_예제/백준(2559)수열.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘_예제/백준(4097)수익.md",
+                "file": "알고리즘_예제/백준(2559)수열.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘_예제/백준(4097)수익.md",
+                "file": "알고리즘_예제/백준(2559)수열.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘_예제/백준(4097)수익.md"
+                "file": "알고리즘_예제/백준(2559)수열.md"
               }
             }
           }
@@ -173,11 +148,11 @@
   },
   "active": "2ebcd377d3ce3fa1",
   "lastOpenFiles": [
+    "알고리즘_예제/백준(4097)수익.md",
     "알고리즘_예제/백준(2559)수열.md",
     "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
     "알고리즘/투포인터(TwoPointers).md",
     "OpenGL/2. OpenGL의기초.md",
-    "알고리즘_예제/백준(4097)수익.md",
     "기타_자료/Pasted image 20240604015205.png",
     "기타_자료/Pasted image 20240604014434.png",
     "알고리즘/브루트포스(BruteForce).md",
