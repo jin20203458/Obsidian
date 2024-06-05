@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘_예제/백준(10986)나머지합.md",
+                "file": "알고리즘/슬라이딩윈도우(SlidingWindow).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘_예제/백준(10986)나머지합.md",
+                "file": "알고리즘/슬라이딩윈도우(SlidingWindow).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘_예제/백준(10986)나머지합.md",
+                "file": "알고리즘/슬라이딩윈도우(SlidingWindow).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘_예제/백준(10986)나머지합.md"
+                "file": "알고리즘/슬라이딩윈도우(SlidingWindow).md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "ae48fe931c6ad551",
   "lastOpenFiles": [
-    "알고리즘_예제/백준(4097)수익.md",
     "알고리즘_예제/백준(10986)나머지합.md",
+    "알고리즘_예제/백준(4097)수익.md",
     "알고리즘/누적합(PrefixSum).md",
     "[.md",
     "기타_자료/Pasted image 20240604231207.png",
