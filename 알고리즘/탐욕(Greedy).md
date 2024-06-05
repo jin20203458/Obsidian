@@ -45,10 +45,7 @@ int main()
         
         ++Ocount;
     }
-    //cout << "반복" << Ocount << endl;
     cout  << Ccount<<endl;
-
-
 
     return 0;
 }

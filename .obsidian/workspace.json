@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/탐욕(Greedy).md",
+                "file": "알고리즘/투포인터(TwoPointers).md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/탐욕(Greedy).md",
+                "file": "알고리즘/투포인터(TwoPointers).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/탐욕(Greedy).md",
+                "file": "알고리즘/투포인터(TwoPointers).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/탐욕(Greedy).md"
+                "file": "알고리즘/투포인터(TwoPointers).md"
               }
             }
           }
@@ -161,11 +161,11 @@
   },
   "active": "2de6477c54275667",
   "lastOpenFiles": [
+    "알고리즘/슬라이딩윈도우(SlidingWindow).md",
+    "알고리즘/탐욕(Greedy).md",
     "알고리즘/투포인터(TwoPointers).md",
     "알고리즘/누적합(PrefixSum).md",
     "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
-    "알고리즘/슬라이딩윈도우(SlidingWindow).md",
-    "알고리즘/탐욕(Greedy).md",
     "알고리즘/브루트포스(BruteForce).md",
     "알고리즘/백트래킹(Backtracking).md",
     "알고리즘_예제/백준(10986)나머지합.md",
