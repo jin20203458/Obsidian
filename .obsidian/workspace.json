@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "76a12e43cd943ee3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘_예제/백준(1806)부분합.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘_예제/백준(11660)구간합구하기5.md",
+                "file": "알고리즘_예제/백준(1806)부분합.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘_예제/백준(11660)구간합구하기5.md",
+                "file": "알고리즘_예제/백준(1806)부분합.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘_예제/백준(11660)구간합구하기5.md"
+                "file": "알고리즘_예제/백준(1806)부분합.md"
               }
             }
           }
@@ -183,12 +195,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "23f162e586af3d8c",
+  "active": "76a12e43cd943ee3",
   "lastOpenFiles": [
-    "알고리즘_예제/백준(4097)수익.md",
-    "알고리즘_예제/백준(11660)구간합구하기5.md",
-    "알고리즘/누적합(PrefixSum).md",
     "알고리즘_예제/백준(1715)카드정렬하기.md",
+    "알고리즘_예제/백준(1806)부분합.md",
+    "알고리즘_예제/백준(1931).md",
+    "알고리즘_예제/백준(11660)구간합구하기5.md",
+    "알고리즘_예제/백준(4097)수익.md",
+    "알고리즘/누적합(PrefixSum).md",
     "알고리즘_예제/백준(2210)숫자판점프.md",
     "알고리즘/투포인터(TwoPointers).md",
     "알고리즘/슬라이딩윈도우(SlidingWindow).md",
@@ -200,7 +214,6 @@
     "[.md",
     "기타_자료/Pasted image 20240604231207.png",
     "알고리즘_예제/백준(2559)수열.md",
-    "알고리즘_예제/백준(1806)부분합.md",
     "기타_자료/Pasted image 20240604215525.png",
     "OpenGL/2. OpenGL의기초.md",
     "기타_자료/Pasted image 20240604015205.png",
