@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "80ef0987c5658212",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenGL/4. 블랜딩,안티엘리어싱.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenGL/3. OpenGL기본도형.md",
+                "file": "OpenGL/4. 블랜딩,안티엘리어싱.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenGL/3. OpenGL기본도형.md",
+                "file": "OpenGL/4. 블랜딩,안티엘리어싱.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenGL/3. OpenGL기본도형.md"
+                "file": "OpenGL/4. 블랜딩,안티엘리어싱.md"
               }
             }
           }
@@ -171,8 +183,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "062abc19ffef196d",
+  "active": "80ef0987c5658212",
   "lastOpenFiles": [
+    "OpenGL/3. OpenGL기본도형.md",
+    "OpenGL/4. 블랜딩,안티엘리어싱.md",
+    "README.md",
     "기타_자료/Pasted image 20240606212953.png",
     "기타_자료/Pasted image 20240606212331.png",
     "기타_자료/Pasted image 20240606211626.png",
@@ -184,7 +199,6 @@
     "기타_자료/Pasted image 20240606204955.png",
     "기타_자료/Pasted image 20240606204850.png",
     "OpenGL/2. OpenGL의기초.md",
-    "OpenGL/3. OpenGL기본도형.md",
     "OpenGL/1. OpenGL.md",
     "알고리즘_예제/백준(4097)수익.md",
     "알고리즘_예제/백준(2559)수열.md",
@@ -204,8 +218,6 @@
     "알고리즘/브루트포스(BruteForce).md",
     "알고리즘/백트래킹(Backtracking).md",
     "[.md",
-    "기타_자료/Pasted image 20240604231207.png",
-    "README.md",
     "x,y,z,w.md",
     "Obsidian.md",
     "무제 파일 1.md",
