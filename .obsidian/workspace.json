@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘_예제/백준(1715)카드정렬하기.md",
+                "file": "알고리즘_예제/백준(4097)수익.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23f162e586af3d8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘_예제/백준(11660)구간합구하기5.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘_예제/백준(1715)카드정렬하기.md",
+                "file": "알고리즘_예제/백준(11660)구간합구하기5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘_예제/백준(1715)카드정렬하기.md",
+                "file": "알고리즘_예제/백준(11660)구간합구하기5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘_예제/백준(1715)카드정렬하기.md"
+                "file": "알고리즘_예제/백준(11660)구간합구하기5.md"
               }
             }
           }
@@ -171,19 +183,20 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "e38e6467ef33019a",
+  "active": "23f162e586af3d8c",
   "lastOpenFiles": [
-    "알고리즘_예제/백준(2210)숫자판점프.md",
+    "알고리즘_예제/백준(4097)수익.md",
+    "알고리즘_예제/백준(11660)구간합구하기5.md",
+    "알고리즘/누적합(PrefixSum).md",
     "알고리즘_예제/백준(1715)카드정렬하기.md",
+    "알고리즘_예제/백준(2210)숫자판점프.md",
     "알고리즘/투포인터(TwoPointers).md",
     "알고리즘/슬라이딩윈도우(SlidingWindow).md",
     "알고리즘/탐욕(Greedy).md",
-    "알고리즘/누적합(PrefixSum).md",
     "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
     "알고리즘/브루트포스(BruteForce).md",
     "알고리즘/백트래킹(Backtracking).md",
     "알고리즘_예제/백준(10986)나머지합.md",
-    "알고리즘_예제/백준(4097)수익.md",
     "[.md",
     "기타_자료/Pasted image 20240604231207.png",
     "알고리즘_예제/백준(2559)수열.md",
