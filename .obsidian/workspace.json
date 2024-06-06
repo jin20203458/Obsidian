@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘_예제/백준(4097)수익.md",
+                "file": "OpenGL/3. OpenGL기본도형.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘_예제/백준(4097)수익.md",
+                "file": "OpenGL/3. OpenGL기본도형.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘_예제/백준(4097)수익.md",
+                "file": "OpenGL/3. OpenGL기본도형.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘_예제/백준(4097)수익.md"
+                "file": "OpenGL/3. OpenGL기본도형.md"
               }
             }
           }
@@ -173,6 +173,10 @@
   },
   "active": "062abc19ffef196d",
   "lastOpenFiles": [
+    "OpenGL/1. OpenGL.md",
+    "OpenGL/2. OpenGL의기초.md",
+    "OpenGL/3. OpenGL기본도형.md",
+    "알고리즘_예제/백준(4097)수익.md",
     "알고리즘_예제/백준(2559)수열.md",
     "알고리즘_예제/백준(1931)회의실배정.md",
     "알고리즘_예제/백준(1806)부분합.md",
@@ -180,7 +184,6 @@
     "알고리즘/파싱(Parsing).md",
     "알고리즘_예제/백준(1541)잃어버린괄호.md",
     "알고리즘/투포인터(TwoPointers).md",
-    "알고리즘_예제/백준(4097)수익.md",
     "알고리즘_예제/백준(1715)카드정렬하기.md",
     "알고리즘_예제/백준(2210)숫자판점프.md",
     "알고리즘_예제/백준(10986)나머지합.md",
@@ -193,11 +196,8 @@
     "[.md",
     "기타_자료/Pasted image 20240604231207.png",
     "기타_자료/Pasted image 20240604215525.png",
-    "OpenGL/2. OpenGL의기초.md",
     "기타_자료/Pasted image 20240604015205.png",
     "기타_자료/Pasted image 20240604014434.png",
-    "OpenGL/3. OpenGL기본도형.md",
-    "OpenGL/1. OpenGL.md",
     "README.md",
     "x,y,z,w.md",
     "Obsidian.md",
