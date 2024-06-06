@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "76a12e43cd943ee3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알고리즘_예제/백준(1931)회의실배정.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9ec06e7141a05606",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "알고리즘/투포인터(TwoPointers).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "062abc19ffef196d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenGL/3. OpenGL기본도형.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
