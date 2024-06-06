@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘_예제/백준(1541)잃어버린괄호.md",
+                "file": "알고리즘/파싱(Parsing).md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘_예제/백준(1541)잃어버린괄호.md",
+                "file": "알고리즘/파싱(Parsing).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘_예제/백준(1541)잃어버린괄호.md",
+                "file": "알고리즘/파싱(Parsing).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘_예제/백준(1541)잃어버린괄호.md"
+                "file": "알고리즘/파싱(Parsing).md"
               }
             }
           }
@@ -173,9 +173,9 @@
   },
   "active": "062abc19ffef196d",
   "lastOpenFiles": [
+    "알고리즘_예제/백준(1541)잃어버린괄호.md",
     "알고리즘/파싱(Parsing).md",
     "알고리즘/투포인터(TwoPointers).md",
-    "알고리즘_예제/백준(1541)잃어버린괄호.md",
     "알고리즘_예제/백준(1931)회의실배정.md",
     "알고리즘_예제/백준(4097)수익.md",
     "알고리즘_예제/백준(1715)카드정렬하기.md",
