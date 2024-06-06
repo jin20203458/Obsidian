@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenGL/4. 블랜딩,안티엘리어싱.md",
+                "file": "알고리즘_예제/백준(2559)수열.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "33ed72d8f8aa9f2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "보물.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenGL/4. 블랜딩,안티엘리어싱.md",
+                "file": "보물.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenGL/4. 블랜딩,안티엘리어싱.md",
+                "file": "보물.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenGL/4. 블랜딩,안티엘리어싱.md"
+                "file": "보물.md"
               }
             }
           }
@@ -159,10 +171,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "80ef0987c5658212",
+  "active": "33ed72d8f8aa9f2d",
   "lastOpenFiles": [
-    "OpenGL/3. OpenGL기본도형.md",
+    "알고리즘_예제/백준(2559)수열.md",
+    "보물.md",
+    "알고리즘/투포인터(TwoPointers).md",
+    "알고리즘/탐욕(Greedy).md",
+    "알고리즘/슬라이딩윈도우(SlidingWindow).md",
+    "알고리즘/브루트포스(BruteForce).md",
+    "알고리즘/백트래킹(Backtracking).md",
+    "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
+    "알고리즘/누적합(PrefixSum).md",
     "OpenGL/4. 블랜딩,안티엘리어싱.md",
+    "OpenGL/3. OpenGL기본도형.md",
     "README.md",
     "기타_자료/Pasted image 20240606212953.png",
     "기타_자료/Pasted image 20240606212331.png",
@@ -177,26 +198,17 @@
     "OpenGL/2. OpenGL의기초.md",
     "OpenGL/1. OpenGL.md",
     "알고리즘_예제/백준(4097)수익.md",
-    "알고리즘_예제/백준(2559)수열.md",
     "알고리즘_예제/백준(1931)회의실배정.md",
     "알고리즘_예제/백준(1806)부분합.md",
     "알고리즘_예제/백준(11660)구간합구하기5.md",
     "알고리즘/파싱(Parsing).md",
     "알고리즘_예제/백준(1541)잃어버린괄호.md",
-    "알고리즘/투포인터(TwoPointers).md",
     "알고리즘_예제/백준(1715)카드정렬하기.md",
     "알고리즘_예제/백준(2210)숫자판점프.md",
     "알고리즘_예제/백준(10986)나머지합.md",
-    "알고리즘/누적합(PrefixSum).md",
-    "알고리즘/슬라이딩윈도우(SlidingWindow).md",
-    "알고리즘/탐욕(Greedy).md",
-    "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
-    "알고리즘/브루트포스(BruteForce).md",
-    "알고리즘/백트래킹(Backtracking).md",
     "[.md",
     "x,y,z,w.md",
     "Obsidian.md",
-    "무제 파일 1.md",
     "C++/Main.cpp",
     "OpenGL",
     "기타_자료",
