@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9ec06e7141a05606",
+            "id": "b2fcb44ccee44d23",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/투포인터(TwoPointers).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "80ef0987c5658212",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알고리즘_예제/백준(2559)수열.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "33ed72d8f8aa9f2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알고리즘_예제/백준(11660)구간합구하기5.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8985c3d2dc0937db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
+                "file": "알고리즘_예제/백준(1789)수들의합.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "알고리즘_예제/백준(1789)수들의합.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "알고리즘_예제/백준(1789)수들의합.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "알고리즘_예제/백준(1789)수들의합.md"
               }
             }
           }
@@ -183,8 +146,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8985c3d2dc0937db",
+  "active": "b2fcb44ccee44d23",
   "lastOpenFiles": [
+    "알고리즘_예제/백준(1541)잃어버린괄호.md",
+    "알고리즘_예제/백준(1789)수들의합.md",
+    "README.md",
     "알고리즘_예제/백준(1026)보물.md",
     "알고리즘_예제/백준(1931)회의실배정.md",
     "알고리즘_예제/백준(10986)나머지합.md",
@@ -192,7 +158,6 @@
     "알고리즘_예제/백준(11660)구간합구하기5.md",
     "알고리즘_예제/백준(2217)로프.md",
     "알고리즘_예제/백준(1715)카드정렬하기.md",
-    "알고리즘_예제/백준(1541)잃어버린괄호.md",
     "알고리즘_예제/백준(1806)부분합.md",
     "알고리즘_예제/백준(2210)숫자판점프.md",
     "알고리즘_예제/백준(2559)수열.md",
@@ -205,7 +170,6 @@
     "알고리즘/누적합(PrefixSum).md",
     "OpenGL/4. 블랜딩,안티엘리어싱.md",
     "OpenGL/3. OpenGL기본도형.md",
-    "README.md",
     "기타_자료/Pasted image 20240606212953.png",
     "기타_자료/Pasted image 20240606212331.png",
     "기타_자료/Pasted image 20240606211626.png",
@@ -220,7 +184,6 @@
     "OpenGL/1. OpenGL.md",
     "알고리즘/파싱(Parsing).md",
     "[.md",
-    "x,y,z,w.md",
     "C++/Main.cpp",
     "OpenGL",
     "기타_자료",
