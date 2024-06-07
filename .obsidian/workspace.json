@@ -25,18 +25,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenGL/4. 블랜딩,안티엘리어싱.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4fcca1f6b5e2bba6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "OpenGL/5. 입체 도형.md",
                 "mode": "source",
                 "source": false
@@ -44,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,18 +159,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4fcca1f6b5e2bba6",
+  "active": "123e56b52e29fbc2",
   "lastOpenFiles": [
+    "OpenGL/4. 블랜딩,안티엘리어싱.md",
+    "README.md",
     "OpenGL/1. OpenGL.md",
     "OpenGL/5. 입체 도형.md",
-    "OpenGL/4. 블랜딩,안티엘리어싱.md",
     "알고리즘_예제/백준(10610)30.md",
     "알고리즘_예제/백준(1541)잃어버린괄호.md",
     "알고리즘_예제/백준(1419)뒤집기.md",
     "알고리즘_예제/백준(13305)주유소.md",
     "알고리즘_예제/백준(10986)나머지합.md",
     "알고리즘_예제/백준(1789)수들의합.md",
-    "README.md",
     "알고리즘_예제/백준(1026)보물.md",
     "알고리즘_예제/백준(1931)회의실배정.md",
     "알고리즘_예제/백준(4097)수익.md",
