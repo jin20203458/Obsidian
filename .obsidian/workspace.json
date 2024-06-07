@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘_예제/백준(13305)주유소.md",
+                "file": "알고리즘_예제/백준(1541)잃어버린괄호.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad5dfc1e46c44317",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘_예제/백준(1419)뒤집기.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘_예제/백준(13305)주유소.md",
+                "file": "알고리즘_예제/백준(1419)뒤집기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘_예제/백준(13305)주유소.md",
+                "file": "알고리즘_예제/백준(1419)뒤집기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘_예제/백준(13305)주유소.md"
+                "file": "알고리즘_예제/백준(1419)뒤집기.md"
               }
             }
           }
@@ -159,12 +171,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8676f96ebc4c7ab0",
+  "active": "ad5dfc1e46c44317",
   "lastOpenFiles": [
-    "알고리즘_예제/백준(10986)나머지합.md",
-    "알고리즘_예제/백준(13305)주유소.md",
-    "알고리즘_예제/백준(1789)수들의합.md",
     "알고리즘_예제/백준(1541)잃어버린괄호.md",
+    "알고리즘_예제/백준(1419)뒤집기.md",
+    "알고리즘_예제/백준(13305)주유소.md",
+    "알고리즘_예제/백준(10986)나머지합.md",
+    "알고리즘_예제/백준(1789)수들의합.md",
     "README.md",
     "알고리즘_예제/백준(1026)보물.md",
     "알고리즘_예제/백준(1931)회의실배정.md",
@@ -196,7 +209,6 @@
     "기타_자료/Pasted image 20240606204850.png",
     "OpenGL/2. OpenGL의기초.md",
     "OpenGL/1. OpenGL.md",
-    "알고리즘/파싱(Parsing).md",
     "C++/Main.cpp",
     "OpenGL",
     "기타_자료",
