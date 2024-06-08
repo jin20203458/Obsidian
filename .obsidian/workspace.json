@@ -8,42 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8676f96ebc4c7ab0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알고리즘_예제/백준(1541)잃어버린괄호.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "50d214018f0c44a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알고리즘/파싱(Parsing).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40856c451da0547b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알고리즘/정렬알고리즘/퀵정렬(QuickSort).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e2b9d899d5f87b9b",
             "type": "leaf",
             "state": {
@@ -55,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,17 +148,17 @@
   },
   "active": "e2b9d899d5f87b9b",
   "lastOpenFiles": [
+    "알고리즘_예제/백준(1541)잃어버린괄호.md",
+    "알고리즘/파싱(Parsing).md",
+    "알고리즘/정렬알고리즘/퀵정렬(QuickSort).md",
+    "OpenGL/5. 입체 도형.md",
     "OpenGL/1. OpenGL.md",
     "OpenGL/2. OpenGL의기초.md",
-    "OpenGL/5. 입체 도형.md",
     "기타_자료/Pasted image 20240609014604.png",
-    "알고리즘/정렬알고리즘/퀵정렬(QuickSort).md",
     "알고리즘/정렬알고리즘/병합정렬(MergeSort).md",
     "무제 폴더",
     "알고리즘/정렬알고리즘",
-    "알고리즘/파싱(Parsing).md",
     "알고리즘_예제/백준(1744)수묶기.md",
-    "알고리즘_예제/백준(1541)잃어버린괄호.md",
     "알고리즘_예제/백준(2217)로프.md",
     "알고리즘_예제/백준(1931)회의실배정.md",
     "알고리즘_예제/백준(2210)숫자판점프.md",
