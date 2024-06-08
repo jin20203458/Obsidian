@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "백준(1946))신입사원.md",
+                "file": "알고리즘_예제/백준(2217)로프.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "322ef68689acc220",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘_예제/백준(1339)단어수학.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "백준(1946))신입사원.md",
+                "file": "알고리즘_예제/백준(1339)단어수학.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "백준(1946))신입사원.md",
+                "file": "알고리즘_예제/백준(1339)단어수학.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "백준(1946))신입사원.md"
+                "file": "알고리즘_예제/백준(1339)단어수학.md"
               }
             }
           }
@@ -171,10 +183,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "41df45c34e05481b",
+  "active": "322ef68689acc220",
   "lastOpenFiles": [
+    "알고리즘_예제/백준(2217)로프.md",
+    "알고리즘_예제/백준(1339)단어수학.md",
+    "알고리즘_예제/백준(1946))신입사원.md",
     "알고리즘_예제/백준(1541)잃어버린괄호.md",
-    "백준(1946))신입사원.md",
     "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
     "OpenGL/5. 입체 도형.md",
     "기타_자료/Pasted image 20240608005624.png",
@@ -191,7 +205,6 @@
     "알고리즘_예제/백준(1931)회의실배정.md",
     "알고리즘_예제/백준(4097)수익.md",
     "알고리즘_예제/백준(11660)구간합구하기5.md",
-    "알고리즘_예제/백준(2217)로프.md",
     "알고리즘_예제/백준(1715)카드정렬하기.md",
     "알고리즘_예제/백준(1806)부분합.md",
     "알고리즘_예제/백준(2210)숫자판점프.md",
@@ -200,7 +213,6 @@
     "알고리즘/탐욕(Greedy).md",
     "알고리즘/슬라이딩윈도우(SlidingWindow).md",
     "알고리즘/브루트포스(BruteForce).md",
-    "알고리즘/백트래킹(Backtracking).md",
     "기타_자료/Pasted image 20240606212953.png",
     "기타_자료/Pasted image 20240606212331.png",
     "기타_자료/Pasted image 20240606211626.png",
