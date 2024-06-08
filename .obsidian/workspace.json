@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘_예제/백준(1744)수묶기.md",
+                "file": "알고리즘/파싱(Parsing).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "40856c451da0547b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘/정렬알고리즘/퀵정렬(QuickSort).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2b9d899d5f87b9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenGL/5. 입체 도형.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘_예제/백준(1744)수묶기.md",
+                "file": "OpenGL/5. 입체 도형.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘_예제/백준(1744)수묶기.md",
+                "file": "OpenGL/5. 입체 도형.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘_예제/백준(1744)수묶기.md"
+                "file": "OpenGL/5. 입체 도형.md"
               }
             }
           }
@@ -159,10 +183,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "50d214018f0c44a8",
+  "active": "e2b9d899d5f87b9b",
   "lastOpenFiles": [
-    "알고리즘_예제/백준(1541)잃어버린괄호.md",
+    "알고리즘/정렬알고리즘/퀵정렬(QuickSort).md",
+    "알고리즘/정렬알고리즘/병합정렬(MergeSort).md",
+    "무제 폴더",
+    "알고리즘/정렬알고리즘",
+    "알고리즘/파싱(Parsing).md",
     "알고리즘_예제/백준(1744)수묶기.md",
+    "알고리즘_예제/백준(1541)잃어버린괄호.md",
     "알고리즘_예제/백준(2217)로프.md",
     "알고리즘_예제/백준(1931)회의실배정.md",
     "알고리즘_예제/백준(2210)숫자판점프.md",
@@ -186,9 +215,6 @@
     "알고리즘_예제/백준(1026)보물.md",
     "알고리즘_예제/백준(1715)카드정렬하기.md",
     "알고리즘_예제/백준(1806)부분합.md",
-    "알고리즘/투포인터(TwoPointers).md",
-    "알고리즘/탐욕(Greedy).md",
-    "알고리즘/슬라이딩윈도우(SlidingWindow).md",
     "기타_자료/Pasted image 20240606212953.png",
     "기타_자료/Pasted image 20240606212331.png",
     "기타_자료/Pasted image 20240606211626.png",
