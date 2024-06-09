@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#include",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +102,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenGL/6. 버텍스 배열.md",
+                "file": "알고리즘_예제/백준(1026)보물.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenGL/6. 버텍스 배열.md",
+                "file": "알고리즘_예제/백준(1026)보물.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenGL/6. 버텍스 배열.md"
+                "file": "알고리즘_예제/백준(1026)보물.md"
               }
             }
           }
@@ -183,15 +184,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "e3af4b0127a84468",
+  "active": "b67ec28144c0f60a",
   "lastOpenFiles": [
+    "OpenGL/5. 입체 도형.md",
+    "OpenGL/6. 버텍스 배열.md",
     "기타_자료/Pasted image 20240609161437.png",
     "기타_자료/Pasted image 20240609160736.png",
     "OpenGL/1. OpenGL.md",
     "OpenGL/3. OpenGL기본도형.md",
     "OpenGL/2. OpenGL기초.md",
-    "OpenGL/6. 버텍스 배열.md",
-    "OpenGL/5. 입체 도형.md",
     "알고리즘_예제/백준(1026)보물.md",
     "알고리즘_예제/백준(1202)보석도둑.md",
     "OpenGL/4. 블랜딩,안티엘리어싱.md",
@@ -222,7 +223,6 @@
     "기타_자료/Pasted image 20240606211626.png",
     "기타_자료/Pasted image 20240606211547.png",
     "기타_자료/Pasted image 20240606211252.png",
-    "기타_자료/Pasted image 20240606210659.png",
     "C++/Main.cpp",
     "OpenGL",
     "기타_자료",
