@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "af8efc5d2d4df2b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘_예제/백준(11969)BreedCounting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘_예제/백준(1026)보물.md",
+                "file": "알고리즘_예제/백준(11969)BreedCounting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘_예제/백준(1026)보물.md",
+                "file": "알고리즘_예제/백준(11969)BreedCounting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘_예제/백준(1026)보물.md"
+                "file": "알고리즘_예제/백준(11969)BreedCounting.md"
               }
             }
           }
@@ -146,12 +159,13 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "e2b9d899d5f87b9b",
+  "active": "af8efc5d2d4df2b4",
   "lastOpenFiles": [
+    "알고리즘_예제/백준(1026)보물.md",
+    "알고리즘_예제/백준(11969)BreedCounting.md",
     "알고리즘_예제/백준(1202)보석도둑.md",
     "OpenGL/5. 입체 도형.md",
     "알고리즘_예제/백준(20548)칠리소스.md",
-    "알고리즘_예제/백준(1026)보물.md",
     "OpenGL/6. 버텍스 배열.md",
     "기타_자료/Pasted image 20240609161437.png",
     "기타_자료/Pasted image 20240609160736.png",
@@ -180,7 +194,6 @@
     "기타_자료/Pasted image 20240608005601.png",
     "README.md",
     "알고리즘_예제/백준(10610)30.md",
-    "알고리즘_예제/백준(1419)뒤집기.md",
     "기타_자료/Pasted image 20240606212953.png",
     "기타_자료/Pasted image 20240606212331.png",
     "기타_자료/Pasted image 20240606211626.png",
