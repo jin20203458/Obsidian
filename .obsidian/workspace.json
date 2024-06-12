@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4a3fc94fc221d226",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenGL/8. 조명.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenGL/7. 변환.md",
+                "file": "OpenGL/8. 조명.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenGL/7. 변환.md",
+                "file": "OpenGL/8. 조명.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenGL/7. 변환.md"
+                "file": "OpenGL/8. 조명.md"
               }
             }
           }
@@ -171,10 +183,11 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "adc3fd6879faaca8",
+  "active": "4a3fc94fc221d226",
   "lastOpenFiles": [
-    "OpenGL/const.md",
     "OpenGL/7. 변환.md",
+    "OpenGL/8. 조명.md",
+    "OpenGL/const.md",
     "기타_자료/Pasted image 20240612010718.png",
     "기타_자료/Pasted image 20240612010648.png",
     "기타_자료/Pasted image 20240612010521.png",
@@ -210,7 +223,6 @@
     "알고리즘_예제/백준(2559)수열.md",
     "알고리즘_예제/백준(1339)단어수학.md",
     "알고리즘_예제/백준(1946))신입사원.md",
-    "알고리즘/다이나믹프로그래밍(DynamicProgramming).md",
     "C++/Main.cpp",
     "OpenGL",
     "기타_자료",
