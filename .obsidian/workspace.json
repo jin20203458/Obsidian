@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenGL/8. 조명.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenGL/8. 조명.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenGL/8. 조명.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenGL/8. 조명.md"
+                "file": "README.md"
               }
             }
           }
@@ -185,8 +185,8 @@
   },
   "active": "4a3fc94fc221d226",
   "lastOpenFiles": [
-    "OpenGL/7. 변환.md",
     "OpenGL/8. 조명.md",
+    "OpenGL/7. 변환.md",
     "OpenGL/const.md",
     "기타_자료/Pasted image 20240612010718.png",
     "기타_자료/Pasted image 20240612010648.png",
