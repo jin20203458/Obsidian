@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘_예제/백준(30786)홀수 찾아 삼만리.md",
+                "file": "OpenGL/8. 조명.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘_예제/백준(30786)홀수 찾아 삼만리.md",
+                "file": "OpenGL/8. 조명.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘_예제/백준(30786)홀수 찾아 삼만리.md",
+                "file": "OpenGL/8. 조명.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘_예제/백준(30786)홀수 찾아 삼만리.md"
+                "file": "OpenGL/8. 조명.md"
               }
             }
           }
@@ -161,8 +161,10 @@
   },
   "active": "0003ad64cd94db16",
   "lastOpenFiles": [
-    "알고리즘_예제/백준(10610)30.md",
+    "OpenGL/8. 조명.md",
+    "OpenGL/5. 입체 도형.md",
     "알고리즘_예제/백준(30786)홀수 찾아 삼만리.md",
+    "알고리즘_예제/백준(10610)30.md",
     "알고리즘_예제/백준(1339)단어수학.md",
     "알고리즘_예제/백준(1026)보물.md",
     "OpenGL/6. 버텍스 배열.md",
@@ -174,7 +176,6 @@
     "알고리즘_예제/백준(17952)과제는 끝나지 않아!.md",
     "알고리즘_예제/백준(3213)피자.md",
     "README.md",
-    "OpenGL/8. 조명.md",
     "OpenGL/const.md",
     "기타_자료/Pasted image 20240612010718.png",
     "기타_자료/Pasted image 20240612010648.png",
@@ -185,7 +186,6 @@
     "기타_자료/Pasted image 20240612003947.png",
     "기타_자료/Pasted image 20240612003515.png",
     "기타_자료/Pasted image 20240612001520.png",
-    "OpenGL/5. 입체 도형.md",
     "알고리즘_예제/백준(11969)BreedCounting.md",
     "알고리즘_예제/백준(20548)칠리소스.md",
     "기타_자료/Pasted image 20240609161437.png",
