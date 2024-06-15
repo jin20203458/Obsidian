@@ -11,11 +11,28 @@
             "id": "86a5da2fd439b400",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘_예제/백준(10610)30.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0003ad64cd94db16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘_예제/백준(30786)홀수 찾아 삼만리.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "알고리즘_예제/백준(30786)홀수 찾아 삼만리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "알고리즘_예제/백준(30786)홀수 찾아 삼만리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "알고리즘_예제/백준(30786)홀수 찾아 삼만리.md"
+              }
             }
           }
         ]
@@ -138,8 +159,11 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "86a5da2fd439b400",
+  "active": "0003ad64cd94db16",
   "lastOpenFiles": [
+    "알고리즘_예제/백준(10610)30.md",
+    "알고리즘_예제/백준(30786)홀수 찾아 삼만리.md",
+    "알고리즘_예제/백준(1339)단어수학.md",
     "알고리즘_예제/백준(1026)보물.md",
     "OpenGL/6. 버텍스 배열.md",
     "OpenGL/7. 변환.md",
@@ -175,9 +199,6 @@
     "알고리즘/정렬알고리즘/병합정렬(MergeSort).md",
     "무제 폴더",
     "알고리즘/정렬알고리즘",
-    "알고리즘_예제/백준(1744)수묶기.md",
-    "알고리즘_예제/백준(2217)로프.md",
-    "알고리즘_예제/백준(2210)숫자판점프.md",
     "C++/Main.cpp",
     "OpenGL",
     "기타_자료",
