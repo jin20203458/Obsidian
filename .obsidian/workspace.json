@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenGL/8. 조명.md",
+                "file": "알고리즘_예제/백준(1202)보석도둑.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3424042fd8073e66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘_예제/백준(25416)조건에 맞는 정수의 개수.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenGL/8. 조명.md",
+                "file": "알고리즘_예제/백준(25416)조건에 맞는 정수의 개수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenGL/8. 조명.md",
+                "file": "알고리즘_예제/백준(25416)조건에 맞는 정수의 개수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenGL/8. 조명.md"
+                "file": "알고리즘_예제/백준(25416)조건에 맞는 정수의 개수.md"
               }
             }
           }
@@ -171,11 +183,13 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "cbe00206dc96d397",
+  "active": "3424042fd8073e66",
   "lastOpenFiles": [
+    "알고리즘_예제/백준(1202)보석도둑.md",
+    "알고리즘_예제/백준(25416)조건에 맞는 정수의 개수.md",
+    "OpenGL/8. 조명.md",
     "OpenGL/10. 텍스처.md",
     "기타_자료/Pasted image 20240615204309.png",
-    "OpenGL/8. 조명.md",
     "OpenGL/5. 입체 도형.md",
     "알고리즘_예제/백준(30786)홀수 찾아 삼만리.md",
     "알고리즘_예제/백준(10610)30.md",
@@ -186,7 +200,6 @@
     "알고리즘_예제/백준(1419)뒤집기.md",
     "알고리즘_예제/백준(1931)회의실배정.md",
     "알고리즘_예제/백준(31824)근로장학생.md",
-    "알고리즘_예제/백준(1202)보석도둑.md",
     "알고리즘_예제/백준(17952)과제는 끝나지 않아!.md",
     "알고리즘_예제/백준(3213)피자.md",
     "README.md",
