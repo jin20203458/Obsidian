@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenGL/6. 버텍스 배열.md",
+                "file": "OpenGL/7. 변환.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenGL/6. 버텍스 배열.md",
+                "file": "OpenGL/7. 변환.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenGL/6. 버텍스 배열.md",
+                "file": "OpenGL/7. 변환.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenGL/6. 버텍스 배열.md"
+                "file": "OpenGL/7. 변환.md"
               }
             }
           }
@@ -173,6 +173,7 @@
   },
   "active": "d2845691ec584f1c",
   "lastOpenFiles": [
+    "OpenGL/6. 버텍스 배열.md",
     "OpenGL/5. 입체 도형.md",
     "OpenGL/2. OpenGL기초.md",
     "OpenGL/1. OpenGL.md",
@@ -189,7 +190,6 @@
     "알고리즘_예제/백준(30786)홀수 찾아 삼만리.md",
     "알고리즘_예제/백준(1339)단어수학.md",
     "알고리즘_예제/백준(1026)보물.md",
-    "OpenGL/6. 버텍스 배열.md",
     "OpenGL/7. 변환.md",
     "알고리즘_예제/백준(1419)뒤집기.md",
     "알고리즘_예제/백준(1931)회의실배정.md",
