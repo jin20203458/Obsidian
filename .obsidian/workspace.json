@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenGL/5. 입체 도형.md",
+                "file": "OpenGL/6. 버텍스 배열.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenGL/5. 입체 도형.md",
+                "file": "OpenGL/6. 버텍스 배열.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenGL/5. 입체 도형.md",
+                "file": "OpenGL/6. 버텍스 배열.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenGL/5. 입체 도형.md"
+                "file": "OpenGL/6. 버텍스 배열.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "091aed452dfdfe28",
   "lastOpenFiles": [
+    "OpenGL/5. 입체 도형.md",
     "알고리즘_예제/백준(1912)연속합.md",
     "알고리즘_예제/백준(1026)보물.md",
-    "OpenGL/5. 입체 도형.md",
     "OpenGL/4. 블랜딩,안티엘리어싱.md",
     "OpenGL/1. OpenGL.md",
     "OpenGL/3. OpenGL기본도형.md",
