@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0f74dc2e3d5049e2",
+            "id": "091aed452dfdfe28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘_예제/백준(1202)보석도둑.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ab82ab6570c722e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알고리즘_예제/백준(2579)계단 오르기.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d2845691ec584f1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenGL/1. OpenGL.md",
+                "file": "OpenGL/5. 입체 도형.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenGL/1. OpenGL.md",
+                "file": "OpenGL/5. 입체 도형.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenGL/1. OpenGL.md",
+                "file": "OpenGL/5. 입체 도형.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenGL/1. OpenGL.md"
+                "file": "OpenGL/5. 입체 도형.md"
               }
             }
           }
@@ -171,15 +146,17 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "d2845691ec584f1c",
+  "active": "091aed452dfdfe28",
   "lastOpenFiles": [
+    "알고리즘_예제/백준(1912)연속합.md",
+    "알고리즘_예제/백준(1026)보물.md",
     "OpenGL/5. 입체 도형.md",
     "OpenGL/4. 블랜딩,안티엘리어싱.md",
+    "OpenGL/1. OpenGL.md",
     "OpenGL/3. OpenGL기본도형.md",
     "OpenGL/7. 변환.md",
     "OpenGL/6. 버텍스 배열.md",
     "OpenGL/2. OpenGL기초.md",
-    "OpenGL/1. OpenGL.md",
     "알고리즘_예제/백준(1149)RGB거리.md",
     "알고리즘_예제/백준(2579)계단 오르기.md",
     "알고리즘_예제/백준(1202)보석도둑.md",
@@ -190,7 +167,6 @@
     "기타_자료/Pasted image 20240615204309.png",
     "알고리즘_예제/백준(30786)홀수 찾아 삼만리.md",
     "알고리즘_예제/백준(1339)단어수학.md",
-    "알고리즘_예제/백준(1026)보물.md",
     "알고리즘_예제/백준(1419)뒤집기.md",
     "알고리즘_예제/백준(1931)회의실배정.md",
     "알고리즘_예제/백준(31824)근로장학생.md",
@@ -208,7 +184,6 @@
     "기타_자료/Pasted image 20240612003515.png",
     "기타_자료/Pasted image 20240612001520.png",
     "알고리즘_예제/백준(11969)BreedCounting.md",
-    "알고리즘_예제/백준(20548)칠리소스.md",
     "무제 폴더",
     "알고리즘/정렬알고리즘",
     "C++/Main.cpp",
