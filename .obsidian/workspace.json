@@ -25,19 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘_예제/무제 파일.md",
+                "file": "알고리즘_예제/백준(1149)RGB거리.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c45907fcc1be6a66",
+            "id": "5477614993adffbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘_예제/무제 파일 1.md",
+                "file": "혼공컴구/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 214.5
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘_예제/무제 파일 1.md",
+                "file": "혼공컴구/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘_예제/무제 파일 1.md",
+                "file": "혼공컴구/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘_예제/무제 파일 1.md"
+                "file": "혼공컴구/무제 파일.md"
               }
             }
           }
@@ -171,12 +171,12 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "c45907fcc1be6a66",
+  "active": "816cbcd0ff6621fa",
   "lastOpenFiles": [
-    "알고리즘_예제/무제 파일.md",
+    "알고리즘_예제/백준(1149)RGB거리.md",
+    "혼공컴구/무제 파일.md",
     "알고리즘_예제/무제 파일 1.md",
     "혼공컴구",
-    "알고리즘_예제/백준(1149)RGB거리.md",
     "알고리즘_예제/백준(1912)연속합.md",
     "OpenGL/6. 버텍스 배열.md",
     "OpenGL/7. 변환.md",
