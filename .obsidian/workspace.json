@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공컴구/무제 파일.md",
+                "file": "혼공컴구/컴퓨터 구조 1강.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공컴구/무제 파일.md",
+                "file": "혼공컴구/컴퓨터 구조 1강.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공컴구/무제 파일.md",
+                "file": "혼공컴구/컴퓨터 구조 1강.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공컴구/무제 파일.md"
+                "file": "혼공컴구/컴퓨터 구조 1강.md"
               }
             }
           }
@@ -171,10 +171,11 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "816cbcd0ff6621fa",
+  "active": "5477614993adffbc",
   "lastOpenFiles": [
-    "알고리즘_예제/백준(1149)RGB거리.md",
     "혼공컴구/무제 파일.md",
+    "혼공컴구/컴퓨터 구조 1강.md",
+    "알고리즘_예제/백준(1149)RGB거리.md",
     "알고리즘_예제/무제 파일 1.md",
     "혼공컴구",
     "알고리즘_예제/백준(1912)연속합.md",
@@ -200,7 +201,6 @@
     "알고리즘_예제/백준(31824)근로장학생.md",
     "알고리즘_예제/백준(17952)과제는 끝나지 않아!.md",
     "알고리즘_예제/백준(3213)피자.md",
-    "README.md",
     "기타_자료/Pasted image 20240612010718.png",
     "기타_자료/Pasted image 20240612010648.png",
     "기타_자료/Pasted image 20240612010521.png",
