@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "649d46ea6207c96e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘_예제/무제 파일.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c45907fcc1be6a66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘_예제/무제 파일 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘_예제/백준(1912)연속합.md",
+                "file": "알고리즘_예제/무제 파일 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘_예제/백준(1912)연속합.md",
+                "file": "알고리즘_예제/무제 파일 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘_예제/백준(1912)연속합.md"
+                "file": "알고리즘_예제/무제 파일 1.md"
               }
             }
           }
@@ -146,13 +171,16 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "091aed452dfdfe28",
+  "active": "c45907fcc1be6a66",
   "lastOpenFiles": [
+    "알고리즘_예제/무제 파일.md",
+    "알고리즘_예제/무제 파일 1.md",
+    "혼공컴구",
     "알고리즘_예제/백준(1149)RGB거리.md",
+    "알고리즘_예제/백준(1912)연속합.md",
     "OpenGL/6. 버텍스 배열.md",
     "OpenGL/7. 변환.md",
     "OpenGL/5. 입체 도형.md",
-    "알고리즘_예제/백준(1912)연속합.md",
     "알고리즘_예제/백준(1026)보물.md",
     "OpenGL/4. 블랜딩,안티엘리어싱.md",
     "OpenGL/1. OpenGL.md",
@@ -173,7 +201,6 @@
     "알고리즘_예제/백준(17952)과제는 끝나지 않아!.md",
     "알고리즘_예제/백준(3213)피자.md",
     "README.md",
-    "OpenGL/const.md",
     "기타_자료/Pasted image 20240612010718.png",
     "기타_자료/Pasted image 20240612010648.png",
     "기타_자료/Pasted image 20240612010521.png",
@@ -183,8 +210,6 @@
     "기타_자료/Pasted image 20240612003947.png",
     "기타_자료/Pasted image 20240612003515.png",
     "기타_자료/Pasted image 20240612001520.png",
-    "알고리즘_예제/백준(11969)BreedCounting.md",
-    "무제 폴더",
     "알고리즘/정렬알고리즘",
     "C++/Main.cpp",
     "OpenGL",
