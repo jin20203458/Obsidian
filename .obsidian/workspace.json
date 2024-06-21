@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f16cdebbb3ad21ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "혼공컴구/컴퓨터 구조 5강 0과 1로 문자 표현.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -118,7 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 214.5
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공컴구/컴퓨터 구조 4강. 0과 1로 숫자표현법.md",
+                "file": "혼공컴구/컴퓨터 구조 5강 0과 1로 문자 표현.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공컴구/컴퓨터 구조 4강. 0과 1로 숫자표현법.md",
+                "file": "혼공컴구/컴퓨터 구조 5강 0과 1로 문자 표현.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공컴구/컴퓨터 구조 4강. 0과 1로 숫자표현법.md"
+                "file": "혼공컴구/컴퓨터 구조 5강 0과 1로 문자 표현.md"
               }
             }
           }
@@ -195,11 +207,12 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "e5afb273177e9ea6",
+  "active": "f16cdebbb3ad21ac",
   "lastOpenFiles": [
+    "혼공컴구/컴퓨터 구조 4강. 0과 1로 숫자표현법.md",
+    "혼공컴구/컴퓨터 구조 5강 0과 1로 문자 표현.md",
     "기타_자료/Pasted image 20240622015046.png",
     "혼공컴구/컴퓨터 구조 2강.md",
-    "혼공컴구/컴퓨터 구조 4강. 0과 1로 숫자표현법.md",
     "혼공컴구/컴퓨터 구조 1강.md",
     "기타_자료/Pasted image 20240622012214.png",
     "기타_자료/Pasted image 20240622011844.png",
@@ -233,7 +246,6 @@
     "기타_자료/Pasted image 20240612010231.png",
     "기타_자료/Pasted image 20240612004327.png",
     "기타_자료/Pasted image 20240612004144.png",
-    "기타_자료/Pasted image 20240612003947.png",
     "알고리즘/정렬알고리즘",
     "C++/Main.cpp",
     "OpenGL",
