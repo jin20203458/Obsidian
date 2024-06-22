@@ -30,18 +30,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b003b757b859f784",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 10강.CPU 의 내부구성-레지스터.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 1
