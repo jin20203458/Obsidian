@@ -37,14 +37,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 11강.명령어 사이클과 인터럽트.md",
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 11강. 명령어 사이클과 인터럽트.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b2f09cd093d971d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 12강. 빠른 CPU를 위한 설계 기법.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd25b61a639010a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 13강. 명령어 병렬 처리 기법.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -94,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 225.5
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 11강.명령어 사이클과 인터럽트.md",
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 13강. 명령어 병렬 처리 기법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 11강.명령어 사이클과 인터럽트.md",
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 13강. 명령어 병렬 처리 기법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 11강.명령어 사이클과 인터럽트.md"
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 13강. 명령어 병렬 처리 기법.md"
               }
             }
           }
@@ -171,10 +195,13 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "b6675f5d8db7e14a",
+  "active": "cd25b61a639010a3",
   "lastOpenFiles": [
-    "컴퓨터 구조, 운영체제/컴퓨터 구조 10강.CPU 의 내부구성-레지스터.md",
-    "컴퓨터 구조, 운영체제/컴퓨터 구조 11강.명령어 사이클과 인터럽트.md",
+    "컴퓨터 구조, 운영체제/컴퓨터 구조 12강. 빠른 CPU를 위한 설계 기법.md",
+    "컴퓨터 구조, 운영체제/컴퓨터 구조 13강. 명령어 병렬 처리 기법.md",
+    "컴퓨터 구조, 운영체제/컴퓨터 구조 9강. CPU내부구성-ALU 제어장치.md",
+    "컴퓨터 구조, 운영체제/컴퓨터 구조 10강. CPU 의 내부구성-레지스터.md",
+    "컴퓨터 구조, 운영체제/컴퓨터 구조 11강. 명령어 사이클과 인터럽트.md",
     "리눅스 마스터/1. 운영체제의 개요.md",
     "알고리즘_예제/백준(2156)포도주 시식.md",
     "알고리즘_예제/백준(1202)보석도둑.md",
@@ -189,7 +216,6 @@
     "Obsidian/기타_자료/Pasted.md",
     "기타_자료/Pasted image 20240622202311.png",
     "알고리즘/파싱(Parsing).md",
-    "컴퓨터 구조, 운영체제/컴퓨터 구조 9강. CPU내부구성-ALU 제어장치.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 5강 0과 1로 문자 표현.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 4강. 0과 1로 숫자표현법.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 2강.md",
@@ -210,9 +236,7 @@
     "기타_자료/Pasted image 20240622015046.png",
     "기타_자료/Pasted image 20240622012214.png",
     "알고리즘_예제/백준(1149)RGB거리.md",
-    "알고리즘_예제/무제 파일 1.md",
     "컴퓨터 구조, 운영체제",
-    "OpenGL/6. 버텍스 배열.md",
     "알고리즘/정렬알고리즘",
     "C++/Main.cpp",
     "OpenGL",
