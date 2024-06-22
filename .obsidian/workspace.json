@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공컴구/컴퓨터 구조 6강. 소스코드와 명령어.md",
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 6강. 소스코드와 명령어.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "98331d9b33abdecc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 7강. 명령어의 구조와 주소 지정 방식.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공컴구/컴퓨터 구조 6강. 소스코드와 명령어.md",
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 7강. 명령어의 구조와 주소 지정 방식.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공컴구/컴퓨터 구조 6강. 소스코드와 명령어.md",
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 7강. 명령어의 구조와 주소 지정 방식.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공컴구/컴퓨터 구조 6강. 소스코드와 명령어.md"
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 7강. 명령어의 구조와 주소 지정 방식.md"
               }
             }
           }
@@ -159,21 +171,22 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "c413a47f60be23c9",
+  "active": "816cbcd0ff6621fa",
   "lastOpenFiles": [
+    "컴퓨터 구조, 운영체제/컴퓨터 구조 6강. 소스코드와 명령어.md",
+    "컴퓨터 구조, 운영체제/컴퓨터 구조 7강. 명령어의 구조와 주소 지정 방식.md",
     "알고리즘_예제/백준(1912)연속합.md",
-    "혼공컴구/컴퓨터 구조 6강. 소스코드와 명령어.md",
-    "혼공컴구/컴퓨터 구조 5강 0과 1로 문자 표현.md",
+    "컴퓨터 구조, 운영체제/컴퓨터 구조 5강 0과 1로 문자 표현.md",
     "기타_자료/Pasted image 20240622021247.png",
-    "혼공컴구/컴퓨터 구조 4강. 0과 1로 숫자표현법.md",
+    "컴퓨터 구조, 운영체제/컴퓨터 구조 4강. 0과 1로 숫자표현법.md",
     "기타_자료/Pasted image 20240622015046.png",
-    "혼공컴구/컴퓨터 구조 2강.md",
-    "혼공컴구/컴퓨터 구조 1강.md",
+    "컴퓨터 구조, 운영체제/컴퓨터 구조 2강.md",
+    "컴퓨터 구조, 운영체제/컴퓨터 구조 1강.md",
     "기타_자료/Pasted image 20240622012214.png",
     "기타_자료/Pasted image 20240622011844.png",
     "알고리즘_예제/백준(1149)RGB거리.md",
     "알고리즘_예제/무제 파일 1.md",
-    "혼공컴구",
+    "컴퓨터 구조, 운영체제",
     "OpenGL/6. 버텍스 배열.md",
     "OpenGL/7. 변환.md",
     "OpenGL/5. 입체 도형.md",
@@ -192,7 +205,6 @@
     "알고리즘_예제/백준(30786)홀수 찾아 삼만리.md",
     "알고리즘_예제/백준(1339)단어수학.md",
     "알고리즘_예제/백준(1419)뒤집기.md",
-    "알고리즘_예제/백준(1931)회의실배정.md",
     "기타_자료/Pasted image 20240612010718.png",
     "기타_자료/Pasted image 20240612010648.png",
     "기타_자료/Pasted image 20240612010521.png",
