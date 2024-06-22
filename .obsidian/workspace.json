@@ -20,43 +20,7 @@
             }
           },
           {
-            "id": "c413a47f60be23c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 6강. 소스코드와 명령어.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "98331d9b33abdecc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 7강. 명령어의 구조와 주소 지정 방식.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6708f3b9e64d2ab3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 9강. CPU내부구성-ALU 제어장치.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fcd9abae10069928",
+            "id": "b003b757b859f784",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -67,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 10강.CPU 의 내부구성-레지스터.md",
+                "file": "알고리즘_예제/백준(1912)연속합.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 10강.CPU 의 내부구성-레지스터.md",
+                "file": "알고리즘_예제/백준(1912)연속합.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 10강.CPU 의 내부구성-레지스터.md"
+                "file": "알고리즘_예제/백준(1912)연속합.md"
               }
             }
           }
@@ -187,16 +150,17 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "fcd9abae10069928",
+  "active": "091aed452dfdfe28",
   "lastOpenFiles": [
-    "컴퓨터 구조, 운영체제/컴퓨터 구조 9강. CPU내부구성-ALU 제어장치.md",
+    "컴퓨터 구조, 운영체제/컴퓨터 구조 7강. 명령어의 구조와 주소 지정 방식.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 10강.CPU 의 내부구성-레지스터.md",
+    "컴퓨터 구조, 운영체제/컴퓨터 구조 11강.명령어 사이클과 인터럽트.md",
+    "컴퓨터 구조, 운영체제/컴퓨터 구조 9강. CPU내부구성-ALU 제어장치.md",
     "기타_자료/Pasted image 20240622142517.png",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 1강.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 2강.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 5강 0과 1로 문자 표현.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 4강. 0과 1로 숫자표현법.md",
-    "컴퓨터 구조, 운영체제/컴퓨터 구조 7강. 명령어의 구조와 주소 지정 방식.md",
     "기타_자료/Pasted image 20240622141016.png",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 6강. 소스코드와 명령어.md",
     "알고리즘_예제/백준(1912)연속합.md",
@@ -222,7 +186,6 @@
     "OpenGL/10. 텍스처.md",
     "알고리즘_예제/백준(25416)조건에 맞는 정수의 개수.md",
     "기타_자료/Pasted image 20240615204309.png",
-    "알고리즘_예제/백준(30786)홀수 찾아 삼만리.md",
     "기타_자료/Pasted image 20240612010718.png",
     "기타_자료/Pasted image 20240612010648.png",
     "기타_자료/Pasted image 20240612010521.png",
