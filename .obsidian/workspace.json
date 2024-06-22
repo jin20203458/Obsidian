@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "954c687170d2405c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "리눅스 마스터/1. 운영체제의 개요.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b003b757b859f784",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -68,6 +81,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "0ce007992cfebb9f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -89,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘_예제/백준(1912)연속합.md",
+                "file": "리눅스 마스터/1. 운영체제의 개요.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘_예제/백준(1912)연속합.md",
+                "file": "리눅스 마스터/1. 운영체제의 개요.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘_예제/백준(1912)연속합.md"
+                "file": "리눅스 마스터/1. 운영체제의 개요.md"
               }
             }
           }
@@ -150,8 +171,11 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "091aed452dfdfe28",
+  "active": "954c687170d2405c",
   "lastOpenFiles": [
+    "알고리즘_예제/백준(1912)연속합.md",
+    "리눅스 마스터/1. 운영체제의 개요.md",
+    "리눅스 마스터",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 7강. 명령어의 구조와 주소 지정 방식.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 10강.CPU 의 내부구성-레지스터.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 11강.명령어 사이클과 인터럽트.md",
@@ -163,7 +187,6 @@
     "컴퓨터 구조, 운영체제/컴퓨터 구조 4강. 0과 1로 숫자표현법.md",
     "기타_자료/Pasted image 20240622141016.png",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 6강. 소스코드와 명령어.md",
-    "알고리즘_예제/백준(1912)연속합.md",
     "기타_자료/Pasted image 20240622021247.png",
     "기타_자료/Pasted image 20240622015046.png",
     "기타_자료/Pasted image 20240622012214.png",
@@ -184,7 +207,6 @@
     "알고리즘_예제/백준(10610)30.md",
     "OpenGL/8. 조명.md",
     "OpenGL/10. 텍스처.md",
-    "알고리즘_예제/백준(25416)조건에 맞는 정수의 개수.md",
     "기타_자료/Pasted image 20240615204309.png",
     "기타_자료/Pasted image 20240612010718.png",
     "기타_자료/Pasted image 20240612010648.png",
