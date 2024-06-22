@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 13강. 명령어 병렬 처리 기법.md",
+                "file": "리눅스 마스터/2. 리눅스의 기초.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 13강. 명령어 병렬 처리 기법.md",
+                "file": "리눅스 마스터/2. 리눅스의 기초.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 13강. 명령어 병렬 처리 기법.md",
+                "file": "리눅스 마스터/2. 리눅스의 기초.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 13강. 명령어 병렬 처리 기법.md"
+                "file": "리눅스 마스터/2. 리눅스의 기초.md"
               }
             }
           }
@@ -197,8 +197,8 @@
   },
   "active": "cd25b61a639010a3",
   "lastOpenFiles": [
-    "컴퓨터 구조, 운영체제/컴퓨터 구조 12강. 빠른 CPU를 위한 설계 기법.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 13강. 명령어 병렬 처리 기법.md",
+    "컴퓨터 구조, 운영체제/컴퓨터 구조 12강. 빠른 CPU를 위한 설계 기법.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 9강. CPU내부구성-ALU 제어장치.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 10강. CPU 의 내부구성-레지스터.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 11강. 명령어 사이클과 인터럽트.md",
