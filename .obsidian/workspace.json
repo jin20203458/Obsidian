@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리눅스/1. 운영체제의 개요.md",
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 13강. 명령어 병렬 처리 기법.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c56b76a05f171346",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 14강. 명령어 집합구조.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/알고리즘_예제/백준(2156)포도주 시식.md",
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 14강. 명령어 집합구조.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/알고리즘_예제/백준(2156)포도주 시식.md",
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 14강. 명령어 집합구조.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/알고리즘_예제/백준(2156)포도주 시식.md"
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조 14강. 명령어 집합구조.md"
               }
             }
           }
@@ -159,17 +171,19 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "816cbcd0ff6621fa",
+  "active": "c56b76a05f171346",
   "lastOpenFiles": [
+    "컴퓨터 구조, 운영체제/컴퓨터 구조 13강. 명령어 병렬 처리 기법.md",
+    "컴퓨터 구조, 운영체제/컴퓨터 구조 14강. 명령어 집합구조.md",
+    "기타_자료/Pasted image 20240623121243.png",
+    "알고리즘/알고리즘_예제/백준(2156)포도주 시식.md",
     "리눅스/2. 리눅스와 하드웨어.md",
     "기타_자료/Pasted image 20240623030132.png",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 2강.md",
-    "알고리즘/알고리즘_예제/백준(2156)포도주 시식.md",
     "알고리즘/알고리즘_예제/백준(1202)보석도둑.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 12강. 빠른 CPU를 위한 설계 기법.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 11강. 명령어 사이클과 인터럽트.md",
     "알고리즘",
-    "컴퓨터 구조, 운영체제/컴퓨터 구조 13강. 명령어 병렬 처리 기법.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 9강. CPU내부구성-ALU 제어장치.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 10강. CPU 의 내부구성-레지스터.md",
     "리눅스/1. 운영체제의 개요.md",
@@ -199,7 +213,6 @@
     "리눅스",
     "기타_자료/Pasted image 20240622141016.png",
     "기타_자료/Pasted image 20240622021247.png",
-    "기타_자료/Pasted image 20240622015046.png",
     "컴퓨터 구조, 운영체제",
     "알고리즘/알고리즘 개념/정렬알고리즘",
     "C++/Main.cpp",
