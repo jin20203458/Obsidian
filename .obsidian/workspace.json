@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리눅스 마스터/2. 리눅스와 하드웨어.md",
+                "file": "리눅스/1. 운영체제의 개요.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "리눅스 마스터/2. 리눅스와 하드웨어.md",
+                "file": "알고리즘/알고리즘_예제/백준(2156)포도주 시식.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "리눅스 마스터/2. 리눅스와 하드웨어.md",
+                "file": "알고리즘/알고리즘_예제/백준(2156)포도주 시식.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "리눅스 마스터/2. 리눅스와 하드웨어.md"
+                "file": "알고리즘/알고리즘_예제/백준(2156)포도주 시식.md"
               }
             }
           }
@@ -159,10 +159,11 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "cd25b61a639010a3",
+  "active": "816cbcd0ff6621fa",
   "lastOpenFiles": [
+    "리눅스/2. 리눅스와 하드웨어.md",
+    "기타_자료/Pasted image 20240623030132.png",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 2강.md",
-    "리눅스 마스터/2. 리눅스와 하드웨어.md",
     "알고리즘/알고리즘_예제/백준(2156)포도주 시식.md",
     "알고리즘/알고리즘_예제/백준(1202)보석도둑.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 12강. 빠른 CPU를 위한 설계 기법.md",
@@ -171,7 +172,7 @@
     "컴퓨터 구조, 운영체제/컴퓨터 구조 13강. 명령어 병렬 처리 기법.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 9강. CPU내부구성-ALU 제어장치.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조 10강. CPU 의 내부구성-레지스터.md",
-    "리눅스 마스터/1. 운영체제의 개요.md",
+    "리눅스/1. 운영체제의 개요.md",
     "알고리즘/알고리즘 개념/정렬알고리즘/병합정렬(MergeSort).md",
     "알고리즘/알고리즘 개념/정렬알고리즘/퀵정렬(QuickSort).md",
     "알고리즘/알고리즘 개념/카데인 알고리즘 (Kadane's Algorithm).md",
@@ -195,11 +196,10 @@
     "기타_자료/Pasted image 20240622195826.png",
     "기타_자료/Pasted image 20240622195838.png",
     "conflict-files-obsidian-git.md",
-    "리눅스 마스터",
+    "리눅스",
     "기타_자료/Pasted image 20240622141016.png",
     "기타_자료/Pasted image 20240622021247.png",
     "기타_자료/Pasted image 20240622015046.png",
-    "기타_자료/Pasted image 20240622012214.png",
     "컴퓨터 구조, 운영체제",
     "알고리즘/알고리즘 개념/정렬알고리즘",
     "C++/Main.cpp",
