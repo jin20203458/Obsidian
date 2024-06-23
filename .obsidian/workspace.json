@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 16강. 메모리의 주소 공간-물리주소,논리주소.md",
+                "file": "리눅스/2. 리눅스 시스템의 이해/1. 리눅스와 하드웨어.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "98f0853c4822245b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "리눅스/2. 리눅스 시스템의 이해/4. 셸(Shell).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 16강. 메모리의 주소 공간-물리주소,논리주소.md",
+                "file": "리눅스/2. 리눅스 시스템의 이해/4. 셸(Shell).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 16강. 메모리의 주소 공간-물리주소,논리주소.md",
+                "file": "리눅스/2. 리눅스 시스템의 이해/4. 셸(Shell).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 16강. 메모리의 주소 공간-물리주소,논리주소.md"
+                "file": "리눅스/2. 리눅스 시스템의 이해/4. 셸(Shell).md"
               }
             }
           }
@@ -159,14 +171,15 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "2eb36228648a9bdc",
+  "active": "98f0853c4822245b",
   "lastOpenFiles": [
+    "리눅스/2. 리눅스 시스템의 이해/1. 리눅스와 하드웨어.md",
+    "리눅스/2. 리눅스 시스템의 이해/4. 셸(Shell).md",
+    "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 16강. 메모리의 주소 공간-물리주소,논리주소.md",
     "기타_자료/Pasted image 20240623232757.png",
     "기타_자료/Pasted image 20240623232522.png",
     "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 15강. RAM의 특성과 종류.md",
-    "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 16강. 메모리의 주소 공간-물리주소,논리주소.md",
     "리눅스/1. 리눅스의 개요/2. 리눅스의 기초.md",
-    "리눅스/2. 리눅스 시스템의 이해/1. 리눅스와 하드웨어.md",
     "리눅스/2. 리눅스 시스템의 이해",
     "리눅스/1. 리눅스의 개요",
     "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 14강. 명령어 집합구조.md",
@@ -203,7 +216,6 @@
     "기타_자료/Pasted image 20240622195826.png",
     "기타_자료/Pasted image 20240622195838.png",
     "리눅스",
-    "기타_자료/Pasted image 20240622141016.png",
     "컴퓨터 구조, 운영체제",
     "알고리즘/알고리즘 개념/정렬알고리즘",
     "C++/Main.cpp"
