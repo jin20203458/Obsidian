@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/2. 운영체제/23강. 운영체제를 알아야 하는 이유.md",
+                "file": "리눅스/2. 리눅스 시스템의 이해/3. x 윈도우.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5
+    "width": 225.5,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -134,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/2. 운영체제/23강. 운영체제를 알아야 하는 이유.md",
+                "file": "리눅스/2. 리눅스 시스템의 이해/3. x 윈도우.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/2. 운영체제/23강. 운영체제를 알아야 하는 이유.md",
+                "file": "리눅스/2. 리눅스 시스템의 이해/3. x 윈도우.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/2. 운영체제/23강. 운영체제를 알아야 하는 이유.md"
+                "file": "리눅스/2. 리눅스 시스템의 이해/3. x 윈도우.md"
               }
             }
           }
@@ -195,11 +196,11 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "816cbcd0ff6621fa",
+  "active": "15ebad61d0270bcd",
   "lastOpenFiles": [
+    "컴퓨터 구조, 운영체제/2. 운영체제/23강. 운영체제를 알아야 하는 이유.md",
     "컴퓨터 구조, 운영체제/2. 운영체제",
     "컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 21강. 다양한 입출력 방법.md",
-    "컴퓨터 구조, 운영체제/2. 운영체제/23강. 운영체제를 알아야 하는 이유.md",
     "컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 20강. 장치 컨트롤러와 장치 드라이버.md",
     "리눅스/2. 리눅스 시스템의 이해/3. x 윈도우.md",
     "리눅스/2. 리눅스 시스템의 이해/2. 리눅스의 구조.md",
