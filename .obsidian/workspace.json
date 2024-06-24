@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리눅스/2. 리눅스 시스템의 이해/3. x 윈도우.md",
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 20강. 장치 컨트롤러와 장치 드라이버.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aac42f405ede5066",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 21강. 다양한 입출력 방법.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "리눅스/2. 리눅스 시스템의 이해/3. x 윈도우.md",
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 21강. 다양한 입출력 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "리눅스/2. 리눅스 시스템의 이해/3. x 윈도우.md",
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 21강. 다양한 입출력 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "리눅스/2. 리눅스 시스템의 이해/3. x 윈도우.md"
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 21강. 다양한 입출력 방법.md"
               }
             }
           }
@@ -171,16 +183,17 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "ca0f1eab5c5a1d9c",
+  "active": "aac42f405ede5066",
   "lastOpenFiles": [
-    "리눅스/2. 리눅스 시스템의 이해/2. 리눅스의 구조.md",
+    "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 20강. 장치 컨트롤러와 장치 드라이버.md",
+    "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 21강. 다양한 입출력 방법.md",
     "리눅스/2. 리눅스 시스템의 이해/3. x 윈도우.md",
+    "리눅스/2. 리눅스 시스템의 이해/2. 리눅스의 구조.md",
     "기타_자료/Pasted image 20240624225006.png",
     "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 16강. 메모리의 주소 공간-물리주소,논리주소.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 17강.캐시 메모리.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 18강. 다양한 보조기억장치.md",
     "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 19강. RAID의 정의와 종류.md",
-    "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 20강. 장치 컨트롤러와 장치 드라이버.md",
     "리눅스/2. 리눅스 시스템의 이해/1. 리눅스와 하드웨어.md",
     "무제 폴더",
     "기타_자료/Pasted image 20240624213906.png",
@@ -210,7 +223,6 @@
     "알고리즘/알고리즘 개념/정렬알고리즘/병합정렬(MergeSort).md",
     "알고리즘/알고리즘 개념/정렬알고리즘/퀵정렬(QuickSort).md",
     "알고리즘/알고리즘 개념/카데인 알고리즘 (Kadane's Algorithm).md",
-    "알고리즘/알고리즘_예제/백준(1912)연속합.md",
     "기타_자료/Pasted image 20240622202311.png",
     "기타_자료/Pasted image 20240606212953.png",
     "Obsidian/기타_자료",
