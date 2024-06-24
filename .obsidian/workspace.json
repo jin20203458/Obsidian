@@ -4,71 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "38d83a362a628f63",
+        "id": "86a15bac685d9bd3",
         "type": "tabs",
         "children": [
           {
-            "id": "7d2ae428f535e047",
+            "id": "ceda8a71d8782de0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리눅스/2. 리눅스 시스템의 이해/1. 리눅스와 하드웨어.md",
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 19강. RAID의 정의와 종류.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2eb36228648a9bdc",
+            "id": "7c8a92b47d5379cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리눅스/2. 리눅스 시스템의 이해/1. 리눅스와 하드웨어.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "98f0853c4822245b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "리눅스/2. 리눅스 시스템의 이해/4. 셸(Shell).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aef8086935242fc5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 16강. 메모리의 주소 공간-물리주소,논리주소.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4dcbc81150437f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 17강.캐시 메모리.md",
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 19강. RAID의 정의와 종류.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 17강.캐시 메모리.md",
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 19강. RAID의 정의와 종류.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 17강.캐시 메모리.md",
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 19강. RAID의 정의와 종류.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 17강.캐시 메모리.md"
+                "file": "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 19강. RAID의 정의와 종류.md"
               }
             }
           }
@@ -195,14 +159,19 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "b4dcbc81150437f9",
+  "active": "7c8a92b47d5379cb",
   "lastOpenFiles": [
+    "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 20강. 입출력장치.md",
+    "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 19강. RAID의 정의와 종류.md",
+    "리눅스/2. 리눅스 시스템의 이해/1. 리눅스와 하드웨어.md",
+    "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 18강. 다양한 보조기억장치.md",
+    "무제 폴더",
+    "기타_자료/Pasted image 20240624213906.png",
+    "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 17강.캐시 메모리.md",
     "기타_자료/Pasted image 20240624212611.png",
     "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 16강. 메모리의 주소 공간-물리주소,논리주소.md",
-    "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 17강.캐시 메모리.md",
     "리눅스/2. 리눅스 시스템의 이해/2. 리눅스의 구조.md",
     "리눅스/2. 리눅스 시스템의 이해/4. 셸(Shell).md",
-    "리눅스/2. 리눅스 시스템의 이해/1. 리눅스와 하드웨어.md",
     "기타_자료/Pasted image 20240623232757.png",
     "기타_자료/Pasted image 20240623232522.png",
     "컴퓨터 구조, 운영체제/컴퓨터 구조/컴퓨터 구조 15강. RAM의 특성과 종류.md",
@@ -229,19 +198,14 @@
     "알고리즘/알고리즘 개념/카데인 알고리즘 (Kadane's Algorithm).md",
     "알고리즘/알고리즘_예제/백준(1912)연속합.md",
     "알고리즘/알고리즘_예제/백준(1806)부분합.md",
-    "알고리즘/알고리즘 개념/탐욕(Greedy).md",
-    "알고리즘/알고리즘 개념/슬라이딩윈도우(SlidingWindow).md",
     "기타_자료/Pasted image 20240622202311.png",
     "기타_자료/Pasted image 20240606212953.png",
     "Obsidian/기타_자료",
     "Obsidian",
     "기타_자료/Pasted image 20240622142517.png",
     "기타_자료/Pasted image 20240622174845.png",
-    "기타_자료/Pasted image 20240622195826.png",
-    "기타_자료/Pasted image 20240622195838.png",
     "리눅스",
     "컴퓨터 구조, 운영체제",
-    "알고리즘/알고리즘 개념/정렬알고리즘",
-    "C++/Main.cpp"
+    "알고리즘/알고리즘 개념/정렬알고리즘"
   ]
 }
