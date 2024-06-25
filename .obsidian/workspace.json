@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리눅스/3. 네트워크의 이해/1. 네트워크의 기초.md",
+                "file": "컴퓨터 구조, 운영체제/2. 운영체제/26강. 프로세스 개요.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "리눅스/3. 네트워크의 이해/1. 네트워크의 기초.md",
+                "file": "컴퓨터 구조, 운영체제/2. 운영체제/26강. 프로세스 개요.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "리눅스/3. 네트워크의 이해/1. 네트워크의 기초.md",
+                "file": "컴퓨터 구조, 운영체제/2. 운영체제/26강. 프로세스 개요.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "리눅스/3. 네트워크의 이해/1. 네트워크의 기초.md"
+                "file": "컴퓨터 구조, 운영체제/2. 운영체제/26강. 프로세스 개요.md"
               }
             }
           }
@@ -197,9 +197,9 @@
   },
   "active": "9d6a5eddc698f59a",
   "lastOpenFiles": [
+    "리눅스/3. 네트워크의 이해/1. 네트워크의 기초.md",
     "기타_자료/Pasted image 20240625184522.png",
     "컴퓨터 구조, 운영체제/2. 운영체제/26강. 프로세스 개요.md",
-    "리눅스/3. 네트워크의 이해/1. 네트워크의 기초.md",
     "리눅스/3. 네트워크의 이해",
     "컴퓨터 구조, 운영체제/2. 운영체제/24강. 운영체제의 큰 그림.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/23강. 운영체제를 알아야 하는 이유.md",
@@ -238,7 +238,6 @@
     "컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 11강. 명령어 사이클과 인터럽트.md",
     "알고리즘",
     "기타_자료/Pasted image 20240622202311.png",
-    "기타_자료/Pasted image 20240606212953.png",
     "Obsidian/기타_자료",
     "Obsidian",
     "리눅스",
