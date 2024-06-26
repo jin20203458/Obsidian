@@ -30,9 +30,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5eaccfa7b0b754a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad222f18a13de847",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "리눅스/2. 리눅스 시스템 관리/1. 사용자 관리.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "리눅스/2. 리눅스 시스템 관리/1. 사용자 관리.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "리눅스/2. 리눅스 시스템 관리/1. 사용자 관리.md"
+                "file": "README.md"
               }
             }
           }
@@ -159,10 +183,11 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "6c3f7d247e876f86",
+  "active": "816cbcd0ff6621fa",
   "lastOpenFiles": [
-    "컴퓨터 구조, 운영체제/2. 운영체제/28강. 스레드.md",
+    "리눅스/2. 리눅스 시스템 관리/2. 파일시스템 관리.md",
     "리눅스/2. 리눅스 시스템 관리/1. 사용자 관리.md",
+    "컴퓨터 구조, 운영체제/2. 운영체제/28강. 스레드.md",
     "리눅스/2. 리눅스 시스템 관리",
     "리눅스/1. 리눅스 실무의 이해",
     "리눅스/1. 리눅스 실무의 이해/3. 네트워크의 이해/1. 네트워크의 기초.md",
@@ -200,7 +225,6 @@
     "기타_자료/Pasted image 20240624212611.png",
     "기타_자료/Pasted image 20240623232757.png",
     "컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 15강. RAM의 특성과 종류.md",
-    "리눅스/1. 리눅스 실무의 이해/1. 리눅스의 개요/2. 리눅스의 기초.md",
     "리눅스/1. 리눅스 실무의 이해/2. 리눅스 시스템의 이해",
     "리눅스/1. 리눅스 실무의 이해/1. 리눅스의 개요",
     "컴퓨터 구조, 운영체제/1. 컴퓨터 구조",
