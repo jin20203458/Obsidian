@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리눅스/3. 네트워크의 이해/2. 네트워크의 설정.md",
+                "file": "컴퓨터 구조, 운영체제/2. 운영체제/31강. CPU 스케줄링 개요.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "리눅스/3. 네트워크의 이해/2. 네트워크의 설정.md",
+                "file": "컴퓨터 구조, 운영체제/2. 운영체제/31강. CPU 스케줄링 개요.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "리눅스/3. 네트워크의 이해/2. 네트워크의 설정.md",
+                "file": "컴퓨터 구조, 운영체제/2. 운영체제/31강. CPU 스케줄링 개요.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "리눅스/3. 네트워크의 이해/2. 네트워크의 설정.md"
+                "file": "컴퓨터 구조, 운영체제/2. 운영체제/31강. CPU 스케줄링 개요.md"
               }
             }
           }
@@ -173,8 +173,8 @@
   },
   "active": "041be86cd69f3e7d",
   "lastOpenFiles": [
-    "리눅스/3. 네트워크의 이해/1. 네트워크의 기초.md",
     "리눅스/3. 네트워크의 이해/2. 네트워크의 설정.md",
+    "리눅스/3. 네트워크의 이해/1. 네트워크의 기초.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/31강. CPU 스케줄링 개요.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/28강. 스레드.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/27강. 프로세스 상태와 계층구조.md",
