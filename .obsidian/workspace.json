@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리눅스/2. 리눅스 시스템 관리/2. 파일시스템 관리.md",
+                "file": "컴퓨터 구조, 운영체제/2. 운영체제/35강. 교착 상태란.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bac86d5ea2a4dac2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컴퓨터 구조, 운영체제/2. 운영체제/36강. 교착상태 해결 방법.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5
+    "width": 225.5,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -110,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "리눅스/2. 리눅스 시스템 관리/2. 파일시스템 관리.md",
+                "file": "컴퓨터 구조, 운영체제/2. 운영체제/36강. 교착상태 해결 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "리눅스/2. 리눅스 시스템 관리/2. 파일시스템 관리.md",
+                "file": "컴퓨터 구조, 운영체제/2. 운영체제/36강. 교착상태 해결 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "리눅스/2. 리눅스 시스템 관리/2. 파일시스템 관리.md"
+                "file": "컴퓨터 구조, 운영체제/2. 운영체제/36강. 교착상태 해결 방법.md"
               }
             }
           }
@@ -171,15 +184,16 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "6c3f7d247e876f86",
+  "active": "bac86d5ea2a4dac2",
   "lastOpenFiles": [
+    "컴퓨터 구조, 운영체제/2. 운영체제/35강. 교착 상태란.md",
+    "컴퓨터 구조, 운영체제/2. 운영체제/36강. 교착상태 해결 방법.md",
+    "리눅스/2. 리눅스 시스템 관리/2. 파일시스템 관리.md",
     "리눅스/2. 리눅스 시스템 관리/1. 사용자 관리.md",
     "README.md",
-    "컴퓨터 구조, 운영체제/2. 운영체제/35강. 교착 상태란.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/34강. 프로세스 동기화 기법.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/33강. 프로세스 동기화란.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/28강. 스레드.md",
-    "리눅스/2. 리눅스 시스템 관리/2. 파일시스템 관리.md",
     "리눅스/2. 리눅스 시스템 관리",
     "리눅스/1. 리눅스 실무의 이해",
     "리눅스/1. 리눅스 실무의 이해/3. 네트워크의 이해/1. 네트워크의 기초.md",
@@ -209,7 +223,6 @@
     "컴퓨터 구조, 운영체제/2. 운영체제",
     "기타_자료/Pasted image 20240624225006.png",
     "컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 16강. 메모리의 주소 공간-물리주소,논리주소.md",
-    "컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 17강.캐시 메모리.md",
     "기타_자료/Pasted image 20240624213906.png",
     "기타_자료/Pasted image 20240624212611.png",
     "기타_자료/Pasted image 20240623232757.png",
