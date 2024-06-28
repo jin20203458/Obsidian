@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/2. 운영체제/41강. 파일과 디렉토리.md",
+                "file": "리눅스/1. 리눅스 실무의 이해/3. 네트워크의 이해/1. 네트워크의 기초.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5,
-    "collapsed": true
+    "width": 225.5
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/2. 운영체제/41강. 파일과 디렉토리.md",
+                "file": "리눅스/1. 리눅스 실무의 이해/3. 네트워크의 이해/1. 네트워크의 기초.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/2. 운영체제/41강. 파일과 디렉토리.md",
+                "file": "리눅스/1. 리눅스 실무의 이해/3. 네트워크의 이해/1. 네트워크의 기초.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/2. 운영체제/41강. 파일과 디렉토리.md"
+                "file": "리눅스/1. 리눅스 실무의 이해/3. 네트워크의 이해/1. 네트워크의 기초.md"
               }
             }
           }
@@ -162,8 +161,8 @@
   },
   "active": "55142731dd3b7d17",
   "lastOpenFiles": [
-    "컴퓨터 구조, 운영체제/2. 운영체제/42강. 파일시스템.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/41강. 파일과 디렉토리.md",
+    "컴퓨터 구조, 운영체제/2. 운영체제/42강. 파일시스템.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/40강. 페이징의 이점과 계층적 페이징.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/39강. 페이지 교체와 프레임 할당.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/35강. 교착 상태란.md",
