@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "79e38e350b8b6d7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알고리즘/알고리즘_예제/백준(1149)RGB거리.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b3be40fcac7e388e",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
