@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/알고리즘_예제/백준 (27527)배너걸기.md",
+                "file": "알고리즘/알고리즘 개념/백트래킹(Backtracking).md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/알고리즘_예제/백준 (27527)배너걸기.md",
+                "file": "알고리즘/알고리즘 개념/백트래킹(Backtracking).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/알고리즘_예제/백준 (27527)배너걸기.md",
+                "file": "알고리즘/알고리즘 개념/백트래킹(Backtracking).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/알고리즘_예제/백준 (27527)배너걸기.md"
+                "file": "알고리즘/알고리즘 개념/백트래킹(Backtracking).md"
               }
             }
           }
@@ -173,8 +173,8 @@
   },
   "active": "78197ed983ede38a",
   "lastOpenFiles": [
-    "알고리즘/알고리즘_예제/백준(27496) 발머의 피크이론.md",
     "알고리즘/알고리즘_예제/백준 (27527)배너걸기.md",
+    "알고리즘/알고리즘_예제/백준(27496) 발머의 피크이론.md",
     "알고리즘/알고리즘_예제/백준(31882)근수.md",
     "알고리즘/알고리즘_예제/백준(1715)카드정렬하기.md",
     "알고리즘/알고리즘_예제/백준(1769)3의 배수.md",
