@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/알고리즘_예제/백준(24954)물약구매.md",
+                "file": "알고리즘/알고리즘 개념/비트마스킹(Bit Masking).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/알고리즘_예제/백준(24954)물약구매.md",
+                "file": "알고리즘/알고리즘 개념/비트마스킹(Bit Masking).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/알고리즘_예제/백준(24954)물약구매.md",
+                "file": "알고리즘/알고리즘 개념/비트마스킹(Bit Masking).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/알고리즘_예제/백준(24954)물약구매.md"
+                "file": "알고리즘/알고리즘 개념/비트마스킹(Bit Masking).md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "1d1b04b6d089640f",
   "lastOpenFiles": [
+    "알고리즘/알고리즘_예제/백준(24954)물약구매.md",
     "알고리즘/알고리즘_예제/백준(1149)RGB거리.md",
     "리눅스/리눅스 개념",
     "알고리즘/알고리즘_예제/백준(30106)현이의 로봇 청소기.md",
-    "알고리즘/알고리즘_예제/백준(24954)물약구매.md",
     "알고리즘/알고리즘_예제/백준(1965)상자넣기.md",
     "알고리즘/알고리즘 개념/다이나믹프로그래밍(DynamicProgramming).md",
     "알고리즘/알고리즘 개념/에라토스테네스의 체(Sieve of Eratosthenes).md",
