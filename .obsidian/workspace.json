@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1d1b04b6d089640f",
+            "id": "d3e61aca05b443db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/알고리즘 개념/백트래킹(Backtracking).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7b0835133883d71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL/데이터베이스.md",
+                "file": "SQL/sqld 1과목.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,14 +56,6 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "0ce007992cfebb9f",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
           }
         ]
       }
@@ -98,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/데이터베이스.md",
+                "file": "SQL/sqld 1과목.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/데이터베이스.md",
+                "file": "SQL/sqld 1과목.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/데이터베이스.md"
+                "file": "SQL/sqld 1과목.md"
               }
             }
           }
@@ -159,11 +138,13 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "d7b0835133883d71",
+  "active": "d3e61aca05b443db",
   "lastOpenFiles": [
+    "SQL/데이터베이스.md",
+    "SQL/sqld 1과목.md",
+    "README.md",
     "SQL",
     "알고리즘/알고리즘 개념/백트래킹(Backtracking).md",
-    "SQL/데이터베이스.md",
     "알고리즘/알고리즘 개념/브루트포스(BruteForce).md",
     "알고리즘/알고리즘 개념/슬라이딩윈도우(SlidingWindow).md",
     "알고리즘/알고리즘 개념/에라토스테네스의 체(Sieve of Eratosthenes).md",
@@ -187,7 +168,6 @@
     "알고리즘/알고리즘_예제/백준(13305)주유소.md",
     "알고리즘/알고리즘_예제/백준(16502)그녀를 찾아서.md",
     "알고리즘/알고리즘_예제/백준(27952)보디빌딩.md",
-    "알고리즘/알고리즘_예제/백준(9658)돌 게임 4.md",
     "기타_자료/Pasted image 20240627124617.png",
     "리눅스/리눅스 개념/2. 리눅스 시스템 관리",
     "리눅스/리눅스 개념/1. 리눅스 실무의 이해",
@@ -205,7 +185,6 @@
     "리눅스/리눅스 개념/1. 리눅스 실무의 이해/2. 리눅스 시스템의 이해",
     "리눅스/리눅스 개념/1. 리눅스 실무의 이해/1. 리눅스의 개요",
     "컴퓨터 구조, 운영체제/1. 컴퓨터 구조",
-    "알고리즘",
-    "Obsidian/기타_자료"
+    "알고리즘"
   ]
 }
