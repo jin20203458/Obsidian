@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/sqld 1과목.md",
+                "file": "알고리즘/알고리즘 개념/슬라이딩윈도우(SlidingWindow).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5bcf5dcdc66fc41d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘/알고리즘 개념/그래프이론.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -56,6 +69,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "1bf250a3cb056560",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -77,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/sqld 1과목.md",
+                "file": "알고리즘/알고리즘 개념/그래프이론.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/sqld 1과목.md",
+                "file": "알고리즘/알고리즘 개념/그래프이론.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/sqld 1과목.md"
+                "file": "알고리즘/알고리즘 개념/그래프이론.md"
               }
             }
           }
@@ -138,18 +159,20 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "d3e61aca05b443db",
+  "active": "5bcf5dcdc66fc41d",
   "lastOpenFiles": [
+    "알고리즘/알고리즘 개념/슬라이딩윈도우(SlidingWindow).md",
+    "알고리즘/알고리즘 개념/그래프이론.md",
+    "알고리즘/알고리즘 개념/에라토스테네스의 체(Sieve of Eratosthenes).md",
+    "알고리즘/알고리즘 개념/카데인 알고리즘 (Kadane's Algorithm).md",
+    "알고리즘/알고리즘 개념/비트마스킹(Bit Masking).md",
+    "알고리즘/알고리즘 개념/브루트포스(BruteForce).md",
     "SQL/데이터베이스.md",
     "SQL/sqld 1과목.md",
     "README.md",
     "SQL",
     "알고리즘/알고리즘 개념/백트래킹(Backtracking).md",
-    "알고리즘/알고리즘 개념/브루트포스(BruteForce).md",
-    "알고리즘/알고리즘 개념/슬라이딩윈도우(SlidingWindow).md",
-    "알고리즘/알고리즘 개념/에라토스테네스의 체(Sieve of Eratosthenes).md",
     "알고리즘/알고리즘 개념/파싱(Parsing).md",
-    "알고리즘/알고리즘 개념/비트마스킹(Bit Masking).md",
     "알고리즘/알고리즘_예제/백준(24954)물약구매.md",
     "알고리즘/알고리즘_예제/백준(1149)RGB거리.md",
     "리눅스/리눅스 개념",
@@ -166,8 +189,6 @@
     "알고리즘/알고리즘_예제/백준(1769)3의 배수.md",
     "알고리즘/알고리즘_예제/백준(1202)보석도둑.md",
     "알고리즘/알고리즘_예제/백준(13305)주유소.md",
-    "알고리즘/알고리즘_예제/백준(16502)그녀를 찾아서.md",
-    "알고리즘/알고리즘_예제/백준(27952)보디빌딩.md",
     "기타_자료/Pasted image 20240627124617.png",
     "리눅스/리눅스 개념/2. 리눅스 시스템 관리",
     "리눅스/리눅스 개념/1. 리눅스 실무의 이해",
