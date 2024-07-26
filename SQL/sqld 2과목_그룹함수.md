@@ -86,3 +86,29 @@ GROUP BY GROUPING SETS (
 ### 4. GROUPING
 
 **정의:** `GROUPING` 함수는 `ROLLUP`이나 `CUBE`를 사용한 결과에서 각 열이 집계 수준에서 그룹화되었는지 여부를 식별하는 데 사용됩니다. 이 함수는 `GROUPING SETS`, `ROLLUP`, `CUBE`와 함께 사용할 수 있습니다.
+
+**특징:**
+
+- 집계 결과에서 특정 열이 집계 수준에서 그룹화된 여부를 확인합니다.
+- `GROUPING` 함수는 해당 열이 집계된 결과에서 NULL인지 여부를 판별할 수 있습니다.
+```
+SELECT Department,
+       Team,
+       SUM(Sales),
+       GROUPING(Department) AS DeptGrouping,
+       GROUPING(Team) AS TeamGrouping
+FROM SalesData
+GROUP BY ROLLUP (Department, Team);
+```
+- 이 쿼리는 `Department`와 `Team`별로 집계된 매출과 함께, 각 열의 집계 여부를 나타내는 플래그를 제공합니다.
+
+| Department | Team  | SUM(Sales) | DeptGrouping | TeamGrouping |
+|------------|-------|------------|--------------|--------------|
+| HR         | East  | 1000       | 0            | 0            |
+| HR         | West  | 1200       | 0            | 0            |
+| HR         | NULL  | 2200       | 0            | 1            |
+| Sales      | East  | 1500       | 0            | 0            |
+| Sales      | West  | 1700       | 0            | 0            |
+| Sales      | NULL  | 3200       | 0            | 1            |
+| NULL       | NULL  | 5400       | 1            | 1            |
+각기 다른 차수의 값들이 합쳐지거나 요약된 결과를 보고, 특정 열이 집계 단계에서 어떻게 그룹화되었는지 확인할 수 있다.
