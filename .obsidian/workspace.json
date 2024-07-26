@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/sqld 2과목_그룹함수.md",
+                "file": "알고리즘/알고리즘_예제/백준(1026)보물.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5,
-    "collapsed": true
+    "width": 225.5
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/sqld 2과목_그룹함수.md",
+                "file": "알고리즘/알고리즘_예제/백준(1026)보물.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/sqld 2과목_그룹함수.md",
+                "file": "알고리즘/알고리즘_예제/백준(1026)보물.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/sqld 2과목_그룹함수.md"
+                "file": "알고리즘/알고리즘_예제/백준(1026)보물.md"
               }
             }
           }
@@ -149,9 +148,9 @@
   },
   "active": "1f3a3d522df2cc49",
   "lastOpenFiles": [
+    "SQL/sqld 2과목_그룹함수.md",
     "SQL/sqld 2과목_서브쿼리.md",
     "SQL/sqld 1과목.md",
-    "SQL/sqld 2과목_그룹함수.md",
     "알고리즘/알고리즘 개념/그래프이론.md",
     "알고리즘/알고리즘 개념/슬라이딩윈도우(SlidingWindow).md",
     "알고리즘/알고리즘 개념/에라토스테네스의 체(Sieve of Eratosthenes).md",
