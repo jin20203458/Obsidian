@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/sqld 2과목_6 정규표현식.md",
+                "file": "알고리즘/알고리즘_예제/백준(9658)돌 게임 4.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f5907cad75ac3fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘/알고리즘_예제/백준(9655)돌게임.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/sqld 2과목_6 정규표현식.md",
+                "file": "알고리즘/알고리즘_예제/백준(9655)돌게임.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/sqld 2과목_6 정규표현식.md",
+                "file": "알고리즘/알고리즘_예제/백준(9655)돌게임.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/sqld 2과목_6 정규표현식.md"
+                "file": "알고리즘/알고리즘_예제/백준(9655)돌게임.md"
               }
             }
           }
@@ -147,15 +159,18 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "bfa1d255e81e92d2",
+  "active": "0f5907cad75ac3fc",
   "lastOpenFiles": [
+    "알고리즘/알고리즘_예제/백준(9658)돌 게임 4.md",
+    "알고리즘/알고리즘_예제/백준(9655)돌게임.md",
+    "2024-07-31.md",
+    "SQL/sqld 2과목_6 정규표현식.md",
     "SQL/sqld 2과목_3 윈도우함수.md",
     "SQL/함수 모음.md",
     "SQL/데이터베이스.md",
     "알고리즘/알고리즘_예제/백준(31826)주식시장.md",
     "알고리즘/알고리즘_예제/백준(1149)RGB거리.md",
     "SQL/sqld 3과목_0 트랜잭션.md",
-    "SQL/sqld 2과목_6 정규표현식.md",
     "SQL/sqld 2과목_5 피봇,언피봇.md",
     "SQL/SELECT 실행순서.md",
     "SQL/sqld 2과목_4 Top N 쿼리.md",
@@ -173,10 +188,7 @@
     "README.md",
     "SQL",
     "알고리즘/알고리즘 개념/백트래킹(Backtracking).md",
-    "알고리즘/알고리즘 개념/파싱(Parsing).md",
-    "알고리즘/알고리즘_예제/백준(24954)물약구매.md",
     "리눅스/리눅스 개념",
-    "알고리즘/알고리즘_예제/백준(30106)현이의 로봇 청소기.md",
     "기타_자료/Pasted image 20240627124617.png",
     "리눅스/리눅스 개념/2. 리눅스 시스템 관리",
     "리눅스/리눅스 개념/1. 리눅스 실무의 이해",
