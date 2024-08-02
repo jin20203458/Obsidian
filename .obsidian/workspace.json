@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/수직분할, 수평분할.md",
+                "file": "SQL/데이터베이스.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/수직분할, 수평분할.md",
+                "file": "SQL/데이터베이스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/수직분할, 수평분할.md",
+                "file": "SQL/데이터베이스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/수직분할, 수평분할.md"
+                "file": "SQL/데이터베이스.md"
               }
             }
           }
@@ -173,8 +174,8 @@
   },
   "active": "2d3ddb32a37109b9",
   "lastOpenFiles": [
-    "SQL/데이터베이스.md",
     "SQL/수직분할, 수평분할.md",
+    "SQL/데이터베이스.md",
     "SQL/함수 모음.md",
     "SQL/SELECT 실행순서.md",
     "알고리즘/알고리즘_예제/백준(9655)돌게임.md",
