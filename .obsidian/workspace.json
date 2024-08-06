@@ -61,14 +61,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리눅스/리눅스.md",
+                "file": "알고리즘/알고리즘 개념/브루트포스(BruteForce).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d534c0652cb9d1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘/알고리즘 개념/이분탐색.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "리눅스/리눅스.md",
+                "file": "알고리즘/알고리즘 개념/이분탐색.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "리눅스/리눅스.md",
+                "file": "알고리즘/알고리즘 개념/이분탐색.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "리눅스/리눅스.md"
+                "file": "알고리즘/알고리즘 개념/이분탐색.md"
               }
             }
           }
@@ -195,10 +207,13 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "5e8acec90529da6e",
+  "active": "6d534c0652cb9d1b",
   "lastOpenFiles": [
-    "리눅스/리눅스 개념/1. 리눅스 실무의 이해/1. 리눅스의 개요/2. 리눅스의 기초.md",
+    "알고리즘/알고리즘 개념/브루트포스(BruteForce).md",
+    "알고리즘/알고리즘 개념/이분탐색.md",
+    "알고리즘/알고리즘 개념/파싱(Parsing).md",
     "리눅스/리눅스.md",
+    "리눅스/리눅스 개념/1. 리눅스 실무의 이해/1. 리눅스의 개요/2. 리눅스의 기초.md",
     "리눅스/리눅스 개념/1. 리눅스 실무의 이해/1. 리눅스의 개요/1. 운영체제의 개요.md",
     "SQL/데이터베이스.md",
     "SQL/sqld 2과목_3 윈도우함수.md",
@@ -220,9 +235,6 @@
     "SQL/sqld 2과목_2 그룹함수.md",
     "SQL/sqld 2과목_1 서브쿼리.md",
     "알고리즘/알고리즘_예제/백준(1026)보물.md",
-    "알고리즘/알고리즘 개념/그래프이론.md",
-    "알고리즘/알고리즘 개념/슬라이딩윈도우(SlidingWindow).md",
-    "알고리즘/알고리즘 개념/에라토스테네스의 체(Sieve of Eratosthenes).md",
     "SQL",
     "리눅스/리눅스 개념",
     "기타_자료/Pasted image 20240627124617.png",
