@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/함수 모음.md",
+                "file": "SQL/데이터베이스.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8c8a2276f24b1ecb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/관심 기출 모음.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/함수 모음.md",
+                "file": "SQL/관심 기출 모음.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/함수 모음.md",
+                "file": "SQL/관심 기출 모음.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/함수 모음.md"
+                "file": "SQL/관심 기출 모음.md"
               }
             }
           }
@@ -159,11 +172,13 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "146a1e44601e0fe8",
+  "active": "8c8a2276f24b1ecb",
   "lastOpenFiles": [
+    "SQL/데이터베이스.md",
+    "SQL/관심 기출 모음.md",
+    "SQL/함수 모음.md",
     "SQL/PROCEDURE, TRIGGER.md",
     "SQL/수직분할, 수평분할.md",
-    "SQL/함수 모음.md",
     "SQL/반 정규화.md",
     "알고리즘/알고리즘 개념/다익스트라.md",
     "알고리즘/알고리즘 개념/다이나믹프로그래밍(DynamicProgramming).md",
@@ -175,7 +190,6 @@
     "리눅스/리눅스.md",
     "리눅스/리눅스 개념/1. 리눅스 실무의 이해/1. 리눅스의 개요/2. 리눅스의 기초.md",
     "리눅스/리눅스 개념/1. 리눅스 실무의 이해/1. 리눅스의 개요/1. 운영체제의 개요.md",
-    "SQL/데이터베이스.md",
     "SQL/sqld 2과목_3 윈도우함수.md",
     "SQL/sqld 2과목_4 Top N 쿼리.md",
     "SQL/sqld 1과목.md",
@@ -186,7 +200,6 @@
     "SQL/sqld 2과목_6 정규표현식.md",
     "알고리즘/알고리즘_예제/백준(31826)주식시장.md",
     "알고리즘/알고리즘_예제/백준(1149)RGB거리.md",
-    "SQL/sqld 3과목_0 트랜잭션.md",
     "SQL",
     "리눅스/리눅스 개념",
     "기타_자료/Pasted image 20240627124617.png",
