@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/sqld 2과목_3 윈도우함수.md",
+                "file": "SQL/함수 모음.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/sqld 2과목_3 윈도우함수.md",
+                "file": "SQL/함수 모음.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/sqld 2과목_3 윈도우함수.md",
+                "file": "SQL/함수 모음.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/sqld 2과목_3 윈도우함수.md"
+                "file": "SQL/함수 모음.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "8c8a2276f24b1ecb",
   "lastOpenFiles": [
+    "SQL/sqld 2과목_3 윈도우함수.md",
     "SQL/SELECT 실행순서.md",
     "SQL/관심 기출 모음.md",
     "SQL/함수 모음.md",
-    "SQL/sqld 2과목_3 윈도우함수.md",
     "SQL/데이터베이스.md",
     "SQL/반 정규화.md",
     "SQL/PROCEDURE, TRIGGER.md",
