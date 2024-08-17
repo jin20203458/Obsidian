@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/관심 기출 모음.md",
+                "file": "SQL/sqld 2과목_3 윈도우함수.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/관심 기출 모음.md",
+                "file": "SQL/sqld 2과목_3 윈도우함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/관심 기출 모음.md",
+                "file": "SQL/sqld 2과목_3 윈도우함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/관심 기출 모음.md"
+                "file": "SQL/sqld 2과목_3 윈도우함수.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "8c8a2276f24b1ecb",
   "lastOpenFiles": [
-    "SQL/함수 모음.md",
+    "SQL/SELECT 실행순서.md",
     "SQL/관심 기출 모음.md",
+    "SQL/함수 모음.md",
     "SQL/sqld 2과목_3 윈도우함수.md",
     "SQL/데이터베이스.md",
     "SQL/반 정규화.md",
@@ -167,7 +168,6 @@
     "리눅스/리눅스 개념/1. 리눅스 실무의 이해/1. 리눅스의 개요/1. 운영체제의 개요.md",
     "SQL/sqld 2과목_4 Top N 쿼리.md",
     "SQL/sqld 1과목.md",
-    "SQL/SELECT 실행순서.md",
     "알고리즘/알고리즘_예제/백준(9655)돌게임.md",
     "알고리즘/알고리즘_예제/백준(9658)돌 게임 4.md",
     "2024-07-31.md",
