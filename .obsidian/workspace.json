@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/슈퍼타입,서브타입.md",
+                "file": "SQL/sqld 2과목_3 윈도우함수.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/슈퍼타입,서브타입.md",
+                "file": "SQL/sqld 2과목_3 윈도우함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/슈퍼타입,서브타입.md",
+                "file": "SQL/sqld 2과목_3 윈도우함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/슈퍼타입,서브타입.md"
+                "file": "SQL/sqld 2과목_3 윈도우함수.md"
               }
             }
           }
@@ -162,12 +161,12 @@
   },
   "active": "0a8e29ef52760bd4",
   "lastOpenFiles": [
-    "SQL/sqld 1과목.md",
+    "SQL/sqld 2과목_2 그룹함수.md",
+    "SQL/함수 모음.md",
     "SQL/슈퍼타입,서브타입.md",
+    "SQL/sqld 1과목.md",
     "SQL/데이터베이스.md",
     "SQL/관심 기출 모음.md",
-    "SQL/함수 모음.md",
-    "SQL/sqld 2과목_2 그룹함수.md",
     "SQL/sqld 2과목_1 서브쿼리.md",
     "SQL/sqld 2과목_3 윈도우함수.md",
     "SQL/SELECT 실행순서.md",
