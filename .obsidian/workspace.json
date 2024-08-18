@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0a8e29ef52760bd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/슈퍼타입,서브타입.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/sqld 1과목.md",
+                "file": "SQL/슈퍼타입,서브타입.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/sqld 1과목.md",
+                "file": "SQL/슈퍼타입,서브타입.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/sqld 1과목.md"
+                "file": "SQL/슈퍼타입,서브타입.md"
               }
             }
           }
@@ -146,14 +160,15 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "8c8a2276f24b1ecb",
+  "active": "0a8e29ef52760bd4",
   "lastOpenFiles": [
+    "SQL/sqld 1과목.md",
+    "SQL/슈퍼타입,서브타입.md",
     "SQL/데이터베이스.md",
     "SQL/관심 기출 모음.md",
     "SQL/함수 모음.md",
     "SQL/sqld 2과목_2 그룹함수.md",
     "SQL/sqld 2과목_1 서브쿼리.md",
-    "SQL/sqld 1과목.md",
     "SQL/sqld 2과목_3 윈도우함수.md",
     "SQL/SELECT 실행순서.md",
     "SQL/반 정규화.md",
@@ -173,7 +188,6 @@
     "알고리즘/알고리즘_예제/백준(9655)돌게임.md",
     "알고리즘/알고리즘_예제/백준(9658)돌 게임 4.md",
     "2024-07-31.md",
-    "SQL/sqld 2과목_6 정규표현식.md",
     "SQL",
     "리눅스/리눅스 개념",
     "기타_자료/Pasted image 20240627124617.png",
