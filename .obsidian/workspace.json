@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/sqld 2과목_6 정규표현식.md",
+                "file": "SQL/반 정규화.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/sqld 2과목_6 정규표현식.md",
+                "file": "SQL/반 정규화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/sqld 2과목_6 정규표현식.md",
+                "file": "SQL/반 정규화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/sqld 2과목_6 정규표현식.md"
+                "file": "SQL/반 정규화.md"
               }
             }
           }
@@ -150,6 +149,7 @@
   "active": "0a8e29ef52760bd4",
   "lastOpenFiles": [
     "SQL/함수 모음.md",
+    "SQL/sqld 2과목_6 정규표현식.md",
     "SQL/데이터베이스.md",
     "SQL/반 정규화.md",
     "SQL/SELECT 실행순서.md",
@@ -174,7 +174,6 @@
     "SQL/sqld 2과목_4 Top N 쿼리.md",
     "알고리즘/알고리즘_예제/백준(9655)돌게임.md",
     "알고리즘/알고리즘_예제/백준(9658)돌 게임 4.md",
-    "2024-07-31.md",
     "SQL",
     "리눅스/리눅스 개념",
     "기타_자료/Pasted image 20240627124617.png",
