@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리눅스/리눅스 기출/리눅스 기출 1과목.md",
+                "file": "리눅스/리눅스 기출/리눅스 기출 3과목.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "리눅스/리눅스 기출/리눅스 기출 1과목.md",
+                "file": "리눅스/리눅스 기출/리눅스 기출 3과목.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "리눅스/리눅스 기출/리눅스 기출 1과목.md",
+                "file": "리눅스/리눅스 기출/리눅스 기출 3과목.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "리눅스/리눅스 기출/리눅스 기출 1과목.md"
+                "file": "리눅스/리눅스 기출/리눅스 기출 3과목.md"
               }
             }
           }
@@ -149,9 +149,9 @@
   },
   "active": "1a40525b5e700dfc",
   "lastOpenFiles": [
+    "리눅스/리눅스 기출/리눅스 기출 1과목.md",
     "리눅스/리눅스 기출/리눅스 기출 2과목.md",
     "리눅스/리눅스 기출/리눅스 기출 3과목.md",
-    "리눅스/리눅스 기출/리눅스 기출 1과목.md",
     "SQL/함수 모음.md",
     "리눅스/리눅스 기출",
     "SQL/관심 기출 모음.md",
