@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리눅스/리눅스 기출/리눅스 기출 3과목.md",
+                "file": "리눅스/리눅스 기출/리눅스 기출 2과목.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "리눅스/리눅스 기출/리눅스 기출 3과목.md",
+                "file": "리눅스/리눅스 기출/리눅스 기출 2과목.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "리눅스/리눅스 기출/리눅스 기출 3과목.md",
+                "file": "리눅스/리눅스 기출/리눅스 기출 2과목.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "리눅스/리눅스 기출/리눅스 기출 3과목.md"
+                "file": "리눅스/리눅스 기출/리눅스 기출 2과목.md"
               }
             }
           }
@@ -161,9 +162,9 @@
   },
   "active": "d75b97d89e46f1a0",
   "lastOpenFiles": [
+    "리눅스/리눅스 기출/리눅스 기출 3과목.md",
     "리눅스/리눅스 기출/리눅스 기출 1과목.md",
     "리눅스/리눅스 기출/리눅스 기출 2과목.md",
-    "리눅스/리눅스 기출/리눅스 기출 3과목.md",
     "리눅스/기타 자료.md",
     "SQL/함수 모음.md",
     "리눅스/리눅스 기출",
