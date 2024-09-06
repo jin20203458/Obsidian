@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d75b97d89e46f1a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "리눅스/리눅스 기출/리눅스 기출 2과목.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,7 +147,7 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "d75b97d89e46f1a0",
+  "active": "1a40525b5e700dfc",
   "lastOpenFiles": [
     "리눅스/리눅스 기출/리눅스 기출 3과목.md",
     "리눅스/리눅스 기출/리눅스 기출 1과목.md",
