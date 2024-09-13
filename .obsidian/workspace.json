@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "4ed99701decd51eb",
+        "id": "0a0883ae6176dedf",
         "type": "tabs",
         "children": [
           {
-            "id": "092eee7687e2672d",
+            "id": "7e5db0d54dfaacf8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad0ad802c8646023",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -52,6 +35,18 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "092eee7687e2672d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -98,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md"
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md"
               }
             }
           }
@@ -159,10 +154,83 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "ad0ad802c8646023",
+  "floating": {
+    "id": "f25672da1aa850f8",
+    "type": "floating",
+    "children": [
+      {
+        "id": "04dfc9a93e5068c1",
+        "type": "window",
+        "children": [
+          {
+            "id": "e89d4a7b6405f03d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e8ad0cc2645cbfac",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1089,
+        "y": 141,
+        "width": 705,
+        "height": 717,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "b002021a42efa640",
+        "type": "window",
+        "children": [
+          {
+            "id": "804b2581a16bd01b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "eb9b6fd4d22b153a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 422,
+        "y": 145,
+        "width": 705,
+        "height": 717,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "eb9b6fd4d22b153a",
   "lastOpenFiles": [
-    "컴퓨터 구조, 운영체제/운영체제 복습/2.운영체제.md",
+    "컴퓨터 구조, 운영체제/2. 운영체제/26강. 프로세스 개요.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md",
+    "2024-09-13.md",
+    "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
+    "컴퓨터 구조, 운영체제/2. 운영체제/24강. 운영체제의 큰 그림.md",
+    "컴퓨터 구조, 운영체제/2. 운영체제/23강. 운영체제를 알아야 하는 이유.md",
+    "컴퓨터 구조, 운영체제/2. 운영체제/27강. 프로세스 상태와 계층구조.md",
     "기타 공부/유통물류/1. 유통경로의 이해.md",
     "기타_자료/Pasted image 20240911210851.png",
     "기타_자료/Pasted image 20240911210344.png",
@@ -170,9 +238,6 @@
     "기타 공부/유통물류",
     "기타 공부",
     "컴퓨터 구조, 운영체제/운영체제 복습",
-    "컴퓨터 구조, 운영체제/2. 운영체제/26강. 프로세스 개요.md",
-    "컴퓨터 구조, 운영체제/2. 운영체제/24강. 운영체제의 큰 그림.md",
-    "컴퓨터 구조, 운영체제/2. 운영체제/23강. 운영체제를 알아야 하는 이유.md",
     "리눅스/리눅스 기출/리눅스 기출 1과목.md",
     "리눅스/리눅스실기",
     "리눅스/리눅스 기출/필기합격후기.md",
@@ -192,8 +257,6 @@
     "SQL/sqld 2과목_5 피봇,언피봇.md",
     "SQL/sqld 2과목_6 정규표현식.md",
     "SQL/sqld 3과목_0 트랜잭션.md",
-    "SQL/슈퍼타입,서브타입.md",
-    "SQL/반 정규화.md",
     "SQL",
     "리눅스/리눅스 개념",
     "기타_자료/Pasted image 20240627124617.png",
