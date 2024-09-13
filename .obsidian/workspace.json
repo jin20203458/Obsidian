@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/2.운영체제.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/2.운영체제.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/2.운영체제.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/2.운영체제.md"
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md"
               }
             }
           }
@@ -161,8 +161,8 @@
   },
   "active": "ad0ad802c8646023",
   "lastOpenFiles": [
-    "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/2.운영체제.md",
+    "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md",
     "기타 공부/유통물류/1. 유통경로의 이해.md",
     "기타_자료/Pasted image 20240911210851.png",
     "기타_자료/Pasted image 20240911210344.png",
