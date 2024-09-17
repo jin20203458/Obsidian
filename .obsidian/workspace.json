@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "안드로이드/1. 안드로이드의 특징.md",
+                "file": "리눅스/기타 자료.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "안드로이드/1. 안드로이드의 특징.md",
+                "file": "리눅스/기타 자료.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "안드로이드/1. 안드로이드의 특징.md",
+                "file": "리눅스/기타 자료.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "안드로이드/1. 안드로이드의 특징.md"
+                "file": "리눅스/기타 자료.md"
               }
             }
           }
@@ -160,11 +160,12 @@
   },
   "active": "816cbcd0ff6621fa",
   "lastOpenFiles": [
+    "리눅스/셸 스크립트 프로그래밍",
+    "안드로이드/1. 안드로이드의 특징.md",
     "게임 엔진",
     "게임 엔진/언리얼",
     "게임 엔진/유니티",
     "기타 공부/유통물류/1. 유통경로의 이해.md",
-    "안드로이드/1. 안드로이드의 특징.md",
     "안드로이드",
     "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
@@ -197,7 +198,6 @@
     "SQL/sqld 2과목_4 Top N 쿼리.md",
     "SQL/sqld 2과목_5 피봇,언피봇.md",
     "SQL",
-    "리눅스/리눅스 개념",
     "기타_자료/Pasted image 20240627124617.png",
     "기타_자료/Pasted image 20240626131743.png",
     "기타_자료/Pasted image 20240625205047.png",
