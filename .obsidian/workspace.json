@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "366657f3b3c6a609",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "안드로이드/1. 안드로이드의 특징.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "29249328766103d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "안드로이드/2. 안드로이드.md",
+                "file": "컴퓨터 구조, 운영체제/2. 운영체제/32강. CPU스케줄링 알고리즘.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "안드로이드/2. 안드로이드.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "안드로이드/2. 안드로이드.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "안드로이드/2. 안드로이드.md"
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md"
               }
             }
           }
@@ -171,13 +159,56 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "29249328766103d6",
+  "floating": {
+    "id": "79e8a2db0e0dc7d3",
+    "type": "floating",
+    "children": [
+      {
+        "id": "c5062c34f925d6dd",
+        "type": "window",
+        "children": [
+          {
+            "id": "47a602eab2fbe4d1",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "56be3276afa821e9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 833,
+        "y": 110,
+        "width": 705,
+        "height": 717,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "56be3276afa821e9",
   "lastOpenFiles": [
     "컴퓨터 구조, 운영체제/2. 운영체제/32강. CPU스케줄링 알고리즘.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md",
-    "안드로이드/1. 안드로이드의 특징.md",
+    "컴퓨터 구조, 운영체제/2. 운영체제/31강. CPU 스케줄링 개요.md",
+    "컴퓨터 구조, 운영체제/2. 운영체제/28강. 스레드.md",
+    "컴퓨터 구조, 운영체제/2. 운영체제/27강. 프로세스 상태와 계층구조.md",
+    "컴퓨터 구조, 운영체제/2. 운영체제/26강. 프로세스 개요.md",
+    "컴퓨터 구조, 운영체제/2. 운영체제/24강. 운영체제의 큰 그림.md",
+    "컴퓨터 구조, 운영체제/2. 운영체제/23강. 운영체제를 알아야 하는 이유.md",
     "안드로이드/2. 안드로이드.md",
+    "안드로이드/1. 안드로이드의 특징.md",
     "게임 엔진/언리얼/언리얼 1장.md",
     "리눅스/셸 스크립트 프로그래밍/셸 스크립트.md",
     "게임 엔진/유니티/유니티 1장.md",
@@ -190,11 +221,7 @@
     "게임 엔진/유니티",
     "기타 공부/유통물류/1. 유통경로의 이해.md",
     "안드로이드",
-    "컴퓨터 구조, 운영체제/2. 운영체제/26강. 프로세스 개요.md",
     "2024-09-13.md",
-    "컴퓨터 구조, 운영체제/2. 운영체제/24강. 운영체제의 큰 그림.md",
-    "컴퓨터 구조, 운영체제/2. 운영체제/23강. 운영체제를 알아야 하는 이유.md",
-    "컴퓨터 구조, 운영체제/2. 운영체제/27강. 프로세스 상태와 계층구조.md",
     "기타_자료/Pasted image 20240911210851.png",
     "기타_자료/Pasted image 20240911210344.png",
     "2024-07-31.md",
@@ -209,8 +236,6 @@
     "SQL/함수 모음.md",
     "SQL/관심 기출 모음.md",
     "SQL/수직분할, 수평분할.md",
-    "SQL/집합연산.md",
-    "SQL/sqld 2과목_1 서브쿼리.md",
     "기타_자료/Pasted image 20240627124617.png",
     "기타_자료/Pasted image 20240626131743.png",
     "기타_자료/Pasted image 20240625205047.png",
