@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
+                "file": "컴퓨터 구조, 운영체제/2. 운영체제/32강. CPU스케줄링 알고리즘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
+                "file": "컴퓨터 구조, 운영체제/2. 운영체제/32강. CPU스케줄링 알고리즘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md"
+                "file": "컴퓨터 구조, 운영체제/2. 운영체제/32강. CPU스케줄링 알고리즘.md"
               }
             }
           }
@@ -159,47 +159,10 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "floating": {
-    "id": "79e8a2db0e0dc7d3",
-    "type": "floating",
-    "children": [
-      {
-        "id": "c5062c34f925d6dd",
-        "type": "window",
-        "children": [
-          {
-            "id": "47a602eab2fbe4d1",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "56be3276afa821e9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 833,
-        "y": 110,
-        "width": 705,
-        "height": 717,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "56be3276afa821e9",
+  "active": "29249328766103d6",
   "lastOpenFiles": [
-    "컴퓨터 구조, 운영체제/2. 운영체제/32강. CPU스케줄링 알고리즘.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
+    "컴퓨터 구조, 운영체제/2. 운영체제/32강. CPU스케줄링 알고리즘.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/31강. CPU 스케줄링 개요.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/28강. 스레드.md",
