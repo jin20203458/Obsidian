@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/2. 운영체제/32강. CPU스케줄링 알고리즘.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/2. 운영체제/32강. CPU스케줄링 알고리즘.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/2. 운영체제/32강. CPU스케줄링 알고리즘.md"
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md"
               }
             }
           }
@@ -159,10 +158,47 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "29249328766103d6",
+  "floating": {
+    "id": "94f21824f64d4b17",
+    "type": "floating",
+    "children": [
+      {
+        "id": "31c37a34283cf26b",
+        "type": "window",
+        "children": [
+          {
+            "id": "213b45eb12221b5b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "21d4815c6c0203c3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 604,
+        "y": 106,
+        "width": 600,
+        "height": 717,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "21d4815c6c0203c3",
   "lastOpenFiles": [
-    "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/32강. CPU스케줄링 알고리즘.md",
+    "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/31강. CPU 스케줄링 개요.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/28강. 스레드.md",
