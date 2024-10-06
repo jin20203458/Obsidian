@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/2. 운영체제/38강. 페이징을 통한 가상 메모리 관리.md",
+                "file": "기타 공부/유통물류/1. 유통경로의 이해.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0e304d08f9a0a43e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 공부/유통물류/2. 소매상과 도매상.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/4. 가상메모리 관리.md",
+                "file": "기타 공부/유통물류/2. 소매상과 도매상.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/4. 가상메모리 관리.md",
+                "file": "기타 공부/유통물류/2. 소매상과 도매상.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/4. 가상메모리 관리.md"
+                "file": "기타 공부/유통물류/2. 소매상과 도매상.md"
               }
             }
           }
@@ -170,45 +183,11 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "floating": {
-    "id": "49042113e97cef87",
-    "type": "floating",
-    "children": [
-      {
-        "id": "fbcb3bf67ac87b8e",
-        "type": "window",
-        "children": [
-          {
-            "id": "6353f9b2cef1645e",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "1bc393242b6e4a9d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "컴퓨터 구조, 운영체제/운영체제 복습/4. 가상메모리 관리.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 844,
-        "y": 124,
-        "width": 758,
-        "height": 717,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "1bc393242b6e4a9d",
+  "active": "0e304d08f9a0a43e",
   "lastOpenFiles": [
+    "기타_자료/Pasted image 20241006130032.png",
+    "기타 공부/유통물류/1. 유통경로의 이해.md",
+    "기타 공부/유통물류/2. 소매상과 도매상.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/38강. 페이징을 통한 가상 메모리 관리.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/4. 가상메모리 관리.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/3. 기억장치.md",
@@ -234,9 +213,6 @@
     "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md",
     "안드로이드/2. 안드로이드.md",
     "안드로이드/1. 안드로이드의 특징.md",
-    "게임 엔진/언리얼/언리얼 1장.md",
-    "리눅스/셸 스크립트 프로그래밍/셸 스크립트.md",
-    "게임 엔진/유니티/유니티 1장.md",
     "무제 폴더",
     "무제 폴더 1",
     "리눅스/셸 스크립트 프로그래밍",
