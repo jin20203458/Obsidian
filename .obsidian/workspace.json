@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "29249328766103d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "컴퓨터 구조, 운영체제/2. 운영체제/37강. 연속 메모리 할당.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a00defbb04934a4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/3. 기억장치.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1877b4be07beb76c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/4. 가상메모리 관리.md",
+                "file": "컴퓨터 구조, 운영체제/2. 운영체제/38강. 페이징을 통한 가상 메모리 관리.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,6 +75,18 @@
             "state": {
               "type": "bookmarks",
               "state": {}
+            }
+          },
+          {
+            "id": "29249328766103d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컴퓨터 구조, 운영체제/2. 운영체제/37강. 연속 메모리 할당.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -183,13 +170,50 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "1877b4be07beb76c",
+  "floating": {
+    "id": "49042113e97cef87",
+    "type": "floating",
+    "children": [
+      {
+        "id": "fbcb3bf67ac87b8e",
+        "type": "window",
+        "children": [
+          {
+            "id": "6353f9b2cef1645e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1bc393242b6e4a9d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "컴퓨터 구조, 운영체제/운영체제 복습/4. 가상메모리 관리.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 844,
+        "y": 124,
+        "width": 758,
+        "height": 717,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "1bc393242b6e4a9d",
   "lastOpenFiles": [
-    "컴퓨터 구조, 운영체제/운영체제 복습/3. 기억장치.md",
+    "컴퓨터 구조, 운영체제/2. 운영체제/38강. 페이징을 통한 가상 메모리 관리.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/4. 가상메모리 관리.md",
+    "컴퓨터 구조, 운영체제/운영체제 복습/3. 기억장치.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/37강. 연속 메모리 할당.md",
-    "컴퓨터 구조, 운영체제/2. 운영체제/38강. 페이징을 통한 가상 메모리 관리.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/36강. 교착상태 해결 방법.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/35강. 교착 상태란.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/42강. 파일시스템.md",
