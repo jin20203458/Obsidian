@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0a0883ae6176dedf",
+        "id": "f969031f719e8496",
         "type": "tabs",
         "children": [
           {
-            "id": "1877b4be07beb76c",
+            "id": "233989dbf92a15b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기타 공부/유통물류/1. 유통경로의 이해.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99abc59dbe4ee761",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "기타 공부/유통물류/2. 소매상과 도매상.md",
+                "file": "게임 엔진/언리얼/언리얼 용어.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기타 공부/유통물류/2. 소매상과 도매상.md",
+                "file": "게임 엔진/언리얼/언리얼 용어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기타 공부/유통물류/2. 소매상과 도매상.md",
+                "file": "게임 엔진/언리얼/언리얼 용어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기타 공부/유통물류/2. 소매상과 도매상.md"
+                "file": "게임 엔진/언리얼/언리얼 용어.md"
               }
             }
           }
@@ -183,9 +170,11 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "99abc59dbe4ee761",
+  "active": "233989dbf92a15b8",
   "lastOpenFiles": [
+    "기타 공부/유통물류/2. 소매상과 도매상.md",
     "기타 공부/유통물류/1. 유통경로의 이해.md",
+    "게임 엔진/언리얼/언리얼 용어.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/5. 디스크 스케줄링, 파일시스템.md",
     "컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 18강. 다양한 보조기억장치.md",
     "컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 19강. RAID의 정의와 종류.md",
@@ -209,9 +198,7 @@
     "컴퓨터 구조, 운영체제/2. 운영체제/35강. 교착 상태란.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/33강. 프로세스 동기화란.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/34강. 프로세스 동기화 기법.md",
-    "안드로이드/3. 안드로이드 개발.md",
     "무제 폴더 1",
-    "안드로이드/1. 안드로이드의 특징.md",
     "기타_자료/Pasted image 20241006130140.png",
     "기타_자료/Pasted image 20241006130032.png",
     "기타_자료/Pasted image 20241001233503.png",
