@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0cd55f37a9a7a923",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "기타 공부/유통물류/2. 소매상과 도매상.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2fa90013c562c89a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기타 공부/유통물류/3. 소매마케팅전략.md",
+                "file": "안드로이드/1. 안드로이드의 특징.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기타 공부/유통물류/3. 소매마케팅전략.md",
+                "file": "안드로이드/안드로이드 예상 문제 모음.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기타 공부/유통물류/3. 소매마케팅전략.md",
+                "file": "안드로이드/안드로이드 예상 문제 모음.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기타 공부/유통물류/3. 소매마케팅전략.md"
+                "file": "안드로이드/안드로이드 예상 문제 모음.md"
               }
             }
           }
@@ -183,14 +171,52 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "2fa90013c562c89a",
+  "floating": {
+    "id": "1639f9027cf8fe93",
+    "type": "floating",
+    "children": [
+      {
+        "id": "a9f819a9e7ca5043",
+        "type": "window",
+        "children": [
+          {
+            "id": "33b7d133e22d9e71",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0cd55f37a9a7a923",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "안드로이드/안드로이드 예상 문제 모음.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 916,
+        "y": 10,
+        "width": 758,
+        "height": 1000,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "0cd55f37a9a7a923",
   "lastOpenFiles": [
-    "기타 공부/유통물류/1. 유통경로의 이해.md",
-    "기타 공부/유통물류/3. 소매마케팅전략.md",
+    "안드로이드/1. 안드로이드의 특징.md",
+    "안드로이드/안드로이드 예상 문제 모음.md",
     "기타 공부/유통물류/2. 소매상과 도매상.md",
+    "기타 공부/유통물류/3. 소매마케팅전략.md",
+    "기타 공부/유통물류/1. 유통경로의 이해.md",
     "안드로이드/6. 액티비티와 인텐트.md",
     "안드로이드/안드로이드 개념정리.md",
-    "안드로이드/안드로이드 예상 문제 모음.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/6. 프로세스 동기화와 통신.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/5. 디스크 스케줄링, 파일시스템.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/4. 가상메모리 관리.md",
@@ -201,7 +227,6 @@
     "안드로이드/2. 안드로이드.md",
     "안드로이드/4. 레이아웃.md",
     "안드로이드/3. 기본위젯.md",
-    "안드로이드/1. 안드로이드의 특징.md",
     "기타_자료/Pasted image 20241026223819.png",
     "컴퓨터 구조, 운영체제/2. 운영체제/34강. 프로세스 동기화 기법.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/35강. 교착 상태란.md",
