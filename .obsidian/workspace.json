@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "안드로이드/안드로이드 정리.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "안드로이드/안드로이드 정리.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "안드로이드/안드로이드 정리.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "안드로이드/안드로이드 정리.md"
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md"
               }
             }
           }
