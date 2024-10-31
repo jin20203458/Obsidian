@@ -170,43 +170,6 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "floating": {
-    "id": "8580f797f4198dfb",
-    "type": "floating",
-    "children": [
-      {
-        "id": "39f2b393bf895952",
-        "type": "window",
-        "children": [
-          {
-            "id": "e5becb7bc774496f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a3a49d47c1bfc16b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "안드로이드/안드로이드 예상 문제 모음.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -909,
-        "y": 528,
-        "width": 625,
-        "height": 660,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "2fa90013c562c89a",
   "lastOpenFiles": [
     "안드로이드/안드로이드 예상 문제 모음.md",
