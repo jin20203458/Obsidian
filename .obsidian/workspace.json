@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기타 공부/유통물류/3. 소매마케팅전략.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/8. 정보보호및 보안.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -134,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기타 공부/유통물류/3. 소매마케팅전략.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/8. 정보보호및 보안.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기타 공부/유통물류/3. 소매마케팅전략.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/8. 정보보호및 보안.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기타 공부/유통물류/3. 소매마케팅전략.md"
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/8. 정보보호및 보안.md"
               }
             }
           }
@@ -197,6 +198,7 @@
   },
   "active": "aafc581a0cb80677",
   "lastOpenFiles": [
+    "기타 공부/유통물류/3. 소매마케팅전략.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/8. 정보보호및 보안.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
     "무제 폴더",
@@ -219,7 +221,6 @@
     "컴퓨터 구조, 운영체제/2. 운영체제/24강. 운영체제의 큰 그림.md",
     "안드로이드/2. 안드로이드.md",
     "기타 공부/유통물류/2. 소매상과 도매상.md",
-    "기타 공부/유통물류/3. 소매마케팅전략.md",
     "기타 공부/유통물류/1. 유통경로의 이해.md",
     "안드로이드/6. 액티비티와 인텐트.md",
     "안드로이드/5. 고급 위젯과 이벤트 처리.md",
