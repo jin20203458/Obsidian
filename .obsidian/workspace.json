@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "3f9dbe1862fed98c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/9. 다중프로세스.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "09151d708ab39344",
             "type": "leaf",
             "state": {
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,8 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -135,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/8. 정보보호및 보안.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/9. 다중프로세스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/8. 정보보호및 보안.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/9. 다중프로세스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/8. 정보보호및 보안.md"
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/9. 다중프로세스.md"
               }
             }
           }
@@ -196,10 +207,11 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "aafc581a0cb80677",
+  "active": "3f9dbe1862fed98c",
   "lastOpenFiles": [
-    "기타 공부/유통물류/3. 소매마케팅전략.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/8. 정보보호및 보안.md",
+    "컴퓨터 구조, 운영체제/운영체제 복습/9. 다중프로세스.md",
+    "기타 공부/유통물류/3. 소매마케팅전략.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
     "무제 폴더",
     "컴퓨터 구조, 운영체제/운영체제 복습/6. 프로세스 동기화와 통신.md",
@@ -224,7 +236,6 @@
     "기타 공부/유통물류/1. 유통경로의 이해.md",
     "안드로이드/6. 액티비티와 인텐트.md",
     "안드로이드/5. 고급 위젯과 이벤트 처리.md",
-    "안드로이드/4. 레이아웃.md",
     "기타_자료/Pasted image 20241026223819.png",
     "기타_자료/Pasted image 20241021004739.png",
     "기타_자료/Pasted image 20241021004722.png",
