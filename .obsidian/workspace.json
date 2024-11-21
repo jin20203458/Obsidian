@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/9. 다중프로세스.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/10.분산처리시스템.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -184,7 +182,7 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "da0681916dcf39cb",
+  "active": "3f9dbe1862fed98c",
   "lastOpenFiles": [
     "컴퓨터 구조, 운영체제/운영체제 복습/9. 다중프로세스.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/10.분산처리시스템.md",
