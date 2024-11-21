@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/9. 다중프로세스.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/10.분산처리시스템.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/9. 다중프로세스.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/10.분산처리시스템.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/9. 다중프로세스.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/10.분산처리시스템.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/9. 다중프로세스.md"
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/10.분산처리시스템.md"
               }
             }
           }
@@ -184,8 +184,8 @@
   },
   "active": "3f9dbe1862fed98c",
   "lastOpenFiles": [
+    "컴퓨터 구조, 운영체제/운영체제 복습/9. 다중 처리 시스템.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/10.분산처리시스템.md",
-    "컴퓨터 구조, 운영체제/운영체제 복습/9. 다중프로세스.md",
     "기타 공부/유통물류/4.서비스 유통 전략.md",
     "기타 공부/유통물류/3. 소매마케팅전략.md",
     "알고리즘/알고리즘 개념/다익스트라.md",
