@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/10.분산처리시스템.md",
+                "file": "기타 공부/유통물류/4.서비스 유통 전략.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a3e02f1516537702",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 공부/유통물류/5. 물류와 공급사슬관리의 소개.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/10.분산처리시스템.md",
+                "file": "기타 공부/유통물류/5. 물류와 공급사슬관리의 소개.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/10.분산처리시스템.md",
+                "file": "기타 공부/유통물류/5. 물류와 공급사슬관리의 소개.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/10.분산처리시스템.md"
+                "file": "기타 공부/유통물류/5. 물류와 공급사슬관리의 소개.md"
               }
             }
           }
@@ -182,11 +195,12 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "3f9dbe1862fed98c",
+  "active": "a3e02f1516537702",
   "lastOpenFiles": [
-    "컴퓨터 구조, 운영체제/운영체제 복습/9. 다중 처리 시스템.md",
-    "컴퓨터 구조, 운영체제/운영체제 복습/10.분산처리시스템.md",
     "기타 공부/유통물류/4.서비스 유통 전략.md",
+    "기타 공부/유통물류/5. 물류와 공급사슬관리의 소개.md",
+    "컴퓨터 구조, 운영체제/운영체제 복습/10.분산처리시스템.md",
+    "컴퓨터 구조, 운영체제/운영체제 복습/9. 다중 처리 시스템.md",
     "기타 공부/유통물류/3. 소매마케팅전략.md",
     "알고리즘/알고리즘 개념/다익스트라.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/8. 정보보호및 보안.md",
@@ -210,7 +224,6 @@
     "안드로이드/1. 안드로이드의 특징.md",
     "컴퓨터 구조, 운영체제/2. 운영체제/24강. 운영체제의 큰 그림.md",
     "안드로이드/2. 안드로이드.md",
-    "기타 공부/유통물류/2. 소매상과 도매상.md",
     "기타_자료/Pasted image 20241026223819.png",
     "기타_자료/Pasted image 20241021004739.png",
     "기타_자료/Pasted image 20241021004722.png",
