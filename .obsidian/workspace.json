@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c07cb2bbec6bd9a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 공부/유통물류/6. 창고관리.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -123,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기타 공부/유통물류/5. 물류와 공급사슬관리의 소개.md",
+                "file": "기타 공부/유통물류/6. 창고관리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기타 공부/유통물류/5. 물류와 공급사슬관리의 소개.md",
+                "file": "기타 공부/유통물류/6. 창고관리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기타 공부/유통물류/5. 물류와 공급사슬관리의 소개.md"
+                "file": "기타 공부/유통물류/6. 창고관리.md"
               }
             }
           }
@@ -184,11 +195,12 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "61743db2b1b8bd57",
+  "active": "c07cb2bbec6bd9a3",
   "lastOpenFiles": [
+    "기타 공부/유통물류/5. 물류와 공급사슬관리의 소개.md",
+    "기타 공부/유통물류/6. 창고관리.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/11. 임베디드.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/10.분산처리시스템.md",
-    "기타 공부/유통물류/5. 물류와 공급사슬관리의 소개.md",
     "기타 공부/유통물류/4.서비스 유통 전략.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/9. 다중 처리 시스템.md",
     "기타 공부/유통물류/3. 소매마케팅전략.md",
@@ -212,7 +224,6 @@
     "컴퓨터 구조, 운영체제/2. 운영체제/35강. 교착 상태란.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md",
     "안드로이드/1. 안드로이드의 특징.md",
-    "컴퓨터 구조, 운영체제/2. 운영체제/24강. 운영체제의 큰 그림.md",
     "기타_자료/Pasted image 20241026223819.png",
     "기타_자료/Pasted image 20241021004739.png",
     "기타_자료/Pasted image 20241021004722.png",
