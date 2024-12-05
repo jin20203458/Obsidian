@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "52c7a5ac04f0bee1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "안드로이드/10. 리소스, 스타일, 보안.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5773b2029b24a7c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "안드로이드/무제 파일.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "안드로이드/9. 그래픽과 터치이벤트 처리.md",
+                "file": "안드로이드/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "안드로이드/9. 그래픽과 터치이벤트 처리.md",
+                "file": "안드로이드/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "안드로이드/9. 그래픽과 터치이벤트 처리.md"
+                "file": "안드로이드/무제 파일.md"
               }
             }
           }
@@ -171,10 +195,12 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "2b0bf32cbe68c2a9",
+  "active": "5773b2029b24a7c5",
   "lastOpenFiles": [
-    "안드로이드/안드로이드 예상 문제 모음.md",
+    "안드로이드/10. 리소스, 스타일, 보안.md",
+    "안드로이드/무제 파일.md",
     "안드로이드/9. 그래픽과 터치이벤트 처리.md",
+    "안드로이드/안드로이드 예상 문제 모음.md",
     "안드로이드/8. 어댑터뷰와 프래그먼트.md",
     "안드로이드/7. 메뉴, 대화상자, 알림.md",
     "안드로이드/2. 안드로이드.md",
@@ -198,8 +224,6 @@
     "안드로이드/안드로이드 정리.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/5. 디스크 스케줄링, 파일시스템.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/4. 가상메모리 관리.md",
-    "컴퓨터 구조, 운영체제/운영체제 복습/3. 기억장치.md",
-    "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
     "기타_자료/Pasted image 20241026223819.png",
     "기타_자료/Pasted image 20241021004739.png",
     "기타_자료/Pasted image 20241021004722.png",
