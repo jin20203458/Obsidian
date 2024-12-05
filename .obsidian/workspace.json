@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "61743db2b1b8bd57",
+            "id": "2b0bf32cbe68c2a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "안드로이드/6. 액티비티와 인텐트.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4774a3344be9bbe3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "안드로이드/안드로이드 예상 문제 모음.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "16499b68e2e0e7e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "안드로이드/8. 어댑터뷰와 프래그먼트.md",
+                "file": "안드로이드/9. 그래픽과 터치이벤트 처리.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -134,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "안드로이드/8. 어댑터뷰와 프래그먼트.md",
+                "file": "안드로이드/9. 그래픽과 터치이벤트 처리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "안드로이드/8. 어댑터뷰와 프래그먼트.md",
+                "file": "안드로이드/9. 그래픽과 터치이벤트 처리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "안드로이드/8. 어댑터뷰와 프래그먼트.md"
+                "file": "안드로이드/9. 그래픽과 터치이벤트 처리.md"
               }
             }
           }
@@ -195,11 +171,12 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "16499b68e2e0e7e1",
+  "active": "2b0bf32cbe68c2a9",
   "lastOpenFiles": [
-    "안드로이드/7. 메뉴, 대화상자, 알림.md",
-    "안드로이드/8. 어댑터뷰와 프래그먼트.md",
     "안드로이드/안드로이드 예상 문제 모음.md",
+    "안드로이드/9. 그래픽과 터치이벤트 처리.md",
+    "안드로이드/8. 어댑터뷰와 프래그먼트.md",
+    "안드로이드/7. 메뉴, 대화상자, 알림.md",
     "안드로이드/2. 안드로이드.md",
     "안드로이드/1. 안드로이드의 특징.md",
     "안드로이드/6. 액티비티와 인텐트.md",
@@ -223,7 +200,6 @@
     "컴퓨터 구조, 운영체제/운영체제 복습/4. 가상메모리 관리.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/3. 기억장치.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
-    "컴퓨터 구조, 운영체제/2. 운영체제/32강. CPU스케줄링 알고리즘.md",
     "기타_자료/Pasted image 20241026223819.png",
     "기타_자료/Pasted image 20241021004739.png",
     "기타_자료/Pasted image 20241021004722.png",
