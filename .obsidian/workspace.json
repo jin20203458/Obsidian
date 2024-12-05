@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "안드로이드/무제 파일.md",
+                "file": "안드로이드/11. 서비스, 방송수신자, 콘텐트 제공자.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "안드로이드/무제 파일.md",
+                "file": "안드로이드/11. 서비스, 방송수신자, 콘텐트 제공자.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "안드로이드/무제 파일.md",
+                "file": "안드로이드/11. 서비스, 방송수신자, 콘텐트 제공자.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "안드로이드/무제 파일.md"
+                "file": "안드로이드/11. 서비스, 방송수신자, 콘텐트 제공자.md"
               }
             }
           }
@@ -198,7 +198,7 @@
   "active": "5773b2029b24a7c5",
   "lastOpenFiles": [
     "안드로이드/10. 리소스, 스타일, 보안.md",
-    "안드로이드/무제 파일.md",
+    "안드로이드/11. 서비스, 방송수신자, 콘텐트 제공자.md",
     "안드로이드/9. 그래픽과 터치이벤트 처리.md",
     "안드로이드/안드로이드 예상 문제 모음.md",
     "안드로이드/8. 어댑터뷰와 프래그먼트.md",
