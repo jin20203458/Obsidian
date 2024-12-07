@@ -13,7 +13,67 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "안드로이드/11. 서비스, 방송수신자, 콘텐트 제공자.md",
+                "file": "안드로이드/12. 파일과 데이터베이스.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "82d5e4ffa4e685ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "안드로이드/13. 스레드와 게임.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a65fcd972d5b09b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "안드로이드/14. 네트워크.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b98b7dcc165e301",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "안드로이드/15. 위치기반앱.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69f6f8a1bfeb2b57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "안드로이드/17. 멀티미디어.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "314826a1af2dae89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "안드로이드/안드로이드 예상 문제모음 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +85,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "안드로이드/12. 파일과 데이터베이스.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/11. 임베디드.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -122,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "안드로이드/12. 파일과 데이터베이스.md",
+                "file": "안드로이드/안드로이드 예상 문제모음 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "안드로이드/12. 파일과 데이터베이스.md",
+                "file": "안드로이드/안드로이드 예상 문제모음 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "안드로이드/12. 파일과 데이터베이스.md"
+                "file": "안드로이드/안드로이드 예상 문제모음 2.md"
               }
             }
           }
@@ -220,35 +280,35 @@
       }
     ]
   },
-  "active": "3f0d991c22993486",
+  "active": "314826a1af2dae89",
   "lastOpenFiles": [
-    "안드로이드/11. 서비스, 방송수신자, 콘텐트 제공자.md",
+    "안드로이드/13. 스레드와 게임.md",
     "안드로이드/12. 파일과 데이터베이스.md",
+    "안드로이드/14. 네트워크.md",
+    "안드로이드/18. 센서.md",
+    "안드로이드/17. 멀티미디어.md",
+    "안드로이드/15. 위치기반앱.md",
+    "안드로이드/11. 서비스, 방송수신자, 콘텐트 제공자.md",
+    "컴퓨터 구조, 운영체제/운영체제 복습/11. 임베디드.md",
+    "안드로이드/안드로이드 정리.md",
     "안드로이드/안드로이드 예상 문제모음 2.md",
+    "안드로이드/안드로이드 예상 문제 모음 1.md",
     "안드로이드/10. 리소스, 스타일, 보안.md",
     "안드로이드/9. 그래픽과 터치이벤트 처리.md",
     "안드로이드/8. 어댑터뷰와 프래그먼트.md",
     "안드로이드/7. 메뉴, 대화상자, 알림.md",
-    "안드로이드/안드로이드 예상 문제 모음 1.md",
-    "안드로이드/안드로이드 정리.md",
     "안드로이드/2. 안드로이드.md",
     "안드로이드/1. 안드로이드의 특징.md",
     "안드로이드/6. 액티비티와 인텐트.md",
     "기타 공부/유통물류/6. 창고관리.md",
     "기타 공부/유통물류/5. 물류와 공급사슬관리의 소개.md",
-    "컴퓨터 구조, 운영체제/운영체제 복습/11. 임베디드.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/10.분산처리시스템.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/9. 다중 처리 시스템.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/8. 정보보호및 보안.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/6. 프로세스 동기화와 통신.md",
     "게임 엔진/언리얼/언리얼 용어.md",
-    "기타 공부/유통물류/4.서비스 유통 전략.md",
-    "기타 공부/유통물류/3. 소매마케팅전략.md",
-    "알고리즘/알고리즘 개념/다익스트라.md",
     "무제 폴더",
-    "컴퓨터 구조, 운영체제/2. 운영체제/37강. 연속 메모리 할당.md",
-    "컴퓨터 구조, 운영체제/2. 운영체제/36강. 교착상태 해결 방법.md",
     "기타_자료/Pasted image 20241026223819.png",
     "기타_자료/Pasted image 20241021004739.png",
     "기타_자료/Pasted image 20241021004722.png",
