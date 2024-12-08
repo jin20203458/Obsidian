@@ -8,31 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1b33fb83369ec2bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "안드로이드/12. 파일과 데이터베이스.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "82d5e4ffa4e685ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "안드로이드/13. 스레드와 게임.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7a65fcd972d5b09b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,57 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1b98b7dcc165e301",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "안드로이드/15. 위치기반앱.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "69f6f8a1bfeb2b57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "안드로이드/16. 멀티미디어.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "314826a1af2dae89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "안드로이드/안드로이드 예상 문제모음 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f0d991c22993486",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/11. 임베디드.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -183,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "안드로이드/안드로이드 예상 문제모음 2.md",
+                "file": "안드로이드/14. 네트워크.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "안드로이드/안드로이드 예상 문제모음 2.md",
+                "file": "안드로이드/14. 네트워크.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "안드로이드/안드로이드 예상 문제모음 2.md"
+                "file": "안드로이드/14. 네트워크.md"
               }
             }
           }
@@ -244,19 +170,56 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "314826a1af2dae89",
+  "floating": {
+    "id": "855aee89c9c57f06",
+    "type": "floating",
+    "children": [
+      {
+        "id": "2607e49c7526c2c9",
+        "type": "window",
+        "children": [
+          {
+            "id": "7edef6727767fe17",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "fe153aa435f9db35",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "안드로이드/안드로이드 예상 문제모음 2.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -1057,
+        "y": 401,
+        "width": 959,
+        "height": 742,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "82d5e4ffa4e685ad",
   "lastOpenFiles": [
+    "안드로이드/안드로이드 예상 문제모음 2.md",
+    "안드로이드/14. 네트워크.md",
+    "안드로이드/13. 스레드와 게임.md",
+    "안드로이드/안드로이드 예상 문제 모음 1.md",
+    "안드로이드/12. 파일과 데이터베이스.md",
+    "안드로이드/15. 위치기반앱.md",
     "안드로이드/17. 센서.md",
     "안드로이드/16. 멀티미디어.md",
-    "안드로이드/안드로이드 예상 문제모음 2.md",
-    "안드로이드/13. 스레드와 게임.md",
-    "안드로이드/12. 파일과 데이터베이스.md",
-    "안드로이드/14. 네트워크.md",
-    "안드로이드/15. 위치기반앱.md",
     "안드로이드/11. 서비스, 방송수신자, 콘텐트 제공자.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/11. 임베디드.md",
     "안드로이드/안드로이드 정리.md",
-    "안드로이드/안드로이드 예상 문제 모음 1.md",
     "안드로이드/10. 리소스, 스타일, 보안.md",
     "안드로이드/9. 그래픽과 터치이벤트 처리.md",
     "안드로이드/8. 어댑터뷰와 프래그먼트.md",
