@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "82d5e4ffa4e685ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "안드로이드/12. 파일과 데이터베이스.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fe153aa435f9db35",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/8. 정보보호및 보안.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/8. 정보보호및 보안.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/8. 정보보호및 보안.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md"
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/8. 정보보호및 보안.md"
               }
             }
           }
@@ -186,6 +173,7 @@
   },
   "active": "fe153aa435f9db35",
   "lastOpenFiles": [
+    "컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md",
     "안드로이드/12. 파일과 데이터베이스.md",
     "안드로이드/안드로이드 예상 문제모음 2.md",
@@ -210,7 +198,6 @@
     "컴퓨터 구조, 운영체제/운영체제 복습/10.분산처리시스템.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/9. 다중 처리 시스템.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/8. 정보보호및 보안.md",
-    "컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/6. 프로세스 동기화와 통신.md",
     "무제 폴더",
     "기타_자료/Pasted image 20241026223819.png",
