@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기타 공부/유통물류/4.서비스 유통 전략.md",
+                "file": "기타 공부/유통물류/6. 창고관리.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기타 공부/유통물류/4.서비스 유통 전략.md",
+                "file": "기타 공부/유통물류/6. 창고관리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기타 공부/유통물류/4.서비스 유통 전략.md",
+                "file": "기타 공부/유통물류/6. 창고관리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기타 공부/유통물류/4.서비스 유통 전략.md"
+                "file": "기타 공부/유통물류/6. 창고관리.md"
               }
             }
           }
@@ -173,6 +173,8 @@
   },
   "active": "fe153aa435f9db35",
   "lastOpenFiles": [
+    "기타 공부/유통물류/5. 물류와 공급사슬관리의 소개.md",
+    "기타 공부/유통물류/4.서비스 유통 전략.md",
     "기타 공부/유통물류/3. 소매마케팅전략.md",
     "기타 공부/유통물류/6. 창고관리.md",
     "게임 엔진/언리얼/언리얼 용어.md",
@@ -197,8 +199,6 @@
     "안드로이드/8. 어댑터뷰와 프래그먼트.md",
     "안드로이드/7. 메뉴, 대화상자, 알림.md",
     "안드로이드/2. 안드로이드.md",
-    "안드로이드/1. 안드로이드의 특징.md",
-    "안드로이드/6. 액티비티와 인텐트.md",
     "무제 폴더",
     "기타_자료/Pasted image 20241026223819.png",
     "기타_자료/Pasted image 20241021004739.png",
