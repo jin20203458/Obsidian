@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "안드로이드/8. 어댑터뷰와 프래그먼트.md",
+                "file": "안드로이드/12. 파일과 데이터베이스.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "안드로이드/안드로이드 예상문제 3.md",
+                "file": "안드로이드/12. 파일과 데이터베이스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "안드로이드/안드로이드 예상문제 3.md",
+                "file": "안드로이드/12. 파일과 데이터베이스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "안드로이드/안드로이드 예상문제 3.md"
+                "file": "안드로이드/12. 파일과 데이터베이스.md"
               }
             }
           }
@@ -207,10 +207,12 @@
       }
     ]
   },
-  "active": "6d89a7d517111c56",
+  "active": "7dbd96d2223eaede",
   "lastOpenFiles": [
-    "안드로이드/8. 어댑터뷰와 프래그먼트.md",
+    "안드로이드/10. 리소스, 스타일, 보안.md",
     "안드로이드/안드로이드 예상문제 3.md",
+    "안드로이드/9. 그래픽과 터치이벤트 처리.md",
+    "안드로이드/8. 어댑터뷰와 프래그먼트.md",
     "안드로이드/안드로이드 예상 문제모음 2.md",
     "안드로이드/1. 안드로이드의 특징.md",
     "안드로이드/7. 메뉴, 대화상자, 알림.md",
@@ -233,8 +235,6 @@
     "안드로이드/17. 센서.md",
     "안드로이드/16. 멀티미디어.md",
     "안드로이드/15. 위치기반앱.md",
-    "안드로이드/안드로이드 예상 문제 모음 1.md",
-    "안드로이드/안드로이드 정리.md",
     "무제 폴더",
     "기타_자료/Pasted image 20241026223819.png",
     "기타_자료/Pasted image 20241021004739.png",
