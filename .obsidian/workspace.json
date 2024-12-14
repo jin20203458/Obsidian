@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "게임 엔진/언리얼/언리얼 용어.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "게임 엔진/언리얼/언리얼 용어.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "게임 엔진/언리얼/언리얼 용어.md",
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "게임 엔진/언리얼/언리얼 용어.md"
+                "file": "컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md"
               }
             }
           }
@@ -172,6 +172,7 @@
   },
   "active": "7dbd96d2223eaede",
   "lastOpenFiles": [
+    "게임 엔진/언리얼/언리얼 용어.md",
     "안드로이드/13. 스레드와 게임.md",
     "안드로이드/안드로이드 예상문제 3.md",
     "안드로이드/안드로이드 예상 문제모음 2.md",
@@ -182,7 +183,6 @@
     "안드로이드/8. 어댑터뷰와 프래그먼트.md",
     "안드로이드/1. 안드로이드의 특징.md",
     "안드로이드/7. 메뉴, 대화상자, 알림.md",
-    "게임 엔진/언리얼/언리얼 용어.md",
     "게임 엔진/유니티/유니티 1장.md",
     "기타 공부/유통물류/6. 창고관리.md",
     "기타 공부/유통물류/5. 물류와 공급사슬관리의 소개.md",
