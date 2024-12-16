@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f227088e1008f8ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "게임 엔진/유니티/2장 상태구동형 에이전트의 디자인.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e577dbfb9e87c791",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "게임 엔진/유니티/5장 그래프 알고리즘.md",
+                "file": "기타 공부/유통물류/4.서비스 유통 전략.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "게임 엔진/유니티/5장 그래프 알고리즘.md",
+                "file": "기타 공부/유통물류/4.서비스 유통 전략.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "게임 엔진/유니티/5장 그래프 알고리즘.md",
+                "file": "기타 공부/유통물류/4.서비스 유통 전략.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "게임 엔진/유니티/5장 그래프 알고리즘.md"
+                "file": "기타 공부/유통물류/4.서비스 유통 전략.md"
               }
             }
           }
@@ -185,8 +172,10 @@
   },
   "active": "e577dbfb9e87c791",
   "lastOpenFiles": [
-    "게임 엔진/유니티/2장 상태구동형 에이전트의 디자인.md",
+    "기타 공부/유통물류/3. 소매마케팅전략.md",
+    "게임 엔진/언리얼/언리얼 용어.md",
     "게임 엔진/유니티/5장 그래프 알고리즘.md",
+    "게임 엔진/유니티/2장 상태구동형 에이전트의 디자인.md",
     "기타_자료/Pasted image 20241216220726.png",
     "기타_자료/Pasted image 20241216210640.png",
     "컴퓨터 구조, 운영체제/운영체제 복습/11. 임베디드.md",
@@ -195,12 +184,10 @@
     "컴퓨터 구조, 운영체제/운영체제 복습/9. 다중 처리 시스템.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/8. 정보보호및 보안.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
-    "게임 엔진/언리얼/언리얼 용어.md",
     "기타 공부/유통물류/7. 운송관리.md",
     "기타 공부/유통물류/6. 창고관리.md",
     "기타 공부/유통물류/5. 물류와 공급사슬관리의 소개.md",
     "기타 공부/유통물류/4.서비스 유통 전략.md",
-    "기타 공부/유통물류/3. 소매마케팅전략.md",
     "기타 공부/유통물류/1. 유통경로의 이해.md",
     "안드로이드/10. 리소스, 스타일, 보안.md",
     "안드로이드/안드로이드 예상문제 3.md",
