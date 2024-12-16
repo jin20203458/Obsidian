@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "게임 엔진/유니티/게임 알고리즘.md",
+                "file": "게임 엔진/유니티/2장 상태구동형 에이전트의 디자인.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "게임 엔진/유니티/게임 알고리즘.md",
+                "file": "게임 엔진/유니티/2장 상태구동형 에이전트의 디자인.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "게임 엔진/유니티/게임 알고리즘.md",
+                "file": "게임 엔진/유니티/2장 상태구동형 에이전트의 디자인.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "게임 엔진/유니티/게임 알고리즘.md"
+                "file": "게임 엔진/유니티/2장 상태구동형 에이전트의 디자인.md"
               }
             }
           }
@@ -197,7 +197,7 @@
     "안드로이드/11. 서비스, 방송수신자, 콘텐트 제공자.md",
     "안드로이드/12. 파일과 데이터베이스.md",
     "안드로이드/1. 안드로이드의 특징.md",
-    "게임 엔진/유니티/게임 알고리즘.md",
+    "게임 엔진/유니티/2장 상태구동형 에이전트의 디자인.md",
     "컴퓨터 구조, 운영체제/운영체제 복습/1.운영체제의 개요.md",
     "무제 폴더",
     "기타_자료/Pasted image 20241026223819.png",
