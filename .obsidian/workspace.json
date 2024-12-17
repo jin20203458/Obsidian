@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/안드로이드/안드로이드 예상문제 3.md",
+                "file": "알고리즘/Progamming Game Ai/5장 그래프 알고리즘.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/안드로이드/안드로이드 예상문제 3.md",
+                "file": "알고리즘/Progamming Game Ai/5장 그래프 알고리즘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/안드로이드/안드로이드 예상문제 3.md",
+                "file": "알고리즘/Progamming Game Ai/5장 그래프 알고리즘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/안드로이드/안드로이드 예상문제 3.md"
+                "file": "알고리즘/Progamming Game Ai/5장 그래프 알고리즘.md"
               }
             }
           }
@@ -172,6 +173,8 @@
   },
   "active": "e577dbfb9e87c791",
   "lastOpenFiles": [
+    "알고리즘/Progamming Game Ai",
+    "운영체제/안드로이드/안드로이드 예상문제 3.md",
     "운영체제/안드로이드/안드로이드 예상 문제모음 2.md",
     "운영체제/안드로이드/13. 스레드와 게임.md",
     "운영체제/안드로이드/12. 파일과 데이터베이스.md",
@@ -193,14 +196,12 @@
     "기타 공부/유통물류/4.서비스 유통 전략.md",
     "기타 공부/유통물류/3. 소매마케팅전략.md",
     "게임 엔진/언리얼/언리얼 용어.md",
-    "게임 엔진/유니티/5장 그래프 알고리즘.md",
-    "게임 엔진/유니티/2장 상태구동형 에이전트의 디자인.md",
+    "알고리즘/Progamming Game Ai/5장 그래프 알고리즘.md",
+    "알고리즘/Progamming Game Ai/2장 상태구동형 에이전트의 디자인.md",
     "기타_자료/Pasted image 20241216220726.png",
     "기타_자료/Pasted image 20241216210640.png",
     "기타 공부/유통물류/1. 유통경로의 이해.md",
-    "운영체제/안드로이드/안드로이드 예상문제 3.md",
     "운영체제/안드로이드/안드로이드 예상 문제 모음 1.md",
-    "운영체제/안드로이드/1. 안드로이드의 특징.md",
     "기타_자료/Pasted image 20241026223819.png",
     "기타_자료/Pasted image 20241021004739.png",
     "기타_자료/Pasted image 20241021004722.png",
