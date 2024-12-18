@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/안드로이드/8. 어댑터뷰와 프래그먼트.md",
+                "file": "운영체제/안드로이드/안드로이드 예상문제 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/안드로이드/8. 어댑터뷰와 프래그먼트.md",
+                "file": "운영체제/안드로이드/안드로이드 예상문제 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/안드로이드/8. 어댑터뷰와 프래그먼트.md"
+                "file": "운영체제/안드로이드/안드로이드 예상문제 3.md"
               }
             }
           }
@@ -225,8 +225,9 @@
       }
     ]
   },
-  "active": "e577dbfb9e87c791",
+  "active": "493273108462907f",
   "lastOpenFiles": [
+    "운영체제/안드로이드/8. 어댑터뷰와 프래그먼트.md",
     "운영체제/안드로이드/7. 메뉴, 대화상자, 알림.md",
     "운영체제/안드로이드/안드로이드 예상문제 3.md",
     "운영체제/안드로이드/안드로이드 예상 문제모음 2.md",
@@ -253,7 +254,6 @@
     "알고리즘/Progamming Game Ai",
     "운영체제/안드로이드/13. 스레드와 게임.md",
     "운영체제/안드로이드/12. 파일과 데이터베이스.md",
-    "운영체제/안드로이드/11. 서비스, 방송수신자, 콘텐트 제공자.md",
     "운영체제",
     "기타_자료/Pasted image 20241216220726.png",
     "기타_자료/Pasted image 20241216210640.png",
