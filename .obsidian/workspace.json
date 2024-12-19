@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/안드로이드/8. 어댑터뷰와 프래그먼트.md",
+                "file": "운영체제/안드로이드/안드로이드 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/안드로이드/안드로이드 예상문제 3.md",
+                "file": "운영체제/안드로이드/안드로이드 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/안드로이드/안드로이드 예상문제 3.md",
+                "file": "운영체제/안드로이드/안드로이드 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/안드로이드/안드로이드 예상문제 3.md"
+                "file": "운영체제/안드로이드/안드로이드 정리.md"
               }
             }
           }
@@ -216,16 +216,16 @@
           }
         ],
         "direction": "vertical",
-        "x": 72,
-        "y": 43,
-        "width": 1483,
+        "x": -1098,
+        "y": 239,
+        "width": 1109,
         "height": 896,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "493273108462907f",
+  "active": "e577dbfb9e87c791",
   "lastOpenFiles": [
     "운영체제/안드로이드/8. 어댑터뷰와 프래그먼트.md",
     "운영체제/안드로이드/7. 메뉴, 대화상자, 알림.md",
