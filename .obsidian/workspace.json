@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/안드로이드/13. 스레드와 게임.md",
+                "file": "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/안드로이드/13. 스레드와 게임.md",
+                "file": "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/안드로이드/13. 스레드와 게임.md",
+                "file": "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/안드로이드/13. 스레드와 게임.md"
+                "file": "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md"
               }
             }
           }
@@ -170,67 +170,14 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "floating": {
-    "id": "7395b1e9544cb736",
-    "type": "floating",
-    "children": [
-      {
-        "id": "04f0f2bdc613d842",
-        "type": "window",
-        "children": [
-          {
-            "id": "a0875e0cd5ed5e6a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "45adde21a5b015a7",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "운영체제/안드로이드/안드로이드 예상 문제모음 2.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "381218e7b8fff1c0",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "493273108462907f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "운영체제/안드로이드/안드로이드 예상문제 3.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -1098,
-        "y": 239,
-        "width": 1109,
-        "height": 896,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "e577dbfb9e87c791",
   "lastOpenFiles": [
+    "운영체제/안드로이드/안드로이드 예상 문제모음 2.md",
+    "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
+    "운영체제/안드로이드/안드로이드 정리.md",
+    "운영체제/안드로이드/13. 스레드와 게임.md",
     "운영체제/안드로이드/12. 파일과 데이터베이스.md",
     "운영체제/안드로이드/10. 리소스, 스타일, 보안.md",
-    "운영체제/안드로이드/안드로이드 예상 문제모음 2.md",
-    "운영체제/안드로이드/안드로이드 정리.md",
     "운영체제/안드로이드/9. 그래픽과 터치이벤트 처리.md",
     "운영체제/안드로이드/8. 어댑터뷰와 프래그먼트.md",
     "운영체제/안드로이드/7. 메뉴, 대화상자, 알림.md",
@@ -251,8 +198,6 @@
     "알고리즘/알고리즘 개념/다익스트라.md",
     "알고리즘/Progamming Game Ai/2장 상태구동형 에이전트의 디자인.md",
     "기타 공부/유통물류/7. 운송관리.md",
-    "기타 공부/유통물류/6. 창고관리.md",
-    "기타 공부/유통물류/5. 물류와 공급사슬관리의 소개.md",
     "알고리즘/Progamming Game Ai",
     "운영체제",
     "기타_자료/Pasted image 20241216220726.png",
