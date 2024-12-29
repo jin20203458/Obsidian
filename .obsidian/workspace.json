@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "메모리 단편화/3. 동적할당과 가상메모리.md",
+                "file": "메모리 단편화/1. 정의및 유형, 영향.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "메모리 단편화/3. 동적할당과 가상메모리.md",
+                "file": "메모리 단편화/1. 정의및 유형, 영향.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "메모리 단편화/3. 동적할당과 가상메모리.md",
+                "file": "메모리 단편화/1. 정의및 유형, 영향.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "메모리 단편화/3. 동적할당과 가상메모리.md"
+                "file": "메모리 단편화/1. 정의및 유형, 영향.md"
               }
             }
           }
@@ -211,8 +211,8 @@
   "lastOpenFiles": [
     "메모리 단편화/2. 영향및 해결전략.md",
     "메모리 단편화/1. 정의및 유형, 영향.md",
-    "메모리 단편화/3. 동적할당과 가상메모리.md",
     "메모리 단편화/4. 기타.md",
+    "메모리 단편화/3. 동적할당과 가상메모리.md",
     "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
     "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/4. 가상메모리 관리.md",
     "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/5. 디스크 스케줄링, 파일시스템.md",
