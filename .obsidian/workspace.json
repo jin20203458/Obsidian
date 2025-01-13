@@ -30,21 +30,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "05f49afaf3525338",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/컴퓨터 구조, 운영체제/2. 운영체제/28강. 스레드.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "게임서버/GSP교과서/2. 컴퓨터 네트워크.md",
+                "file": "게임서버/GSP교과서/1. 멀티스레딩.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "게임서버/GSP교과서/2. 컴퓨터 네트워크.md",
+                "file": "게임서버/GSP교과서/1. 멀티스레딩.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "게임서버/GSP교과서/2. 컴퓨터 네트워크.md"
+                "file": "게임서버/GSP교과서/1. 멀티스레딩.md"
               }
             }
           }
@@ -196,10 +183,10 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "372dc33336e2e4ef",
+  "active": "fda7267e23e5c546",
   "lastOpenFiles": [
-    "게임서버/GSP교과서/1. 멀티스레딩.md",
     "게임서버/GSP교과서/2. 컴퓨터 네트워크.md",
+    "게임서버/GSP교과서/1. 멀티스레딩.md",
     "운영체제/컴퓨터 구조, 운영체제/2. 운영체제/28강. 스레드.md",
     "운영체제/컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 15강. RAM의 특성과 종류.md",
     "운영체제/컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 16강. 메모리의 주소 공간-물리주소,논리주소.md",
