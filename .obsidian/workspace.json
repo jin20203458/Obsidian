@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "게임서버/윈도우 스레드 스케줄링.md",
+                "file": "게임서버/GSP교과서/1. 멀티스레딩.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "게임서버/윈도우 스레드 스케줄링.md",
+                "file": "게임서버/GSP교과서/1. 멀티스레딩.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "게임서버/윈도우 스레드 스케줄링.md",
+                "file": "게임서버/GSP교과서/1. 멀티스레딩.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "게임서버/윈도우 스레드 스케줄링.md"
+                "file": "게임서버/GSP교과서/1. 멀티스레딩.md"
               }
             }
           }
@@ -185,11 +185,11 @@
   },
   "active": "7bf65cc93e81549a",
   "lastOpenFiles": [
-    "기타_자료/Pasted image 20250116151422.png",
-    "게임서버/GSP교과서/1. 멀티스레딩.md",
-    "게임서버/윈도우 스레드 스케줄링.md",
-    "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/6. 프로세스 동기화와 통신.md",
     "게임서버/GSP교과서/2. 컴퓨터 네트워크.md",
+    "게임서버/윈도우 스레드 스케줄링.md",
+    "게임서버/GSP교과서/1. 멀티스레딩.md",
+    "기타_자료/Pasted image 20250116151422.png",
+    "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/6. 프로세스 동기화와 통신.md",
     "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/10.분산처리시스템.md",
     "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/9. 다중 처리 시스템.md",
     "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/8. 정보보호및 보안.md",
@@ -226,7 +226,6 @@
     "기타_자료/Pasted image 20241216210640.png",
     "기타_자료/Pasted image 20241026223819.png",
     "기타_자료/Pasted image 20241021004739.png",
-    "기타_자료/Pasted image 20241021004722.png",
     "무제 폴더 1",
     "운영체제/리눅스/셸 스크립트 프로그래밍",
     "게임 엔진",
