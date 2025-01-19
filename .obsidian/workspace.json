@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "게임서버/GSP교과서/1. 멀티스레딩.md",
+                "file": "게임서버/캐시 계층 구조와 캐시 일관성 프로토콜.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "게임서버/GSP교과서/1. 멀티스레딩.md",
+                "file": "게임서버/캐시 계층 구조와 캐시 일관성 프로토콜.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "게임서버/GSP교과서/1. 멀티스레딩.md",
+                "file": "게임서버/캐시 계층 구조와 캐시 일관성 프로토콜.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "게임서버/GSP교과서/1. 멀티스레딩.md"
+                "file": "게임서버/캐시 계층 구조와 캐시 일관성 프로토콜.md"
               }
             }
           }
@@ -197,8 +197,8 @@
   },
   "active": "54d3c4023ca26e47",
   "lastOpenFiles": [
-    "게임서버/캐시 계층 구조와 캐시 일관성 프로토콜.md",
     "게임서버/GSP교과서/1. 멀티스레딩.md",
+    "게임서버/캐시 계층 구조와 캐시 일관성 프로토콜.md",
     "기타_자료/Pasted image 20250119182724.png",
     "게임서버/GSP교과서/2. 컴퓨터 네트워크.md",
     "게임서버/윈도우 스레드 스케줄링.md",
