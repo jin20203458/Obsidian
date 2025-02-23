@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fda7267e23e5c546",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "게임서버/GSP교과서/1. 멀티스레딩.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7bf65cc93e81549a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "게임서버/윈도우 스레드 스케줄링.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "54d3c4023ca26e47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "게임서버/윈도우 스레드 스케줄링.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4461bd1c60ae6ddc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
+                "file": "게임서버/교착 상태.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
+                "file": "게임서버/교착 상태.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
+                "file": "게임서버/교착 상태.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md"
+                "file": "게임서버/교착 상태.md"
               }
             }
           }
@@ -197,13 +160,14 @@
   },
   "active": "4461bd1c60ae6ddc",
   "lastOpenFiles": [
+    "게임서버/GSP교과서/1. 멀티스레딩.md",
+    "게임서버/GSP교과서/2. 컴퓨터 네트워크.md",
     "게임서버/교착 상태.md",
     "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
+    "기타_자료/Pasted image 20250223214043.png",
     "게임서버/윈도우 스레드 스케줄링.md",
     "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/6. 프로세스 동기화와 통신.md",
     "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/5. 디스크 스케줄링, 파일시스템.md",
-    "게임서버/GSP교과서/1. 멀티스레딩.md",
-    "게임서버/GSP교과서/2. 컴퓨터 네트워크.md",
     "운영체제/컴퓨터 구조, 운영체제/2. 운영체제/37강. 연속 메모리 할당.md",
     "게임서버/캐시 계층 구조와 캐시 일관성 프로토콜.md",
     "SQL/집합연산.md",
@@ -226,7 +190,6 @@
     "운영체제/컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 17강.캐시 메모리.md",
     "운영체제/컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 14강. 명령어 집합구조.md",
     "운영체제/컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 13강. 명령어 병렬 처리 기법.md",
-    "운영체제/컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 12강. 빠른 CPU를 위한 설계 기법.md",
     "study",
     "게임서버/GSP교과서",
     "게임서버",
@@ -238,7 +201,6 @@
     "운영체제",
     "기타_자료/Pasted image 20241216220726.png",
     "기타_자료/Pasted image 20241216210640.png",
-    "기타_자료/Pasted image 20241026223819.png",
     "무제 폴더 1",
     "운영체제/리눅스/셸 스크립트 프로그래밍",
     "게임 엔진",
