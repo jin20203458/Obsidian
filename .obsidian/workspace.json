@@ -8,55 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4461bd1c60ae6ddc",
+            "id": "78d6a88714aeab52",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "게임서버/GSP교과서/2. 컴퓨터 네트워크.md",
+                "file": "게임서버/GSP교과서/사용함수.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "17303a4ada74b123",
+            "id": "26e3784afc58addb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "게임서버/GSP교과서/3. 소켓 프로그래밍.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "698f58c6199e1d3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "게임서버/GSP교과서/4. 게임 서버와 클라이언트.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e4743da46774376",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "게임서버/GSP교과서/5.게임 네트워킹.md",
+                "file": "C++/C,C++ 함수.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "게임서버/GSP교과서/5.게임 네트워킹.md",
+                "file": "C++/C,C++ 함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "게임서버/GSP교과서/5.게임 네트워킹.md",
+                "file": "C++/C,C++ 함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "게임서버/GSP교과서/5.게임 네트워킹.md"
+                "file": "C++/C,C++ 함수.md"
               }
             }
           }
@@ -195,14 +171,16 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "2e4743da46774376",
+  "active": "26e3784afc58addb",
   "lastOpenFiles": [
-    "게임서버/GSP교과서/4. 게임 서버와 클라이언트.md",
+    "게임서버/GSP교과서/사용함수.md",
+    "C++/C,C++ 함수.md",
     "게임서버/GSP교과서/5.게임 네트워킹.md",
+    "게임서버/GSP교과서/4. 게임 서버와 클라이언트.md",
     "게임서버/GSP교과서/3. 소켓 프로그래밍.md",
+    "게임서버/GSP교과서/2. 컴퓨터 네트워크.md",
     "기타_자료/Pasted image 20250305231101.png",
     "기타_자료/Pasted image 20250305231054.png",
-    "게임서버/GSP교과서/2. 컴퓨터 네트워크.md",
     "기타_자료/Pasted image 20250305001628.png",
     "게임서버/교착 상태.md",
     "게임서버/윈도우 스레드 스케줄링.md",
@@ -229,8 +207,6 @@
     "운영체제/컴퓨터 구조, 운영체제/2. 운영체제/35강. 교착 상태란.md",
     "운영체제/컴퓨터 구조, 운영체제/2. 운영체제/28강. 스레드.md",
     "운영체제/컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 15강. RAM의 특성과 종류.md",
-    "운영체제/컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 16강. 메모리의 주소 공간-물리주소,논리주소.md",
-    "운영체제/컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 17강.캐시 메모리.md",
     "study",
     "게임서버/GSP교과서",
     "게임서버",
