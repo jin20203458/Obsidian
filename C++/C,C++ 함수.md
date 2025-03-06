@@ -17,3 +17,16 @@ void* memcpy(void* dest, const void* src, size_t count);
 - *_목적지 메모리 주소 (void_)**: `memcpy()`는 복사된 목적지 메모리의 주소를 반환합니다
 ---
 
+### string.c_str()
+
+`std::string` 객체가 저장하고 있는 데이터를 **C 스타일의 문자열**로 반환하는 함수입니다.
+```
+const char* c_str() const;
+```
+### 반환값
+
+- **`const char*`**: `std::string` 객체의 내부 데이터를 가리키는 **C 스타일의 문자열**을 반환합니다.
+    - 반환된 C 스타일 문자열은 null 문자(`'\0'`)로 종료되며, `std::string`의 데이터와 동일한 내용을 가집니다.
+    - 반환된 포인터는 `const`로 선언되기 때문에, 반환된 문자열의 내용을 수정할 수 없습니다.
+---
+
