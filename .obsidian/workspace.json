@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "게임서버/GSP교과서/사용함수 C++.md",
+                "file": "게임서버/GSP교과서/사용함수 C-Sharp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "게임서버/GSP교과서/사용함수 C++.md",
+                "file": "게임서버/GSP교과서/사용함수 C-Sharp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "게임서버/GSP교과서/사용함수 C++.md"
+                "file": "게임서버/GSP교과서/사용함수 C-Sharp.md"
               }
             }
           }
@@ -171,10 +172,10 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "26e3784afc58addb",
+  "active": "8b61809c5686a512",
   "lastOpenFiles": [
-    "게임서버/GSP교과서/사용함수 C-Sharp.md",
     "게임서버/GSP교과서/사용함수 C++.md",
+    "게임서버/GSP교과서/사용함수 C-Sharp.md",
     "C++/C,C++ 함수.md",
     "게임서버/GSP교과서/5.게임 네트워킹.md",
     "게임서버/GSP교과서/4. 게임 서버와 클라이언트.md",
