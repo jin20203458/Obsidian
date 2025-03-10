@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "게임서버/GSP교과서/사용함수 C++.md",
+                "file": "게임 서버/GSP교과서/사용함수 C++.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "게임서버/GSP교과서/사용함수 C-Sharp.md",
+                "file": "게임 서버/GSP교과서/사용함수 C-Sharp.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Csharp개념.md",
+                "file": "Language/CS/Csharp개념.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Csharp개념.md",
+                "file": "게임 서버/GSP교과서/사용함수 C-Sharp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Csharp개념.md",
+                "file": "게임 서버/GSP교과서/사용함수 C-Sharp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Csharp개념.md"
+                "file": "게임 서버/GSP교과서/사용함수 C-Sharp.md"
               }
             }
           }
@@ -183,30 +183,35 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "51e217ed53b9520b",
+  "active": "8b61809c5686a512",
   "lastOpenFiles": [
-    "게임서버/GSP교과서/사용함수 C-Sharp.md",
-    "CS/Csharp개념.md",
-    "무제 폴더",
-    "CS",
-    "게임서버/GSP교과서/사용함수 C++.md",
-    "C++/C,C++ 함수.md",
-    "게임서버/GSP교과서/5.게임 네트워킹.md",
-    "게임서버/GSP교과서/4. 게임 서버와 클라이언트.md",
-    "게임서버/GSP교과서/3. 소켓 프로그래밍.md",
-    "게임서버/GSP교과서/2. 컴퓨터 네트워크.md",
+    "기타 공부/OpenGL/5. 입체 도형.md",
+    "기타 공부/OpenGL/4. 블랜딩,안티엘리어싱.md",
+    "기타 공부/OpenGL/2. OpenGL기초.md",
+    "VisualStudio/단축키.md",
+    "Language",
+    "Language/CS/Csharp개념.md",
+    "VisualStudio",
+    "게임 서버/GSP교과서/사용함수 C-Sharp.md",
+    "Language/CS",
+    "게임 서버/GSP교과서/사용함수 C++.md",
+    "Language/C++/C,C++ 함수.md",
+    "게임 서버/GSP교과서/5.게임 네트워킹.md",
+    "게임 서버/GSP교과서/4. 게임 서버와 클라이언트.md",
+    "게임 서버/GSP교과서/3. 소켓 프로그래밍.md",
+    "게임 서버/GSP교과서/2. 컴퓨터 네트워크.md",
     "기타_자료/Pasted image 20250305231101.png",
     "기타_자료/Pasted image 20250305231054.png",
     "기타_자료/Pasted image 20250305001628.png",
-    "게임서버/교착 상태.md",
-    "게임서버/윈도우 스레드 스케줄링.md",
-    "게임서버/GSP교과서/1. 멀티스레딩.md",
+    "게임 서버/교착 상태.md",
+    "게임 서버/윈도우 스레드 스케줄링.md",
+    "게임 서버/GSP교과서/1. 멀티스레딩.md",
     "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
     "기타_자료/Pasted image 20250223214043.png",
     "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/6. 프로세스 동기화와 통신.md",
     "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/5. 디스크 스케줄링, 파일시스템.md",
     "운영체제/컴퓨터 구조, 운영체제/2. 운영체제/37강. 연속 메모리 할당.md",
-    "게임서버/캐시 계층 구조와 캐시 일관성 프로토콜.md",
+    "게임 서버/캐시 계층 구조와 캐시 일관성 프로토콜.md",
     "SQL/집합연산.md",
     "SQL/슈퍼타입,서브타입.md",
     "알고리즘/Progamming Game Ai/5장 그래프 알고리즘.md",
@@ -215,21 +220,16 @@
     "기타_자료/Pasted image 20250116151422.png",
     "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/10.분산처리시스템.md",
     "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/9. 다중 처리 시스템.md",
-    "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/8. 정보보호및 보안.md",
     "기타_자료/Pasted image 20250114192104.png",
     "기타_자료/Pasted image 20250114184350.png",
-    "운영체제/컴퓨터 구조, 운영체제/2. 운영체제/33강. 프로세스 동기화란.md",
-    "운영체제/컴퓨터 구조, 운영체제/2. 운영체제/34강. 프로세스 동기화 기법.md",
-    "운영체제/컴퓨터 구조, 운영체제/2. 운영체제/35강. 교착 상태란.md",
     "study",
-    "게임서버/GSP교과서",
-    "게임서버",
+    "게임 서버/GSP교과서",
+    "게임 서버",
     "기타_자료/Pasted image 20241229202726.png",
     "기타_자료/Pasted image 20241229202721.png",
     "운영체제/컴퓨터 구조, 운영체제/메모리 단편화",
     "알고리즘/Progamming Game Ai",
     "운영체제",
-    "무제 폴더 1",
-    "운영체제/리눅스/셸 스크립트 프로그래밍"
+    "무제 폴더 1"
   ]
 }
