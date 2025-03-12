@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/마르코프 프로세스/마르코프 체인.md",
+                "file": "알고리즘/마르코프 프로세스/마르코프 보상 프로세스.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/마르코프 프로세스/마르코프 보상 프로세스.md",
+                "file": "알고리즘/마르코프 프로세스/마르코프 체인.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ed62328020639ca4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘/마르코프 프로세스/마르코프 결정 프로세스.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -172,9 +182,10 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "73c84fc8273e4101",
+  "active": "d4baff675f650286",
   "lastOpenFiles": [
     "알고리즘/마르코프 프로세스/마르코프 체인.md",
+    "알고리즘/마르코프 프로세스/마르코프 결정 프로세스.md",
     "알고리즘/마르코프 프로세스/마르코프 보상 프로세스.md",
     "Language/C++/라이브러리/random.md",
     "Language/C++/C,C++ 함수.md",
@@ -210,7 +221,6 @@
     "운영체제/컴퓨터 구조, 운영체제/2. 운영체제/37강. 연속 메모리 할당.md",
     "게임 서버/캐시 계층 구조와 캐시 일관성 프로토콜.md",
     "SQL/집합연산.md",
-    "SQL/슈퍼타입,서브타입.md",
     "기타_자료/Pasted image 20250119182724.png",
     "기타_자료/Pasted image 20250116151422.png",
     "기타_자료/Pasted image 20250114192104.png",
