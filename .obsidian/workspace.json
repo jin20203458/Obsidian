@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Language/C++/C,C++ 함수.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5bffc26bc8f54635",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/C++/예외처리.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Language/C++/예외처리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Language/C++/예외처리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Language/C++/예외처리.md"
               }
             }
           }
@@ -182,19 +195,25 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "d4baff675f650286",
+  "active": "5bffc26bc8f54635",
   "lastOpenFiles": [
+    "Language/C++/C,C++ 함수.md",
+    "Language/C++/예외처리.md",
+    "게임 서버/GSP교과서/사용함수 C-Sharp.md",
+    "게임 서버/GSP교과서/사용함수 C++.md",
+    "게임 서버/GSP교과서/3. 소켓 프로그래밍.md",
+    "게임 서버/GSP교과서/4. 게임 서버와 클라이언트.md",
+    "게임 서버/교착 상태.md",
+    "알고리즘/마르코프 프로세스/마르코프 결정 프로세스.md",
+    "README.md",
     "알고리즘/마르코프 프로세스/마르코프 보상 프로세스.md",
     "알고리즘/마르코프 프로세스/마르코프 체인.md",
-    "알고리즘/마르코프 프로세스/마르코프 결정 프로세스.md",
     "Language/C++/라이브러리/random.md",
-    "Language/C++/C,C++ 함수.md",
     "Language/C++/라이브러리",
     "기타_자료/Pasted image 20250312225733.png",
     "기타_자료/Pasted image 20250312225458.png",
     "알고리즘/마르코프 프로세스",
     "알고리즘/알고리즘 개념/백트래킹(Backtracking).md",
-    "게임 서버/GSP교과서/사용함수 C-Sharp.md",
     "Language/CS/Csharp개념.md",
     "기타 공부/OpenGL/5. 입체 도형.md",
     "기타 공부/OpenGL/4. 블랜딩,안티엘리어싱.md",
@@ -203,15 +222,11 @@
     "Language",
     "VisualStudio",
     "Language/CS",
-    "게임 서버/GSP교과서/사용함수 C++.md",
     "게임 서버/GSP교과서/5.게임 네트워킹.md",
-    "게임 서버/GSP교과서/4. 게임 서버와 클라이언트.md",
-    "게임 서버/GSP교과서/3. 소켓 프로그래밍.md",
     "게임 서버/GSP교과서/2. 컴퓨터 네트워크.md",
     "기타_자료/Pasted image 20250305231101.png",
     "기타_자료/Pasted image 20250305231054.png",
     "기타_자료/Pasted image 20250305001628.png",
-    "게임 서버/교착 상태.md",
     "게임 서버/윈도우 스레드 스케줄링.md",
     "게임 서버/GSP교과서/1. 멀티스레딩.md",
     "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
@@ -219,8 +234,6 @@
     "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/6. 프로세스 동기화와 통신.md",
     "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/5. 디스크 스케줄링, 파일시스템.md",
     "운영체제/컴퓨터 구조, 운영체제/2. 운영체제/37강. 연속 메모리 할당.md",
-    "게임 서버/캐시 계층 구조와 캐시 일관성 프로토콜.md",
-    "SQL/집합연산.md",
     "기타_자료/Pasted image 20250119182724.png",
     "기타_자료/Pasted image 20250116151422.png",
     "기타_자료/Pasted image 20250114192104.png",
