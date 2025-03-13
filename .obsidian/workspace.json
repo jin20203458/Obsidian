@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/마르코프 프로세스/마르코프 보상 프로세스.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/마르코프 프로세스/마르코프 보상 프로세스.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/마르코프 프로세스/마르코프 보상 프로세스.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/마르코프 프로세스/마르코프 보상 프로세스.md"
+                "file": "README.md"
               }
             }
           }
@@ -184,9 +184,9 @@
   },
   "active": "d4baff675f650286",
   "lastOpenFiles": [
+    "알고리즘/마르코프 프로세스/마르코프 보상 프로세스.md",
     "알고리즘/마르코프 프로세스/마르코프 체인.md",
     "알고리즘/마르코프 프로세스/마르코프 결정 프로세스.md",
-    "알고리즘/마르코프 프로세스/마르코프 보상 프로세스.md",
     "Language/C++/라이브러리/random.md",
     "Language/C++/C,C++ 함수.md",
     "Language/C++/라이브러리",
