@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/C++/C,C++ 함수.md",
+                "file": "게임 서버/GSP교과서/사용함수 C-Sharp.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/C++/예외처리.md",
+                "file": "게임 서버/GSP교과서/사용함수 C-Sharp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/C++/예외처리.md",
+                "file": "게임 서버/GSP교과서/사용함수 C-Sharp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/C++/예외처리.md"
+                "file": "게임 서버/GSP교과서/사용함수 C-Sharp.md"
               }
             }
           }
@@ -171,7 +170,7 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "5bffc26bc8f54635",
+  "active": "d4baff675f650286",
   "lastOpenFiles": [
     "Language/C++/C,C++ 함수.md",
     "Language/C++/예외처리.md",
