@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "fe293182970f2d6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/C++/문자열.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5bffc26bc8f54635",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "게임 서버/GSP교과서/사용함수 C-Sharp.md",
+                "file": "Language/C++/문자열.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "게임 서버/GSP교과서/사용함수 C-Sharp.md",
+                "file": "Language/C++/문자열.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "게임 서버/GSP교과서/사용함수 C-Sharp.md"
+                "file": "Language/C++/문자열.md"
               }
             }
           }
@@ -170,11 +183,12 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "d4baff675f650286",
+  "active": "fe293182970f2d6a",
   "lastOpenFiles": [
+    "게임 서버/GSP교과서/사용함수 C-Sharp.md",
+    "Language/C++/문자열.md",
     "Language/C++/C,C++ 함수.md",
     "Language/C++/예외처리.md",
-    "게임 서버/GSP교과서/사용함수 C-Sharp.md",
     "게임 서버/GSP교과서/사용함수 C++.md",
     "게임 서버/GSP교과서/3. 소켓 프로그래밍.md",
     "게임 서버/GSP교과서/4. 게임 서버와 클라이언트.md",
@@ -208,7 +222,6 @@
     "기타_자료/Pasted image 20250223214043.png",
     "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/6. 프로세스 동기화와 통신.md",
     "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/5. 디스크 스케줄링, 파일시스템.md",
-    "운영체제/컴퓨터 구조, 운영체제/2. 운영체제/37강. 연속 메모리 할당.md",
     "기타_자료/Pasted image 20250119182724.png",
     "기타_자료/Pasted image 20250116151422.png",
     "기타_자료/Pasted image 20250114192104.png",
