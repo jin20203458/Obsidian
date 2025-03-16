@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/C++/문자열.md",
+                "file": "Language/C++/C,C++ 함수.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c81794f37f24f967",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/C++/enum class.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/C++/문자열.md",
+                "file": "Language/C++/enum class.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/C++/문자열.md",
+                "file": "Language/C++/enum class.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/C++/문자열.md"
+                "file": "Language/C++/enum class.md"
               }
             }
           }
@@ -183,11 +195,12 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "fe293182970f2d6a",
+  "active": "c81794f37f24f967",
   "lastOpenFiles": [
-    "게임 서버/GSP교과서/사용함수 C-Sharp.md",
-    "Language/C++/문자열.md",
     "Language/C++/C,C++ 함수.md",
+    "Language/C++/enum class.md",
+    "Language/C++/문자열.md",
+    "게임 서버/GSP교과서/사용함수 C-Sharp.md",
     "Language/C++/예외처리.md",
     "게임 서버/GSP교과서/사용함수 C++.md",
     "게임 서버/GSP교과서/3. 소켓 프로그래밍.md",
@@ -221,7 +234,6 @@
     "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/7. 교착상태.md",
     "기타_자료/Pasted image 20250223214043.png",
     "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/6. 프로세스 동기화와 통신.md",
-    "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/5. 디스크 스케줄링, 파일시스템.md",
     "기타_자료/Pasted image 20250119182724.png",
     "기타_자료/Pasted image 20250116151422.png",
     "기타_자료/Pasted image 20250114192104.png",
