@@ -42,33 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "201dfb11c32ed1f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "기타 공부/디지털기술/1. 디지털 기술.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bad318ccf9a8d615",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "기타 공부/디지털기술/2. 디지털 기술.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -146,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기타 공부/디지털기술/2. 디지털 기술.md",
+                "file": "알고리즘/마르코프 프로세스/마르코프 결정 프로세스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기타 공부/디지털기술/2. 디지털 기술.md",
+                "file": "알고리즘/마르코프 프로세스/마르코프 결정 프로세스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기타 공부/디지털기술/2. 디지털 기술.md"
+                "file": "알고리즘/마르코프 프로세스/마르코프 결정 프로세스.md"
               }
             }
           }
@@ -207,7 +183,7 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "bad318ccf9a8d615",
+  "active": "c81794f37f24f967",
   "lastOpenFiles": [
     "기타 공부/디지털기술/1. 디지털 기술.md",
     "기타 공부/디지털기술/2. 디지털 기술.md",
