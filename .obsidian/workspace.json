@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/C++/비동기 입출력.md",
+                "file": "Language/C++/소켓프로그래밍/비동기 입출력.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/C++/비동기 입출력.md",
+                "file": "Language/C++/소켓프로그래밍/비동기 입출력.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/C++/비동기 입출력.md",
+                "file": "Language/C++/소켓프로그래밍/비동기 입출력.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/C++/비동기 입출력.md"
+                "file": "Language/C++/소켓프로그래밍/비동기 입출력.md"
               }
             }
           }
@@ -173,8 +173,12 @@
   },
   "active": "8bdfd6d7372a753d",
   "lastOpenFiles": [
+    "Language/C++/문자열.md",
+    "Language/C++/예외처리.md",
+    "Language/C++/enum class.md",
     "Language/C++/C,C++ 함수.md",
-    "Language/C++/비동기 입출력.md",
+    "Language/C++/소켓프로그래밍/비동기 입출력.md",
+    "Language/C++/소켓프로그래밍",
     "게임 서버/GSP교과서/사용함수 C++.md",
     "게임 서버/캐시 계층 구조와 캐시 일관성 프로토콜.md",
     "게임 서버/GSP교과서/1. 멀티스레딩.md",
@@ -189,10 +193,7 @@
     "알고리즘/마르코프 프로세스/마르코프 보상 프로세스.md",
     "기타_자료/Pasted image 20250319001324.png",
     "기타 공부/ESG",
-    "Language/C++/enum class.md",
-    "Language/C++/문자열.md",
     "게임 서버/GSP교과서/사용함수 C-Sharp.md",
-    "Language/C++/예외처리.md",
     "게임 서버/GSP교과서/4. 게임 서버와 클라이언트.md",
     "게임 서버/교착 상태.md",
     "README.md",
@@ -205,7 +206,6 @@
     "알고리즘/알고리즘 개념/백트래킹(Backtracking).md",
     "Language/CS/Csharp개념.md",
     "기타 공부/OpenGL/5. 입체 도형.md",
-    "기타 공부/OpenGL/4. 블랜딩,안티엘리어싱.md",
     "Language",
     "VisualStudio",
     "Language/CS",
@@ -217,7 +217,6 @@
     "기타_자료/Pasted image 20250116151422.png",
     "기타_자료/Pasted image 20250114192104.png",
     "study",
-    "게임 서버/GSP교과서",
-    "게임 서버"
+    "게임 서버/GSP교과서"
   ]
 }
