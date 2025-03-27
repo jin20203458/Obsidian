@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/C++/소켓프로그래밍/IOCP.md",
+                "file": "게임 서버/윈도우 스레드 스케줄링.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/C++/소켓프로그래밍/IOCP.md",
+                "file": "게임 서버/윈도우 스레드 스케줄링.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/C++/소켓프로그래밍/IOCP.md",
+                "file": "게임 서버/윈도우 스레드 스케줄링.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/C++/소켓프로그래밍/IOCP.md"
+                "file": "게임 서버/윈도우 스레드 스케줄링.md"
               }
             }
           }
@@ -186,8 +185,8 @@
   },
   "active": "8af7872a522b1e2b",
   "lastOpenFiles": [
-    "Language/C++/소켓프로그래밍/비동기 입출력.md",
     "Language/C++/소켓프로그래밍/IOCP.md",
+    "Language/C++/소켓프로그래밍/비동기 입출력.md",
     "Language/C++/문자열.md",
     "Language/C++/예외처리.md",
     "Language/C++/enum class.md",
