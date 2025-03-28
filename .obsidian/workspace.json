@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "게임 서버/윈도우 스레드 스케줄링.md",
+                "file": "Language/C++/소켓프로그래밍/비동기 입출력.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "게임 서버/윈도우 스레드 스케줄링.md",
+                "file": "Language/C++/소켓프로그래밍/비동기 입출력.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "게임 서버/윈도우 스레드 스케줄링.md",
+                "file": "Language/C++/소켓프로그래밍/비동기 입출력.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "게임 서버/윈도우 스레드 스케줄링.md"
+                "file": "Language/C++/소켓프로그래밍/비동기 입출력.md"
               }
             }
           }
@@ -185,6 +185,7 @@
   },
   "active": "8af7872a522b1e2b",
   "lastOpenFiles": [
+    "게임 서버/윈도우 스레드 스케줄링.md",
     "Language/C++/소켓프로그래밍/IOCP.md",
     "Language/C++/소켓프로그래밍/비동기 입출력.md",
     "Language/C++/문자열.md",
@@ -218,7 +219,6 @@
     "알고리즘/마르코프 프로세스",
     "알고리즘/알고리즘 개념/백트래킹(Backtracking).md",
     "Language/CS/Csharp개념.md",
-    "기타 공부/OpenGL/5. 입체 도형.md",
     "Language",
     "VisualStudio",
     "Language/CS",
