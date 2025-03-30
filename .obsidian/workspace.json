@@ -25,19 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/C++/소켓프로그래밍/비동기 입출력.md",
+                "file": "기타 공부/디지털기술/2. 디지털 기술.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8af7872a522b1e2b",
+            "id": "1d2455abb905e4fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기타 공부/ESG/2. ESG 의 E(Environment,환경).md",
+                "file": "기타 공부/디지털기술/3. 디지털 기술.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기타 공부/ESG/2. ESG 의 E(Environment,환경).md",
+                "file": "기타 공부/디지털기술/3. 디지털 기술.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기타 공부/ESG/2. ESG 의 E(Environment,환경).md",
+                "file": "기타 공부/디지털기술/3. 디지털 기술.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기타 공부/ESG/2. ESG 의 E(Environment,환경).md"
+                "file": "기타 공부/디지털기술/3. 디지털 기술.md"
               }
             }
           }
@@ -183,14 +183,20 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "8af7872a522b1e2b",
+  "active": "1d2455abb905e4fa",
   "lastOpenFiles": [
-    "기타 공부/ESG/1. ESG.md",
-    "기타 공부/ESG/2. ESG 의 E(Environment,환경).md",
+    "기타_자료/Pasted image 20250331001356.png",
+    "기타 공부/디지털기술/2. 디지털 기술.md",
+    "기타 공부/디지털기술/3. 디지털 기술.md",
+    "기타 공부/디지털기술/1. 디지털 기술.md",
+    "기타_자료/Pasted image 20250331000040.png",
+    "Language/C++/소켓프로그래밍/비동기 입출력.md",
     "기타 공부/ESG/3. ESG 의 S(Social, 사회).md",
+    "기타_자료/Pasted image 20250330235358.png",
+    "기타 공부/ESG/2. ESG 의 E(Environment,환경).md",
+    "기타 공부/ESG/1. ESG.md",
     "Language/C++/소켓프로그래밍/IOCP.md",
     "Language/C++/문자열.md",
-    "Language/C++/소켓프로그래밍/비동기 입출력.md",
     "게임 서버/윈도우 스레드 스케줄링.md",
     "Language/C++/예외처리.md",
     "Language/C++/enum class.md",
@@ -201,8 +207,6 @@
     "게임 서버/GSP교과서/1. 멀티스레딩.md",
     "게임 서버/GSP교과서/3. 소켓 프로그래밍.md",
     "알고리즘/마르코프 프로세스/마르코프 결정 프로세스.md",
-    "기타 공부/디지털기술/1. 디지털 기술.md",
-    "기타 공부/디지털기술/2. 디지털 기술.md",
     "기타 공부/디지털기술",
     "알고리즘/마르코프 프로세스/마르코프 보상 프로세스.md",
     "기타_자료/Pasted image 20250319001324.png",
@@ -217,8 +221,6 @@
     "기타_자료/Pasted image 20250312225733.png",
     "기타_자료/Pasted image 20250312225458.png",
     "알고리즘/마르코프 프로세스",
-    "알고리즘/알고리즘 개념/백트래킹(Backtracking).md",
-    "Language/CS/Csharp개념.md",
     "Language",
     "VisualStudio",
     "Language/CS",
@@ -227,8 +229,6 @@
     "기타_자료/Pasted image 20250305001628.png",
     "기타_자료/Pasted image 20250223214043.png",
     "기타_자료/Pasted image 20250119182724.png",
-    "기타_자료/Pasted image 20250116151422.png",
-    "기타_자료/Pasted image 20250114192104.png",
     "study",
     "게임 서버/GSP교과서"
   ]
