@@ -13,38 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/C++/C,C++ 함수.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8bdfd6d7372a753d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "기타 공부/디지털기술/2. 디지털 기술.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1d2455abb905e4fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "기타 공부/디지털기술/3. 디지털 기술.md",
+                "file": "Language/CS/Csharp개념.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기타 공부/디지털기술/3. 디지털 기술.md",
+                "file": "Language/CS/Csharp개념.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기타 공부/디지털기술/3. 디지털 기술.md",
+                "file": "Language/CS/Csharp개념.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기타 공부/디지털기술/3. 디지털 기술.md"
+                "file": "Language/CS/Csharp개념.md"
               }
             }
           }
@@ -183,8 +158,11 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "1d2455abb905e4fa",
+  "active": "fe95142656db7dae",
   "lastOpenFiles": [
+    "Language/C++/C,C++ 함수.md",
+    "기타 공부/디지털기술/2. 디지털 기술.md",
+    "기타 공부/디지털기술/3. 디지털 기술.md",
     "기타_자료/Pasted image 20250331001804.png",
     "기타_자료/Pasted image 20250331001742.png",
     "기타_자료/Pasted image 20250331001715.png",
@@ -192,8 +170,6 @@
     "기타_자료/Pasted image 20250331001542.png",
     "기타_자료/Pasted image 20250331001533.png",
     "기타_자료/Pasted image 20250331001356.png",
-    "기타 공부/디지털기술/2. 디지털 기술.md",
-    "기타 공부/디지털기술/3. 디지털 기술.md",
     "기타 공부/디지털기술/1. 디지털 기술.md",
     "기타_자료/Pasted image 20250331000040.png",
     "Language/C++/소켓프로그래밍/비동기 입출력.md",
@@ -206,7 +182,6 @@
     "게임 서버/윈도우 스레드 스케줄링.md",
     "Language/C++/예외처리.md",
     "Language/C++/enum class.md",
-    "Language/C++/C,C++ 함수.md",
     "Language/C++/소켓프로그래밍",
     "게임 서버/GSP교과서/사용함수 C++.md",
     "게임 서버/캐시 계층 구조와 캐시 일관성 프로토콜.md",
@@ -224,7 +199,6 @@
     "알고리즘/마르코프 프로세스/마르코프 체인.md",
     "Language/C++/라이브러리/random.md",
     "Language/C++/라이브러리",
-    "기타_자료/Pasted image 20250312225733.png",
     "알고리즘/마르코프 프로세스",
     "Language",
     "VisualStudio",
