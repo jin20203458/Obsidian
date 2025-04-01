@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/C++/소켓프로그래밍/비동기 입출력.md",
+                "file": "게임 엔진/언리얼/언리얼 용어.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/C++/소켓프로그래밍/비동기 입출력.md",
+                "file": "게임 엔진/언리얼/언리얼 용어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/C++/소켓프로그래밍/비동기 입출력.md",
+                "file": "게임 엔진/언리얼/언리얼 용어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/C++/소켓프로그래밍/비동기 입출력.md"
+                "file": "게임 엔진/언리얼/언리얼 용어.md"
               }
             }
           }
@@ -161,10 +160,12 @@
   },
   "active": "fe95142656db7dae",
   "lastOpenFiles": [
+    "기타 공부/디지털기술/3. 디지털 기술.md",
+    "기타 공부/디지털기술/2. 디지털 기술.md",
+    "기타 공부/디지털기술/1. 디지털 기술.md",
+    "Language/C++/소켓프로그래밍/비동기 입출력.md",
     "Language/CS/Csharp개념.md",
     "Language/C++/C,C++ 함수.md",
-    "기타 공부/디지털기술/2. 디지털 기술.md",
-    "기타 공부/디지털기술/3. 디지털 기술.md",
     "기타_자료/Pasted image 20250331001804.png",
     "기타_자료/Pasted image 20250331001742.png",
     "기타_자료/Pasted image 20250331001715.png",
@@ -172,9 +173,7 @@
     "기타_자료/Pasted image 20250331001542.png",
     "기타_자료/Pasted image 20250331001533.png",
     "기타_자료/Pasted image 20250331001356.png",
-    "기타 공부/디지털기술/1. 디지털 기술.md",
     "기타_자료/Pasted image 20250331000040.png",
-    "Language/C++/소켓프로그래밍/비동기 입출력.md",
     "기타 공부/ESG/3. ESG 의 S(Social, 사회).md",
     "기타_자료/Pasted image 20250330235358.png",
     "기타 공부/ESG/2. ESG 의 E(Environment,환경).md",
