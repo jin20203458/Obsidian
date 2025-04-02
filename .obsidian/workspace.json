@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "게임 엔진/언리얼/2. 언리얼.md",
+                "file": "기타 공부/디지털기술/3. 디지털 기술.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a46ca1e0eb0d25c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 공부/디지털기술/4. 디지털 기술.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -111,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "게임 엔진/언리얼/2. 언리얼.md",
+                "file": "기타 공부/디지털기술/4. 디지털 기술.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "게임 엔진/언리얼/2. 언리얼.md",
+                "file": "기타 공부/디지털기술/4. 디지털 기술.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "게임 엔진/언리얼/2. 언리얼.md"
+                "file": "기타 공부/디지털기술/4. 디지털 기술.md"
               }
             }
           }
@@ -172,12 +184,14 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "d8ed7ff489ed8bb8",
+  "active": "a46ca1e0eb0d25c2",
   "lastOpenFiles": [
-    "게임 엔진/언리얼/1. 언리얼.md",
-    "게임 엔진/언리얼/2. 언리얼.md",
+    "기타_자료/Pasted image 20250402214718.png",
     "기타 공부/디지털기술/3. 디지털 기술.md",
+    "기타 공부/디지털기술/4. 디지털 기술.md",
     "기타 공부/디지털기술/2. 디지털 기술.md",
+    "게임 엔진/언리얼/2. 언리얼.md",
+    "게임 엔진/언리얼/1. 언리얼.md",
     "기타 공부/디지털기술/1. 디지털 기술.md",
     "Language/C++/소켓프로그래밍/비동기 입출력.md",
     "Language/CS/Csharp개념.md",
@@ -211,8 +225,6 @@
     "기타 공부/ESG",
     "게임 서버/GSP교과서/사용함수 C-Sharp.md",
     "게임 서버/GSP교과서/4. 게임 서버와 클라이언트.md",
-    "게임 서버/교착 상태.md",
-    "README.md",
     "Language/C++/라이브러리",
     "알고리즘/마르코프 프로세스",
     "Language",
