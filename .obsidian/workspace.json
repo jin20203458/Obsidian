@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "884b910ec107e5ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 공부/영단어.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/리눅스 실기.md",
+                "file": "기타 공부/영단어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/리눅스 실기.md",
+                "file": "기타 공부/영단어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/리눅스 실기.md"
+                "file": "기타 공부/영단어.md"
               }
             }
           }
@@ -159,10 +171,11 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "a46ca1e0eb0d25c2",
+  "active": "884b910ec107e5ce",
   "lastOpenFiles": [
-    "운영체제/리눅스/기타 자료.md",
     "운영체제/리눅스/리눅스실기/리눅스 실기.md",
+    "기타 공부/영단어.md",
+    "운영체제/리눅스/기타 자료.md",
     "VisualStudio/단축키.md",
     "운영체제/리눅스/리눅스 개념/리눅스.md",
     "무제 폴더",
@@ -198,7 +211,6 @@
     "게임 서버/GSP교과서/사용함수 C++.md",
     "게임 서버/캐시 계층 구조와 캐시 일관성 프로토콜.md",
     "게임 서버/GSP교과서/1. 멀티스레딩.md",
-    "게임 서버/GSP교과서/3. 소켓 프로그래밍.md",
     "기타 공부/디지털기술",
     "기타 공부/ESG",
     "Language/C++/라이브러리",
