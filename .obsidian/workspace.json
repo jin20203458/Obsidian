@@ -105,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -184,6 +185,8 @@
   },
   "active": "884b910ec107e5ce",
   "lastOpenFiles": [
+    "기타 공부/ESG/2. ESG 의 E(Environment,환경).md",
+    "기타 공부/ESG/1. ESG.md",
     "기타 공부/ESG/4. ESG 의 G(Governance).md",
     "기타 공부/ESG/3. ESG 의 S(Social, 사회).md",
     "운영체제/리눅스/리눅스실기/리눅스 실기.md",
@@ -213,8 +216,6 @@
     "기타_자료/Pasted image 20250331001533.png",
     "기타_자료/Pasted image 20250331001356.png",
     "기타_자료/Pasted image 20250331000040.png",
-    "기타 공부/ESG/2. ESG 의 E(Environment,환경).md",
-    "기타 공부/ESG/1. ESG.md",
     "Language/C++/소켓프로그래밍/IOCP.md",
     "Language/C++/문자열.md",
     "게임 서버/윈도우 스레드 스케줄링.md",
