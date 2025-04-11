@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기타 공부/영단어.md",
+                "file": "운영체제/리눅스/리눅스실기/리눅스 실기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기타 공부/영단어.md",
+                "file": "운영체제/리눅스/리눅스실기/리눅스 실기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기타 공부/영단어.md"
+                "file": "운영체제/리눅스/리눅스실기/리눅스 실기.md"
               }
             }
           }
@@ -172,10 +171,10 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "884b910ec107e5ce",
+  "active": "a46ca1e0eb0d25c2",
   "lastOpenFiles": [
-    "운영체제/리눅스/리눅스실기/리눅스 실기.md",
     "기타 공부/영단어.md",
+    "운영체제/리눅스/리눅스실기/리눅스 실기.md",
     "운영체제/리눅스/기타 자료.md",
     "VisualStudio/단축키.md",
     "운영체제/리눅스/리눅스 개념/리눅스.md",
