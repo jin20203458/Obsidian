@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/리눅스 실기.md",
+                "file": "기타 공부/영단어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/리눅스 실기.md",
+                "file": "기타 공부/영단어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/리눅스 실기.md"
+                "file": "기타 공부/영단어.md"
               }
             }
           }
@@ -184,13 +184,13 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "0db2de0fbcef60ae",
+  "active": "ca90c5cce6409826",
   "lastOpenFiles": [
+    "운영체제/리눅스/리눅스실기/리눅스 실기.md",
     "기타 공부/ESG/1. ESG.md",
     "기타 공부/ESG/2. ESG 의 E(Environment,환경).md",
     "기타 공부/ESG/4. ESG 의 G(Governance).md",
     "기타 공부/ESG/3. ESG 의 S(Social, 사회).md",
-    "운영체제/리눅스/리눅스실기/리눅스 실기.md",
     "기타 공부/영단어.md",
     "기타 공부/디지털기술/4. 디지털 기술.md",
     "기타 공부/디지털기술/중간시험 예상 문제.md",
