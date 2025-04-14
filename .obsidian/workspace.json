@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/iptables.md",
+                "file": "운영체제/리눅스/리눅스실기/리눅스 실기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/iptables.md",
+                "file": "운영체제/리눅스/리눅스실기/리눅스 실기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/iptables.md"
+                "file": "운영체제/리눅스/리눅스실기/리눅스 실기.md"
               }
             }
           }
@@ -184,12 +184,12 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "568e015f23079cac",
+  "active": "e0436fbfa876f488",
   "lastOpenFiles": [
+    "운영체제/리눅스/리눅스실기/iptables.md",
     "기타_자료/Pasted image 20250414182356.png",
     "기타_자료/Pasted image 20250414182129.png",
     "운영체제/리눅스/리눅스실기/리눅스 실기.md",
-    "운영체제/리눅스/리눅스실기/iptables.md",
     "운영체제/리눅스/리눅스실기/zone 파일 설명.md",
     "운영체제/리눅스/리눅스실기/httpd 설정항목.md",
     "기타 공부/영단어.md",
@@ -220,7 +220,6 @@
     "기타_자료/Pasted image 20250331001709.png",
     "기타_자료/Pasted image 20250331001542.png",
     "기타_자료/Pasted image 20250331001533.png",
-    "기타_자료/Pasted image 20250331001356.png",
     "Language/C++/소켓프로그래밍/IOCP.md",
     "Language/C++/문자열.md",
     "Language/C++/소켓프로그래밍",
