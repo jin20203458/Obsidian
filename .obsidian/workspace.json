@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d94dba15c0f31805",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "게임 엔진/언리얼/2. 언리얼.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "80cb2c1221344e8d",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,6 +157,43 @@
       "command-palette:명령어 팔레트 열기": false,
       "canvas:새 캔버스 만들기": false
     }
+  },
+  "floating": {
+    "id": "803cb5fe96c59e92",
+    "type": "floating",
+    "children": [
+      {
+        "id": "fecc61c4d041f2d0",
+        "type": "window",
+        "children": [
+          {
+            "id": "7cdb13cc6977f21c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d94dba15c0f31805",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "게임 엔진/언리얼/2. 언리얼.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1082,
+        "y": 94,
+        "width": 600,
+        "height": 600,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
   },
   "active": "80cb2c1221344e8d",
   "lastOpenFiles": [
