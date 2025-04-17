@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -171,7 +172,7 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "816cbcd0ff6621fa",
+  "active": "5dd353f085f5c9b8",
   "lastOpenFiles": [
     "운영체제/리눅스/리눅스실기/httpd 설정항목.md",
     "게임 엔진/언리얼/2. 언리얼.md",
