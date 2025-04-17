@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기타 공부/디지털기술/중간시험 예상 문제.md",
+                "file": "운영체제/리눅스/리눅스실기/httpd 설정항목.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기타 공부/디지털기술/중간시험 예상 문제.md",
+                "file": "운영체제/리눅스/리눅스실기/httpd 설정항목.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기타 공부/디지털기술/중간시험 예상 문제.md",
+                "file": "운영체제/리눅스/리눅스실기/httpd 설정항목.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기타 공부/디지털기술/중간시험 예상 문제.md"
+                "file": "운영체제/리눅스/리눅스실기/httpd 설정항목.md"
               }
             }
           }
@@ -172,15 +173,15 @@
   },
   "active": "80cb2c1221344e8d",
   "lastOpenFiles": [
-    "기타 공부/디지털기술/4. 디지털 기술.md",
+    "운영체제/리눅스/리눅스실기/리눅스 실기.md",
     "기타 공부/디지털기술/중간시험 예상 문제.md",
+    "기타 공부/디지털기술/4. 디지털 기술.md",
     "게임 엔진/언리얼/2. 언리얼.md",
     "게임 엔진/언리얼/언리얼 중간고사.md",
     "기타 공부/영단어.md",
     "게임 엔진/언리얼/1. 언리얼.md",
     "기타 공부/ESG/5. ESG 전반기 총정리.md",
     "기타 공부/ESG/1. ESG.md",
-    "운영체제/리눅스/리눅스실기/리눅스 실기.md",
     "기타 공부/ESG/2. ESG 의 E(Environment,환경).md",
     "기타 공부/ESG/3. ESG 의 S(Social, 사회).md",
     "기타 공부/ESG/4. ESG 의 G(Governance).md",
