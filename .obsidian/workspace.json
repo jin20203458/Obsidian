@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "d2b3289b0320344e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "운영체제/리눅스/리눅스실기/DHCP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "155e1de6f58ad2b5",
             "type": "leaf",
             "state": {
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/LDAP.md",
+                "file": "운영체제/리눅스/리눅스실기/DHCP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/LDAP.md",
+                "file": "운영체제/리눅스/리눅스실기/DHCP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/LDAP.md"
+                "file": "운영체제/리눅스/리눅스실기/DHCP.md"
               }
             }
           }
@@ -171,9 +183,10 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "155e1de6f58ad2b5",
+  "active": "d2b3289b0320344e",
   "lastOpenFiles": [
     "운영체제/리눅스/리눅스실기/zone 파일 설명.md",
+    "운영체제/리눅스/리눅스실기/DHCP.md",
     "운영체제/리눅스/리눅스실기/LDAP.md",
     "기타 공부/디지털기술/중간시험 예상 문제.md",
     "기타 공부/영단어.md",
@@ -203,7 +216,6 @@
     "기타 공부/디지털기술/2. 디지털 기술.md",
     "기타 공부/디지털기술/1. 디지털 기술.md",
     "Language/C++/소켓프로그래밍/비동기 입출력.md",
-    "Language/CS/Csharp개념.md",
     "기타_자료/Pasted image 20250331001804.png",
     "기타_자료/Pasted image 20250331001742.png",
     "기타_자료/Pasted image 20250331001715.png",
