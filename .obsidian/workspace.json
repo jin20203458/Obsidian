@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
+                "file": "운영체제/리눅스/리눅스실기/리눅스 실기.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
+                "file": "운영체제/리눅스/리눅스실기/리눅스 실기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
+                "file": "운영체제/리눅스/리눅스실기/리눅스 실기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/계정 및 인증(Account and Authentication) 관련 설정 파일.md"
+                "file": "운영체제/리눅스/리눅스실기/리눅스 실기.md"
               }
             }
           }
@@ -174,8 +173,8 @@
   },
   "active": "0661a632c1e65cda",
   "lastOpenFiles": [
-    "운영체제/리눅스/리눅스실기/DHCP.md",
     "운영체제/리눅스/리눅스실기/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
+    "운영체제/리눅스/리눅스실기/DHCP.md",
     "운영체제/리눅스/리눅스실기/zone 파일 설명.md",
     "기타 공부/디지털기술/중간시험 예상 문제.md",
     "기타 공부/디지털기술/1. 디지털 기술.md",
