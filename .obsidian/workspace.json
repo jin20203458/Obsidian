@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/리눅스 실기.md",
+                "file": "운영체제/리눅스/리눅스실기/httpd 설정항목.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/리눅스 실기.md",
+                "file": "운영체제/리눅스/리눅스실기/httpd 설정항목.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/리눅스 실기.md",
+                "file": "운영체제/리눅스/리눅스실기/httpd 설정항목.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/리눅스 실기.md"
+                "file": "운영체제/리눅스/리눅스실기/httpd 설정항목.md"
               }
             }
           }
@@ -173,6 +173,7 @@
   },
   "active": "0661a632c1e65cda",
   "lastOpenFiles": [
+    "운영체제/리눅스/리눅스실기/리눅스 실기.md",
     "운영체제/리눅스/리눅스실기/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
     "운영체제/리눅스/리눅스실기/DHCP.md",
     "운영체제/리눅스/리눅스실기/zone 파일 설명.md",
@@ -183,7 +184,6 @@
     "기타 공부/ESG/5. ESG 전반기 총정리.md",
     "기타 공부/ESG/ESG 연습장.md",
     "운영체제/리눅스/리눅스실기/LDAP.md",
-    "운영체제/리눅스/리눅스실기/리눅스 실기.md",
     "운영체제/리눅스/리눅스실기/httpd 설정항목.md",
     "운영체제/리눅스/리눅스실기/iptables.md",
     "기타 공부/영단어.md",
