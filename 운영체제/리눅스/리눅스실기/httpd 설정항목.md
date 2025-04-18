@@ -1,18 +1,33 @@
 
 
-| 설정 항목                  | 의미 및 역할                                | 예시 설정                                          |
-| ---------------------- | -------------------------------------- | ---------------------------------------------- |
-| `Listen`               | HTTP 서버가 **수신 대기(listen)**할 포트 지정      | `Listen 80`, `Listen 8080`                     |
-| `ServerName`           | 서버의 **도메인 이름 또는 IP주소**를 지정             | `ServerName www.ihd.or.kr`                     |
-| `DocumentRoot`         | 웹 문서(HTML 등)가 위치한 **루트 디렉터리 경로** 지정    | `DocumentRoot "/var/www/html"`                 |
-| `ServerAdmin`          | 서버 관리자 이메일 주소                          | `ServerAdmin admin@ihd.or.kr`                  |
-| `DirectoryIndex`       | 클라이언트가 디렉터리에 접근했을 때 **기본으로 표시될 파일** 지정 | `DirectoryIndex index.html`                    |
-| `<Directory>`          | 특정 디렉터리에 대해 **접근 제어나 설정**을 적용하는 블록     | `<Directory "/var/www/html"> ... </Directory>` |
-| `ErrorLog`             | **에러 로그**를 기록할 파일 경로                   | `ErrorLog logs/error_log`                      |
-| `CustomLog`            | **접속 로그** 포맷과 기록 파일 경로 지정              | `CustomLog logs/access_log combined`           |
-| `ServerTokens`         | 응답 헤더에서 서버 정보의 **표시 수준** 설정            | `ServerTokens Prod`                            |
-| `ServerSignature`      | 오류 페이지 하단에 서버 정보 표시 여부                 | `ServerSignature Off`                          |
-| `Timeout`              | 클라이언트 요청에 대한 **응답 제한 시간 (초)** 설정       | `Timeout 60`                                   |
-| `KeepAlive`            | **연결을 유지할지** 여부 설정 (성능 향상 목적)          | `KeepAlive On`                                 |
-| `MaxKeepAliveRequests` | 유지 연결당 최대 요청 수                         | `MaxKeepAliveRequests 100`                     |
-| `KeepAliveTimeout`     | 유지 연결이 끊기기 전까지의 **유지 시간(초)**           | `KeepAliveTimeout 15`                          |
+
+|**설정 항목**|**설명**|**예시**|
+|---|---|---|
+|**Listen**|웹서버가 수신할 포트 번호를 지정합니다.|`Listen 80`|
+|**ServerName**|웹서버의 도메인 이름을 설정합니다. (도메인 또는 IP)|`ServerName www.example.com`|
+|**ServerRoot**|웹서버의 설치 디렉토리입니다.|`ServerRoot "/usr/local/apache"`|
+|**DocumentRoot**|웹서버의 기본 웹 콘텐츠가 위치하는 디렉토리입니다. (인덱스 페이지 등)|`DocumentRoot "/var/www/html"`|
+|**Directory**|특정 디렉토리의 접근 권한 및 설정을 정의합니다.|`<Directory "/var/www/html">`|
+|**ErrorLog**|서버 오류 로그를 기록할 파일을 지정합니다.|`ErrorLog "/var/log/httpd/error_log"`|
+|**LogLevel**|로그의 세부 수준을 지정합니다. (예: `debug`, `info`, `warn`, `error`, `crit` 등)|`LogLevel warn`|
+|**AccessLog**|접근 로그를 기록할 파일을 지정합니다.|`AccessLog "/var/log/httpd/access_log"`|
+|**ServerAdmin**|웹서버의 관리자 이메일 주소를 지정합니다.|`ServerAdmin webmaster@example.com`|
+|**ErrorDocument**|특정 HTTP 오류 발생 시 사용자에게 보여줄 커스텀 페이지를 설정합니다.|`ErrorDocument 404 /404.html`|
+|**Timeout**|서버가 클라이언트 요청을 기다리는 최대 시간을 설정합니다. (초 단위)|`Timeout 300`|
+|**KeepAlive**|클라이언트와의 연결을 유지할지 여부를 설정합니다.|`KeepAlive On`|
+|**MaxClients**|최대 동시 클라이언트 연결 수를 설정합니다. (서버의 최대 처리량 설정)|`MaxClients 150`|
+|**VirtualHost**|가상 호스트를 설정하여 여러 도메인에 대해 하나의 서버를 운영할 수 있게 합니다.|`<VirtualHost *:80>`|
+|**DocumentRoot**|가상 호스트의 웹 콘텐츠가 위치하는 디렉토리를 설정합니다.|`DocumentRoot "/var/www/vhosts/example.com"`|
+|**ServerAlias**|가상 호스트에 대한 추가 도메인 이름을 설정합니다.|`ServerAlias www.example.net`|
+|**DirectoryIndex**|웹서버가 기본적으로 로드할 인덱스 파일을 설정합니다.|`DirectoryIndex index.html index.php`|
+
+### 간단한 예시 설정:
+```
+Listen 80
+ServerName www.example.com
+ServerRoot "/usr/local/apache"
+DocumentRoot "/var/www/html"
+ErrorLog "/var/log/httpd/error_log"
+AccessLog "/var/log/httpd/access_log"
+LogLevel warn
+```
