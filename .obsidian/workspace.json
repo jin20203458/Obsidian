@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기타 공부/디지털기술/1. 디지털 기술.md",
+                "file": "기타 공부/ESG/5. ESG 전반기 총정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기타 공부/디지털기술/중간시험 예상 문제.md",
+                "file": "기타 공부/ESG/5. ESG 전반기 총정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기타 공부/디지털기술/중간시험 예상 문제.md",
+                "file": "기타 공부/ESG/5. ESG 전반기 총정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기타 공부/디지털기술/중간시험 예상 문제.md"
+                "file": "기타 공부/ESG/5. ESG 전반기 총정리.md"
               }
             }
           }
@@ -158,47 +159,23 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "floating": {
-    "id": "a9be27283cb69967",
-    "type": "floating",
-    "children": [
-      {
-        "id": "0fce4c4f1b0b7d3e",
-        "type": "window",
-        "children": [
-          {
-            "id": "de9025d69c589157",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9da1425b9d0541cf",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "기타 공부/디지털기술/중간시험 예상 문제.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 558,
-        "y": 100,
-        "width": 841,
-        "height": 723,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "9da1425b9d0541cf",
+  "active": "62d4d3c19fe8b247",
   "lastOpenFiles": [
-    "기타 공부/디지털기술/1. 디지털 기술.md",
+    "기타 공부/ESG/ESG 연습장.md",
+    "기타 공부/ESG/3. ESG 의 S(Social, 사회).md",
+    "기타 공부/ESG/1. ESG.md",
+    "기타_자료/Pasted image 20240606204850.png",
+    "기타_자료/Pasted image 20240606211252.png",
+    "기타_자료/Pasted image 20240612010231.png",
+    "기타_자료/Pasted image 20241006130032.png",
+    "기타_자료/Pasted image 20250331001804.png",
+    "기타_자료/Pasted image 20250331000040.png",
+    "기타 공부/ESG/2. ESG 의 E(Environment,환경).md",
+    "기타 공부/디지털기술/4. 디지털 기술.md",
     "기타 공부/디지털기술/중간시험 예상 문제.md",
+    "기타 공부/디지털기술/3. 디지털 기술.md",
+    "기타 공부/디지털기술/2. 디지털 기술.md",
+    "기타 공부/디지털기술/1. 디지털 기술.md",
     "게임 엔진/언리얼/언리얼 중간고사.md",
     "게임 엔진/언리얼/2. 언리얼.md",
     "운영체제/리눅스/리눅스실기/iptables.md",
@@ -208,39 +185,25 @@
     "운영체제/리눅스/리눅스실기/DHCP.md",
     "운영체제/리눅스/리눅스실기/zone 파일 설명.md",
     "기타 공부/ESG/5. ESG 전반기 총정리.md",
-    "기타 공부/ESG/ESG 연습장.md",
     "운영체제/리눅스/리눅스실기/LDAP.md",
     "기타 공부/영단어.md",
-    "기타 공부/ESG/2. ESG 의 E(Environment,환경).md",
-    "기타 공부/디지털기술/4. 디지털 기술.md",
     "게임 엔진/언리얼/1. 언리얼.md",
-    "기타 공부/ESG/1. ESG.md",
-    "기타 공부/ESG/3. ESG 의 S(Social, 사회).md",
     "기타 공부/ESG/4. ESG 의 G(Governance).md",
     "기타_자료/Pasted image 20250414182356.png",
     "기타_자료/Pasted image 20250414182129.png",
     "운영체제/리눅스/기타 자료.md",
-    "VisualStudio/단축키.md",
+    "기타 공부/VisualStudio/단축키.md",
     "운영체제/리눅스/리눅스 개념/리눅스.md",
     "무제 폴더",
-    "운영체제/리눅스/리눅스 개념/1. 리눅스 실무의 이해/1. 리눅스의 개요/1. 운영체제의 개요.md",
-    "기타 공부/디지털기술/3. 디지털 기술.md",
     "기타_자료/Pasted image 20250402222531.png",
     "기타_자료/Pasted image 20250402214718.png",
-    "기타 공부/디지털기술/2. 디지털 기술.md",
-    "기타_자료/Pasted image 20250331001804.png",
-    "기타_자료/Pasted image 20250331001742.png",
-    "기타_자료/Pasted image 20250331001715.png",
-    "기타_자료/Pasted image 20250331001709.png",
-    "기타_자료/Pasted image 20250331001542.png",
-    "기타_자료/Pasted image 20250331001533.png",
     "Language/C++/소켓프로그래밍",
     "기타 공부/디지털기술",
     "기타 공부/ESG",
     "Language/C++/라이브러리",
     "알고리즘/마르코프 프로세스",
     "Language",
-    "VisualStudio",
+    "기타 공부/VisualStudio",
     "Language/CS",
     "study"
   ]
