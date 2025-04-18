@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기타 공부/디지털기술/중간시험 예상 문제.md",
+                "file": "운영체제/리눅스/리눅스실기/DHCP.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기타 공부/디지털기술/중간시험 예상 문제.md",
+                "file": "운영체제/리눅스/리눅스실기/DHCP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기타 공부/디지털기술/중간시험 예상 문제.md",
+                "file": "운영체제/리눅스/리눅스실기/DHCP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기타 공부/디지털기술/중간시험 예상 문제.md"
+                "file": "운영체제/리눅스/리눅스실기/DHCP.md"
               }
             }
           }
@@ -160,6 +161,8 @@
   },
   "active": "155e1de6f58ad2b5",
   "lastOpenFiles": [
+    "운영체제/리눅스/리눅스실기/zone 파일 설명.md",
+    "기타 공부/디지털기술/중간시험 예상 문제.md",
     "기타 공부/디지털기술/1. 디지털 기술.md",
     "게임 엔진/언리얼/언리얼 중간고사.md",
     "게임 엔진/언리얼/2. 언리얼.md",
@@ -170,8 +173,6 @@
     "운영체제/리눅스/리눅스실기/리눅스 실기.md",
     "운영체제/리눅스/리눅스실기/httpd 설정항목.md",
     "운영체제/리눅스/리눅스실기/iptables.md",
-    "운영체제/리눅스/리눅스실기/zone 파일 설명.md",
-    "기타 공부/디지털기술/중간시험 예상 문제.md",
     "기타 공부/영단어.md",
     "기타 공부/ESG/2. ESG 의 E(Environment,환경).md",
     "기타 공부/디지털기술/4. 디지털 기술.md",
