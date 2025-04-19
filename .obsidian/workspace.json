@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "70d496f4e0642fd4",
+        "id": "84eab56c04b1dd79",
         "type": "tabs",
         "children": [
           {
-            "id": "62d4d3c19fe8b247",
+            "id": "3d20577b2c6efd19",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "기타 공부/ESG/5. ESG 전반기 총정리.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -81,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -98,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기타 공부/ESG/5. ESG 전반기 총정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기타 공부/ESG/5. ESG 전반기 총정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "기타 공부/ESG/5. ESG 전반기 총정리.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,8 +150,12 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "62d4d3c19fe8b247",
+  "active": "3d20577b2c6efd19",
   "lastOpenFiles": [
+    "기타 공부/디지털기술/중간시험 예상 문제.md",
+    "게임 엔진/언리얼/언리얼 중간고사.md",
+    "게임 엔진/언리얼/2. 언리얼.md",
+    "기타 공부/ESG/5. ESG 전반기 총정리.md",
     "기타 공부/ESG/ESG 연습장.md",
     "기타 공부/ESG/3. ESG 의 S(Social, 사회).md",
     "기타 공부/ESG/1. ESG.md",
@@ -172,19 +167,15 @@
     "기타_자료/Pasted image 20250331000040.png",
     "기타 공부/ESG/2. ESG 의 E(Environment,환경).md",
     "기타 공부/디지털기술/4. 디지털 기술.md",
-    "기타 공부/디지털기술/중간시험 예상 문제.md",
     "기타 공부/디지털기술/3. 디지털 기술.md",
     "기타 공부/디지털기술/2. 디지털 기술.md",
     "기타 공부/디지털기술/1. 디지털 기술.md",
-    "게임 엔진/언리얼/언리얼 중간고사.md",
-    "게임 엔진/언리얼/2. 언리얼.md",
     "운영체제/리눅스/리눅스실기/iptables.md",
     "운영체제/리눅스/리눅스실기/httpd 설정항목.md",
     "운영체제/리눅스/리눅스실기/리눅스 실기.md",
     "운영체제/리눅스/리눅스실기/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
     "운영체제/리눅스/리눅스실기/DHCP.md",
     "운영체제/리눅스/리눅스실기/zone 파일 설명.md",
-    "기타 공부/ESG/5. ESG 전반기 총정리.md",
     "운영체제/리눅스/리눅스실기/LDAP.md",
     "기타 공부/영단어.md",
     "게임 엔진/언리얼/1. 언리얼.md",
