@@ -13,50 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/리눅스 실기.md",
+                "file": "운영체제/리눅스/리눅스실기/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3aa14d46b3738d25",
+            "id": "3add2e70f43f31a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기타 공부/디지털기술/4. 디지털 기술.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0633f2dc3b62a099",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "기타 공부/디지털기술/5. 디지털 기술.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c81923fdbb31c970",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "기타 공부/ESG/5. ESG 전반기 총정리.md",
+                "file": "운영체제/리눅스/리눅스실기/사용자 신분 확인.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -135,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기타 공부/ESG/5. ESG 전반기 총정리.md",
+                "file": "운영체제/리눅스/리눅스실기/사용자 신분 확인.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기타 공부/ESG/5. ESG 전반기 총정리.md",
+                "file": "운영체제/리눅스/리눅스실기/사용자 신분 확인.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기타 공부/ESG/5. ESG 전반기 총정리.md"
+                "file": "운영체제/리눅스/리눅스실기/사용자 신분 확인.md"
               }
             }
           }
@@ -196,11 +172,15 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "c81923fdbb31c970",
+  "active": "3add2e70f43f31a8",
   "lastOpenFiles": [
-    "기타 공부/디지털기술/6. 디지털 기술.md",
-    "기타 공부/디지털기술/5. 디지털 기술.md",
+    "운영체제/리눅스/리눅스실기/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
+    "운영체제/리눅스/리눅스실기/사용자 신분 확인.md",
+    "운영체제/리눅스/리눅스실기/리눅스 실기.md",
     "기타 공부/디지털기술/4. 디지털 기술.md",
+    "기타 공부/디지털기술/5. 디지털 기술.md",
+    "기타 공부/ESG/5. ESG 전반기 총정리.md",
+    "기타 공부/디지털기술/6. 디지털 기술.md",
     "기타 공부/디지털기술/3. 디지털 기술.md",
     "기타 공부/디지털기술/2. 디지털 기술.md",
     "기타 공부/디지털기술/1. 디지털 기술.md",
@@ -208,12 +188,9 @@
     "게임 엔진/언리얼/언리얼 중간고사.md",
     "게임 엔진/언리얼/2. 언리얼.md",
     "게임 엔진/언리얼/1. 언리얼.md",
-    "기타 공부/ESG/5. ESG 전반기 총정리.md",
     "기타 공부/ESG/ESG 연습장.md",
     "기타 공부/영단어.md",
-    "운영체제/리눅스/리눅스실기/리눅스 실기.md",
     "알고리즘/알고리즘 개념/마르코프 프로세스/마르코프 체인.md",
-    "운영체제/리눅스/리눅스실기/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
     "알고리즘/알고리즘 개념/마르코프 프로세스/마르코프 보상 프로세스.md",
     "기타 공부/ESG/3. ESG 의 S(Social, 사회).md",
     "기타 공부/ESG/1. ESG.md",
@@ -229,7 +206,6 @@
     "운영체제/리눅스/리눅스실기/DHCP.md",
     "운영체제/리눅스/리눅스실기/zone 파일 설명.md",
     "운영체제/리눅스/리눅스실기/LDAP.md",
-    "기타 공부/ESG/4. ESG 의 G(Governance).md",
     "기타_자료/Pasted image 20250414182356.png",
     "기타_자료/Pasted image 20250414182129.png",
     "무제 폴더",
