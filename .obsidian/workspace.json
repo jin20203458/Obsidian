@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "84eab56c04b1dd79",
+        "id": "30d69cef1f745c4d",
         "type": "tabs",
         "children": [
           {
-            "id": "3d20577b2c6efd19",
+            "id": "de74991fe256e9fd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "운영체제/리눅스/리눅스실기/리눅스 실기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3aa14d46b3738d25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 공부/영단어.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -93,6 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "기타 공부/영단어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "기타 공부/영단어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "기타 공부/영단어.md"
+              }
             }
           }
         ]
@@ -150,8 +172,14 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "3d20577b2c6efd19",
+  "active": "3aa14d46b3738d25",
   "lastOpenFiles": [
+    "운영체제/리눅스/리눅스실기/리눅스 실기.md",
+    "알고리즘/알고리즘 개념/마르코프 프로세스/마르코프 체인.md",
+    "기타 공부/영단어.md",
+    "운영체제/리눅스/리눅스실기/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
+    "알고리즘/알고리즘 개념/마르코프 프로세스/마르코프 보상 프로세스.md",
+    "기타 공부/디지털기술/4. 디지털 기술.md",
     "기타 공부/디지털기술/중간시험 예상 문제.md",
     "게임 엔진/언리얼/언리얼 중간고사.md",
     "게임 엔진/언리얼/2. 언리얼.md",
@@ -166,25 +194,20 @@
     "기타_자료/Pasted image 20250331001804.png",
     "기타_자료/Pasted image 20250331000040.png",
     "기타 공부/ESG/2. ESG 의 E(Environment,환경).md",
-    "기타 공부/디지털기술/4. 디지털 기술.md",
     "기타 공부/디지털기술/3. 디지털 기술.md",
     "기타 공부/디지털기술/2. 디지털 기술.md",
     "기타 공부/디지털기술/1. 디지털 기술.md",
     "운영체제/리눅스/리눅스실기/iptables.md",
     "운영체제/리눅스/리눅스실기/httpd 설정항목.md",
-    "운영체제/리눅스/리눅스실기/리눅스 실기.md",
-    "운영체제/리눅스/리눅스실기/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
     "운영체제/리눅스/리눅스실기/DHCP.md",
     "운영체제/리눅스/리눅스실기/zone 파일 설명.md",
     "운영체제/리눅스/리눅스실기/LDAP.md",
-    "기타 공부/영단어.md",
     "게임 엔진/언리얼/1. 언리얼.md",
     "기타 공부/ESG/4. ESG 의 G(Governance).md",
     "기타_자료/Pasted image 20250414182356.png",
     "기타_자료/Pasted image 20250414182129.png",
     "운영체제/리눅스/기타 자료.md",
     "기타 공부/VisualStudio/단축키.md",
-    "운영체제/리눅스/리눅스 개념/리눅스.md",
     "무제 폴더",
     "기타_자료/Pasted image 20250402222531.png",
     "기타_자료/Pasted image 20250402214718.png",
@@ -192,7 +215,7 @@
     "기타 공부/디지털기술",
     "기타 공부/ESG",
     "Language/C++/라이브러리",
-    "알고리즘/마르코프 프로세스",
+    "알고리즘/알고리즘 개념/마르코프 프로세스",
     "Language",
     "기타 공부/VisualStudio",
     "Language/CS",
