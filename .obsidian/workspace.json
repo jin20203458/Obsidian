@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/파일 속성.md",
+                "file": "운영체제/리눅스/리눅스실기/zone 파일 설명.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/파일 속성.md",
+                "file": "운영체제/리눅스/리눅스실기/zone 파일 설명.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/파일 속성.md",
+                "file": "운영체제/리눅스/리눅스실기/zone 파일 설명.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/파일 속성.md"
+                "file": "운영체제/리눅스/리눅스실기/zone 파일 설명.md"
               }
             }
           }
@@ -186,8 +186,9 @@
   },
   "active": "c710bc8ab9c13385",
   "lastOpenFiles": [
-    "운영체제/리눅스/리눅스실기/리눅스 실기.md",
+    "운영체제/리눅스/리눅스실기/httpd 설정항목.md",
     "운영체제/리눅스/리눅스실기/파일 속성.md",
+    "운영체제/리눅스/리눅스실기/리눅스 실기.md",
     "운영체제/리눅스/리눅스실기/사용자 신분 확인.md",
     "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/5. 디스크 스케줄링, 파일시스템.md",
     "운영체제/컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 20강. 장치 컨트롤러와 장치 드라이버.md",
@@ -211,7 +212,6 @@
     "운영체제/리눅스/리눅스실기/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
     "기타 공부/디지털기술/4. 디지털 기술.md",
     "기타 공부/디지털기술/5. 디지털 기술.md",
-    "기타 공부/ESG/5. ESG 전반기 총정리.md",
     "기타_자료/Pasted image 20240606204850.png",
     "기타_자료/Pasted image 20240606211252.png",
     "기타_자료/Pasted image 20240612010231.png",
