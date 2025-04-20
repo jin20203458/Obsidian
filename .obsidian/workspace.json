@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/iptables.md",
+                "file": "운영체제/리눅스/리눅스실기/DHCP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "63761047f3c27068",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "운영체제/리눅스/리눅스실기/프린트.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/iptables.md",
+                "file": "운영체제/리눅스/리눅스실기/프린트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/iptables.md",
+                "file": "운영체제/리눅스/리눅스실기/프린트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스실기/iptables.md"
+                "file": "운영체제/리눅스/리눅스실기/프린트.md"
               }
             }
           }
@@ -159,8 +172,11 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "8c46f0b866e36018",
+  "active": "63761047f3c27068",
   "lastOpenFiles": [
+    "운영체제/리눅스/리눅스실기/DHCP.md",
+    "운영체제/리눅스/리눅스실기/프린트.md",
+    "운영체제/리눅스/리눅스실기/iptables.md",
     "게임 엔진/언리얼/언리얼 중간고사.md",
     "SQL/관심 기출 모음.md",
     "기타 공부/디지털기술/중간시험 예상 문제.md",
@@ -172,7 +188,6 @@
     "기타 공부/디지털기술/1. 디지털 기술.md",
     "기타 공부/ESG/5. ESG 전반기 총정리.md",
     "기타 공부/ESG/ESG 연습장.md",
-    "운영체제/리눅스/리눅스실기/iptables.md",
     "운영체제/리눅스/리눅스실기/TCP Wrapper.md",
     "운영체제/리눅스/리눅스실기/리눅스 실기.md",
     "운영체제/리눅스/리눅스실기/사용자 신분 확인.md",
@@ -185,8 +200,6 @@
     "운영체제/컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 18강. 다양한 보조기억장치.md",
     "운영체제/컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 17강.캐시 메모리.md",
     "운영체제/컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 16강. 메모리의 주소 공간-물리주소,논리주소.md",
-    "운영체제/컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 15강. RAM의 특성과 종류.md",
-    "운영체제/컴퓨터 구조, 운영체제/1. 컴퓨터 구조/컴퓨터 구조 14강. 명령어 집합구조.md",
     "기타_자료/Pasted image 20240606204850.png",
     "기타_자료/Pasted image 20240606211252.png",
     "기타_자료/Pasted image 20240612010231.png",
