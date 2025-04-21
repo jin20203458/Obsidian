@@ -68,3 +68,8 @@
 ![[Pasted image 20250414182129.png]]
 
 ![[Pasted image 20250414182356.png]]
+NAT를 써 출발지 주소를 바꾸는 설정
+`iptables -t nat -A POSTROUTING -o eth0 -j SNAT --to 203.247.40.100`
+NAT를 써 도착지 주소를 바꾸는 설정
+`iptables -t nat -A PREROUTING -d 203.247.40.100 -p tcp --dport 80 -j DNAT --to-destination 192.168.1.100
+`
