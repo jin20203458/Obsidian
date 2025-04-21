@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기타 공부/ESG/5. ESG 전반기 총정리.md",
+                "file": "운영체제/리눅스/리눅스 마스터 실기/proc.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기타 공부/ESG/5. ESG 전반기 총정리.md",
+                "file": "운영체제/리눅스/리눅스 마스터 실기/proc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기타 공부/ESG/5. ESG 전반기 총정리.md",
+                "file": "운영체제/리눅스/리눅스 마스터 실기/proc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기타 공부/ESG/5. ESG 전반기 총정리.md"
+                "file": "운영체제/리눅스/리눅스 마스터 실기/proc.md"
               }
             }
           }
@@ -160,6 +160,8 @@
   },
   "active": "8c46f0b866e36018",
   "lastOpenFiles": [
+    "운영체제/리눅스/리눅스 마스터 실기/리눅스 실기.md",
+    "기타 공부/ESG/5. ESG 전반기 총정리.md",
     "기타 공부/ESG/ESG 연습장.md",
     "기타 공부/ESG/1. ESG.md",
     "운영체제/리눅스/셸 스크립트 프로그래밍/셸 스크립트.md",
@@ -181,12 +183,10 @@
     "기타 공부/디지털기술/3. 디지털 기술.md",
     "기타 공부/디지털기술/2. 디지털 기술.md",
     "기타 공부/디지털기술/1. 디지털 기술.md",
-    "기타 공부/ESG/5. ESG 전반기 총정리.md",
     "운영체제/리눅스/리눅스 마스터 실기/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
     "운영체제/리눅스/리눅스 마스터 실기/프린트.md",
     "SQL/관심 기출 모음.md",
     "운영체제/리눅스/리눅스 마스터 실기/TCP Wrapper.md",
-    "운영체제/리눅스/리눅스 마스터 실기/리눅스 실기.md",
     "기타_자료/Pasted image 20240606204850.png",
     "기타_자료/Pasted image 20240606211252.png",
     "기타_자료/Pasted image 20240612010231.png",
