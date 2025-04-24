@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/Samba.md",
+                "file": "운영체제/리눅스/리눅스 마스터 실기/리눅스 실기.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/Samba.md",
+                "file": "운영체제/리눅스/리눅스 마스터 실기/리눅스 실기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/Samba.md",
+                "file": "운영체제/리눅스/리눅스 마스터 실기/리눅스 실기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/Samba.md"
+                "file": "운영체제/리눅스/리눅스 마스터 실기/리눅스 실기.md"
               }
             }
           }
@@ -186,6 +187,7 @@
   "active": "f74c8016b20bc6fa",
   "lastOpenFiles": [
     "운영체제/리눅스/리눅스 마스터 실기/dump,restore.md",
+    "운영체제/리눅스/리눅스 마스터 실기/리눅스 실기.md",
     "운영체제/리눅스/리눅스 마스터 실기/Samba.md",
     "운영체제/리눅스/리눅스 마스터 실기/httpd 설정항목.md",
     "기타 공부/디지털기술/중간시험 예상 문제.md",
@@ -201,7 +203,6 @@
     "기타 공부/영단어.md",
     "기타 공부/ESG/ESG 연습장.md",
     "운영체제/리눅스/리눅스 마스터 실기/proc.md",
-    "운영체제/리눅스/리눅스 마스터 실기/리눅스 실기.md",
     "기타 공부/ESG/1. ESG.md",
     "운영체제/리눅스/셸 스크립트 프로그래밍/셸 스크립트.md",
     "운영체제/리눅스/리눅스 마스터 필기/기타 자료.md",
