@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "f4828359f04c5e48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "운영체제/리눅스/리눅스 마스터 실기/mke2fs,dumpe2fs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f74c8016b20bc6fa",
             "type": "leaf",
             "state": {
@@ -106,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -123,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/리눅스 실기.md",
+                "file": "운영체제/리눅스/리눅스 마스터 실기/mke2fs,dumpe2fs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/리눅스 실기.md",
+                "file": "운영체제/리눅스/리눅스 마스터 실기/mke2fs,dumpe2fs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/리눅스 실기.md"
+                "file": "운영체제/리눅스/리눅스 마스터 실기/mke2fs,dumpe2fs.md"
               }
             }
           }
@@ -184,9 +195,10 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "f74c8016b20bc6fa",
+  "active": "f4828359f04c5e48",
   "lastOpenFiles": [
     "운영체제/리눅스/리눅스 마스터 실기/dump,restore.md",
+    "운영체제/리눅스/리눅스 마스터 실기/mke2fs,dumpe2fs.md",
     "운영체제/리눅스/리눅스 마스터 실기/리눅스 실기.md",
     "운영체제/리눅스/리눅스 마스터 실기/Samba.md",
     "운영체제/리눅스/리눅스 마스터 실기/httpd 설정항목.md",
@@ -212,7 +224,6 @@
     "운영체제/리눅스/리눅스 마스터 실기/iptables.md",
     "운영체제/리눅스/리눅스 마스터 실기/DHCP.md",
     "운영체제/리눅스/리눅스 마스터 실기/사용자 신분 확인.md",
-    "게임 엔진/언리얼/1. 언리얼.md",
     "기타_자료/Pasted image 20240606204850.png",
     "기타_자료/Pasted image 20240606211252.png",
     "기타_자료/Pasted image 20240612010231.png",
