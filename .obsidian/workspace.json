@@ -4,107 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a290dc3aa5370d6d",
+        "id": "b4246cd584b8a9cc",
         "type": "tabs",
         "children": [
           {
-            "id": "8c46f0b866e36018",
+            "id": "90ae3e863834cea8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/httpd 설정항목.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e73c98c5f5ccdfd5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/dump,restore.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f4828359f04c5e48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/mke2fs,dumpe2fs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "360e28baf3c0d279",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/리눅스 실기.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa0133fe9fb388ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/chattr.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4945ac4b0e289b70",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/zone 파일 설명.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "84f3bae3a1241b64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/Apache.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f74c8016b20bc6fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/리눅스 실기.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 505.5
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -182,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/Apache.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/Apache.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,9 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/Apache.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -243,16 +150,18 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "84f3bae3a1241b64",
+  "active": "90ae3e863834cea8",
   "lastOpenFiles": [
-    "운영체제/리눅스/리눅스 마스터 실기/zone 파일 설명.md",
-    "운영체제/리눅스/리눅스 마스터 실기/Apache.md",
-    "운영체제/리눅스/리눅스 마스터 실기/Telnet.md",
-    "운영체제/리눅스/리눅스 마스터 실기/chattr.md",
     "운영체제/리눅스/리눅스 마스터 실기/리눅스 실기.md",
+    "운영체제/리눅스/리눅스 마스터 실기/chattr.md",
+    "운영체제/리눅스/리눅스 마스터 실기/DHCP.md",
+    "운영체제/리눅스/리눅스 마스터 실기/dump,restore.md",
+    "운영체제/리눅스/리눅스 마스터 실기/Squid.md",
+    "운영체제/리눅스/리눅스 마스터 실기/Apache.md",
+    "운영체제/리눅스/리눅스 마스터 실기/zone 파일 설명.md",
+    "운영체제/리눅스/리눅스 마스터 실기/Telnet.md",
     "운영체제/리눅스/리눅스 마스터 실기/blkid.md",
     "운영체제/리눅스/리눅스 마스터 실기/mke2fs,dumpe2fs.md",
-    "운영체제/리눅스/리눅스 마스터 실기/dump,restore.md",
     "운영체제/리눅스/리눅스 마스터 실기/Samba.md",
     "운영체제/리눅스/리눅스 마스터 실기/httpd 설정항목.md",
     "기타 공부/디지털기술/중간시험 예상 문제.md",
@@ -269,8 +178,6 @@
     "기타 공부/ESG/ESG 연습장.md",
     "운영체제/리눅스/리눅스 마스터 실기/proc.md",
     "기타 공부/ESG/1. ESG.md",
-    "운영체제/리눅스/셸 스크립트 프로그래밍/셸 스크립트.md",
-    "운영체제/리눅스/리눅스 마스터 필기/기타 자료.md",
     "운영체제/리눅스/리눅스 마스터 필기",
     "기타_자료/Pasted image 20240606204850.png",
     "기타_자료/Pasted image 20240606211252.png",
