@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/관심 기출 모음.md",
+                "file": "게임 서버/GSP교과서/4. 게임 서버와 클라이언트.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/관심 기출 모음.md",
+                "file": "게임 서버/GSP교과서/4. 게임 서버와 클라이언트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/관심 기출 모음.md",
+                "file": "게임 서버/GSP교과서/4. 게임 서버와 클라이언트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/관심 기출 모음.md"
+                "file": "게임 서버/GSP교과서/4. 게임 서버와 클라이언트.md"
               }
             }
           }
@@ -160,6 +160,13 @@
   },
   "active": "90ae3e863834cea8",
   "lastOpenFiles": [
+    "게임 서버/GSP교과서/3. 소켓 프로그래밍.md",
+    "게임 서버/GSP교과서/사용함수 C++.md",
+    "게임 서버/GSP교과서/4. 게임 서버와 클라이언트.md",
+    "게임 서버/GSP교과서/5.게임 네트워킹.md",
+    "게임 서버/GSP교과서/2. 컴퓨터 네트워크.md",
+    "게임 서버/윈도우 스레드 스케줄링.md",
+    "SQL/관심 기출 모음.md",
     "운영체제/리눅스/리눅스 마스터 실기/mke2fs,dumpe2fs.md",
     "운영체제/리눅스/리눅스 마스터 실기/리눅스 실기.md",
     "운영체제/리눅스/리눅스 마스터 실기/chattr.md",
@@ -179,13 +186,6 @@
     "기타 공부/디지털기술/6. 디지털 기술.md",
     "기타 공부/디지털기술/5. 디지털 기술.md",
     "기타 공부/디지털기술/4. 디지털 기술.md",
-    "기타 공부/디지털기술/3. 디지털 기술.md",
-    "기타 공부/디지털기술/2. 디지털 기술.md",
-    "기타 공부/ESG/5. ESG 전반기 총정리.md",
-    "기타 공부/영단어.md",
-    "기타 공부/ESG/ESG 연습장.md",
-    "운영체제/리눅스/리눅스 마스터 실기/proc.md",
-    "기타 공부/ESG/1. ESG.md",
     "운영체제/리눅스/리눅스 마스터 필기",
     "기타_자료/Pasted image 20240606204850.png",
     "기타_자료/Pasted image 20240606211252.png",
