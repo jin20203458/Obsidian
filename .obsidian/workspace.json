@@ -11,8 +11,12 @@
             "id": "90ae3e863834cea8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "운영체제/리눅스/리눅스 마스터 실기/mke2fs,dumpe2fs.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -77,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 505.5
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -93,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "운영체제/리눅스/리눅스 마스터 실기/mke2fs,dumpe2fs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "운영체제/리눅스/리눅스 마스터 실기/mke2fs,dumpe2fs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "운영체제/리눅스/리눅스 마스터 실기/mke2fs,dumpe2fs.md"
+              }
             }
           }
         ]
