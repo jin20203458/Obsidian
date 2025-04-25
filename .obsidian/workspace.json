@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/mke2fs,dumpe2fs.md",
+                "file": "SQL/관심 기출 모음.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/mke2fs,dumpe2fs.md",
+                "file": "SQL/관심 기출 모음.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/mke2fs,dumpe2fs.md",
+                "file": "SQL/관심 기출 모음.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/mke2fs,dumpe2fs.md"
+                "file": "SQL/관심 기출 모음.md"
               }
             }
           }
@@ -161,6 +160,7 @@
   },
   "active": "90ae3e863834cea8",
   "lastOpenFiles": [
+    "운영체제/리눅스/리눅스 마스터 실기/mke2fs,dumpe2fs.md",
     "운영체제/리눅스/리눅스 마스터 실기/리눅스 실기.md",
     "운영체제/리눅스/리눅스 마스터 실기/chattr.md",
     "운영체제/리눅스/리눅스 마스터 실기/DHCP.md",
@@ -170,7 +170,6 @@
     "운영체제/리눅스/리눅스 마스터 실기/zone 파일 설명.md",
     "운영체제/리눅스/리눅스 마스터 실기/Telnet.md",
     "운영체제/리눅스/리눅스 마스터 실기/blkid.md",
-    "운영체제/리눅스/리눅스 마스터 실기/mke2fs,dumpe2fs.md",
     "운영체제/리눅스/리눅스 마스터 실기/Samba.md",
     "운영체제/리눅스/리눅스 마스터 실기/httpd 설정항목.md",
     "기타 공부/디지털기술/중간시험 예상 문제.md",
