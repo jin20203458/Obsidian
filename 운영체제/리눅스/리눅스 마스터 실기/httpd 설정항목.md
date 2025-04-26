@@ -20,7 +20,7 @@
 | **DocumentRoot**   | 가상 호스트의 웹 콘텐츠가 위치하는 디렉토리를 설정합니다.                                  | `DocumentRoot "/var/www/vhosts/example.com"` |
 | **ServerAlias**    | 가상 호스트에 대한 추가 도메인 이름을 설정합니다.                                      | `ServerAlias www.example.net`                |
 | **DirectoryIndex** | 웹서버가 기본적으로 로드할 인덱스 파일을 설정합니다.                                     | `DirectoryIndex index.html index.php`        |
-| **UserDir**        |                                                                   |                                              |
+| **UserDir**        | 아파치(Apache) 웹 서버 설정에서 "**일반 사용자 계정**"의 개인 웹사이트 디렉터리를 지정           | `UserDir www`<br>                            |
 
 ### 간단한 예시 설정:
 ```
