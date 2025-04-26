@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "b4246cd584b8a9cc",
+        "id": "9eb29ba05ed20941",
         "type": "tabs",
         "children": [
           {
-            "id": "90ae3e863834cea8",
+            "id": "3eecf5038e62151a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "게임 서버/윈도우 스레드 스케줄링.md",
+                "file": "운영체제/리눅스/리눅스 마스터 실기/파일 속성.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9f85d87307ce882e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "운영체제/리눅스/리눅스 마스터 실기/Priority.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "게임 서버/윈도우 스레드 스케줄링.md",
+                "file": "운영체제/리눅스/리눅스 마스터 실기/Priority.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "게임 서버/윈도우 스레드 스케줄링.md",
+                "file": "운영체제/리눅스/리눅스 마스터 실기/Priority.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "게임 서버/윈도우 스레드 스케줄링.md"
+                "file": "운영체제/리눅스/리눅스 마스터 실기/Priority.md"
               }
             }
           }
@@ -159,14 +172,16 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "90ae3e863834cea8",
+  "active": "9f85d87307ce882e",
   "lastOpenFiles": [
+    "운영체제/리눅스/리눅스 마스터 실기/파일 속성.md",
+    "운영체제/리눅스/리눅스 마스터 실기/Priority.md",
+    "게임 서버/윈도우 스레드 스케줄링.md",
     "게임 서버/GSP교과서/4. 게임 서버와 클라이언트.md",
     "게임 서버/GSP교과서/3. 소켓 프로그래밍.md",
     "게임 서버/GSP교과서/사용함수 C++.md",
     "게임 서버/GSP교과서/5.게임 네트워킹.md",
     "게임 서버/GSP교과서/2. 컴퓨터 네트워크.md",
-    "게임 서버/윈도우 스레드 스케줄링.md",
     "SQL/관심 기출 모음.md",
     "운영체제/리눅스/리눅스 마스터 실기/mke2fs,dumpe2fs.md",
     "운영체제/리눅스/리눅스 마스터 실기/리눅스 실기.md",
@@ -185,8 +200,6 @@
     "게임 엔진/언리얼/언리얼 중간고사.md",
     "게임 엔진/언리얼/2. 언리얼.md",
     "기타 공부/디지털기술/6. 디지털 기술.md",
-    "기타 공부/디지털기술/5. 디지털 기술.md",
-    "기타 공부/디지털기술/4. 디지털 기술.md",
     "운영체제/리눅스/리눅스 마스터 필기",
     "기타_자료/Pasted image 20240606204850.png",
     "기타_자료/Pasted image 20240606211252.png",
