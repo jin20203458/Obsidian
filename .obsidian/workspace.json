@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "게임 서버/GSP교과서/4. 게임 서버와 클라이언트.md",
+                "file": "게임 서버/윈도우 스레드 스케줄링.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "게임 서버/GSP교과서/4. 게임 서버와 클라이언트.md",
+                "file": "게임 서버/윈도우 스레드 스케줄링.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "게임 서버/GSP교과서/4. 게임 서버와 클라이언트.md",
+                "file": "게임 서버/윈도우 스레드 스케줄링.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "게임 서버/GSP교과서/4. 게임 서버와 클라이언트.md"
+                "file": "게임 서버/윈도우 스레드 스케줄링.md"
               }
             }
           }
@@ -160,9 +160,9 @@
   },
   "active": "90ae3e863834cea8",
   "lastOpenFiles": [
+    "게임 서버/GSP교과서/4. 게임 서버와 클라이언트.md",
     "게임 서버/GSP교과서/3. 소켓 프로그래밍.md",
     "게임 서버/GSP교과서/사용함수 C++.md",
-    "게임 서버/GSP교과서/4. 게임 서버와 클라이언트.md",
     "게임 서버/GSP교과서/5.게임 네트워킹.md",
     "게임 서버/GSP교과서/2. 컴퓨터 네트워크.md",
     "게임 서버/윈도우 스레드 스케줄링.md",
