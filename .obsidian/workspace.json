@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/Priority.md",
+                "file": "운영체제/리눅스/리눅스 마스터 실기/httpd 설정항목.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/Priority.md",
+                "file": "운영체제/리눅스/리눅스 마스터 실기/httpd 설정항목.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/Priority.md",
+                "file": "운영체제/리눅스/리눅스 마스터 실기/httpd 설정항목.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스 마스터 실기/Priority.md"
+                "file": "운영체제/리눅스/리눅스 마스터 실기/httpd 설정항목.md"
               }
             }
           }
@@ -174,8 +173,10 @@
   },
   "active": "9f85d87307ce882e",
   "lastOpenFiles": [
-    "운영체제/리눅스/리눅스 마스터 실기/파일 속성.md",
+    "운영체제/리눅스/리눅스 마스터 실기/TCP Wrapper.md",
+    "운영체제/리눅스/리눅스 마스터 실기/zone 파일 설명.md",
     "운영체제/리눅스/리눅스 마스터 실기/Priority.md",
+    "운영체제/리눅스/리눅스 마스터 실기/파일 속성.md",
     "게임 서버/윈도우 스레드 스케줄링.md",
     "게임 서버/GSP교과서/4. 게임 서버와 클라이언트.md",
     "게임 서버/GSP교과서/3. 소켓 프로그래밍.md",
@@ -190,7 +191,6 @@
     "운영체제/리눅스/리눅스 마스터 실기/dump,restore.md",
     "운영체제/리눅스/리눅스 마스터 실기/Squid.md",
     "운영체제/리눅스/리눅스 마스터 실기/Apache.md",
-    "운영체제/리눅스/리눅스 마스터 실기/zone 파일 설명.md",
     "운영체제/리눅스/리눅스 마스터 실기/Telnet.md",
     "운영체제/리눅스/리눅스 마스터 실기/blkid.md",
     "운영체제/리눅스/리눅스 마스터 실기/Samba.md",
@@ -199,7 +199,6 @@
     "기타 공부/디지털기술/1. 디지털 기술.md",
     "게임 엔진/언리얼/언리얼 중간고사.md",
     "게임 엔진/언리얼/2. 언리얼.md",
-    "기타 공부/디지털기술/6. 디지털 기술.md",
     "운영체제/리눅스/리눅스 마스터 필기",
     "기타_자료/Pasted image 20240606204850.png",
     "기타_자료/Pasted image 20240606211252.png",
