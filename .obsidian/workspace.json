@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/proc.md",
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/proc.md",
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/proc.md",
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/proc.md"
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md"
               }
             }
           }
@@ -173,6 +173,8 @@
   },
   "active": "3dc6665403d85ef3",
   "lastOpenFiles": [
+    "운영체제/리눅스/리눅스 2차/서버 서비스/Apache.md",
+    "운영체제/리눅스/리눅스 2차/시스템 관리/proc.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/키워드 정리.md",
     "운영체제/리눅스/리눅스 2차/개발도구및 기타/프린트.md",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/dd.md",
@@ -181,7 +183,6 @@
     "운영체제/리눅스/리눅스 2차/서버 서비스/Squid.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/Samba.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/DHCP.md",
-    "운영체제/리눅스/리눅스 2차/서버 서비스/Apache.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/httpd 설정항목.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/Telnet.md",
@@ -203,7 +204,6 @@
     "운영체제/리눅스/리눅스 2차/시스템 관리/sysctl.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/Priority.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/파일 속성.md",
-    "게임 서버/윈도우 스레드 스케줄링.md",
     "운영체제/리눅스/리눅스 1차",
     "기타_자료/Pasted image 20240606204850.png",
     "기타_자료/Pasted image 20240606211252.png",
