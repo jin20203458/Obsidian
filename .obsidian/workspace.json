@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md",
+                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "02f58ea3a20adda0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/usermod.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -110,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md",
+                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/usermod.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md",
+                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/usermod.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md"
+                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/usermod.md"
               }
             }
           }
@@ -171,11 +184,17 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "3dc6665403d85ef3",
+  "active": "02f58ea3a20adda0",
   "lastOpenFiles": [
-    "운영체제/리눅스/리눅스 2차/서버 서비스/Apache.md",
-    "운영체제/리눅스/리눅스 2차/시스템 관리/proc.md",
+    "운영체제/리눅스/리눅스 2차/시스템 관리/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
+    "운영체제/리눅스/리눅스 2차/시스템 관리/usermod.md",
+    "운영체제/리눅스/리눅스 2차/시스템 관리/사용자 신분 확인.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/키워드 정리.md",
+    "운영체제/리눅스/리눅스 2차/시스템 관리/파일 속성.md",
+    "운영체제/리눅스/리눅스 2차/시스템 관리/sysctl.md",
+    "운영체제/리눅스/리눅스 2차/시스템 관리/proc.md",
+    "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md",
+    "운영체제/리눅스/리눅스 2차/서버 서비스/Apache.md",
     "운영체제/리눅스/리눅스 2차/개발도구및 기타/프린트.md",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/dd.md",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/chattr.md",
@@ -184,14 +203,12 @@
     "운영체제/리눅스/리눅스 2차/서버 서비스/Samba.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/DHCP.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/httpd 설정항목.md",
-    "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/Telnet.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/TCP Wrapper.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md",
     "운영체제/리눅스/리눅스 2차/개발도구및 기타/gcc.md",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/mke2fs,dumpe2fs.md",
     "운영체제/리눅스/셸 스크립트 프로그래밍/셸 스크립트.md",
-    "운영체제/리눅스/리눅스 2차/시스템 관리/사용자 신분 확인.md",
     "운영체제/리눅스/리눅스 2차/개발도구및 기타",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리",
     "운영체제/리눅스/리눅스 2차/서버 서비스",
@@ -200,10 +217,6 @@
     "운영체제/리눅스/리눅스 1차/기타.md",
     "운영체제/리눅스/리눅스 1차/리눅스 기출/필기합격후기.md",
     "운영체제/리눅스/리눅스 1차/리눅스 기출/리눅스 기출 3과목.md",
-    "운영체제/리눅스/리눅스 1차/리눅스 기출/리눅스 기출 2과목.md",
-    "운영체제/리눅스/리눅스 2차/시스템 관리/sysctl.md",
-    "운영체제/리눅스/리눅스 2차/시스템 관리/Priority.md",
-    "운영체제/리눅스/리눅스 2차/시스템 관리/파일 속성.md",
     "운영체제/리눅스/리눅스 1차",
     "기타_자료/Pasted image 20240606204850.png",
     "기타_자료/Pasted image 20240606211252.png",
