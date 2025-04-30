@@ -85,14 +85,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/모듈/ldd.md",
+                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/Apache.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "93133c6e256fabd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/NIS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -170,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/모듈/ldd.md",
+                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/NIS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/모듈/ldd.md",
+                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/NIS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/모듈/ldd.md"
+                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/NIS.md"
               }
             }
           }
@@ -231,11 +243,13 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "816cbcd0ff6621fa",
+  "active": "93133c6e256fabd8",
   "lastOpenFiles": [
+    "운영체제/리눅스/리눅스 2차/서버 서비스/Apache.md",
+    "운영체제/리눅스/리눅스 2차/서버 서비스/NIS.md",
+    "운영체제/리눅스/리눅스 2차/모듈/ldd.md",
     "운영체제/리눅스/리눅스 2차/기타",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/quota.md",
-    "운영체제/리눅스/리눅스 2차/모듈/ldd.md",
     "운영체제/리눅스/리눅스 2차/모듈",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/chattr.md",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/mount.md",
@@ -250,7 +264,6 @@
     "운영체제/리눅스/리눅스 2차/시스템 관리/usermod.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/키워드 정리.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md",
-    "운영체제/리눅스/리눅스 2차/서버 서비스/Apache.md",
     "운영체제/리눅스/리눅스 2차/개발도구및 기타/프린트.md",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/dd.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/LDAP.md",
@@ -277,7 +290,6 @@
     "기타_자료/Pasted image 20250402222531.png",
     "기타_자료/Pasted image 20250402214718.png",
     "Language/C++/소켓프로그래밍",
-    "기타 공부/디지털기술",
-    "기타 공부/ESG"
+    "기타 공부/디지털기술"
   ]
 }
