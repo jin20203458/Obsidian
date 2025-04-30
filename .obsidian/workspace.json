@@ -37,14 +37,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/usermod.md",
+                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/sysctl.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8852c6e73a4f9861",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/dump,restore.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aff77dbf06a21b3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/chattr.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e40a6fc368a2cfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/quota.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ceada7114b0cb37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "운영체제/리눅스/리눅스 2차/모듈/ldd.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -106,8 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -123,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/usermod.md",
+                "file": "운영체제/리눅스/리눅스 2차/모듈/ldd.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/usermod.md",
+                "file": "운영체제/리눅스/리눅스 2차/모듈/ldd.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/usermod.md"
+                "file": "운영체제/리눅스/리눅스 2차/모듈/ldd.md"
               }
             }
           }
@@ -184,20 +231,28 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "02f58ea3a20adda0",
+  "active": "816cbcd0ff6621fa",
   "lastOpenFiles": [
-    "운영체제/리눅스/리눅스 2차/시스템 관리/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
-    "운영체제/리눅스/리눅스 2차/시스템 관리/usermod.md",
-    "운영체제/리눅스/리눅스 2차/시스템 관리/사용자 신분 확인.md",
-    "운영체제/리눅스/리눅스 2차/시스템 관리/키워드 정리.md",
-    "운영체제/리눅스/리눅스 2차/시스템 관리/파일 속성.md",
+    "운영체제/리눅스/리눅스 2차/기타",
+    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/quota.md",
+    "운영체제/리눅스/리눅스 2차/모듈/ldd.md",
+    "운영체제/리눅스/리눅스 2차/모듈",
+    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/chattr.md",
+    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/mount.md",
+    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/dump,restore.md",
+    "운영체제/리눅스/리눅스 2차/시스템 관리/passwd.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/sysctl.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/proc.md",
+    "운영체제/리눅스/리눅스 2차/시스템 관리/Priority.md",
+    "운영체제/리눅스/리눅스 2차/시스템 관리/파일 속성.md",
+    "운영체제/리눅스/리눅스 2차/시스템 관리/사용자 신분 확인.md",
+    "운영체제/리눅스/리눅스 2차/시스템 관리/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
+    "운영체제/리눅스/리눅스 2차/시스템 관리/usermod.md",
+    "운영체제/리눅스/리눅스 2차/시스템 관리/키워드 정리.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/Apache.md",
     "운영체제/리눅스/리눅스 2차/개발도구및 기타/프린트.md",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/dd.md",
-    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/chattr.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/LDAP.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/Squid.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/Samba.md",
@@ -205,18 +260,11 @@
     "운영체제/리눅스/리눅스 2차/서버 서비스/httpd 설정항목.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/Telnet.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/TCP Wrapper.md",
-    "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md",
-    "운영체제/리눅스/리눅스 2차/개발도구및 기타/gcc.md",
-    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/mke2fs,dumpe2fs.md",
-    "운영체제/리눅스/셸 스크립트 프로그래밍/셸 스크립트.md",
     "운영체제/리눅스/리눅스 2차/개발도구및 기타",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리",
     "운영체제/리눅스/리눅스 2차/서버 서비스",
     "운영체제/리눅스/리눅스 2차/네트워킹",
     "운영체제/리눅스/리눅스 2차/시스템 관리",
-    "운영체제/리눅스/리눅스 1차/기타.md",
-    "운영체제/리눅스/리눅스 1차/리눅스 기출/필기합격후기.md",
-    "운영체제/리눅스/리눅스 1차/리눅스 기출/리눅스 기출 3과목.md",
     "운영체제/리눅스/리눅스 1차",
     "기타_자료/Pasted image 20240606204850.png",
     "기타_자료/Pasted image 20240606211252.png",
@@ -230,7 +278,6 @@
     "기타_자료/Pasted image 20250402214718.png",
     "Language/C++/소켓프로그래밍",
     "기타 공부/디지털기술",
-    "기타 공부/ESG",
-    "Language/C++/라이브러리"
+    "기타 공부/ESG"
   ]
 }
