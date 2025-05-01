@@ -114,9 +114,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "29efc6474ebf2052",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/메일/makemap.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -194,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/ln.md",
+                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/메일/makemap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/ln.md",
+                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/메일/makemap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/ln.md"
+                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/메일/makemap.md"
               }
             }
           }
@@ -255,10 +267,12 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "4f02183d2f363818",
+  "active": "29efc6474ebf2052",
   "lastOpenFiles": [
-    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/chattr.md",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/ln.md",
+    "운영체제/리눅스/리눅스 2차/서버 서비스/메일/makemap.md",
+    "운영체제/리눅스/리눅스 2차/서버 서비스/메일",
+    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/chattr.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/NIS.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/Apache.md",
     "운영체제/리눅스/리눅스 2차/모듈/ldd.md",
@@ -284,7 +298,6 @@
     "운영체제/리눅스/리눅스 2차/서버 서비스/Samba.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/DHCP.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/httpd 설정항목.md",
-    "운영체제/리눅스/리눅스 2차/네트워킹/Telnet.md",
     "운영체제/리눅스/리눅스 2차/개발도구및 기타",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리",
     "운영체제/리눅스/리눅스 2차/서버 서비스",
@@ -301,7 +314,6 @@
     "기타_자료/Pasted image 20250414182129.png",
     "기타_자료/Pasted image 20250402222531.png",
     "기타_자료/Pasted image 20250402214718.png",
-    "Language/C++/소켓프로그래밍",
-    "기타 공부/디지털기술"
+    "Language/C++/소켓프로그래밍"
   ]
 }
