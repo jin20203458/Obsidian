@@ -4,131 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "9eb29ba05ed20941",
+        "id": "52bbbad756ed5116",
         "type": "tabs",
         "children": [
           {
-            "id": "aa1d0180cebf398f",
+            "id": "c6b7f39a6a0dd92a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/chattr.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3dc6665403d85ef3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "02f58ea3a20adda0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/sysctl.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8852c6e73a4f9861",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/dump,restore.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aff77dbf06a21b3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/chattr.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e40a6fc368a2cfc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/quota.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ceada7114b0cb37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/Apache.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "93133c6e256fabd8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/chattr.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f02183d2f363818",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/ln.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29efc6474ebf2052",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/메일/makemap.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/메일/makemap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/메일/makemap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -245,9 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/메일/makemap.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -267,27 +150,28 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "29efc6474ebf2052",
+  "active": "c6b7f39a6a0dd92a",
   "lastOpenFiles": [
-    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/ln.md",
+    "운영체제/리눅스/리눅스 2차/서버 서비스/메일/NFS.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/메일/makemap.md",
-    "운영체제/리눅스/리눅스 2차/서버 서비스/메일",
+    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/ln.md",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/chattr.md",
-    "운영체제/리눅스/리눅스 2차/서버 서비스/NIS.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/Apache.md",
+    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/quota.md",
+    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/dump,restore.md",
+    "운영체제/리눅스/리눅스 2차/시스템 관리/sysctl.md",
+    "운영체제/리눅스/리눅스 2차/시스템 관리/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
+    "운영체제/리눅스/리눅스 2차/서버 서비스/메일",
+    "운영체제/리눅스/리눅스 2차/서버 서비스/NIS.md",
     "운영체제/리눅스/리눅스 2차/모듈/ldd.md",
     "운영체제/리눅스/리눅스 2차/기타",
-    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/quota.md",
     "운영체제/리눅스/리눅스 2차/모듈",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/mount.md",
-    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/dump,restore.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/passwd.md",
-    "운영체제/리눅스/리눅스 2차/시스템 관리/sysctl.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/proc.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/Priority.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/파일 속성.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/사용자 신분 확인.md",
-    "운영체제/리눅스/리눅스 2차/시스템 관리/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/usermod.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/키워드 정리.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md",
@@ -297,7 +181,6 @@
     "운영체제/리눅스/리눅스 2차/서버 서비스/Squid.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/Samba.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/DHCP.md",
-    "운영체제/리눅스/리눅스 2차/서버 서비스/httpd 설정항목.md",
     "운영체제/리눅스/리눅스 2차/개발도구및 기타",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리",
     "운영체제/리눅스/리눅스 2차/서버 서비스",
