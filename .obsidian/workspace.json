@@ -11,8 +11,12 @@
             "id": "c6b7f39a6a0dd92a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/mount.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -93,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/mount.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/mount.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/mount.md"
+              }
             }
           }
         ]
@@ -152,6 +160,8 @@
   },
   "active": "c6b7f39a6a0dd92a",
   "lastOpenFiles": [
+    "운영체제/리눅스/리눅스 2차/커널/uname.md",
+    "운영체제/리눅스/리눅스 2차/커널",
     "운영체제/리눅스/리눅스 2차/서버 서비스/메일/NFS.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/메일/makemap.md",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/ln.md",
@@ -179,8 +189,6 @@
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/dd.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/LDAP.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/Squid.md",
-    "운영체제/리눅스/리눅스 2차/서버 서비스/Samba.md",
-    "운영체제/리눅스/리눅스 2차/네트워킹/DHCP.md",
     "운영체제/리눅스/리눅스 2차/개발도구및 기타",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리",
     "운영체제/리눅스/리눅스 2차/서버 서비스",
@@ -196,7 +204,6 @@
     "기타_자료/Pasted image 20250414182356.png",
     "기타_자료/Pasted image 20250414182129.png",
     "기타_자료/Pasted image 20250402222531.png",
-    "기타_자료/Pasted image 20250402214718.png",
-    "Language/C++/소켓프로그래밍"
+    "기타_자료/Pasted image 20250402214718.png"
   ]
 }
