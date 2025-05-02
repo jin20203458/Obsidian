@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/log.md",
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/lsof.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/log.md",
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/lsof.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/log.md",
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/lsof.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/log.md"
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/lsof.md"
               }
             }
           }
@@ -174,8 +173,8 @@
   },
   "active": "2185db0eb9b73b39",
   "lastOpenFiles": [
-    "운영체제/리눅스/리눅스 2차/시스템 관리/usermod.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/log.md",
+    "운영체제/리눅스/리눅스 2차/시스템 관리/usermod.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/사용자 신분 확인.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/sysctl.md",
