@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md",
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9688308e024f8c4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/nmap.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6bdae9b33d91d070",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md",
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md",
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md"
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md"
               }
             }
           }
@@ -171,8 +195,12 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "28e79cb0b7a8e871",
+  "active": "6bdae9b33d91d070",
   "lastOpenFiles": [
+    "운영체제/리눅스/리눅스 2차/네트워킹/lsof.md",
+    "운영체제/리눅스/리눅스 2차/네트워킹/nmap.md",
+    "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md",
+    "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/LDAP.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/Apache.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/service.md",
@@ -199,10 +227,6 @@
     "운영체제/리눅스/리눅스 2차/시스템 관리/파일 속성.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/사용자 신분 확인.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/usermod.md",
-    "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md",
-    "운영체제/리눅스/리눅스 2차/개발도구및 기타/프린트.md",
-    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/dd.md",
-    "운영체제/리눅스/리눅스 2차/서버 서비스/Squid.md",
     "운영체제/리눅스/리눅스 2차/개발도구및 기타",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리",
     "운영체제/리눅스/리눅스 2차/서버 서비스",
