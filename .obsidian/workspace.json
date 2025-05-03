@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/기타/커널 컴파일.md",
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/DHCP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cee5e0a63edefdfa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/ssh.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/기타/커널 컴파일.md",
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/ssh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/기타/커널 컴파일.md",
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/ssh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/기타/커널 컴파일.md"
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/ssh.md"
               }
             }
           }
@@ -171,10 +183,13 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "21970a18e87ebc9a",
+  "active": "cee5e0a63edefdfa",
   "lastOpenFiles": [
-    "운영체제/리눅스/리눅스 2차/시스템 관리/proc.md",
+    "운영체제/리눅스/리눅스 2차/시스템 관리/키워드 정리.md",
+    "운영체제/리눅스/리눅스 2차/네트워킹/ssh.md",
+    "운영체제/리눅스/리눅스 2차/네트워킹/DHCP.md",
     "운영체제/리눅스/리눅스 2차/기타/커널 컴파일.md",
+    "운영체제/리눅스/리눅스 2차/시스템 관리/proc.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/메일/access.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/메일/makemap.md",
@@ -188,7 +203,6 @@
     "운영체제/리눅스/리눅스 2차/시스템 관리/service.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/Priority.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/파일 속성.md",
-    "운영체제/리눅스/리눅스 2차/시스템 관리/키워드 정리.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/NIS.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/nmap.md",
@@ -198,8 +212,6 @@
     "운영체제/리눅스/리눅스 2차/커널/uname.md",
     "운영체제/리눅스/리눅스 2차/커널",
     "운영체제/리눅스/리눅스 2차/서버 서비스/메일/NFS.md",
-    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/ln.md",
-    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/chattr.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/메일",
     "운영체제/리눅스/리눅스 2차/기타",
     "운영체제/리눅스/리눅스 2차/모듈",
