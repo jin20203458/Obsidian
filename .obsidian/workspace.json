@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6bdae9b33d91d070",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/usermod.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2185db0eb9b73b39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/메일/makemap.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "116bf30e10b058a9",
             "type": "leaf",
             "state": {
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
