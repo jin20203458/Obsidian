@@ -73,6 +73,5 @@ makemap hash /etc/mail/access.db < /etc/mail/access
 
 bash
 
-코드 복사
 
 `Connect:192.168.5.10      REJECT      # 특정 IP의 접속 차단 From:spamdomain.com       DISCARD     # 특정 도메인에서 온 메일 폐기 To:ceo@company.com        REJECT      # 특정 사용자에게 오는 메일 거부 Client:fakehost.net       REJECT      # HELO/EHLO로 위장한 호스트 차단 192.168.1.0               OK          # 기본 접속 허용 (접두사 없음, Connect 기준)`

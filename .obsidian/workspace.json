@@ -8,163 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "116bf30e10b058a9",
+            "id": "d9bafb0fe00f04a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/proc.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "21970a18e87ebc9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/네트워킹/DHCP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cee5e0a63edefdfa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/네트워킹/ssh.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0d19588ff355c44a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/passwd.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28f8560f55afdbbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/passwd.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b67ccc0f7229fb23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/기타/mkdir.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f4524fa4498df90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/모듈/ldd.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a592c75dd7b214dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/chattr.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ae8f1e5be447d41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/네트워킹/lsof.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b8b9cae777eecf25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/기타/mkdir.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ff1ad8616c8a258e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/LDAP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1dd5d7c53afc285b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/LDAP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b0d7fd2af6c0d16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/makemap.md",
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 12
+        ]
       }
     ],
     "direction": "vertical"
@@ -242,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/makemap.md",
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/makemap.md",
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -282,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/makemap.md"
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md"
               }
             }
           }
@@ -303,21 +158,25 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "1b0d7fd2af6c0d16",
+  "active": "d9bafb0fe00f04a0",
   "lastOpenFiles": [
+    "운영체제/리눅스/리눅스 2차/서버 서비스/Apache.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/LDAP.md",
-    "운영체제/리눅스/리눅스 2차/서버 서비스/makemap.md",
+    "운영체제/리눅스/리눅스 2차/기타/mkdir.md",
+    "운영체제/리눅스/리눅스 2차/네트워킹/lsof.md",
+    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/chattr.md",
+    "운영체제/리눅스/리눅스 2차/모듈/ldd.md",
+    "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md",
+    "운영체제/리눅스/리눅스 2차/서버 서비스/DNS.md",
+    "운영체제/리눅스/리눅스 2차/서버 서비스/메일/makemap 1.md",
+    "운영체제/리눅스/리눅스 2차/서버 서비스/NIS.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/access.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/Samba.md",
     "운영체제/리눅스/리눅스 2차/기타/rsync.md",
-    "운영체제/리눅스/리눅스 2차/기타/mkdir.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/selinux.md",
-    "운영체제/리눅스/리눅스 2차/네트워킹/lsof.md",
     "운영체제/리눅스/리눅스 2차/개발도구및 기타/gcc.md",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/LVM.md",
-    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/chattr.md",
     "운영체제/리눅스/리눅스 2차/모듈/modprobe.md",
-    "운영체제/리눅스/리눅스 2차/모듈/ldd.md",
     "운영체제/리눅스/리눅스 2차/기타/tar.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/crontab.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/passwd.md",
@@ -327,11 +186,7 @@
     "운영체제/리눅스/리눅스 2차/시스템 관리/키워드 정리.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/사용자 신분 확인.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
-    "운영체제/리눅스/기출 복원/2102.md",
-    "운영체제/리눅스/리눅스 2차/네트워킹/ssh.md",
     "운영체제/리눅스/기출 복원",
-    "운영체제/리눅스/리눅스 2차/네트워킹/DHCP.md",
-    "운영체제/리눅스/리눅스 2차/기타/커널 컴파일.md",
     "운영체제/리눅스/리눅스 2차/커널",
     "운영체제/리눅스/리눅스 2차/서버 서비스/메일",
     "운영체제/리눅스/리눅스 2차/기타",
