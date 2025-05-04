@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/리눅스/기출 복원/2102.md",
+                "file": "운영체제/리눅스/기출 복원/2101.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/기출 복원/2102.md",
+                "file": "운영체제/리눅스/기출 복원/2101.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/기출 복원/2102.md",
+                "file": "운영체제/리눅스/기출 복원/2101.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/기출 복원/2102.md"
+                "file": "운영체제/리눅스/기출 복원/2101.md"
               }
             }
           }
@@ -174,8 +173,9 @@
   },
   "active": "b36caf1c3c53716a",
   "lastOpenFiles": [
-    "운영체제/리눅스/기출 복원/2101.md",
     "운영체제/리눅스/기출 복원/2102.md",
+    "운영체제/리눅스/기출 복원/2101.md",
+    "운영체제/리눅스/리눅스 2차/네트워킹/selinux.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/DHCP.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/Apache.md",
@@ -190,7 +190,6 @@
     "운영체제/리눅스/리눅스 2차/서버 서비스/access.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/Samba.md",
     "운영체제/리눅스/리눅스 2차/기타/rsync.md",
-    "운영체제/리눅스/리눅스 2차/네트워킹/selinux.md",
     "운영체제/리눅스/리눅스 2차/개발도구및 기타/gcc.md",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/LVM.md",
     "운영체제/리눅스/리눅스 2차/모듈/modprobe.md",
