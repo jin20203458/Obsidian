@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md",
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/DHCP.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md",
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/DHCP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md",
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/DHCP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md"
+                "file": "운영체제/리눅스/리눅스 2차/네트워킹/DHCP.md"
               }
             }
           }
@@ -160,13 +160,13 @@
   },
   "active": "d9bafb0fe00f04a0",
   "lastOpenFiles": [
+    "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/Apache.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/LDAP.md",
     "운영체제/리눅스/리눅스 2차/기타/mkdir.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/lsof.md",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/chattr.md",
     "운영체제/리눅스/리눅스 2차/모듈/ldd.md",
-    "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/DNS.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/메일/makemap 1.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/NIS.md",
