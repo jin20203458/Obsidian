@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무제 파일.md",
+                "file": "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/chattr.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "17d603246faa228b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/proc.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1e0f141743c57291",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/useradd.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "무제 파일.md",
+                "file": "운영체제/리눅스/기출 복원/2101.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "무제 파일.md",
+                "file": "운영체제/리눅스/기출 복원/2101.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제 파일.md"
+                "file": "운영체제/리눅스/기출 복원/2101.md"
               }
             }
           }
@@ -195,10 +220,16 @@
       }
     ]
   },
-  "active": "10b12c29a6c5ff33",
+  "active": "b36caf1c3c53716a",
   "lastOpenFiles": [
+    "운영체제/리눅스/리눅스 2차/시스템 관리/useradd.md",
     "운영체제/리눅스/기출 복원/2101.md",
-    "무제 파일.md",
+    "운영체제/리눅스/리눅스 2차/시스템 관리/proc.md",
+    "운영체제/리눅스/리눅스 2차/기타/mdadm.md",
+    "운영체제/리눅스/리눅스 2차/기타/무제 파일 1.md",
+    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/blkid.md",
+    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/chattr.md",
+    "운영체제/리눅스/리눅스 2차/기타/커널 컴파일.md",
     "운영체제/리눅스/기출 복원/2102.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/selinux.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/DHCP.md",
@@ -207,7 +238,6 @@
     "운영체제/리눅스/리눅스 2차/서버 서비스/LDAP.md",
     "운영체제/리눅스/리눅스 2차/기타/mkdir.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/lsof.md",
-    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/chattr.md",
     "운영체제/리눅스/리눅스 2차/모듈/ldd.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/DNS.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/메일/makemap 1.md",
@@ -218,11 +248,6 @@
     "운영체제/리눅스/리눅스 2차/개발도구및 기타/gcc.md",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/LVM.md",
     "운영체제/리눅스/리눅스 2차/모듈/modprobe.md",
-    "운영체제/리눅스/리눅스 2차/기타/tar.md",
-    "운영체제/리눅스/리눅스 2차/시스템 관리/crontab.md",
-    "운영체제/리눅스/리눅스 2차/시스템 관리/passwd.md",
-    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/blkid.md",
-    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/mke2fs,dumpe2fs.md",
     "운영체제/리눅스/기출 복원",
     "운영체제/리눅스/리눅스 2차/커널",
     "운영체제/리눅스/리눅스 2차/서버 서비스/메일",
