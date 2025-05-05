@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6e624cf197a8587a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "운영체제/리눅스/기출 복원/2401.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/기출 복원/2202.md",
+                "file": "운영체제/리눅스/기출 복원/2401.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/기출 복원/2202.md",
+                "file": "운영체제/리눅스/기출 복원/2401.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/기출 복원/2202.md"
+                "file": "운영체제/리눅스/기출 복원/2401.md"
               }
             }
           }
@@ -158,10 +171,12 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "c7973cb654e3134d",
+  "active": "6e624cf197a8587a",
   "lastOpenFiles": [
-    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/dump,restore.md",
+    "운영체제/리눅스/리눅스 2차/시스템 관리/useradd.md",
+    "운영체제/리눅스/기출 복원/2401.md",
     "운영체제/리눅스/기출 복원/2202.md",
+    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/dump,restore.md",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/LVM.md",
     "운영체제/리눅스/리눅스 2차/모듈/modprobe.md",
     "운영체제/리눅스/리눅스 2차/모듈/ldd.md",
@@ -174,7 +189,6 @@
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/dd.md",
     "운영체제/리눅스/리눅스 2차/기타/nmap.md",
     "운영체제/리눅스/리눅스 2차/기타/커널 컴파일.md",
-    "운영체제/리눅스/리눅스 2차/시스템 관리/useradd.md",
     "운영체제/리눅스/리눅스 2차/기타/mdadm.md",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/blkid.md",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/chattr.md",
@@ -185,7 +199,6 @@
     "운영체제/리눅스/리눅스 2차/서버 서비스/LDAP.md",
     "운영체제/리눅스/리눅스 2차/기타/mkdir.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/DNS.md",
-    "운영체제/리눅스/리눅스 2차/서버 서비스/메일/makemap 1.md",
     "운영체제/리눅스/기출 복원",
     "운영체제/리눅스/리눅스 2차/커널",
     "운영체제/리눅스/리눅스 2차/서버 서비스/메일",
