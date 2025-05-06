@@ -4,59 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d10ca622f9d638da",
+        "id": "833352f11fd69c58",
         "type": "tabs",
         "children": [
           {
-            "id": "c7973cb654e3134d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/기출 복원/2202.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e624cf197a8587a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/ln.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bebfa66d95e5d1e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/기출 복원/2401.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67965968f6465a21",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/기타/nmap.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dd4ed17f4027ba7a",
+            "id": "dd4b581251ed04a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -67,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,10 +158,10 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "dd4ed17f4027ba7a",
+  "active": "dd4b581251ed04a5",
   "lastOpenFiles": [
-    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/dump,restore.md",
     "운영체제/리눅스/기출 복원/2402.md",
+    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/dump,restore.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/logger.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/log.md",
     "운영체제/리눅스/리눅스 2차/기타/nmap.md",
