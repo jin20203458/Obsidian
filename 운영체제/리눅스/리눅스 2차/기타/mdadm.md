@@ -69,6 +69,9 @@ bash
 
 `mdadm --detail --scan >> /etc/mdadm/mdadm.conf`
 
+### 7. 오류발생
+`mdadm -f` 옵션은 **RAID 배열에서 특정 디스크를 강제로 실패(Fail) 상태로 설정**
+
 ---
 
 ## ✅ RAID 타입 요약
