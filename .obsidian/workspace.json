@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/Apache.md",
+                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/사용자 신분 확인.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/Apache.md",
+                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/사용자 신분 확인.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/Apache.md",
+                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/사용자 신분 확인.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/리눅스 2차/서버 서비스/Apache.md"
+                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/사용자 신분 확인.md"
               }
             }
           }
@@ -160,6 +160,8 @@
   },
   "active": "dd4b581251ed04a5",
   "lastOpenFiles": [
+    "운영체제/리눅스/리눅스 2차/시스템 관리/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
+    "운영체제/리눅스/리눅스 2차/서버 서비스/Apache.md",
     "운영체제/리눅스/기출 복원/2402.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md",
@@ -184,8 +186,6 @@
     "운영체제/리눅스/리눅스 2차/모듈/ldd.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/nfs.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/lsof.md",
-    "운영체제/리눅스/리눅스 2차/시스템 관리/proc.md",
-    "운영체제/리눅스/리눅스 2차/기타/tar.md",
     "운영체제/리눅스/기출 복원",
     "운영체제/리눅스/리눅스 2차/커널",
     "운영체제/리눅스/리눅스 2차/서버 서비스/메일",
