@@ -5,10 +5,10 @@ DNS의 핵심 데이터베이스라고 생각하면 됩니다.
 $TTL    86400
 @       IN SOA   ns1.example.com. root.example.com. (
                 2025041301  ; serial
-                3H          ; refresh
-                15M         ; retry
-                1W          ; expire
-                1D )        ; minimum
+                3H          ; refresh # 보조 -> 주 주기
+                15M         ; retry   # 갱신 실패시
+                1W          ; expire  # 연결 해제시
+                1D )        ; minimum # TTL
 
         IN NS    ns1.example.com.
         IN NS    ns2.example.com.
