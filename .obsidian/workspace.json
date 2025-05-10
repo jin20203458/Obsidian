@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/리눅스/기출 복원/2402.md",
+                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/사용자 신분 확인.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0888300e9fac3152",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/fuser.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/기출 복원/2402.md",
+                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/fuser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/기출 복원/2402.md",
+                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/fuser.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/기출 복원/2402.md"
+                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/fuser.md"
               }
             }
           }
@@ -158,17 +171,18 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "09f94ca66e239680",
+  "active": "0888300e9fac3152",
   "lastOpenFiles": [
+    "운영체제/리눅스/리눅스 2차/시스템 관리/사용자 신분 확인.md",
+    "운영체제/리눅스/리눅스 2차/시스템 관리/fuser.md",
+    "운영체제/리눅스/기출 복원/2402.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
     "AI",
     "알고리즘/알고리즘 개념/다이나믹프로그래밍(DynamicProgramming).md",
     "알고리즘/알고리즘 개념/Fuzzy Logic.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/키워드 정리.md",
-    "운영체제/리눅스/리눅스 2차/시스템 관리/사용자 신분 확인.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/Apache.md",
-    "운영체제/리눅스/기출 복원/2402.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md",
     "운영체제/리눅스/리눅스 2차/기타/mdadm.md",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/dump,restore.md",
