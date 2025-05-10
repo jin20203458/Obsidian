@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/리눅스/기출 복원/2202.md",
+                "file": "운영체제/리눅스/기출 복원/2402.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/기출 복원/2202.md",
+                "file": "운영체제/리눅스/기출 복원/2402.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/기출 복원/2202.md",
+                "file": "운영체제/리눅스/기출 복원/2402.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/기출 복원/2202.md"
+                "file": "운영체제/리눅스/기출 복원/2402.md"
               }
             }
           }
@@ -173,6 +173,8 @@
   },
   "active": "0888300e9fac3152",
   "lastOpenFiles": [
+    "운영체제/리눅스/기출 복원/2401.md",
+    "운영체제/리눅스/기출 복원/2202.md",
     "운영체제/리눅스/기출 복원/2102.md",
     "운영체제/리눅스/기출 복원/2101.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/키워드 정리.md",
@@ -193,8 +195,6 @@
     "운영체제/리눅스/리눅스 2차/기타/nmap.md",
     "운영체제/리눅스/리눅스 2차/커널/커널 컴파일.md",
     "운영체제/리눅스/리눅스 2차/커널/uname.md",
-    "운영체제/리눅스/기출 복원/2401.md",
-    "운영체제/리눅스/기출 복원/2202.md",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/cpio.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/메일/access.md",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/ln.md",
