@@ -30,9 +30,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fb064fe51313ea8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/Python/연산자.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "858a6ec02e7d96d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/Python/random.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d76ef533bfe005e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/Python/문자열.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "93689e23f1a9da45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/Python/슬라이싱.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -110,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운영체제/리눅스/기출 복원/2402.md",
+                "file": "Language/Python/슬라이싱.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운영체제/리눅스/기출 복원/2402.md",
+                "file": "Language/Python/슬라이싱.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운영체제/리눅스/기출 복원/2402.md"
+                "file": "Language/Python/슬라이싱.md"
               }
             }
           }
@@ -171,8 +219,14 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "0888300e9fac3152",
+  "active": "93689e23f1a9da45",
   "lastOpenFiles": [
+    "Language/Python/문자열.md",
+    "Language/Python/슬라이싱.md",
+    "Language/Python/random.md",
+    "Language/Python/연산자.md",
+    "운영체제/리눅스/기출 복원/2402.md",
+    "Language/Python",
     "운영체제/리눅스/기출 복원/2401.md",
     "운영체제/리눅스/기출 복원/2202.md",
     "운영체제/리눅스/기출 복원/2102.md",
@@ -181,7 +235,6 @@
     "운영체제/리눅스/리눅스 2차/시스템 관리/사용자 신분 확인.md",
     "운영체제/리눅스/리눅스 2차/서버 서비스/Apache.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/fuser.md",
-    "운영체제/리눅스/기출 복원/2402.md",
     "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
     "AI",
@@ -196,10 +249,6 @@
     "운영체제/리눅스/리눅스 2차/커널/커널 컴파일.md",
     "운영체제/리눅스/리눅스 2차/커널/uname.md",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/cpio.md",
-    "운영체제/리눅스/리눅스 2차/서버 서비스/메일/access.md",
-    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/ln.md",
-    "운영체제/리눅스/리눅스 2차/개발도구및 기타/gcc.md",
-    "운영체제/리눅스/리눅스 2차/시스템 관리/useradd.md",
     "운영체제/리눅스/기출 복원",
     "운영체제/리눅스/리눅스 2차/커널",
     "운영체제/리눅스/리눅스 2차/서버 서비스/메일",
@@ -208,7 +257,6 @@
     "운영체제/리눅스/리눅스 2차/개발도구및 기타",
     "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리",
     "운영체제/리눅스/리눅스 2차/서버 서비스",
-    "운영체제/리눅스/리눅스 2차/네트워킹",
     "기타_자료/Pasted image 20240606204850.png",
     "기타_자료/Pasted image 20240606211252.png",
     "기타_자료/Pasted image 20240612010231.png",
