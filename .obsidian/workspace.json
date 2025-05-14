@@ -4,59 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d2f9f1431fda8e2d",
+        "id": "ecf4efa8a0e38a95",
         "type": "tabs",
         "children": [
           {
-            "id": "09f94ca66e239680",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/리눅스 2차/시스템 관리/키워드 정리.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0888300e9fac3152",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/리눅스/기출 복원/2402.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fb064fe51313ea8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language/Python/연산자.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "858a6ec02e7d96d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language/Python/random.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1d76ef533bfe005e",
+            "id": "9516e8bbcfacb3a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -68,43 +20,19 @@
             }
           },
           {
-            "id": "93689e23f1a9da45",
+            "id": "50cd4931b9b870ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/Python/문자열.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2f1107d637585c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language/Python/문자열포맷.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "27519311ed8d1aa6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language/Python/탈출문자.md",
+                "file": "Language/Python/ReadME.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/Python/탈출문자.md",
+                "file": "Language/Python/ReadME.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/Python/탈출문자.md",
+                "file": "Language/Python/ReadME.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/Python/탈출문자.md"
+                "file": "Language/Python/ReadME.md"
               }
             }
           }
@@ -243,11 +171,12 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "27519311ed8d1aa6",
+  "active": "50cd4931b9b870ab",
   "lastOpenFiles": [
+    "Language/Python/문자열.md",
+    "Language/Python/ReadME.md",
     "Language/Python/문자열포맷.md",
     "Language/Python/탈출문자.md",
-    "Language/Python/문자열.md",
     "Language/Python/슬라이싱.md",
     "Language/Python/random.md",
     "Language/Python/연산자.md",
@@ -272,7 +201,6 @@
     "운영체제/리눅스/리눅스 2차/시스템 관리/logger.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/log.md",
     "운영체제/리눅스/리눅스 2차/기타/nmap.md",
-    "운영체제/리눅스/리눅스 2차/커널/커널 컴파일.md",
     "운영체제/리눅스/기출 복원",
     "운영체제/리눅스/리눅스 2차/커널",
     "운영체제/리눅스/리눅스 2차/서버 서비스/메일",
