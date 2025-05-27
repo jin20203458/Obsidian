@@ -4,40 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "ecf4efa8a0e38a95",
+        "id": "39b6ca08c0d50234",
         "type": "tabs",
         "children": [
           {
-            "id": "eecc49ad346cc13a",
+            "id": "e3e890c8e4615bee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/C++/enum class.md",
+                "file": "기타 공부/ESG/ESG 연습장1.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b4382a2e7e32f81c",
+            "id": "31767eaaa9742651",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/C++/파일.md",
+                "file": "기타 공부/ESG/5. ESG 전반기 총정리.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "caddc0881163f85f",
+            "id": "7c57997f8d629125",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Clang.md",
+                "file": "기타 공부/ESG/6. ESG 후반기 총정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/Clang.md",
+                "file": "기타 공부/ESG/6. ESG 후반기 총정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/Clang.md",
+                "file": "기타 공부/ESG/6. ESG 후반기 총정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/Clang.md"
+                "file": "기타 공부/ESG/6. ESG 후반기 총정리.md"
               }
             }
           }
@@ -183,12 +183,16 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "caddc0881163f85f",
+  "active": "7c57997f8d629125",
   "lastOpenFiles": [
-    "Language/C++/파일.md",
+    "기타 공부/ESG/5. ESG 전반기 총정리.md",
+    "기타 공부/ESG/6. ESG 후반기 총정리.md",
+    "기타 공부/ESG/ESG 연습장2.md",
+    "기타 공부/ESG/ESG 연습장1.md",
     "LLVM/Clang.md",
-    "LLVM",
+    "Language/C++/파일.md",
     "Language/C++/enum class.md",
+    "LLVM",
     "Language/Python/pyautogui.md",
     "Language/Python/문자열포맷.md",
     "Language/Python/ReadME.md",
@@ -210,10 +214,6 @@
     "운영체제/리눅스/리눅스 2차/네트워킹/zone 파일 설명.md",
     "운영체제/리눅스/리눅스 2차/시스템 관리/계정 및 인증(Account and Authentication) 관련 설정 파일.md",
     "AI",
-    "알고리즘/알고리즘 개념/다이나믹프로그래밍(DynamicProgramming).md",
-    "알고리즘/알고리즘 개념/Fuzzy Logic.md",
-    "운영체제/리눅스/리눅스 2차/네트워킹/iptables.md",
-    "운영체제/리눅스/리눅스 2차/기타/mdadm.md",
     "운영체제/리눅스/기출 복원",
     "운영체제/리눅스/리눅스 2차/커널",
     "운영체제/리눅스/리눅스 2차/서버 서비스/메일",
