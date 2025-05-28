@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기타 공부/ESG/ESG 연습장2.md",
+                "file": "기타 공부/ESG/6. ESG 후반기 총정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기타 공부/ESG/ESG 연습장2.md",
+                "file": "기타 공부/ESG/6. ESG 후반기 총정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기타 공부/ESG/ESG 연습장2.md"
+                "file": "기타 공부/ESG/6. ESG 후반기 총정리.md"
               }
             }
           }
@@ -171,49 +172,12 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "floating": {
-    "id": "a2e9e7f200b2e03a",
-    "type": "floating",
-    "children": [
-      {
-        "id": "faf83f4a9b59ea84",
-        "type": "window",
-        "children": [
-          {
-            "id": "5883841d382e609e",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "7c57997f8d629125",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "기타 공부/ESG/ESG 연습장2.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 736,
-        "y": 162,
-        "width": 747,
-        "height": 671,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "7c57997f8d629125",
+  "active": "31767eaaa9742651",
   "lastOpenFiles": [
+    "기타 공부/ESG/ESG 연습장2.md",
     "기타 공부/ESG/6. ESG 후반기 총정리.md",
     "기타 공부/ESG/5. ESG 전반기 총정리.md",
     "기타 공부/ESG/ESG 연습장1.md",
-    "기타 공부/ESG/ESG 연습장2.md",
     "LLVM/Clang.md",
     "Language/C++/파일.md",
     "Language/C++/enum class.md",
