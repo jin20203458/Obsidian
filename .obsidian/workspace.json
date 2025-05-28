@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기타 공부/ESG/ESG 연습장1.md",
+                "file": "기타 공부/ESG/ESG 연습장2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기타 공부/ESG/ESG 연습장1.md",
+                "file": "기타 공부/ESG/ESG 연습장2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기타 공부/ESG/ESG 연습장1.md"
+                "file": "기타 공부/ESG/ESG 연습장2.md"
               }
             }
           }
@@ -187,8 +187,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 83,
-        "y": 16,
+        "x": -734,
+        "y": -99,
         "width": 600,
         "height": 966,
         "maximize": false,
@@ -196,10 +196,10 @@
       }
     ]
   },
-  "active": "e3e890c8e4615bee",
+  "active": "66a101e461cd059f",
   "lastOpenFiles": [
-    "기타 공부/ESG/ESG 연습장2.md",
     "기타 공부/ESG/ESG 연습장1.md",
+    "기타 공부/ESG/ESG 연습장2.md",
     "기타 공부/ESG/6. ESG 후반기 총정리.md",
     "기타 공부/ESG/5. ESG 전반기 총정리.md",
     "LLVM/Clang.md",
