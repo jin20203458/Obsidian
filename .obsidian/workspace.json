@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e3e890c8e4615bee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "게임 엔진/언리얼/2. 언리얼.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8a696860ed4839ce",
             "type": "leaf",
             "state": {
@@ -44,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
