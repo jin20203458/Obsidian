@@ -186,8 +186,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 866,
-        "y": 3,
+        "x": 1049,
+        "y": 71,
         "width": 600,
         "height": 966,
         "maximize": false,
@@ -197,9 +197,9 @@
   },
   "active": "8a696860ed4839ce",
   "lastOpenFiles": [
-    "게임 엔진/언리얼/3. 언리얼(Toon Tanks).md",
-    "기타 공부/ESG/6. ESG 후반기 총정리.md",
     "기타 공부/ESG/ESG 연습장2.md",
+    "기타 공부/ESG/6. ESG 후반기 총정리.md",
+    "게임 엔진/언리얼/3. 언리얼(Toon Tanks).md",
     "게임 엔진/언리얼/언리얼 기말고사.md",
     "게임 엔진/언리얼/언리얼 중간고사.md",
     "게임 엔진/언리얼/2. 언리얼.md",
