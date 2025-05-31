@@ -163,11 +163,11 @@
     "type": "floating",
     "children": [
       {
-        "id": "69fe1fc199af19c5",
+        "id": "b7c94818f2f667cc",
         "type": "window",
         "children": [
           {
-            "id": "799129cb71f7675c",
+            "id": "0a424ff6c6c4f8a6",
             "type": "tabs",
             "children": [
               {
@@ -186,10 +186,10 @@
           }
         ],
         "direction": "vertical",
-        "x": 1049,
-        "y": 71,
+        "x": 921,
+        "y": 40,
         "width": 600,
-        "height": 966,
+        "height": 926,
         "maximize": false,
         "zoom": 0
       }
