@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "66a101e461cd059f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 공부/ESG/ESG 연습장2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기타 공부/ESG/6. ESG 후반기 총정리.md",
+                "file": "기타 공부/ESG/ESG 연습장2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기타 공부/ESG/6. ESG 후반기 총정리.md",
+                "file": "기타 공부/ESG/ESG 연습장2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기타 공부/ESG/6. ESG 후반기 총정리.md"
+                "file": "기타 공부/ESG/ESG 연습장2.md"
               }
             }
           }
@@ -158,47 +171,10 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "floating": {
-    "id": "c4499df7375d6851",
-    "type": "floating",
-    "children": [
-      {
-        "id": "b7c94818f2f667cc",
-        "type": "window",
-        "children": [
-          {
-            "id": "0a424ff6c6c4f8a6",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "66a101e461cd059f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "기타 공부/ESG/ESG 연습장2.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 921,
-        "y": 40,
-        "width": 600,
-        "height": 926,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "8a696860ed4839ce",
+  "active": "66a101e461cd059f",
   "lastOpenFiles": [
-    "기타 공부/ESG/ESG 연습장2.md",
     "기타 공부/ESG/6. ESG 후반기 총정리.md",
+    "기타 공부/ESG/ESG 연습장2.md",
     "게임 엔진/언리얼/3. 언리얼(Toon Tanks).md",
     "게임 엔진/언리얼/언리얼 기말고사.md",
     "게임 엔진/언리얼/언리얼 중간고사.md",
