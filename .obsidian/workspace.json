@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "72bb79b80ea4f49a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "기타 공부/디지털기술/중간시험 예상 문제.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ed7ce959e515f11e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기타 공부/디지털기술/6. 디지털 기술.md",
+                "file": "기타 공부/디지털기술/디지털기술_1/6. 디지털 기술.md",
                 "mode": "source",
                 "source": false
               }
@@ -42,9 +30,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "aaeb87929533edd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 공부/디지털기술/디지털기술_1/1. 디지털 기술.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "445689e3013b0009",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 공부/디지털기술/디지털기술_1/2. 디지털 기술.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d658db89f9e31a2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 공부/디지털기술/8. 디지털 기술.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d90ffec845dc7efb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 공부/디지털기술/9. 디지털 기술.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -106,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -123,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기타 공부/디지털기술/7. 디지털 기술.md",
+                "file": "기타 공부/디지털기술/9. 디지털 기술.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기타 공부/디지털기술/7. 디지털 기술.md",
+                "file": "기타 공부/디지털기술/9. 디지털 기술.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기타 공부/디지털기술/7. 디지털 기술.md"
+                "file": "기타 공부/디지털기술/9. 디지털 기술.md"
               }
             }
           }
@@ -184,10 +219,16 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "33b79d20f8db4eb8",
+  "active": "d90ffec845dc7efb",
   "lastOpenFiles": [
-    "기타 공부/디지털기술/6. 디지털 기술.md",
+    "기타 공부/디지털기술/8. 디지털 기술.md",
+    "기타 공부/디지털기술/9. 디지털 기술.md",
     "기타 공부/디지털기술/7. 디지털 기술.md",
+    "기타 공부/디지털기술/디지털기술_1/3. 디지털 기술.md",
+    "기타 공부/디지털기술/디지털기술_1/2. 디지털 기술.md",
+    "기타 공부/디지털기술/디지털기술_1/1. 디지털 기술.md",
+    "기타 공부/디지털기술/디지털기술_1",
+    "기타 공부/디지털기술/디지털기술_1/6. 디지털 기술.md",
     "기타 공부/디지털기술/기말시험 예상 문제.md",
     "기타 공부/디지털기술/중간시험 예상 문제.md",
     "기타 공부/ESG/ESG 연습장1.md",
@@ -208,11 +249,6 @@
     "LLVM",
     "Language/Python/pyautogui.md",
     "Language/Python/문자열포맷.md",
-    "Language/Python/ReadME.md",
-    "Language/Python/문자열.md",
-    "Language/Python/탈출문자.md",
-    "Language/Python/슬라이싱.md",
-    "Language/Python/random.md",
     "Language/Python",
     "AI",
     "운영체제/리눅스/기출 복원",
@@ -221,7 +257,6 @@
     "운영체제/리눅스/리눅스 2차/기타",
     "운영체제/리눅스/리눅스 2차/모듈",
     "운영체제/리눅스/리눅스 2차/개발도구및 기타",
-    "운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리",
     "기타_자료/Pasted image 20240606204850.png",
     "기타_자료/Pasted image 20240606211252.png",
     "기타_자료/Pasted image 20240612010231.png",
