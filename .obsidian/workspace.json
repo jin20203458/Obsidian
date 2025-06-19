@@ -8,43 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c2842fb80db77d6e",
+            "id": "453b54b1b41ad75d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/4. XP와 SCRUM.md",
+                "file": "정보처리기사/1. 소프트웨어 설계/7. 요구사항 확인기법과 FTR.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "021f496c9260b74a",
+            "id": "e2f8f16a3ef331db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/5. 현행 시스템 분석.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a6f267eb099cbaf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/6. 요구사항 개발.md",
+                "file": "정보처리기사/1. 소프트웨어 설계/8. UML과 럼바우 분석기법.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/6. 요구사항 개발.md",
+                "file": "정보처리기사/1. 소프트웨어 설계/8. UML과 럼바우 분석기법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/6. 요구사항 개발.md",
+                "file": "정보처리기사/1. 소프트웨어 설계/8. UML과 럼바우 분석기법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/6. 요구사항 개발.md"
+                "file": "정보처리기사/1. 소프트웨어 설계/8. UML과 럼바우 분석기법.md"
               }
             }
           }
@@ -183,10 +171,12 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "4a6f267eb099cbaf",
+  "active": "e2f8f16a3ef331db",
   "lastOpenFiles": [
-    "정보처리기사/1. 소프트웨어 설계/5. 현행 시스템 분석.md",
+    "정보처리기사/1. 소프트웨어 설계/7. 요구사항 확인기법과 FTR.md",
+    "정보처리기사/1. 소프트웨어 설계/8. UML과 럼바우 분석기법.md",
     "정보처리기사/1. 소프트웨어 설계/6. 요구사항 개발.md",
+    "정보처리기사/1. 소프트웨어 설계/5. 현행 시스템 분석.md",
     "정보처리기사/1. 소프트웨어 설계/4. XP와 SCRUM.md",
     "정보처리기사/1. 소프트웨어 설계/3. 소프트웨어 설계 방법론.md",
     "정보처리기사/1. 소프트웨어 설계/1. 소프트웨어 공학이란.md",
@@ -214,8 +204,6 @@
     "SQL/슈퍼타입,서브타입.md",
     "SQL/반 정규화.md",
     "SQL/수직분할, 수평분할.md",
-    "SQL/데이터베이스.md",
-    "SQL/관심 기출 모음.md",
     "기타 공부/디지털기술/디지털기술_1",
     "LLVM",
     "Language/Python",
