@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/소프트웨어 공학이란.md",
+                "file": "정보처리기사/1. 소프트웨어 설계/1. 소프트웨어 공학이란.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ea2f8a1d500817f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "정보처리기사/1. 소프트웨어 설계/2. 소프트웨어 재공학.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -97,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/소프트웨어 공학이란.md",
+                "file": "정보처리기사/1. 소프트웨어 설계/2. 소프트웨어 재공학.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/소프트웨어 공학이란.md",
+                "file": "정보처리기사/1. 소프트웨어 설계/2. 소프트웨어 재공학.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/소프트웨어 공학이란.md"
+                "file": "정보처리기사/1. 소프트웨어 설계/2. 소프트웨어 재공학.md"
               }
             }
           }
@@ -158,10 +172,11 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "8140304e6ffeb02a",
+  "active": "ea2f8a1d500817f1",
   "lastOpenFiles": [
+    "정보처리기사/1. 소프트웨어 설계/1. 소프트웨어 공학이란.md",
+    "정보처리기사/1. 소프트웨어 설계/2. 소프트웨어 재공학.md",
     "기타 공부/디지털기술/9. 디지털 기술.md",
-    "정보처리기사/1. 소프트웨어 설계/소프트웨어 공학이란.md",
     "정보처리기사/5. 정보시스템 구축관리",
     "정보처리기사/4. 프로그래밍 언어 활용",
     "정보처리기사/3. 데이터베이스 구축",
