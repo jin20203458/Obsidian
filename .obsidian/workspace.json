@@ -8,31 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "420b364668f63e68",
+            "id": "c2842fb80db77d6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/1. 소프트웨어 공학이란.md",
+                "file": "정보처리기사/1. 소프트웨어 설계/4. XP와 SCRUM.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "627e1bc24549d0fb",
+            "id": "021f496c9260b74a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/3. 소프트웨어 설계 방법론.md",
+                "file": "정보처리기사/1. 소프트웨어 설계/5. 현행 시스템 분석.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a6f267eb099cbaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "정보처리기사/1. 소프트웨어 설계/6. 요구사항 개발.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 262.5
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -111,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/3. 소프트웨어 설계 방법론.md",
+                "file": "정보처리기사/1. 소프트웨어 설계/6. 요구사항 개발.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/3. 소프트웨어 설계 방법론.md",
+                "file": "정보처리기사/1. 소프트웨어 설계/6. 요구사항 개발.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/3. 소프트웨어 설계 방법론.md"
+                "file": "정보처리기사/1. 소프트웨어 설계/6. 요구사항 개발.md"
               }
             }
           }
@@ -172,10 +183,13 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "627e1bc24549d0fb",
+  "active": "4a6f267eb099cbaf",
   "lastOpenFiles": [
-    "정보처리기사/1. 소프트웨어 설계/1. 소프트웨어 공학이란.md",
+    "정보처리기사/1. 소프트웨어 설계/5. 현행 시스템 분석.md",
+    "정보처리기사/1. 소프트웨어 설계/6. 요구사항 개발.md",
+    "정보처리기사/1. 소프트웨어 설계/4. XP와 SCRUM.md",
     "정보처리기사/1. 소프트웨어 설계/3. 소프트웨어 설계 방법론.md",
+    "정보처리기사/1. 소프트웨어 설계/1. 소프트웨어 공학이란.md",
     "정보처리기사/1. 소프트웨어 설계/2. 소프트웨어 재공학.md",
     "기타 공부/디지털기술/9. 디지털 기술.md",
     "정보처리기사/5. 정보시스템 구축관리",
@@ -202,9 +216,6 @@
     "SQL/수직분할, 수평분할.md",
     "SQL/데이터베이스.md",
     "SQL/관심 기출 모음.md",
-    "SQL/SELECT 실행순서.md",
-    "SQL/sqld 2과목_6 정규표현식.md",
-    "LLVM/Clang.md",
     "기타 공부/디지털기술/디지털기술_1",
     "LLVM",
     "Language/Python",
