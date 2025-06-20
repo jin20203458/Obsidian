@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "77175ade612f494f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "정보처리기사/1. 소프트웨어 설계/UML 다이어그램.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/8. UML과 럼바우 분석기법.md",
+                "file": "정보처리기사/1. 소프트웨어 설계/UML 다이어그램.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/8. UML과 럼바우 분석기법.md",
+                "file": "정보처리기사/1. 소프트웨어 설계/UML 다이어그램.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/8. UML과 럼바우 분석기법.md"
+                "file": "정보처리기사/1. 소프트웨어 설계/UML 다이어그램.md"
               }
             }
           }
@@ -171,10 +183,11 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "e2f8f16a3ef331db",
+  "active": "77175ade612f494f",
   "lastOpenFiles": [
-    "정보처리기사/1. 소프트웨어 설계/7. 요구사항 확인기법과 FTR.md",
     "정보처리기사/1. 소프트웨어 설계/8. UML과 럼바우 분석기법.md",
+    "정보처리기사/1. 소프트웨어 설계/UML 다이어그램.md",
+    "정보처리기사/1. 소프트웨어 설계/7. 요구사항 확인기법과 FTR.md",
     "정보처리기사/1. 소프트웨어 설계/6. 요구사항 개발.md",
     "정보처리기사/1. 소프트웨어 설계/5. 현행 시스템 분석.md",
     "정보처리기사/1. 소프트웨어 설계/4. XP와 SCRUM.md",
@@ -203,7 +216,6 @@
     "SQL/집합연산.md",
     "SQL/슈퍼타입,서브타입.md",
     "SQL/반 정규화.md",
-    "SQL/수직분할, 수평분할.md",
     "기타 공부/디지털기술/디지털기술_1",
     "LLVM",
     "Language/Python",
