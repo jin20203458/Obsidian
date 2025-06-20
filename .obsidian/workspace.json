@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "453b54b1b41ad75d",
+            "id": "9091028da7a37460",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/7. 요구사항 확인기법과 FTR.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2f8f16a3ef331db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/8. UML과 럼바우 분석기법.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "77175ade612f494f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/UML 다이어그램.md",
+                "file": "정보처리기사/1. 소프트웨어 설계/13. 소프트웨어 설계.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/UML 다이어그램.md",
+                "file": "정보처리기사/1. 소프트웨어 설계/13. 소프트웨어 설계.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/UML 다이어그램.md",
+                "file": "정보처리기사/1. 소프트웨어 설계/13. 소프트웨어 설계.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/UML 다이어그램.md"
+                "file": "정보처리기사/1. 소프트웨어 설계/13. 소프트웨어 설계.md"
               }
             }
           }
@@ -184,10 +159,14 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "77175ade612f494f",
+  "active": "9091028da7a37460",
   "lastOpenFiles": [
+    "정보처리기사/1. 소프트웨어 설계/12. UI 설계.md",
+    "정보처리기사/1. 소프트웨어 설계/13. 소프트웨어 설계.md",
+    "정보처리기사/1. 소프트웨어 설계/11. UI 표준 및 지침.md",
+    "정보처리기사/1. 소프트웨어 설계/10. UI 환경 분석.md",
+    "정보처리기사/1. 소프트웨어 설계/9. UML 다이어그램.md",
     "정보처리기사/1. 소프트웨어 설계/8. UML과 럼바우 분석기법.md",
-    "정보처리기사/1. 소프트웨어 설계/UML 다이어그램.md",
     "정보처리기사/1. 소프트웨어 설계/7. 요구사항 확인기법과 FTR.md",
     "정보처리기사/1. 소프트웨어 설계/6. 요구사항 개발.md",
     "정보처리기사/1. 소프트웨어 설계/5. 현행 시스템 분석.md",
@@ -213,10 +192,6 @@
     "게임프로그래밍/게임 엔진/언리얼/언리얼 기말고사.md",
     "기타 공부/ESG/2. ESG 의 E(Environment,환경).md",
     "기타 공부/ESG/ESG 연습장2.md",
-    "SQL/함수 모음.md",
-    "SQL/집합연산.md",
-    "SQL/슈퍼타입,서브타입.md",
-    "SQL/반 정규화.md",
     "기타 공부/디지털기술/디지털기술_1",
     "LLVM",
     "Language/Python",
