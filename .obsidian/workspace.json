@@ -8,18 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "90375007e5900ca5",
+            "id": "3712ab0c04e992e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/15. 모듈.md",
+                "file": "정보처리기사/1. 소프트웨어 설계/16. 재사용.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee7996d6eb2db5ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "정보처리기사/1. 소프트웨어 설계/17. 소프트웨어 아키텍쳐.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/15. 모듈.md",
+                "file": "정보처리기사/1. 소프트웨어 설계/17. 소프트웨어 아키텍쳐.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/15. 모듈.md",
+                "file": "정보처리기사/1. 소프트웨어 설계/17. 소프트웨어 아키텍쳐.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "정보처리기사/1. 소프트웨어 설계/15. 모듈.md"
+                "file": "정보처리기사/1. 소프트웨어 설계/17. 소프트웨어 아키텍쳐.md"
               }
             }
           }
@@ -159,12 +172,15 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "90375007e5900ca5",
+  "active": "ee7996d6eb2db5ca",
   "lastOpenFiles": [
+    "정보처리기사/1. 소프트웨어 설계/16. 재사용.md",
+    "정보처리기사/1. 소프트웨어 설계/17. 소프트웨어 아키텍쳐.md",
+    "기타_자료/Pasted image 20250621213617.png",
+    "정보처리기사/1. 소프트웨어 설계/15. 모듈.md",
     "정보처리기사/1. 소프트웨어 설계/14. 구조적 분석 도구.md",
     "게임프로그래밍/게임 엔진/언리얼/3. 언리얼(Toon Tanks).md",
     "게임프로그래밍/게임 엔진/언리얼/언리얼 기말고사.md",
-    "정보처리기사/1. 소프트웨어 설계/15. 모듈.md",
     "정보처리기사/1. 소프트웨어 설계/13. 소프트웨어 설계.md",
     "기타_자료/Pasted image 20250621003148.png",
     "기타_자료/Pasted image 20250621002518.png",
@@ -192,8 +208,6 @@
     "기타 공부/디지털기술/7. 디지털 기술.md",
     "기타 공부/디지털기술/기말시험 예상 문제.md",
     "기타 공부/ESG/6. ESG 후반기 총정리.md",
-    "기타 공부/ESG/ESG 연습장1.md",
-    "기타 공부/디지털기술/중간시험 예상 문제.md",
     "기타 공부/디지털기술/디지털기술_1",
     "LLVM",
     "Language/Python",
@@ -205,7 +219,6 @@
     "기타_자료/Pasted image 20241006130032.png",
     "기타_자료/Pasted image 20250331001804.png",
     "기타_자료/Pasted image 20250331000040.png",
-    "기타_자료/Pasted image 20250414182356.png",
-    "기타_자료/Pasted image 20250414182129.png"
+    "기타_자료/Pasted image 20250414182356.png"
   ]
 }
