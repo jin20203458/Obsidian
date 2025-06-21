@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "cd63edbe6ce5c19d",
+        "id": "481776f72d305ea0",
         "type": "tabs",
         "children": [
           {
-            "id": "88d7a2df2a9444bf",
+            "id": "3cfa2c366f121139",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "19. 코드 설계.md",
+                "file": "정보처리기사/1. 소프트웨어 설계/22. 겍체지향 설계 원칙.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ecaa6598d1f1b3c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "정보처리기사/1. 소프트웨어 설계/23. 디자인 패턴.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "19. 코드 설계.md",
+                "file": "정보처리기사/1. 소프트웨어 설계/23. 디자인 패턴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "19. 코드 설계.md",
+                "file": "정보처리기사/1. 소프트웨어 설계/23. 디자인 패턴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "19. 코드 설계.md"
+                "file": "정보처리기사/1. 소프트웨어 설계/23. 디자인 패턴.md"
               }
             }
           }
@@ -159,9 +171,16 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "88d7a2df2a9444bf",
+  "active": "ecaa6598d1f1b3c6",
   "lastOpenFiles": [
-    "19. 코드 설계.md",
+    "정보처리기사/1. 소프트웨어 설계/22. 겍체지향 설계 원칙.md",
+    "정보처리기사/1. 소프트웨어 설계/23. 디자인 패턴.md",
+    "정보처리기사/1. 소프트웨어 설계/8. UML과 럼바우 분석기법.md",
+    "정보처리기사/1. 소프트웨어 설계/9. UML 다이어그램.md",
+    "정보처리기사/1. 소프트웨어 설계/21. 객체지향 설계와 디자인 패턴.md",
+    "기타_자료/Pasted image 20250621222611.png",
+    "기타_자료/Pasted image 20250621222247.png",
+    "정보처리기사/1. 소프트웨어 설계/19. 코드 설계.md",
     "정보처리기사/1. 소프트웨어 설계/18. 소프트웨어 아키텍처 패턴.md",
     "정보처리기사/1. 소프트웨어 설계/17. 소프트웨어 아키텍쳐.md",
     "기타_자료/Pasted image 20250621220527.png",
@@ -177,8 +196,6 @@
     "정보처리기사/1. 소프트웨어 설계/12. UI 설계.md",
     "정보처리기사/1. 소프트웨어 설계/11. UI 표준 및 지침.md",
     "정보처리기사/1. 소프트웨어 설계/10. UI 환경 분석.md",
-    "정보처리기사/1. 소프트웨어 설계/9. UML 다이어그램.md",
-    "정보처리기사/1. 소프트웨어 설계/8. UML과 럼바우 분석기법.md",
     "정보처리기사/1. 소프트웨어 설계/7. 요구사항 확인기법과 FTR.md",
     "정보처리기사/1. 소프트웨어 설계/6. 요구사항 개발.md",
     "정보처리기사/1. 소프트웨어 설계/5. 현행 시스템 분석.md",
@@ -193,9 +210,6 @@
     "정보처리기사/2. 소프트웨어 개발",
     "정보처리기사/1. 소프트웨어 설계",
     "기타 공부/디지털기술/8. 디지털 기술.md",
-    "기타 공부/디지털기술/10. 디지털 기술.md",
-    "게임프로그래밍/게임 엔진/언리얼/2. 언리얼.md",
-    "기타 공부/디지털기술/7. 디지털 기술.md",
     "기타 공부/디지털기술/디지털기술_1",
     "LLVM",
     "Language/Python",
@@ -204,8 +218,6 @@
     "기타_자료/Pasted image 20240606204850.png",
     "기타_자료/Pasted image 20240606211252.png",
     "기타_자료/Pasted image 20240612010231.png",
-    "기타_자료/Pasted image 20241006130032.png",
-    "기타_자료/Pasted image 20250331001804.png",
-    "기타_자료/Pasted image 20250331000040.png"
+    "기타_자료/Pasted image 20241006130032.png"
   ]
 }
