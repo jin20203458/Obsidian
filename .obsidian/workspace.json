@@ -4,34 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "d34496c8b23edf1a",
+        "id": "9f063aa533081201",
         "type": "tabs",
         "children": [
           {
-            "id": "cd7babcee685efbb",
+            "id": "144b4c23165d91ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/1. 통합 구현.md",
+                "file": "정보처리기사/2. 소프트웨어 개발/3. 버전 관리.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5cbad7ca6714e97a",
+            "id": "8012ed0308c33432",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/무제 파일.md",
+                "file": "게임프로그래밍/게임 엔진/언리얼/3. 언리얼(Toon Tanks).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -109,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/1. 통합 구현.md",
+                "file": "게임프로그래밍/게임 엔진/언리얼/3. 언리얼(Toon Tanks).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/1. 통합 구현.md",
+                "file": "게임프로그래밍/게임 엔진/언리얼/3. 언리얼(Toon Tanks).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/1. 통합 구현.md"
+                "file": "게임프로그래밍/게임 엔진/언리얼/3. 언리얼(Toon Tanks).md"
               }
             }
           }
@@ -171,16 +173,19 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "816cbcd0ff6621fa",
+  "active": "8012ed0308c33432",
   "lastOpenFiles": [
-    "정보처리기사/2. 소프트웨어 개발/무제 파일.md",
+    "정보처리기사/2. 소프트웨어 개발/4. 모듈 연계.md",
+    "정보처리기사/2. 소프트웨어 개발/3. 버전 관리.md",
+    "기타_자료/Pasted image 20250623000428.png",
+    "정보처리기사/2. 소프트웨어 개발/2. 형상관리.md",
+    "정보처리기사/2. 소프트웨어 개발/1. 통합 구현.md",
     "기타_자료/Pasted image 20250622235218.png",
     "게임프로그래밍/게임 엔진/언리얼/3. 언리얼(Toon Tanks).md",
     "게임프로그래밍/게임 엔진/언리얼/언리얼 기말고사.md",
     "게임프로그래밍/게임 엔진/언리얼/언리얼 중간고사.md",
     "게임프로그래밍/게임 엔진/언리얼/1. 언리얼.md",
     "게임프로그래밍/게임 엔진/언리얼/2. 언리얼.md",
-    "정보처리기사/2. 소프트웨어 개발/1. 통합 구현.md",
     "정보처리기사/1. 소프트웨어 설계/25. 시스템 인터페이스 설계.md",
     "정보처리기사/1. 소프트웨어 설계/22. 겍체지향 설계 원칙.md",
     "정보처리기사/1. 소프트웨어 설계/27. 미들웨어 솔루션.md",
@@ -204,8 +209,6 @@
     "기타_자료/Pasted image 20250621003148.png",
     "기타_자료/Pasted image 20250621002518.png",
     "정보처리기사/1. 소프트웨어 설계/12. UI 설계.md",
-    "정보처리기사/1. 소프트웨어 설계/11. UI 표준 및 지침.md",
-    "정보처리기사/1. 소프트웨어 설계/10. UI 환경 분석.md",
     "정보처리기사/5. 정보시스템 구축관리",
     "정보처리기사/4. 프로그래밍 언어 활용",
     "정보처리기사/3. 데이터베이스 구축",
@@ -217,7 +220,6 @@
     "AI",
     "운영체제/리눅스/기출 복원",
     "기타_자료/Pasted image 20240606204850.png",
-    "기타_자료/Pasted image 20240606211252.png",
-    "기타_자료/Pasted image 20240612010231.png"
+    "기타_자료/Pasted image 20240606211252.png"
   ]
 }
