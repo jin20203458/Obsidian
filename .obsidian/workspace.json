@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/1. 통합 구현.md",
+                "file": "게임프로그래밍/게임 엔진/언리얼/3. 언리얼(Toon Tanks).md",
                 "mode": "source",
                 "source": false
               }
@@ -97,8 +97,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/1. 통합 구현.md",
-                "collapseAll": false,
+                "file": "게임프로그래밍/게임 엔진/언리얼/3. 언리얼(Toon Tanks).md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/1. 통합 구현.md",
+                "file": "게임프로그래밍/게임 엔진/언리얼/3. 언리얼(Toon Tanks).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,15 +137,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/1. 통합 구현.md"
+                "file": "게임프로그래밍/게임 엔진/언리얼/3. 언리얼(Toon Tanks).md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
