@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "게임프로그래밍/게임 엔진/언리얼/3. 언리얼(Toon Tanks).md",
+                "file": "정보처리기사/2. 소프트웨어 개발/1. 통합 구현.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5cbad7ca6714e97a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "정보처리기사/2. 소프트웨어 개발/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -98,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "게임프로그래밍/게임 엔진/언리얼/3. 언리얼(Toon Tanks).md",
+                "file": "정보처리기사/2. 소프트웨어 개발/1. 통합 구현.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "게임프로그래밍/게임 엔진/언리얼/3. 언리얼(Toon Tanks).md",
+                "file": "정보처리기사/2. 소프트웨어 개발/1. 통합 구현.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "게임프로그래밍/게임 엔진/언리얼/3. 언리얼(Toon Tanks).md"
+                "file": "정보처리기사/2. 소프트웨어 개발/1. 통합 구현.md"
               }
             }
           }
@@ -160,11 +171,13 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "cd7babcee685efbb",
+  "active": "816cbcd0ff6621fa",
   "lastOpenFiles": [
+    "정보처리기사/2. 소프트웨어 개발/무제 파일.md",
+    "기타_자료/Pasted image 20250622235218.png",
+    "게임프로그래밍/게임 엔진/언리얼/3. 언리얼(Toon Tanks).md",
     "게임프로그래밍/게임 엔진/언리얼/언리얼 기말고사.md",
     "게임프로그래밍/게임 엔진/언리얼/언리얼 중간고사.md",
-    "게임프로그래밍/게임 엔진/언리얼/3. 언리얼(Toon Tanks).md",
     "게임프로그래밍/게임 엔진/언리얼/1. 언리얼.md",
     "게임프로그래밍/게임 엔진/언리얼/2. 언리얼.md",
     "정보처리기사/2. 소프트웨어 개발/1. 통합 구현.md",
@@ -193,7 +206,6 @@
     "정보처리기사/1. 소프트웨어 설계/12. UI 설계.md",
     "정보처리기사/1. 소프트웨어 설계/11. UI 표준 및 지침.md",
     "정보처리기사/1. 소프트웨어 설계/10. UI 환경 분석.md",
-    "정보처리기사/1. 소프트웨어 설계/7. 요구사항 확인기법과 FTR.md",
     "정보처리기사/5. 정보시스템 구축관리",
     "정보처리기사/4. 프로그래밍 언어 활용",
     "정보처리기사/3. 데이터베이스 구축",
@@ -206,7 +218,6 @@
     "운영체제/리눅스/기출 복원",
     "기타_자료/Pasted image 20240606204850.png",
     "기타_자료/Pasted image 20240606211252.png",
-    "기타_자료/Pasted image 20240612010231.png",
-    "기타_자료/Pasted image 20241006130032.png"
+    "기타_자료/Pasted image 20240612010231.png"
   ]
 }
