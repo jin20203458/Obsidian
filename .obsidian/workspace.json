@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9f063aa533081201",
+        "id": "96b10d0b427c8c01",
         "type": "tabs",
         "children": [
           {
-            "id": "144b4c23165d91ff",
+            "id": "099b0b320ba27210",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/3. 버전 관리.md",
+                "file": "정보처리기사/2. 소프트웨어 개발/6. 인터페이스 보안.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/3. 버전 관리.md",
+                "file": "정보처리기사/2. 소프트웨어 개발/6. 인터페이스 보안.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/3. 버전 관리.md",
+                "file": "정보처리기사/2. 소프트웨어 개발/6. 인터페이스 보안.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/3. 버전 관리.md"
+                "file": "정보처리기사/2. 소프트웨어 개발/6. 인터페이스 보안.md"
               }
             }
           }
@@ -159,12 +160,18 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "144b4c23165d91ff",
+  "active": "099b0b320ba27210",
   "lastOpenFiles": [
+    "정보처리기사/2. 소프트웨어 개발/6. 인터페이스 보안.md",
+    "정보처리기사/2. 소프트웨어 개발/5. 인터페이스 구현.md",
+    "기타_자료/Pasted image 20250624234422.png",
+    "정보처리기사/2. 소프트웨어 개발/4. 모듈 연계.md",
+    "기타_자료/Pasted image 20250624234048.png",
+    "기타_자료/Pasted image 20250624233918.png",
+    "기타_자료/Pasted image 20250624233908.png",
+    "정보처리기사/2. 소프트웨어 개발/3. 버전 관리.md",
     "게임프로그래밍/게임 엔진/언리얼/3. 언리얼(Toon Tanks).md",
     "게임프로그래밍/게임 엔진/언리얼/2. 언리얼.md",
-    "정보처리기사/2. 소프트웨어 개발/4. 모듈 연계.md",
-    "정보처리기사/2. 소프트웨어 개발/3. 버전 관리.md",
     "기타_자료/Pasted image 20250623000428.png",
     "정보처리기사/2. 소프트웨어 개발/2. 형상관리.md",
     "정보처리기사/2. 소프트웨어 개발/1. 통합 구현.md",
@@ -191,10 +198,6 @@
     "기타_자료/Pasted image 20250621213617.png",
     "정보처리기사/1. 소프트웨어 설계/15. 모듈.md",
     "정보처리기사/1. 소프트웨어 설계/14. 구조적 분석 도구.md",
-    "정보처리기사/1. 소프트웨어 설계/13. 소프트웨어 설계.md",
-    "기타_자료/Pasted image 20250621003148.png",
-    "기타_자료/Pasted image 20250621002518.png",
-    "정보처리기사/1. 소프트웨어 설계/12. UI 설계.md",
     "정보처리기사/5. 정보시스템 구축관리",
     "정보처리기사/4. 프로그래밍 언어 활용",
     "정보처리기사/3. 데이터베이스 구축",
@@ -204,8 +207,6 @@
     "LLVM",
     "Language/Python",
     "AI",
-    "운영체제/리눅스/기출 복원",
-    "기타_자료/Pasted image 20240606204850.png",
-    "기타_자료/Pasted image 20240606211252.png"
+    "운영체제/리눅스/기출 복원"
   ]
 }
