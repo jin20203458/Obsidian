@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "471f4404c30c6a2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "정보처리기사/2. 소프트웨어 개발/15. 테스트 커버리지.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -111,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/14. 테스트 시나리오와 테스트 기법.md",
+                "file": "정보처리기사/2. 소프트웨어 개발/15. 테스트 커버리지.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/14. 테스트 시나리오와 테스트 기법.md",
+                "file": "정보처리기사/2. 소프트웨어 개발/15. 테스트 커버리지.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/14. 테스트 시나리오와 테스트 기법.md"
+                "file": "정보처리기사/2. 소프트웨어 개발/15. 테스트 커버리지.md"
               }
             }
           }
@@ -173,10 +184,11 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "9484f6e90dbbcfd8",
+  "active": "471f4404c30c6a2c",
   "lastOpenFiles": [
-    "정보처리기사/2. 소프트웨어 개발/13. V 모델과 테스트 레벨.md",
     "정보처리기사/2. 소프트웨어 개발/14. 테스트 시나리오와 테스트 기법.md",
+    "정보처리기사/2. 소프트웨어 개발/15. 테스트 커버리지.md",
+    "정보처리기사/2. 소프트웨어 개발/13. V 모델과 테스트 레벨.md",
     "기타_자료/Pasted image 20250625194103.png",
     "정보처리기사/2. 소프트웨어 개발/12. 테스트 케이스(Test Case)와 테스트 오라클(Test Oracle).md",
     "정보처리기사/2. 소프트웨어 개발/11. 애플리케이션 태스트.md",
@@ -208,7 +220,6 @@
     "정보처리기사/1. 소프트웨어 설계/26.시스템 인터페이스 대상 식별.md",
     "정보처리기사/1. 소프트웨어 설계/24. GoF 패턴.md",
     "정보처리기사/1. 소프트웨어 설계/23. 디자인 패턴.md",
-    "정보처리기사/1. 소프트웨어 설계/8. UML과 럼바우 분석기법.md",
     "기타_자료/Pasted image 20250621222611.png",
     "기타_자료/Pasted image 20250621222247.png",
     "정보처리기사/5. 정보시스템 구축관리",
