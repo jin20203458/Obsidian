@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9484f6e90dbbcfd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "정보처리기사/2. 소프트웨어 개발/14. 테스트 시나리오와 테스트 기법.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/13. V 모델과 테스트 레벨.md",
+                "file": "정보처리기사/2. 소프트웨어 개발/14. 테스트 시나리오와 테스트 기법.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/13. V 모델과 테스트 레벨.md",
+                "file": "정보처리기사/2. 소프트웨어 개발/14. 테스트 시나리오와 테스트 기법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/13. V 모델과 테스트 레벨.md"
+                "file": "정보처리기사/2. 소프트웨어 개발/14. 테스트 시나리오와 테스트 기법.md"
               }
             }
           }
@@ -160,11 +173,12 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "0bf8141e8c7440f2",
+  "active": "9484f6e90dbbcfd8",
   "lastOpenFiles": [
+    "정보처리기사/2. 소프트웨어 개발/13. V 모델과 테스트 레벨.md",
+    "정보처리기사/2. 소프트웨어 개발/14. 테스트 시나리오와 테스트 기법.md",
     "기타_자료/Pasted image 20250625194103.png",
     "정보처리기사/2. 소프트웨어 개발/12. 테스트 케이스(Test Case)와 테스트 오라클(Test Oracle).md",
-    "정보처리기사/2. 소프트웨어 개발/13. V 모델과 테스트 레벨.md",
     "정보처리기사/2. 소프트웨어 개발/11. 애플리케이션 태스트.md",
     "정보처리기사/2. 소프트웨어 개발/10. 제품 소프트웨어 품질 관리.md",
     "정보처리기사/2. 소프트웨어 개발/9. 제품 소프트웨어 매뉴얼 작성.md",
@@ -197,7 +211,6 @@
     "정보처리기사/1. 소프트웨어 설계/8. UML과 럼바우 분석기법.md",
     "기타_자료/Pasted image 20250621222611.png",
     "기타_자료/Pasted image 20250621222247.png",
-    "기타_자료/Pasted image 20250621220527.png",
     "정보처리기사/5. 정보시스템 구축관리",
     "정보처리기사/4. 프로그래밍 언어 활용",
     "정보처리기사/3. 데이터베이스 구축",
