@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b4bb9c7bfc32ac3f",
+            "id": "0bf8141e8c7440f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/10. 제품 소프트웨어 품질 관리.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f0c6dfb8bfd9be28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/11. 애플리케이션 태스트.md",
+                "file": "정보처리기사/2. 소프트웨어 개발/13. V 모델과 테스트 레벨.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/11. 애플리케이션 태스트.md",
+                "file": "정보처리기사/2. 소프트웨어 개발/13. V 모델과 테스트 레벨.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/11. 애플리케이션 태스트.md",
+                "file": "정보처리기사/2. 소프트웨어 개발/13. V 모델과 테스트 레벨.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/11. 애플리케이션 태스트.md"
+                "file": "정보처리기사/2. 소프트웨어 개발/13. V 모델과 테스트 레벨.md"
               }
             }
           }
@@ -172,10 +160,13 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "f0c6dfb8bfd9be28",
+  "active": "0bf8141e8c7440f2",
   "lastOpenFiles": [
-    "정보처리기사/2. 소프트웨어 개발/10. 제품 소프트웨어 품질 관리.md",
+    "기타_자료/Pasted image 20250625194103.png",
+    "정보처리기사/2. 소프트웨어 개발/12. 테스트 케이스(Test Case)와 테스트 오라클(Test Oracle).md",
+    "정보처리기사/2. 소프트웨어 개발/13. V 모델과 테스트 레벨.md",
     "정보처리기사/2. 소프트웨어 개발/11. 애플리케이션 태스트.md",
+    "정보처리기사/2. 소프트웨어 개발/10. 제품 소프트웨어 품질 관리.md",
     "정보처리기사/2. 소프트웨어 개발/9. 제품 소프트웨어 매뉴얼 작성.md",
     "정보처리기사/2. 소프트웨어 개발/7. 제품 소프트웨어 패키징.md",
     "정보처리기사/2. 소프트웨어 개발/8. 소프트웨어 저작권.md",
@@ -204,11 +195,8 @@
     "정보처리기사/1. 소프트웨어 설계/24. GoF 패턴.md",
     "정보처리기사/1. 소프트웨어 설계/23. 디자인 패턴.md",
     "정보처리기사/1. 소프트웨어 설계/8. UML과 럼바우 분석기법.md",
-    "정보처리기사/1. 소프트웨어 설계/9. UML 다이어그램.md",
-    "정보처리기사/1. 소프트웨어 설계/21. 객체지향 설계와 디자인 패턴.md",
     "기타_자료/Pasted image 20250621222611.png",
     "기타_자료/Pasted image 20250621222247.png",
-    "정보처리기사/1. 소프트웨어 설계/19. 코드 설계.md",
     "기타_자료/Pasted image 20250621220527.png",
     "정보처리기사/5. 정보시스템 구축관리",
     "정보처리기사/4. 프로그래밍 언어 활용",
