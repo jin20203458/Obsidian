@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d4b5625d3380409e",
+        "id": "cf7585b63df27263",
         "type": "tabs",
         "children": [
           {
-            "id": "471f4404c30c6a2c",
+            "id": "eb3d3c573a086e7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/15. 테스트 커버리지.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c8547d6ba28fc15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/16. 통합테스트.md",
+                "file": "LLVM/Clang.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/16. 통합테스트.md",
+                "file": "LLVM/Clang.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/16. 통합테스트.md",
+                "file": "LLVM/Clang.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/16. 통합테스트.md"
+                "file": "LLVM/Clang.md"
               }
             }
           }
@@ -173,11 +160,11 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "4c8547d6ba28fc15",
+  "active": "eb3d3c573a086e7a",
   "lastOpenFiles": [
+    "정보처리기사/2. 소프트웨어 개발/16. 통합테스트.md",
     "기타_자료/Pasted image 20250625221032.png",
     "정보처리기사/2. 소프트웨어 개발/15. 테스트 커버리지.md",
-    "정보처리기사/2. 소프트웨어 개발/16. 통합테스트.md",
     "정보처리기사/2. 소프트웨어 개발/14. 테스트 시나리오와 테스트 기법.md",
     "정보처리기사/2. 소프트웨어 개발/13. V 모델과 테스트 레벨.md",
     "기타_자료/Pasted image 20250625194103.png",
@@ -210,7 +197,6 @@
     "정보처리기사/1. 소프트웨어 설계/27. 미들웨어 솔루션.md",
     "정보처리기사/1. 소프트웨어 설계/26.시스템 인터페이스 대상 식별.md",
     "기타_자료/Pasted image 20250621222611.png",
-    "기타_자료/Pasted image 20250621222247.png",
     "정보처리기사/5. 정보시스템 구축관리",
     "정보처리기사/4. 프로그래밍 언어 활용",
     "정보처리기사/3. 데이터베이스 구축",
