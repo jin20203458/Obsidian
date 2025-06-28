@@ -8,67 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2d12f8ac6a03cb79",
+            "id": "a1de47f080ea1253",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/1. 데이터베이스의 개념.md",
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/6. 데이터베이스 스키마와 연산.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c41447caf63aa6c1",
+            "id": "05329effbe5eb8b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/2.  DBMS.md",
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/4.1 DDL.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "570fcae16d2b1b39",
+            "id": "147ba76e0831af8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/3. 데이터 관리.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "747fef2a6b867fcb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/4. DML.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc92bdefe9420609",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/5. 데이터 모델.md",
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/4.3 DCL.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -146,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/5. 데이터 모델.md",
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/4.3 DCL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/5. 데이터 모델.md",
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/4.3 DCL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/5. 데이터 모델.md"
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/4.3 DCL.md"
               }
             }
           }
@@ -208,11 +184,15 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "dc92bdefe9420609",
+  "active": "147ba76e0831af8f",
   "lastOpenFiles": [
+    "Programing/정보처리기사/3. 데이터베이스 구축/4.1 DDL.md",
+    "Programing/정보처리기사/3. 데이터베이스 구축/6. 데이터베이스 스키마와 연산.md",
+    "Programing/정보처리기사/3. 데이터베이스 구축/4.3 DCL.md",
+    "Programing/정보처리기사/3. 데이터베이스 구축/4.2 DML.md",
+    "Programing/정보처리기사/3. 데이터베이스 구축/5. 데이터 모델.md",
     "Programing/SQL/데이터베이스.md",
     "Programing/SQL/sqld 1과목.md",
-    "Programing/정보처리기사/3. 데이터베이스 구축/5. 데이터 모델.md",
     "Programing",
     "Programing/SQL/SELECT 실행순서.md",
     "Programing/SQL/PROCEDURE, TRIGGER.md",
@@ -221,7 +201,6 @@
     "Programing/SQL/수직분할, 수평분할.md",
     "Programing/SQL/반 정규화.md",
     "기타_자료/Pasted image 20250628172928.png",
-    "Programing/정보처리기사/3. 데이터베이스 구축/4. DML.md",
     "README.md",
     "Programing/SQL/sqld 3과목_0 트랜잭션.md",
     "Programing/SQL/sqld 2과목_1 서브쿼리.md",
@@ -237,8 +216,6 @@
     "기타_자료/Pasted image 20250627214051.png",
     "Programing/정보처리기사/2. 소프트웨어 개발/18. 어플리케이션  성능개선.md",
     "기타_자료/Pasted image 20250627213432.png",
-    "Programing/정보처리기사/2. 소프트웨어 개발/17. 결함관리.md",
-    "Programing/정보처리기사/2. 소프트웨어 개발/16. 통합테스트.md",
     "기타_자료/Pasted image 20250625221032.png",
     "기타_자료/Pasted image 20250625194103.png",
     "기타_자료/Pasted image 20250625000343.png",
