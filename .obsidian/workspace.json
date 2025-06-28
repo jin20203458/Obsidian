@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "32d5193298875e77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/21.정렬.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ceaf6a4d1b5b2d5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/22. 검색과 해싱.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2d12f8ac6a03cb79",
             "type": "leaf",
             "state": {
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
