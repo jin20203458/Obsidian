@@ -13,13 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/1. 데이터베이스의 개념.md",
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/1. 데이터베이스의 개념.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c41447caf63aa6c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/2.  DBMS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "570fcae16d2b1b39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/3. 데이터 관리.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "747fef2a6b867fcb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/4. DML.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc92bdefe9420609",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/5. 데이터 모델.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -48,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
+                "file": "Programing/운영체제/컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -98,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/1. 데이터베이스의 개념.md",
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/5. 데이터 모델.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/1. 데이터베이스의 개념.md",
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/5. 데이터 모델.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "정보처리기사/2. 소프트웨어 개발/1. 데이터베이스의 개념.md"
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/5. 데이터 모델.md"
               }
             }
           }
@@ -160,53 +208,52 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "2d12f8ac6a03cb79",
+  "active": "dc92bdefe9420609",
   "lastOpenFiles": [
-    "정보처리기사/2. 소프트웨어 개발/22. 검색과 해싱.md",
-    "정보처리기사/2. 소프트웨어 개발/1. 데이터베이스의 개념.md",
-    "정보처리기사/2. 소프트웨어 개발/20. 비선형 구조.md",
-    "정보처리기사/2. 소프트웨어 개발/21.정렬.md",
+    "Programing/SQL/데이터베이스.md",
+    "Programing/SQL/sqld 1과목.md",
+    "Programing/정보처리기사/3. 데이터베이스 구축/5. 데이터 모델.md",
+    "Programing",
+    "Programing/SQL/SELECT 실행순서.md",
+    "Programing/SQL/PROCEDURE, TRIGGER.md",
+    "Programing/SQL/집합연산.md",
+    "Programing/SQL/슈퍼타입,서브타입.md",
+    "Programing/SQL/수직분할, 수평분할.md",
+    "Programing/SQL/반 정규화.md",
+    "기타_자료/Pasted image 20250628172928.png",
+    "Programing/정보처리기사/3. 데이터베이스 구축/4. DML.md",
+    "README.md",
+    "Programing/SQL/sqld 3과목_0 트랜잭션.md",
+    "Programing/SQL/sqld 2과목_1 서브쿼리.md",
+    "Programing/정보처리기사/3. 데이터베이스 구축/3. 데이터 관리.md",
+    "Programing/정보처리기사/3. 데이터베이스 구축/2.  DBMS.md",
+    "Programing/정보처리기사/3. 데이터베이스 구축/1. 데이터베이스의 개념.md",
+    "Programing/정보처리기사/2. 소프트웨어 개발/22. 검색과 해싱.md",
+    "Programing/정보처리기사/2. 소프트웨어 개발/20. 비선형 구조.md",
+    "Programing/정보처리기사/2. 소프트웨어 개발/21.정렬.md",
     "23.  dml.md",
-    "정보처리기사/2. 소프트웨어 개발/8. 소프트웨어 저작권.md",
-    "정보처리기사/2. 소프트웨어 개발/19. 선형자료.md",
+    "Programing/정보처리기사/2. 소프트웨어 개발/8. 소프트웨어 저작권.md",
+    "Programing/정보처리기사/2. 소프트웨어 개발/19. 선형자료.md",
     "기타_자료/Pasted image 20250627214051.png",
-    "정보처리기사/2. 소프트웨어 개발/18. 어플리케이션  성능개선.md",
+    "Programing/정보처리기사/2. 소프트웨어 개발/18. 어플리케이션  성능개선.md",
     "기타_자료/Pasted image 20250627213432.png",
-    "정보처리기사/2. 소프트웨어 개발/17. 결함관리.md",
-    "정보처리기사/2. 소프트웨어 개발/16. 통합테스트.md",
-    "LLVM/Clang_Html_TEST.md",
-    "LLVM/Clang.md",
+    "Programing/정보처리기사/2. 소프트웨어 개발/17. 결함관리.md",
+    "Programing/정보처리기사/2. 소프트웨어 개발/16. 통합테스트.md",
     "기타_자료/Pasted image 20250625221032.png",
-    "정보처리기사/2. 소프트웨어 개발/15. 테스트 커버리지.md",
-    "정보처리기사/2. 소프트웨어 개발/14. 테스트 시나리오와 테스트 기법.md",
-    "정보처리기사/2. 소프트웨어 개발/13. V 모델과 테스트 레벨.md",
     "기타_자료/Pasted image 20250625194103.png",
-    "정보처리기사/2. 소프트웨어 개발/12. 테스트 케이스(Test Case)와 테스트 오라클(Test Oracle).md",
-    "정보처리기사/2. 소프트웨어 개발/11. 애플리케이션 태스트.md",
-    "정보처리기사/2. 소프트웨어 개발/10. 제품 소프트웨어 품질 관리.md",
-    "정보처리기사/2. 소프트웨어 개발/9. 제품 소프트웨어 매뉴얼 작성.md",
-    "정보처리기사/2. 소프트웨어 개발/7. 제품 소프트웨어 패키징.md",
     "기타_자료/Pasted image 20250625000343.png",
-    "정보처리기사/2. 소프트웨어 개발/6. 인터페이스 보안.md",
-    "정보처리기사/2. 소프트웨어 개발/5. 인터페이스 구현.md",
     "기타_자료/Pasted image 20250624234422.png",
-    "정보처리기사/2. 소프트웨어 개발/4. 모듈 연계.md",
     "기타_자료/Pasted image 20250624234048.png",
     "기타_자료/Pasted image 20250624233918.png",
     "기타_자료/Pasted image 20250624233908.png",
-    "정보처리기사/2. 소프트웨어 개발/3. 버전 관리.md",
-    "게임프로그래밍/게임 엔진/언리얼/3. 언리얼(Toon Tanks).md",
-    "게임프로그래밍/게임 엔진/언리얼/2. 언리얼.md",
-    "기타_자료/Pasted image 20250623000428.png",
-    "정보처리기사/5. 정보시스템 구축관리",
-    "정보처리기사/4. 프로그래밍 언어 활용",
-    "정보처리기사/3. 데이터베이스 구축",
-    "정보처리기사/2. 소프트웨어 개발",
-    "정보처리기사/1. 소프트웨어 설계",
+    "Programing/정보처리기사/5. 정보시스템 구축관리",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용",
+    "Programing/정보처리기사/3. 데이터베이스 구축",
+    "Programing/정보처리기사/2. 소프트웨어 개발",
+    "Programing/정보처리기사/1. 소프트웨어 설계",
     "기타 공부/디지털기술/디지털기술_1",
     "LLVM",
-    "Language/Python",
-    "AI",
-    "운영체제/리눅스/기출 복원"
+    "Programing/Language/Python",
+    "Programing/AI"
   ]
 }
