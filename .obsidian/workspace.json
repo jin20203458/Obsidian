@@ -4,47 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "2d989b3d5c1fed49",
+        "id": "f319201d5504c1e2",
         "type": "tabs",
         "children": [
           {
-            "id": "a1de47f080ea1253",
+            "id": "b7cf0c9a897db464",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/6. 데이터베이스 스키마와 연산.md",
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/2.  DBMS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "05329effbe5eb8b8",
+            "id": "ea3a6043d0aa9e02",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/4.1 DDL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "147ba76e0831af8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/4.3 DCL.md",
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/7. 빅데이터 관리.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/4.3 DCL.md",
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/7. 빅데이터 관리.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/4.3 DCL.md",
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/7. 빅데이터 관리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/4.3 DCL.md"
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/7. 빅데이터 관리.md"
               }
             }
           }
@@ -184,11 +172,13 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "147ba76e0831af8f",
+  "active": "ea3a6043d0aa9e02",
   "lastOpenFiles": [
+    "Programing/정보처리기사/3. 데이터베이스 구축/2.  DBMS.md",
+    "Programing/정보처리기사/3. 데이터베이스 구축/7. 빅데이터 관리.md",
+    "Programing/정보처리기사/3. 데이터베이스 구축/4.3 DCL.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/4.1 DDL.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/6. 데이터베이스 스키마와 연산.md",
-    "Programing/정보처리기사/3. 데이터베이스 구축/4.3 DCL.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/4.2 DML.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/5. 데이터 모델.md",
     "Programing/SQL/데이터베이스.md",
@@ -205,7 +195,6 @@
     "Programing/SQL/sqld 3과목_0 트랜잭션.md",
     "Programing/SQL/sqld 2과목_1 서브쿼리.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/3. 데이터 관리.md",
-    "Programing/정보처리기사/3. 데이터베이스 구축/2.  DBMS.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/1. 데이터베이스의 개념.md",
     "Programing/정보처리기사/2. 소프트웨어 개발/22. 검색과 해싱.md",
     "Programing/정보처리기사/2. 소프트웨어 개발/20. 비선형 구조.md",
@@ -214,7 +203,6 @@
     "Programing/정보처리기사/2. 소프트웨어 개발/8. 소프트웨어 저작권.md",
     "Programing/정보처리기사/2. 소프트웨어 개발/19. 선형자료.md",
     "기타_자료/Pasted image 20250627214051.png",
-    "Programing/정보처리기사/2. 소프트웨어 개발/18. 어플리케이션  성능개선.md",
     "기타_자료/Pasted image 20250627213432.png",
     "기타_자료/Pasted image 20250625221032.png",
     "기타_자료/Pasted image 20250625194103.png",
