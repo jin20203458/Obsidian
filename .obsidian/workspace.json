@@ -30,9 +30,69 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "be67769fd64d7258",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/반정규화.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b6cbf9da8ba03c65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/트랜잭션.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "88f1c9ad80e04671",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/병행제어.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a96b44e49ddc77dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/데이터베이스 설계.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "02d60bcc6ab0d610",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/분산데이터베이스.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -110,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/반정규화.md",
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/분산데이터베이스.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/반정규화.md",
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/분산데이터베이스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/반정규화.md"
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/분산데이터베이스.md"
               }
             }
           }
@@ -172,10 +232,17 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "8570d5662cd4e6cf",
+  "active": "02d60bcc6ab0d610",
   "lastOpenFiles": [
-    "Programing/정보처리기사/3. 데이터베이스 구축/키와 무결성.md",
+    "Programing/정보처리기사/3. 데이터베이스 구축/데이터베이스 설계.md",
+    "Programing/정보처리기사/3. 데이터베이스 구축/분산데이터베이스.md",
+    "기타_자료/Pasted image 20250629002841.png",
+    "Programing/정보처리기사/3. 데이터베이스 구축/병행제어.md",
+    "Programing/정보처리기사/3. 데이터베이스 구축/트랜잭션.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/반정규화.md",
+    "Programing/SQL/수직분할, 수평분할.md",
+    "Programing/정보처리기사/3. 데이터베이스 구축/정규화.md",
+    "Programing/정보처리기사/3. 데이터베이스 구축/키와 무결성.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/관계 대수와 연산자.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/7. 빅데이터 관리.md",
     "기타_자료/Pasted image 20250628183910.png",
@@ -192,17 +259,11 @@
     "Programing/SQL/PROCEDURE, TRIGGER.md",
     "Programing/SQL/집합연산.md",
     "Programing/SQL/슈퍼타입,서브타입.md",
-    "Programing/SQL/수직분할, 수평분할.md",
     "Programing/SQL/반 정규화.md",
     "기타_자료/Pasted image 20250628172928.png",
     "README.md",
     "Programing/SQL/sqld 3과목_0 트랜잭션.md",
     "Programing/SQL/sqld 2과목_1 서브쿼리.md",
-    "Programing/정보처리기사/3. 데이터베이스 구축/3. 데이터 관리.md",
-    "Programing/정보처리기사/3. 데이터베이스 구축/1. 데이터베이스의 개념.md",
-    "Programing/정보처리기사/2. 소프트웨어 개발/22. 검색과 해싱.md",
-    "Programing/정보처리기사/2. 소프트웨어 개발/20. 비선형 구조.md",
-    "Programing/정보처리기사/2. 소프트웨어 개발/21.정렬.md",
     "기타_자료/Pasted image 20250627214051.png",
     "기타_자료/Pasted image 20250627213432.png",
     "기타_자료/Pasted image 20250625221032.png",
@@ -210,7 +271,6 @@
     "기타_자료/Pasted image 20250625000343.png",
     "기타_자료/Pasted image 20250624234422.png",
     "기타_자료/Pasted image 20250624234048.png",
-    "기타_자료/Pasted image 20250624233918.png",
     "Programing/정보처리기사/5. 정보시스템 구축관리",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용",
     "Programing/정보처리기사/3. 데이터베이스 구축",
