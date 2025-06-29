@@ -11,11 +11,52 @@
             "id": "67901f5b968c5ea3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/6. 데이터베이스 스키마와 연산.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3df0682eef4d8fe6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/5. 데이터 모델.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b571659ee12de4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/정규화.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "542bb1ec31a628b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/정규화.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -93,6 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/정규화.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/정규화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/정규화.md"
+              }
             }
           }
         ],
@@ -151,8 +196,14 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "67901f5b968c5ea3",
+  "active": "542bb1ec31a628b8",
   "lastOpenFiles": [
+    "Programing/정보처리기사/3. 데이터베이스 구축/이상현상.md",
+    "Programing/정보처리기사/3. 데이터베이스 구축/정규화.md",
+    "Programing/정보처리기사/3. 데이터베이스 구축/관계형 데이터베이스 모델.md",
+    "Programing/정보처리기사/3. 데이터베이스 구축/5. 데이터 모델.md",
+    "Programing/정보처리기사/3. 데이터베이스 구축/보안과 권한설정.md",
+    "Programing/정보처리기사/3. 데이터베이스 구축/6. 데이터베이스 스키마와 연산.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/분산데이터베이스.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/데이터베이스 설계.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/병행제어.md",
@@ -161,16 +212,13 @@
     "Programing/정보처리기사/3. 데이터베이스 구축/키와 무결성.md",
     "기타_자료/Pasted image 20250629002841.png",
     "Programing/SQL/수직분할, 수평분할.md",
-    "Programing/정보처리기사/3. 데이터베이스 구축/정규화.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/관계 대수와 연산자.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/7. 빅데이터 관리.md",
     "기타_자료/Pasted image 20250628183910.png",
     "Programing/정보처리기사/3. 데이터베이스 구축/2.  DBMS.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/4.3 DCL.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/4.1 DDL.md",
-    "Programing/정보처리기사/3. 데이터베이스 구축/6. 데이터베이스 스키마와 연산.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/4.2 DML.md",
-    "Programing/정보처리기사/3. 데이터베이스 구축/5. 데이터 모델.md",
     "Programing/SQL/데이터베이스.md",
     "Programing/SQL/sqld 1과목.md",
     "Programing",
@@ -180,9 +228,6 @@
     "Programing/SQL/슈퍼타입,서브타입.md",
     "Programing/SQL/반 정규화.md",
     "기타_자료/Pasted image 20250628172928.png",
-    "README.md",
-    "Programing/SQL/sqld 3과목_0 트랜잭션.md",
-    "Programing/SQL/sqld 2과목_1 서브쿼리.md",
     "기타_자료/Pasted image 20250627214051.png",
     "기타_자료/Pasted image 20250627213432.png",
     "기타_자료/Pasted image 20250625221032.png",
