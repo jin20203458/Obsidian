@@ -8,35 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "da13f503c06771be",
+            "id": "bc469ac327c60b85",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Clang_Html_TEST.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/2. 자바 언어.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Clang_Html_TEST"
+              }
             }
           },
           {
-            "id": "f1d9fbdbf2a16aad",
+            "id": "2975c627517de7cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Clang_Html_TEST.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/2. 자바 언어.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Clang_Html_TEST"
+              }
+            }
+          },
+          {
+            "id": "c97bb97930e1ce7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/2.1 Java언어의 자료형.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -55,11 +63,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "파일 탐색기"
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -71,9 +76,7 @@
                 "file": "Programing/운영체제/컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2.프로세스 개요"
+              }
             }
           },
           {
@@ -88,9 +91,7 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "검색"
+              }
             }
           },
           {
@@ -98,9 +99,7 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "북마크"
+              "state": {}
             }
           }
         ]
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/Clang_Html_TEST.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/2.1 Java언어의 자료형.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,9 +130,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Clang_Html_TEST 의 백링크"
+              }
             }
           },
           {
@@ -142,12 +139,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/Clang_Html_TEST.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/2.1 Java언어의 자료형.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Clang_Html_TEST 의 나가는 링크"
+              }
             }
           },
           {
@@ -157,12 +152,8 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "태그"
+                "useHierarchy": true
+              }
             }
           },
           {
@@ -171,13 +162,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/Clang_Html_TEST.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Clang_Html_TEST 의 개요"
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/2.1 Java언어의 자료형.md"
+              }
             }
           }
         ],
@@ -190,21 +176,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:빠른 전환기 열기": false,
-      "daily-notes:오늘의 일일 노트 열기": false,
+      "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "f1d9fbdbf2a16aad",
+  "active": "c97bb97930e1ce7e",
   "lastOpenFiles": [
-    "LLVM/Clang.md",
-    "LLVM/Clang_Build.md",
-    "LLVM/Clang_Html_TEST.md",
-    "Programing/정보처리기사/4. 프로그래밍 언어 활용/2.1 Java 언어의 자료형.md",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/2.2 Java언어의 상속.md",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/2. 자바 언어.md",
     "Programing/정보처리기사/README.md",
+    "Programing/Language/Java",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/2.1 Java언어의 자료형.md",
+    "LLVM/Clang_Html_TEST.md",
+    "LLVM/Clang_Build.md",
+    "LLVM/Clang.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/1.5 C언어의 라이브러리.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/1.4 C언어의 배열.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/1.2 C언어의 연산자.md",
@@ -224,8 +213,6 @@
     "Programing/정보처리기사/3. 데이터베이스 구축/데이터베이스 설계.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/병행제어.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/트랜잭션.md",
-    "Programing/정보처리기사/3. 데이터베이스 구축/반정규화.md",
-    "Programing/정보처리기사/3. 데이터베이스 구축/키와 무결성.md",
     "기타_자료/Pasted image 20250629002841.png",
     "기타_자료/Pasted image 20250628183910.png",
     "Programing",
@@ -244,7 +231,6 @@
     "Programing/정보처리기사/1. 소프트웨어 설계",
     "기타 공부/디지털기술/디지털기술_1",
     "LLVM",
-    "Programing/Language/Python",
-    "Programing/AI"
+    "Programing/Language/Python"
   ]
 }
