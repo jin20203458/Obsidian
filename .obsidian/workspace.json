@@ -8,72 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "67901f5b968c5ea3",
+            "id": "d2d0fbbb8ad06b7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/6. 데이터베이스 스키마와 연산.md",
+                "file": "Programing/정보처리기사/README.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3df0682eef4d8fe6",
+            "id": "7537e954cbcf1b77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/5. 데이터 모델.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b571659ee12de4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/정규화.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "542bb1ec31a628b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programing/SQL/PROCEDURE, TRIGGER.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1de6346adfa839aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/C언어의 개요.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2f6c23e89c44bfb1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/C언어의 연산자.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/C언어의 포인터.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programing/정보처리기사/README.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/C언어의 연산자.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/6. 데이터베이스 스키마와 연산.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/C언어의 포인터.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/6. 데이터베이스 스키마와 연산.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/C언어의 포인터.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/6. 데이터베이스 스키마와 연산.md"
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/C언어의 포인터.md"
               }
             }
           }
@@ -232,10 +184,13 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "816cbcd0ff6621fa",
+  "active": "7537e954cbcf1b77",
   "lastOpenFiles": [
-    "Programing/정보처리기사/4. 프로그래밍 언어 활용/C언어의 연산자.md",
     "Programing/정보처리기사/README.md",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/C언어의 연산자.md",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/C언어의 포인터.md",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/C언어의 구조체.md",
+    "Programing/정보처리기사/3. 데이터베이스 구축/6. 데이터베이스 스키마와 연산.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/C언어의 개요.md",
     "Programing/SQL/PROCEDURE, TRIGGER.md",
     "Programing/SQL/데이터베이스.md",
@@ -245,7 +200,6 @@
     "Programing/정보처리기사/3. 데이터베이스 구축/관계형 데이터베이스 모델.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/5. 데이터 모델.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/보안과 권한설정.md",
-    "Programing/정보처리기사/3. 데이터베이스 구축/6. 데이터베이스 스키마와 연산.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/분산데이터베이스.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/데이터베이스 설계.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/병행제어.md",
@@ -260,8 +214,6 @@
     "Programing/정보처리기사/3. 데이터베이스 구축/2.  DBMS.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/4.3 DCL.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/4.1 DDL.md",
-    "Programing/정보처리기사/3. 데이터베이스 구축/4.2 DML.md",
-    "Programing/SQL/sqld 1과목.md",
     "Programing",
     "기타_자료/Pasted image 20250628172928.png",
     "기타_자료/Pasted image 20250627214051.png",
