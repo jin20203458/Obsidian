@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f1d9fbdbf2a16aad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLVM/Clang_Build.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/Clang_Html_TEST.md",
+                "file": "LLVM/Clang_Build.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/Clang_Html_TEST.md",
+                "file": "LLVM/Clang_Build.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/Clang_Html_TEST.md"
+                "file": "LLVM/Clang_Build.md"
               }
             }
           }
@@ -160,8 +173,10 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "da13f503c06771be",
+  "active": "f1d9fbdbf2a16aad",
   "lastOpenFiles": [
+    "LLVM/Clang_Html_TEST.md",
+    "LLVM/Clang_Build.md",
     "LLVM/Clang.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/2.1 Java 언어의 자료형.md",
     "Programing/정보처리기사/README.md",
@@ -187,8 +202,6 @@
     "Programing/정보처리기사/3. 데이터베이스 구축/반정규화.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/키와 무결성.md",
     "기타_자료/Pasted image 20250629002841.png",
-    "Programing/SQL/수직분할, 수평분할.md",
-    "Programing/정보처리기사/3. 데이터베이스 구축/관계 대수와 연산자.md",
     "기타_자료/Pasted image 20250628183910.png",
     "Programing",
     "기타_자료/Pasted image 20250628172928.png",
