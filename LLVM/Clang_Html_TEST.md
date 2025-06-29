@@ -1,11 +1,4 @@
 
-네, 이해했습니다. 현재 방식(`..\File1.cpp ..\File2.cpp ..\MTest.cpp`처럼 파일 이름을 일일이 나열하는 방식)으로는 파일이 많아지면 매우 비효율적입니다. 모든 `.cpp` 파일을 한 번에 검사하도록 명령어를 수정해 봅시다.
-
-이전에 `*.cpp`를 사용했을 때 `clang++: error: no input files` 오류가 발생했습니다. 이는 PowerShell이 `*.cpp`를 `clang++`에 직접 전달하는 대신, **자체적으로 파일 목록으로 확장해버리거나, 또는 `clang++`가 인자 목록에서 와일드카드 확장을 기대하지 않아서** 발생한 문제입니다.
-
-PowerShell에서 와일드카드 확장을 명확하게 하거나, `clang++`가 와일드카드를 처리하도록 하는 방법이 필요합니다.
-
----
 
 ### **모든 `.cpp` 파일을 한 번에 검사하는 방법**
 
@@ -19,7 +12,7 @@ PowerShell에서 와일드카드 확장을 명확하게 하거나, `clang++`가 
     
     PowerShell
     
-    ```
+    ```PowerShell
     cd C:\Users\adg01\Desktop\MTest\MTest
     ```
     
@@ -27,7 +20,7 @@ PowerShell에서 와일드카드 확장을 명확하게 하거나, `clang++`가 
     
     PowerShell
     
-    ```
+    ```PowerShell
     $env:PATH += ";C:\Users\adg01\Documents\GitHub\llvm-project\build\bin"
     ```
     
@@ -37,7 +30,7 @@ PowerShell에서 와일드카드 확장을 명확하게 하거나, `clang++`가 
     
     PowerShell
     
-    ```
+    ```PowerShell
     Remove-Item -Path "temp_html_output_all" -Recurse -Force -ErrorAction SilentlyContinue
     mkdir temp_html_output_all
     cd temp_html_output_all
@@ -51,7 +44,7 @@ PowerShell에서 와일드카드 확장을 명확하게 하거나, `clang++`가 
     
     PowerShell
     
-    ```
+    ```PowerShell
     # 방법 1: `Get-ChildItem`과 배열을 사용 (가장 안정적)
     $cpp_files = Get-ChildItem -Path ".." -Filter "*.cpp" | Select-Object -ExpandProperty FullName
     clang++ --analyze -Xclang -analyzer-output=html -std=c++17 @cpp_files
@@ -72,7 +65,7 @@ PowerShell에서 와일드카드 확장을 명확하게 하거나, `clang++`가 
     
     PowerShell
     
-    ```
+    ```PowerShell
     # 방법 2: 백틱 없이 한 줄로, 명시적인 와일드카드 확장 시도
     # (PowerShell의 버전이나 설정에 따라 다르게 작동할 수 있음)
     clang++ --analyze -Xclang -analyzer-output=html -std=c++17 ..\*.cpp
@@ -92,7 +85,7 @@ PowerShell에서 와일드카드 확장을 명확하게 하거나, `clang++`가 
     
     PowerShell
     
-    ```
+    ```PowerShell
     Invoke-Item File1.html
     Invoke-Item File2.html
     Invoke-Item MTest.html
