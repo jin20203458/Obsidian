@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f631e6b8a4d0f307",
+        "id": "d299ec522b4096ac",
         "type": "tabs",
         "children": [
           {
-            "id": "0106da78ee5a0ab9",
+            "id": "e6c614b1b40aff6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/3. 스크립트언어.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97826d72735d1ae4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/3.1 Python의 연산.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "591aad87cb1e5330",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/3.1 Python의 연산.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/0. 개요.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/3.1 Python의 연산.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/0. 개요.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/3.1 Python의 연산.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/0. 개요.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/3.1 Python의 연산.md"
+                "file": "LLVM/How to Write a Checker in 24 Hours/0. 개요.md"
               }
             }
           }
@@ -184,51 +159,14 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "floating": {
-    "id": "8bef3d847b49d186",
-    "type": "floating",
-    "children": [
-      {
-        "id": "b2cb59985f49833b",
-        "type": "window",
-        "children": [
-          {
-            "id": "3b964682de827247",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a6c17f9edc0eea32",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Programing/정보처리기사/README.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -1072,
-        "y": -417,
-        "width": 600,
-        "height": 600,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "591aad87cb1e5330",
+  "active": "e6c614b1b40aff6c",
   "lastOpenFiles": [
+    "Programing/정보처리기사/README.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/3.2 Python 의 자료형.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/3.1 Python의 연산.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/3. 스크립트언어.md",
     "Programing/운영체제/컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/2.4 Java 예외 처리와 형 변환.md",
-    "Programing/정보처리기사/README.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/2.3 Java 클래스.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/2.2 Java언어의 상속.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/2. 자바 언어.md",
