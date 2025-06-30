@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/How to Write a Checker in 24 Hours/0. 개요.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6359096a3aceefc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLVM/Checker Developer Manual/0. ReadME.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/6. Defining the State of a File Descriptor.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "LLVM/용어.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/6. Defining the State of a File Descriptor.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/6. Defining the State of a File Descriptor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "LLVM/How to Write a Checker in 24 Hours/6. Defining the State of a File Descriptor.md"
               }
             }
           }
@@ -184,16 +172,19 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "ef6e790034f1aa1f",
+  "active": "e6c614b1b40aff6c",
   "lastOpenFiles": [
     "LLVM/용어.md",
     "LLVM/How to Write a Checker in 24 Hours/6. Defining the State of a File Descriptor.md",
-    "LLVM/How to Write a Checker in 24 Hours/0. 개요.md",
-    "LLVM/How to Write a Checker in 24 Hours/용어.md",
     "LLVM/How to Write a Checker in 24 Hours/7. Add state transition corresponding to fopen.md",
     "LLVM/How to Write a Checker in 24 Hours/5. Let's Write a Unix Stream API Checker.md",
     "LLVM/How to Write a Checker in 24 Hours/4. Extending with Checkers.md",
+    "LLVM/How to Write a Checker in 24 Hours/8. Add transitions driven by fclose.md",
+    "README.md",
+    "LLVM/How to Write a Checker in 24 Hours/0. 개요.md",
     "LLVM/Checker Developer Manual/0. ReadME.md",
+    "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
+    "LLVM/How to Write a Checker in 24 Hours/용어.md",
     "LLVM/How to Write a Checker in 24 Hours/Summary.md",
     "LLVM/How to Write a Checker in 24 Hours/3.Builds a Graph of Reachable Program States.md",
     "LLVM/How to Write a Checker in 24 Hours/1. Why Static Analysis.md",
@@ -207,13 +198,10 @@
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/2.3 Java 클래스.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/2.2 Java언어의 상속.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/2. 자바 언어.md",
-    "LLVM/How to Write a Checker in 24 Hours/9.  Report error on double close.md",
     "Programing/디자인 패턴/Visitor Pattern.md",
     "Programing/디자인 패턴",
-    "LLVM/How to Write a Checker in 24 Hours/8. Add transitions driven by fclose.md",
     "LLVM/How to Write a Checker in 24 Hours",
     "LLVM/Clang환경설정/Clang_Static_Analyzer.md",
-    "LLVM/Clang환경설정/Clang_Html_TEST.md",
     "LLVM/Clang환경설정",
     "LLVM/Checker Developer Manual",
     "Programing/Language/Java",
