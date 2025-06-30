@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/How to Write a Checker in 24 Hours/7. Add state transition corresponding to fopen.md",
+                "file": "LLVM/용어.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/How to Write a Checker in 24 Hours/7. Add state transition corresponding to fopen.md",
+                "file": "LLVM/용어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/How to Write a Checker in 24 Hours/7. Add state transition corresponding to fopen.md"
+                "file": "LLVM/용어.md"
               }
             }
           }
@@ -172,11 +173,11 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "e6c614b1b40aff6c",
+  "active": "ef6e790034f1aa1f",
   "lastOpenFiles": [
+    "LLVM/How to Write a Checker in 24 Hours/7. Add state transition corresponding to fopen.md",
     "LLVM/용어.md",
     "LLVM/How to Write a Checker in 24 Hours/6. Defining the State of a File Descriptor.md",
-    "LLVM/How to Write a Checker in 24 Hours/7. Add state transition corresponding to fopen.md",
     "LLVM/How to Write a Checker in 24 Hours/4. Extending with Checkers.md",
     "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
     "README.md",
