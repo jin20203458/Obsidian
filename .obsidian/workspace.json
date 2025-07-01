@@ -41,26 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/How to Write a Checker in 24 Hours/11.Don’t Warn If fopen Fails.md",
+                "file": "LLVM/용어.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11.Don’t Warn If fopen Fails"
-            }
-          },
-          {
-            "id": "e5ce3b9243ad9f89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLVM/How to Write a Checker in 24 Hours/fopen, fclose.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "fopen, fclose"
+              "title": "용어"
             }
           }
         ],
@@ -151,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/How to Write a Checker in 24 Hours/11.Don’t Warn If fopen Fails.md",
+                "file": "LLVM/용어.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "11.Don’t Warn If fopen Fails 의 백링크"
+              "title": "용어 의 백링크"
             }
           },
           {
@@ -170,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/How to Write a Checker in 24 Hours/11.Don’t Warn If fopen Fails.md",
+                "file": "LLVM/용어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "11.Don’t Warn If fopen Fails 의 나가는 링크"
+              "title": "용어 의 나가는 링크"
             }
           },
           {
@@ -199,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/How to Write a Checker in 24 Hours/11.Don’t Warn If fopen Fails.md",
+                "file": "LLVM/용어.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "11.Don’t Warn If fopen Fails 의 개요"
+              "title": "용어 의 개요"
             }
           }
         ],
@@ -226,10 +212,53 @@
       "canvas:새 캔버스 만들기": false
     }
   },
+  "floating": {
+    "id": "0abf28882c8603f2",
+    "type": "floating",
+    "children": [
+      {
+        "id": "1107042283303865",
+        "type": "window",
+        "children": [
+          {
+            "id": "655db8e196fb41bf",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e5ce3b9243ad9f89",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "LLVM/용어.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "용어"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 259,
+        "y": 58,
+        "width": 984,
+        "height": 1153,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "5085c5f988d2858a",
   "lastOpenFiles": [
-    "LLVM/How to Write a Checker in 24 Hours/10. Report error on leak.md",
+    "LLVM/How to Write a Checker in 24 Hours/fopen, fclose.md",
+    "LLVM/How to Write a Checker in 24 Hours/Summary.md",
+    "LLVM/How to Write a Checker in 24 Hours/CSA 경로 분할 직관적 예제.md",
     "LLVM/How to Write a Checker in 24 Hours/11.Don’t Warn If fopen Fails.md",
+    "LLVM/용어.md",
+    "LLVM/How to Write a Checker in 24 Hours/10. Report error on leak.md",
     "기타_자료/Pasted image 20250701132424.png",
     "기타_자료/Pasted image 20250701132221.png",
     "기타_자료/Pasted image 20250701132121.png",
@@ -239,20 +268,15 @@
     "LLVM/How to Write a Checker in 24 Hours/3. Builds a Graph of Reachable Program States.md",
     "LLVM/How to Write a Checker in 24 Hours/8. Add transitions driven by fclose.md",
     "LLVM/How to Write a Checker in 24 Hours/7. Add state transition corresponding to fopen.md",
-    "LLVM/How to Write a Checker in 24 Hours/CSA 경로 분할 직관적 예제.md",
-    "LLVM/How to Write a Checker in 24 Hours/fopen, fclose.md",
     "기타_자료/Pasted image 20250701111533.png",
-    "LLVM/용어.md",
     "LLVM/How to Write a Checker in 24 Hours/4. Extending with Checkers.md",
     "LLVM/How to Write a Checker in 24 Hours/0. overview.md",
-    "LLVM/How to Write a Checker in 24 Hours/Summary.md",
     "LLVM/How to Write a Checker in 24 Hours/9.  Report error on double close.md",
     "LLVM/How to Write a Checker in 24 Hours/1. Why Static Analysis.md",
     "LLVM/Checker Developer Manual/0. ReadME.md",
     "README.md",
     "LLVM/Checker Developer Manual/0. ReadME.md",
     "LLVM/How to Write a Checker in 24 Hours/용어.md",
-    "LLVM/How to Write a Checker in 24 Hours/Summary.md",
     "LLVM/How to Write a Checker in 24 Hours/1. Why Static Analysis.md",
     "LLVM/How to Write a Checker in 24 Hours/2. Symbolic Execution.md",
     "Programing/정보처리기사/README.md",
