@@ -8,19 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0104b59bf2609cea",
+            "id": "2aed57227cbca6f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/4.2 제어문.md",
+                "file": "LLVM/Checker Developer Manual/0. ReadME.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "0. ReadME"
             }
           },
           {
-            "id": "108988c8435cfe1e",
+            "id": "0045503290bdf9ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -28,10 +30,27 @@
                 "file": "Programing/정보처리기사/README.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "e5ce3b9243ad9f89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLVM/Manpage Lite.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Manpage Lite"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -50,8 +69,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
             }
           },
           {
@@ -63,7 +85,9 @@
                 "file": "Programing/운영체제/컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2.프로세스 개요"
             }
           },
           {
@@ -78,7 +102,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "검색"
             }
           },
           {
@@ -86,7 +112,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
             }
           }
         ]
@@ -109,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/4.2 제어문.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/SimpleStreamCheck.cpp.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +145,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "SimpleStreamCheck.cpp 의 백링크"
             }
           },
           {
@@ -126,10 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/4.2 제어문.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/SimpleStreamCheck.cpp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "SimpleStreamCheck.cpp 의 나가는 링크"
             }
           },
           {
@@ -139,8 +171,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
             }
           },
           {
@@ -149,8 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/4.2 제어문.md"
-              }
+                "file": "LLVM/How to Write a Checker in 24 Hours/SimpleStreamCheck.cpp.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "SimpleStreamCheck.cpp 의 개요"
             }
           }
         ],
@@ -163,24 +204,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
+      "switcher:빠른 전환기 열기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
       "graph:그래프 뷰 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "0104b59bf2609cea",
+  "active": "816cbcd0ff6621fa",
   "lastOpenFiles": [
-    "Programing/정보처리기사/4. 프로그래밍 언어 활용/4.1 반복문.md",
-    "Programing/정보처리기사/README.md",
-    "Programing/정보처리기사/4. 프로그래밍 언어 활용/4.2 제어문.md",
-    "LLVM/Checker Developer Manual/0. ReadME.md",
+    "Programing/정보처리기사/5. 정보 시스템 구축 관리",
+    "README.md",
     "LLVM/Clang환경설정/Clang_Html_TEST.md",
-    "LLVM/CSA_Souce/README.md",
-    "Programing/정보처리기사/4. 프로그래밍 언어 활용/3.2 Python 의 자료형.md",
     "LLVM/CSA_Souce/README_KR.md",
+    "LLVM/CSA_Souce/README.md",
+    "LLVM/Checker Developer Manual/0. ReadME.md",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/4.2 제어문.md",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/4.1 반복문.md",
     "LLVM/Clang환경설정/Clang_Build.md",
     "LLVM/Manpage Lite.md",
     "LLVM/CSA_Souce/CSA_Core",
