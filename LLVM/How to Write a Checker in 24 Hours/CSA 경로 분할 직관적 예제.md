@@ -71,8 +71,10 @@ void read_lines() {
 ## 3. 널 포인터 검사 분할
 
 ```c
-void process_data(int* data) {
-  if (data == NULL) {  // 분기점 3
+void process_data(int* data) 
+{
+  if (data == NULL) 
+  {  // 분기점 3
     // 경로 P: 널 포인터 경로
     log_error("Null input");
     return;
@@ -90,77 +92,117 @@ void process_data(int* data) {
 
 ## 4. 함수 호출에 의한 분할
 
-c
+```c
+void helper(int x) 
+{
+  int* mem = malloc(sizeof(int) * x);
+  // 함수 종료 시: 메모리 해제 없음
+}
 
-`void helper(int x) {   int* mem = malloc(sizeof(int) * x);  // 함수 종료 시: 메모리 해제 없음 } void main() {   helper(10);  // 경로 M  helper(20);  // 경로 N (독립적) }`
-
+void main() {
+  helper(10);  // 경로 M
+  helper(20);  // 경로 N (독립적)
+}
+```
 - **분석 결과**:
     
     - `helper(10)` 호출 경로: **메모리 누수** 감지
-        
     - `helper(20)` 호출 경로: 별도로 **메모리 누수** 감지
-        
     - 두 경로 완전 분리 → 각각 별도 리포트
-        
+
 
 ## 5. 심볼릭 값에 의한 분할
 
-c
-
-`void symbolic_example(int x) {  // x: 심볼릭 값   FILE* fp = fopen("file.txt", "r");     if (x > 0) {  // 분기점 4    fclose(fp);  // 경로 X  } else {    // 경로 Y: fp 닫지 않음  }     if (x < 100) {  // 분기점 5    // 경로 X,Y에서 다시 분할  } }`
+```c
+void symbolic_example(int x) 
+{  // x: 심볼릭 값
+  FILE* fp = fopen("file.txt", "r");
+  
+  if (x > 0) 
+  {  // 분기점 4
+    fclose(fp);  // 경로 X
+  } 
+  else 
+  {
+    // 경로 Y: fp 닫지 않음
+  }
+  
+  if (x < 100) 
+  {  // 분기점 5
+    // 경로 X,Y에서 다시 분할
+  }
+}
+```
 
 - **분석 복잡도**:
-    
-    text
-    
-    `graph TD   A[시작] --> B[x>0?]  B -->|Yes| C[fclose] --> D[x<100?]  B -->|No| E[x<100?]  D --> F[경로 X1]  D --> G[경로 X2]  E --> H[경로 Y1]  E --> I[경로 Y2]`
+```text
+graph TD
+  A[시작] --> B[x>0?]
+  B -->|Yes| C[fclose] --> D[x<100?]
+  B -->|No| E[x<100?]
+  D --> F[경로 X1]
+  D --> G[경로 X2]
+  E --> H[경로 Y1]
+  E --> I[경로 Y2]
+```
     
 - **결과**: 4개의 독립 경로 생성
-    
+
 
 ## 6. 오류 복구 경로 분할
 
-c
-
-`void error_handling() {   FILE* fp = fopen("critical.dat", "rw");     if (verify_data(fp) != SUCCESS) {  // 분기점 6    // 경로 E: 오류 처리 경로    recovery_procedure();    return;  // 여기서 경로 종료  }     // 경로 N: 정상 처리 경로  process_data(fp);  fclose(fp); }`
+```c
+void error_handling() 
+{
+  FILE* fp = fopen("critical.dat", "rw");
+  
+  if (verify_data(fp) != SUCCESS) 
+  {  // 분기점 6
+    // 경로 E: 오류 처리 경로
+    recovery_procedure(); 
+    return;  // 여기서 경로 종료
+  }
+  
+  // 경로 N: 정상 처리 경로
+  process_data(fp);
+  fclose(fp);
+}
+```
 
 - **분석 특징**:
     
     - 오류 경로(E)와 정상 경로(N) 완전 분리
-        
     - 경로 E에서는 `fp`가 닫히지 않음 → **리소스 누수 감지**
-        
     - 경로 N: 정상 처리
-        
 
+---
 ## 경로 분할 원리 요약
 
 1. **분기 발생 지점**:
     
     - 조건문(`if`, `switch`)
-        
     - 반복문(`for`, `while`)
-        
     - 함수 호출
-        
     - 널 포인터/에러 체크
         
 2. **분할 조건**:
     
-    text
-    
-    `graph LR   A[단일 경로] --> B{분기점 발생?}  B -->|Yes| C[상태 복제]  C --> D[경로 A]  C --> E[경로 B]  B -->|No| F[계속 단일 경로]`
+```text
+graph LR
+  A[단일 경로] --> B{분기점 발생?}
+  B -->|Yes| C[상태 복제]
+  C --> D[경로 A]
+  C --> E[경로 B]
+  B -->|No| F[계속 단일 경로]
+```
     
 3. **분석기 동작 특성**:
     
     - 각 경로는 고유한 `ProgramState` 보유
-        
     - 분기점 이후 경로는 완전 독립적
-        
     - 경로는 중첩 가능(트리 구조)
-        
     - 최대 경로 수는 분석기 설정에 따라 제한됨
-        
+
 
 > 이러한 경로 분할 메커니즘은 Clang의 `ExprEngine::processBranch()` 함수에서 구현되며,  
 > 정적 분석의 핵심 강점인 **경로-민감 분석(path-sensitive analysis)**의 기반이 됩니다.
