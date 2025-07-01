@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/How to Write a Checker in 24 Hours/7. Add state transition corresponding to fopen.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7. Add state transition corresponding to fopen"
+              "title": "9. Report error on double close"
+            }
+          },
+          {
+            "id": "2aed57227cbca6f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLVM/How to Write a Checker in 24 Hours/10. Report error on leak.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10. Report error on leak"
             }
           },
           {
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -137,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/용어.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/10. Report error on leak.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "용어 의 백링크"
+              "title": "10. Report error on leak 의 백링크"
             }
           },
           {
@@ -156,12 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/용어.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/10. Report error on leak.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "용어 의 나가는 링크"
+              "title": "10. Report error on leak 의 나가는 링크"
             }
           },
           {
@@ -185,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/용어.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/10. Report error on leak.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "용어 의 개요"
+              "title": "10. Report error on leak 의 개요"
             }
           }
         ],
@@ -212,58 +226,21 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "floating": {
-    "id": "0abf28882c8603f2",
-    "type": "floating",
-    "children": [
-      {
-        "id": "f90c292685214765",
-        "type": "window",
-        "children": [
-          {
-            "id": "5122f6a986e37a66",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ef6e790034f1aa1f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "LLVM/용어.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "용어"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 3980,
-        "y": 235,
-        "width": 923,
-        "height": 807,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "ef6e790034f1aa1f",
+  "active": "2aed57227cbca6f5",
   "lastOpenFiles": [
-    "LLVM/How to Write a Checker in 24 Hours/7. Add state transition corresponding to fopen.md",
-    "LLVM/How to Write a Checker in 24 Hours/6. Defining the State of a File Descriptor.md",
-    "LLVM/How to Write a Checker in 24 Hours/5. Let's Write a Unix Stream API Checker.md",
-    "LLVM/How to Write a Checker in 24 Hours/4. Extending with Checkers.md",
     "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
-    "LLVM/용어.md",
     "LLVM/How to Write a Checker in 24 Hours/CSA 경로 분할 직관적 예제.md",
+    "LLVM/How to Write a Checker in 24 Hours/fopen, fclose.md",
+    "LLVM/How to Write a Checker in 24 Hours/5. Let's Write a Unix Stream API Checker.md",
+    "LLVM/How to Write a Checker in 24 Hours/6. Defining the State of a File Descriptor.md",
+    "LLVM/How to Write a Checker in 24 Hours/7. Add state transition corresponding to fopen.md",
+    "LLVM/How to Write a Checker in 24 Hours/8. Add transitions driven by fclose.md",
+    "LLVM/How to Write a Checker in 24 Hours/10. Report error on leak.md",
+    "기타_자료/Pasted image 20250701111533.png",
+    "LLVM/용어.md",
+    "LLVM/How to Write a Checker in 24 Hours/4. Extending with Checkers.md",
     "LLVM/How to Write a Checker in 24 Hours/3. Builds a Graph of Reachable Program States.md",
     "LLVM/How to Write a Checker in 24 Hours/0. overview.md",
-    "LLVM/How to Write a Checker in 24 Hours/8. Add transitions driven by fclose.md",
-    "LLVM/How to Write a Checker in 24 Hours/fopen, fclose.md",
     "LLVM/How to Write a Checker in 24 Hours/Summary.md",
     "LLVM/How to Write a Checker in 24 Hours/9.  Report error on double close.md",
     "LLVM/How to Write a Checker in 24 Hours/1. Why Static Analysis.md",
@@ -277,7 +254,6 @@
     "Programing/정보처리기사/README.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/3.2 Python 의 자료형.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/3.1 Python의 연산.md",
-    "Programing/정보처리기사/4. 프로그래밍 언어 활용/3. 스크립트언어.md",
     "Programing/디자인 패턴",
     "LLVM/How to Write a Checker in 24 Hours",
     "LLVM/Clang환경설정",
@@ -293,7 +269,6 @@
     "기타_자료/Pasted image 20250625194103.png",
     "기타_자료/Pasted image 20250625000343.png",
     "기타_자료/Pasted image 20250624234422.png",
-    "기타_자료/Pasted image 20250624234048.png",
     "Programing/정보처리기사/5. 정보시스템 구축관리",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용",
     "Programing/정보처리기사/3. 데이터베이스 구축",
