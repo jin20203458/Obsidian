@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/How to Write a Checker in 24 Hours/SimpleStreamCheck.cpp.md",
+                "file": "LLVM/Clang환경설정/Clang_Build.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SimpleStreamCheck.cpp"
+              "title": "Clang_Build"
             }
           }
         ],
@@ -253,14 +253,14 @@
   },
   "active": "eb3c89f4f7e7c702",
   "lastOpenFiles": [
-    "LLVM/How to Write a Checker in 24 Hours/fopen, fclose.md",
     "LLVM/How to Write a Checker in 24 Hours/SimpleStreamCheck.cpp.md",
+    "LLVM/용어.md",
+    "LLVM/How to Write a Checker in 24 Hours/fopen, fclose.md",
     "LLVM/How to Write a Checker in 24 Hours/Summary.md",
     "LLVM/Clang환경설정/Clang_Build.md",
     "LLVM/How to Write a Checker in 24 Hours/11.Don’t Warn If fopen Fails.md",
     "기타_자료/Pasted image 20250701140548.png",
     "LLVM/How to Write a Checker in 24 Hours/CSA 경로 분할 직관적 예제.md",
-    "LLVM/용어.md",
     "LLVM/How to Write a Checker in 24 Hours/10. Report error on leak.md",
     "기타_자료/Pasted image 20250701132424.png",
     "기타_자료/Pasted image 20250701132221.png",
