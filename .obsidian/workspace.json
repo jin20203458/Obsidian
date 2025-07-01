@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/How to Write a Checker in 24 Hours/8. Add transitions driven by fclose.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8. Add transitions driven by fclose"
+              "title": "9. Report error on double close"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/How to Write a Checker in 24 Hours/임시.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/fopen, fclose.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "임시"
+              "title": "fopen, fclose"
             }
           }
         ]
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/용어.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "용어 의 백링크"
+              "title": "9. Report error on double close 의 백링크"
             }
           },
           {
@@ -141,12 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/용어.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "용어 의 나가는 링크"
+              "title": "9. Report error on double close 의 나가는 링크"
             }
           },
           {
@@ -170,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/용어.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "용어 의 개요"
+              "title": "9. Report error on double close 의 개요"
             }
           }
         ],
@@ -236,22 +236,22 @@
       }
     ]
   },
-  "active": "ef6e790034f1aa1f",
+  "active": "e6c614b1b40aff6c",
   "lastOpenFiles": [
     "LLVM/How to Write a Checker in 24 Hours/8. Add transitions driven by fclose.md",
     "LLVM/How to Write a Checker in 24 Hours/7. Add state transition corresponding to fopen.md",
-    "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
-    "LLVM/용어.md",
-    "LLVM/How to Write a Checker in 24 Hours/임시.md",
     "LLVM/How to Write a Checker in 24 Hours/6. Defining the State of a File Descriptor.md",
     "LLVM/How to Write a Checker in 24 Hours/5. Let's Write a Unix Stream API Checker.md",
+    "LLVM/How to Write a Checker in 24 Hours/4. Extending with Checkers.md",
+    "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
+    "LLVM/How to Write a Checker in 24 Hours/fopen, fclose.md",
+    "LLVM/용어.md",
     "LLVM/How to Write a Checker in 24 Hours/3.Builds a Graph of Reachable Program States.md",
     "LLVM/How to Write a Checker in 24 Hours/Summary.md",
     "LLVM/How to Write a Checker in 24 Hours/9.  Report error on double close.md",
     "LLVM/How to Write a Checker in 24 Hours/0. 개요.md",
     "LLVM/How to Write a Checker in 24 Hours/1. Why Static Analysis.md",
     "LLVM/Checker Developer Manual/0. ReadME.md",
-    "LLVM/How to Write a Checker in 24 Hours/4. Extending with Checkers.md",
     "README.md",
     "LLVM/How to Write a Checker in 24 Hours/0. 개요.md",
     "LLVM/Checker Developer Manual/0. ReadME.md",
