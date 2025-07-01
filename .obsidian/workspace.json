@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/CSA 실행흐름.md",
+                "file": "LLVM/Manpage Lite.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSA 실행흐름"
+              "title": "Manpage Lite"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/용어.md",
+                "file": "LLVM/Manpage Lite.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "용어"
+              "title": "Manpage Lite"
             }
           }
         ],
@@ -214,17 +214,19 @@
   },
   "active": "0045503290bdf9ff",
   "lastOpenFiles": [
+    "LLVM/CSA 논리적인 흐름 구조.md",
+    "기타_자료/Pasted image 20250701172849.png",
+    "기타_자료/Pasted image 20250701171239.png",
+    "LLVM/Manpage Lite.md",
     "LLVM/Checker Developer Manual/0. ReadME.md",
+    "LLVM/How to Write a Checker in 24 Hours/0. overview.md",
     "LLVM/How to Write a Checker in 24 Hours/2. Symbolic Execution.md",
     "LLVM/How to Write a Checker in 24 Hours/1. Why Static Analysis.md",
-    "LLVM/How to Write a Checker in 24 Hours/0. overview.md",
-    "LLVM/CSA 실행흐름.md",
     "LLVM/Clang환경설정/Clang_Static_Analyzer.md",
     "LLVM/Clang환경설정/Clang_Html_TEST.md",
     "LLVM/Clang환경설정/Clang_Build.md",
     "LLVM/How to Write a Checker in 24 Hours/3. Builds a Graph of Reachable Program States.md",
     "LLVM/How to Write a Checker in 24 Hours/10. Report error on leak.md",
-    "LLVM/용어.md",
     "LLVM/How to Write a Checker in 24 Hours/SimpleStreamCheck.cpp.md",
     "LLVM/How to Write a Checker in 24 Hours/fopen, fclose.md",
     "LLVM/How to Write a Checker in 24 Hours/Summary.md",
@@ -253,8 +255,6 @@
     "기타_자료/Pasted image 20250628183910.png",
     "Programing",
     "기타_자료/Pasted image 20250628172928.png",
-    "기타_자료/Pasted image 20250627214051.png",
-    "기타_자료/Pasted image 20250627213432.png",
     "Programing/정보처리기사/5. 정보시스템 구축관리",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용",
     "Programing/정보처리기사/3. 데이터베이스 구축",
