@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "6ff3295b713f84e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLVM/How to Write a Checker in 24 Hours/CSA 경로 분할 직관적 예제.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CSA 경로 분할 직관적 예제"
+            }
+          },
+          {
             "id": "e5ce3b9243ad9f89",
             "type": "leaf",
             "state": {
@@ -35,7 +49,8 @@
               "title": "fopen, fclose"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/CSA 경로 분할 직관적 예제.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "9. Report error on double close 의 백링크"
+              "title": "CSA 경로 분할 직관적 예제 의 백링크"
             }
           },
           {
@@ -141,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/CSA 경로 분할 직관적 예제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "9. Report error on double close 의 나가는 링크"
+              "title": "CSA 경로 분할 직관적 예제 의 나가는 링크"
             }
           },
           {
@@ -170,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/CSA 경로 분할 직관적 예제.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "9. Report error on double close 의 개요"
+              "title": "CSA 경로 분할 직관적 예제 의 개요"
             }
           }
         ],
@@ -236,24 +251,24 @@
       }
     ]
   },
-  "active": "e6c614b1b40aff6c",
+  "active": "6ff3295b713f84e3",
   "lastOpenFiles": [
+    "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
+    "LLVM/How to Write a Checker in 24 Hours/3. Builds a Graph of Reachable Program States.md",
+    "LLVM/How to Write a Checker in 24 Hours/CSA 경로 분할 직관적 예제.md",
+    "LLVM/How to Write a Checker in 24 Hours/5. Let's Write a Unix Stream API Checker.md",
+    "LLVM/How to Write a Checker in 24 Hours/0. overview.md",
     "LLVM/How to Write a Checker in 24 Hours/8. Add transitions driven by fclose.md",
     "LLVM/How to Write a Checker in 24 Hours/7. Add state transition corresponding to fopen.md",
     "LLVM/How to Write a Checker in 24 Hours/6. Defining the State of a File Descriptor.md",
-    "LLVM/How to Write a Checker in 24 Hours/5. Let's Write a Unix Stream API Checker.md",
     "LLVM/How to Write a Checker in 24 Hours/4. Extending with Checkers.md",
-    "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
     "LLVM/How to Write a Checker in 24 Hours/fopen, fclose.md",
     "LLVM/용어.md",
-    "LLVM/How to Write a Checker in 24 Hours/3.Builds a Graph of Reachable Program States.md",
     "LLVM/How to Write a Checker in 24 Hours/Summary.md",
     "LLVM/How to Write a Checker in 24 Hours/9.  Report error on double close.md",
-    "LLVM/How to Write a Checker in 24 Hours/0. 개요.md",
     "LLVM/How to Write a Checker in 24 Hours/1. Why Static Analysis.md",
     "LLVM/Checker Developer Manual/0. ReadME.md",
     "README.md",
-    "LLVM/How to Write a Checker in 24 Hours/0. 개요.md",
     "LLVM/Checker Developer Manual/0. ReadME.md",
     "LLVM/How to Write a Checker in 24 Hours/용어.md",
     "LLVM/How to Write a Checker in 24 Hours/Summary.md",
