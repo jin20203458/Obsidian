@@ -63,7 +63,7 @@ cmake -G "Visual Studio 17 2022" -A x64 `
 
 ```PowerShell
 # 1. 빌드 시작 (CPU 코어 8개를 사용하여 병렬 빌드) 
-cmake --build . --config Release --parallel 8`
+cmake --build . --config Release --parallel 8
 ```
 **팁:** `--parallel` 뒤의 숫자는 사용하는 CPU 코어 수에 맞게 조절하면 빌드 속도가 빨라집니다. (예: 12코어 CPU -> `--parallel 12`)
 
