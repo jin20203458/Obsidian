@@ -8,67 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2aed57227cbca6f5",
+            "id": "0104b59bf2609cea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Checker Developer Manual/0. ReadME.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/4.2 제어문.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0045503290bdf9ff",
+            "id": "108988c8435cfe1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Clang환경설정/Clang_Html_TEST.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d996f7295cbe554f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLVM/CSA_Souce/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d2eed626bfbb396",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLVM/CSA_Souce/README_KR.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e5ce3b9243ad9f89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLVM/Manpage Lite.md",
+                "file": "Programing/정보처리기사/README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/CSA_Souce/README_KR.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/4.2 제어문.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/CSA_Souce/README_KR.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/4.2 제어문.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/CSA_Souce/README_KR.md"
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/4.2 제어문.md"
               }
             }
           }
@@ -208,11 +171,16 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "9d2eed626bfbb396",
+  "active": "0104b59bf2609cea",
   "lastOpenFiles": [
-    "LLVM/CSA_Souce/README.md",
-    "LLVM/CSA_Souce/README_KR.md",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/4.1 반복문.md",
+    "Programing/정보처리기사/README.md",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/4.2 제어문.md",
+    "LLVM/Checker Developer Manual/0. ReadME.md",
     "LLVM/Clang환경설정/Clang_Html_TEST.md",
+    "LLVM/CSA_Souce/README.md",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/3.2 Python 의 자료형.md",
+    "LLVM/CSA_Souce/README_KR.md",
     "LLVM/Clang환경설정/Clang_Build.md",
     "LLVM/Manpage Lite.md",
     "LLVM/CSA_Souce/CSA_Core",
@@ -222,7 +190,6 @@
     "LLVM/CSA 논리적인 흐름 구조.md",
     "기타_자료/Pasted image 20250701172849.png",
     "기타_자료/Pasted image 20250701171239.png",
-    "LLVM/Checker Developer Manual/0. ReadME.md",
     "LLVM/How to Write a Checker in 24 Hours/0. overview.md",
     "LLVM/How to Write a Checker in 24 Hours/2. Symbolic Execution.md",
     "LLVM/How to Write a Checker in 24 Hours/1. Why Static Analysis.md",
@@ -242,11 +209,7 @@
     "LLVM/How to Write a Checker in 24 Hours/6. Defining the State of a File Descriptor.md",
     "LLVM/How to Write a Checker in 24 Hours/5. Let's Write a Unix Stream API Checker.md",
     "LLVM/How to Write a Checker in 24 Hours/8. Add transitions driven by fclose.md",
-    "LLVM/How to Write a Checker in 24 Hours/7. Add state transition corresponding to fopen.md",
     "기타_자료/Pasted image 20250701111533.png",
-    "LLVM/How to Write a Checker in 24 Hours/4. Extending with Checkers.md",
-    "LLVM/How to Write a Checker in 24 Hours/9.  Report error on double close.md",
-    "README.md",
     "Programing/디자인 패턴",
     "LLVM/How to Write a Checker in 24 Hours",
     "LLVM/Clang환경설정",
