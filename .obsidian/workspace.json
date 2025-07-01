@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2aed57227cbca6f5",
+            "id": "5f5155ad41dcbdf0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Checker Developer Manual/0. ReadME.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0045503290bdf9ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programing/정보처리기사/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e5ce3b9243ad9f89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLVM/Manpage Lite.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.1 운영체제의 운영 방식.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/Checker Developer Manual/0. ReadME.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.1 운영체제의 운영 방식.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/Checker Developer Manual/0. ReadME.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.1 운영체제의 운영 방식.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/Checker Developer Manual/0. ReadME.md"
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.1 운영체제의 운영 방식.md"
               }
             }
           }
@@ -184,18 +160,58 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "816cbcd0ff6621fa",
+  "floating": {
+    "id": "f24d30eaa5781a47",
+    "type": "floating",
+    "children": [
+      {
+        "id": "74e2c71be5c12a1a",
+        "type": "window",
+        "children": [
+          {
+            "id": "6dfec96b7336491e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0045503290bdf9ff",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Programing/정보처리기사/README.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -785,
+        "y": -407,
+        "width": 600,
+        "height": 600,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "5f5155ad41dcbdf0",
   "lastOpenFiles": [
+    "Programing/정보처리기사/README.md",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.1 운영체제의 운영 방식.md",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/3.1 Python의 연산.md",
+    "LLVM/Checker Developer Manual/0. ReadME.md",
+    "LLVM/Manpage Lite.md",
     "Programing/정보처리기사/5. 정보 시스템 구축 관리",
     "README.md",
     "LLVM/Clang환경설정/Clang_Html_TEST.md",
     "LLVM/CSA_Souce/README_KR.md",
     "LLVM/CSA_Souce/README.md",
-    "LLVM/Checker Developer Manual/0. ReadME.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/4.2 제어문.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/4.1 반복문.md",
     "LLVM/Clang환경설정/Clang_Build.md",
-    "LLVM/Manpage Lite.md",
     "LLVM/CSA_Souce/CSA_Core",
     "LLVM/CSA_Souce/CSA_Frontend",
     "LLVM/CSA_Souce/CSA_Checkers",
@@ -220,8 +236,6 @@
     "기타_자료/Pasted image 20250701132121.png",
     "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
     "LLVM/How to Write a Checker in 24 Hours/6. Defining the State of a File Descriptor.md",
-    "LLVM/How to Write a Checker in 24 Hours/5. Let's Write a Unix Stream API Checker.md",
-    "LLVM/How to Write a Checker in 24 Hours/8. Add transitions driven by fclose.md",
     "기타_자료/Pasted image 20250701111533.png",
     "Programing/디자인 패턴",
     "LLVM/How to Write a Checker in 24 Hours",
@@ -230,7 +244,6 @@
     "Programing/Language/Java",
     "기타_자료/Pasted image 20250629002841.png",
     "기타_자료/Pasted image 20250628183910.png",
-    "Programing",
     "기타_자료/Pasted image 20250628172928.png"
   ]
 }
