@@ -224,10 +224,10 @@
   },
   "active": "564752fbbe5b1b90",
   "lastOpenFiles": [
-    "LLVM/How to Write a Checker in 24 Hours/9.  Report error on double close.md",
-    "LLVM/How to Write a Checker in 24 Hours/Summary.md",
-    "LLVM/How to Write a Checker in 24 Hours/0. 개요.md",
     "LLVM/How to Write a Checker in 24 Hours/8. Add transitions driven by fclose.md",
+    "LLVM/How to Write a Checker in 24 Hours/Summary.md",
+    "LLVM/How to Write a Checker in 24 Hours/9.  Report error on double close.md",
+    "LLVM/How to Write a Checker in 24 Hours/0. 개요.md",
     "LLVM/How to Write a Checker in 24 Hours/6. Defining the State of a File Descriptor.md",
     "LLVM/How to Write a Checker in 24 Hours/1. Why Static Analysis.md",
     "LLVM/Checker Developer Manual/0. ReadME.md",
