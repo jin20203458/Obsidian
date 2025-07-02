@@ -8,67 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9b207565294118fe",
+            "id": "a615369d18f533ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.7 프로세스 관리.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8b26e21a400c0755",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.8 교착상채.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c8e3921f8cd9ed22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.9 기억장치 관리.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8ef662e4b668b309",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/5. 운영체제의 개요.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1814e24bfe96a7a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.1 데이터 통신의 개요.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.2 OSI7계층과 오류 제어 방식.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -146,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.1 데이터 통신의 개요.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.2 OSI7계층과 오류 제어 방식.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.1 데이터 통신의 개요.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.2 OSI7계층과 오류 제어 방식.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.1 데이터 통신의 개요.md"
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.2 OSI7계층과 오류 제어 방식.md"
               }
             }
           }
@@ -245,10 +197,11 @@
       }
     ]
   },
-  "active": "1814e24bfe96a7a6",
+  "active": "a615369d18f533ed",
   "lastOpenFiles": [
-    "Programing/정보처리기사/4. 프로그래밍 언어 활용/5. 운영체제의 개요.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.1 데이터 통신의 개요.md",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.2 OSI7계층과 오류 제어 방식.md",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/5. 운영체제의 개요.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.9 기억장치 관리.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.8 교착상채.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.7 프로세스 관리.md",
@@ -272,7 +225,6 @@
     "LLVM/How to Write a Checker in 24 Hours/3. Builds a Graph of Reachable Program States.md",
     "LLVM/How to Write a Checker in 24 Hours/5. Let's Write a Unix Stream API Checker.md",
     "LLVM/How to Write a Checker in 24 Hours/4. Extending with Checkers.md",
-    "LLVM/How to Write a Checker in 24 Hours/1. Why Static Analysis.md",
     "기타_자료/Pasted image 20250702135759.png",
     "Manpage Lite",
     "Programing/정보처리기사/5. 정보 시스템 구축 관리",
