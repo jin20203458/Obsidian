@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/How to Write a Checker in 24 Hours/Summary.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/8. Add transitions driven by fclose.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Summary"
+              "title": "8. Add transitions driven by fclose"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/How to Write a Checker in 24 Hours/Summary.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/8. Add transitions driven by fclose.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Summary 의 백링크"
+              "title": "8. Add transitions driven by fclose 의 백링크"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/How to Write a Checker in 24 Hours/Summary.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/8. Add transitions driven by fclose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Summary 의 나가는 링크"
+              "title": "8. Add transitions driven by fclose 의 나가는 링크"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/How to Write a Checker in 24 Hours/Summary.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/8. Add transitions driven by fclose.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Summary 의 개요"
+              "title": "8. Add transitions driven by fclose 의 개요"
             }
           }
         ],
@@ -200,7 +200,12 @@
   },
   "active": "01f51fb2cc5bc823",
   "lastOpenFiles": [
+    "LLVM/How to Write a Checker in 24 Hours/7. Add state transition corresponding to fopen.md",
+    "LLVM/How to Write a Checker in 24 Hours/6. Defining the State of a File Descriptor.md",
+    "LLVM/How to Write a Checker in 24 Hours/5. Let's Write a Unix Stream API Checker.md",
+    "LLVM/How to Write a Checker in 24 Hours/4. Extending with Checkers.md",
     "LLVM/Manpage Lite.md",
+    "LLVM/How to Write a Checker in 24 Hours/Summary.md",
     "LLVM/CSA_Souce/README_KR.md",
     "LLVM/CSA_Souce/README.md",
     "LLVM/CSA 논리적인 흐름 구조.md",
@@ -228,11 +233,6 @@
     "기타_자료/Pasted image 20250701171239.png",
     "LLVM/How to Write a Checker in 24 Hours/0. overview.md",
     "LLVM/How to Write a Checker in 24 Hours/2. Symbolic Execution.md",
-    "LLVM/How to Write a Checker in 24 Hours/1. Why Static Analysis.md",
-    "LLVM/Clang환경설정/Clang_Static_Analyzer.md",
-    "LLVM/How to Write a Checker in 24 Hours/3. Builds a Graph of Reachable Program States.md",
-    "LLVM/How to Write a Checker in 24 Hours/10. Report error on leak.md",
-    "LLVM/How to Write a Checker in 24 Hours/SimpleStreamCheck.cpp.md",
     "기타_자료/Pasted image 20250701140548.png",
     "기타_자료/Pasted image 20250701132424.png",
     "기타_자료/Pasted image 20250701132221.png",
