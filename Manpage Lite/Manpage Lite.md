@@ -176,10 +176,19 @@ T *FindNodeOrInsertPos(const FoldingSetNodeID &ID,
 ```cpp
 checkerContext.generateSink();
 ```
-- **오류 발생 지점에서 현재 경로를 종료**시키는 노드를 생성합니다.
-- 이 노드는 `ExplodedGraph` 상에서 해당 경로의 끝점 역할을 하며, 이후 이 경로에 대한 추가 분석은 중단됩니다.
-- 같은 오류 상태가 이미 존재하면 중복 생성을 방지하기 위해 `nullptr`을 반환합니다.
+- **현재 경로를 즉시 종료(sink)하는 노드(종단점)를 생성**합니다.
+- 이 노드는 `ExplodedGraph` 상에서 해당 경로의 끝점 역할을 하며, 이후 이 경로에 대한 추가 분석은 **중단**됩니다.
+- 완전히 동일한 상태(프로그램 위치, 상태, 태그 등)가 이미 존재하면 **중복 생성하지 않고 기존 노드를 재활용**합니다.
+- **리포트(에러 메시지)와 직접 연결하지 않을 때** 또는 내부적으로 경로만 종료하고 싶을 때 사용합니다.
 
+```cpp
+checkerContext.generateErrorNode();
+```
+- **치명적인 오류(critical bug) 리포트가 필요한 시점에 "에러 노드(sink node)"를 생성**합니다.
+- 이 노드는 `ExplodedGraph` 상에서 해당 경로의 끝점 역할을 하며, 이후 이 경로에 대한 추가 분석은 **중단**됩니다.
+- 완전히 동일한 상태(프로그램 위치, 상태, 리포트 태그 등)가 이미 존재하면 **중복 생성하지 않고 기존 노드를 재활용**하거나, 이미 같은 리포트 노드가 있으면 **nullptr을 반환**하여 중복 리포트를 방지합니다.
+- **주로 더블 프리, 더블 클로즈, UAF 등 치명적 버그 리포트**에 사용합니다.
+- **공식적으로 에러 리포트 목적의 sink 노드는 generateErrorNode() 사용이 권장**됩니다.
 
 ```cpp
 checkerContext.addTransition(State);
@@ -189,7 +198,6 @@ checkerContext.addTransition(State);
 - 해당 경로의 추가 분석이 **계속 진행**됩니다.
 - 완전히 동일한 상태(프로그램 위치, 상태, 태그 등)가 이미 존재하면 **중복 생성하지 않고 기존 노드를 재활용**합니다.
 - **주로 단순 상태 갱신, 리포트 없는 전이**에 사용합니다.
-
 
 ```cpp
 checkerContext.generateNonFatalErrorNode(State);
