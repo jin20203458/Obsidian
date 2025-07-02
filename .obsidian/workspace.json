@@ -8,49 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9fa2ee2455ce30e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Manpage Lite/Symbol Status.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Symbol Status"
-            }
-          },
-          {
-            "id": "9e8fe37b41b4c4f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLVM/CSA 논리적인 흐름 구조.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CSA 논리적인 흐름 구조"
-            }
-          },
-          {
             "id": "2e1e5db83fc51622",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
+                "file": "Manpage Lite/Manpage Lite.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9. Report error on double close"
+              "title": "Manpage Lite"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -214,23 +185,23 @@
   },
   "active": "2e1e5db83fc51622",
   "lastOpenFiles": [
-    "LLVM/How to Write a Checker in 24 Hours/3. Builds a Graph of Reachable Program States.md",
+    "LLVM/CSA 논리적인 흐름 구조.md",
+    "LLVM/How to Write a Checker in 24 Hours/Summary.md",
+    "LLVM/How to Write a Checker in 24 Hours/SimpleStreamCheck.cpp.md",
+    "LLVM/How to Write a Checker in 24 Hours/fopen, fclose.md",
+    "LLVM/How to Write a Checker in 24 Hours/11. Don’t Warn If fopen Fails.md",
+    "LLVM/How to Write a Checker in 24 Hours/10. Report error on leak.md",
     "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
     "LLVM/How to Write a Checker in 24 Hours/8. Add transitions driven by fclose.md",
     "LLVM/How to Write a Checker in 24 Hours/7. Add state transition corresponding to fopen.md",
     "LLVM/How to Write a Checker in 24 Hours/6. Defining the State of a File Descriptor.md",
-    "LLVM/How to Write a Checker in 24 Hours/11. Don’t Warn If fopen Fails.md",
-    "LLVM/How to Write a Checker in 24 Hours/10. Report error on leak.md",
     "LLVM/How to Write a Checker in 24 Hours/CSA 경로 분할 직관적 예제.md",
+    "LLVM/CSA 논리적인 흐름 구조(ExplodedGraph).md",
+    "LLVM/How to Write a Checker in 24 Hours/3. Builds a Graph of Reachable Program States.md",
     "LLVM/How to Write a Checker in 24 Hours/5. Let's Write a Unix Stream API Checker.md",
     "LLVM/How to Write a Checker in 24 Hours/4. Extending with Checkers.md",
-    "LLVM/How to Write a Checker in 24 Hours/SimpleStreamCheck.cpp.md",
     "LLVM/How to Write a Checker in 24 Hours/1. Why Static Analysis.md",
     "LLVM/How to Write a Checker in 24 Hours/0. overview.md",
-    "LLVM/CSA 논리적인 흐름 구조(ExplodedGraph).md",
-    "LLVM/CSA 논리적인 흐름 구조.md",
-    "LLVM/How to Write a Checker in 24 Hours/Summary.md",
-    "LLVM/How to Write a Checker in 24 Hours/fopen, fclose.md",
     "LLVM/How to Write a Checker in 24 Hours/2. Symbolic Execution.md",
     "Manpage Lite/Manpage Lite.md",
     "기타_자료/Pasted image 20250702135759.png",

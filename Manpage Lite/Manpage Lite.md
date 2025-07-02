@@ -181,6 +181,16 @@ checkerContext.generateSink();
 - 같은 오류 상태가 이미 존재하면 중복 생성을 방지하기 위해 `nullptr`을 반환합니다.
 
 
+```cpp
+checkerContext.addTransition(State);
+```
+- **새로운 상태(State)로 일반적인 분석 경로 노드(transition)를 생성**합니다.
+- 이 노드는 `ExplodedGraph` 상에서 "정상적인 경로 확장" 역할만 하며, 특별한 의미(에러/경고)는 없습니다.
+- 해당 경로의 추가 분석이 **계속 진행**됩니다.
+- 완전히 동일한 상태(프로그램 위치, 상태, 태그 등)가 이미 존재하면 **중복 생성하지 않고 기존 노드를 재활용**합니다.
+- **주로 단순 상태 갱신, 리포트 없는 전이**에 사용합니다.
+
+
 
 ---
 
@@ -197,3 +207,6 @@ REGISTER_MAP_WITH_PROGRAMSTATE(StreamMap, SymbolRef, StreamState)
 
 즉, 각 파일 핸들(`SymbolRef`)에 대해 현재 상태(`StreamState` — 예: Opened, Closed 등)를 추적하는 용도로 쓰이죠.
 - **불변(immutable)한 키-값 맵 자료구조**
+
+
+
