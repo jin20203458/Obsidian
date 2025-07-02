@@ -190,58 +190,74 @@ void SimpleStreamChecker::checkDeadSymbols(SymbolReaper &SymReaper,
   reportLeaks(LeakedStreams, C, N);
 }
 
+// 이중 fclose를 감지하고 리포트하는 함수
 void SimpleStreamChecker::reportDoubleClose(SymbolRef FileDescSym,
                                             const CallEvent &Call,
                                             CheckerContext &C) const {
-  // We reached a bug, stop exploring the path here by generating a sink.
+  // 1. 경로를 종료하고 오류 노드 생성
   ExplodedNode *ErrNode = C.generateErrorNode();
-  // If we've already reached this node on another path, return.
+
+  // 2. 같은 오류 경로가 이미 분석됐으면 건너뜀
   if (!ErrNode)
     return;
 
-  // Generate the report.
+  // 3. 버그 리포트(경로 민감 버그리포트) 객체 생성
   auto R = std::make_unique<PathSensitiveBugReport>(
-      DoubleCloseBugType, "Closing a previously closed file stream", ErrNode);
+      DoubleCloseBugType,
+      "Closing a previously closed file stream",
+      ErrNode);
+
+  // 4. 소스 코드 위치 표시 (하이라이트)
   R->addRange(Call.getSourceRange());
+  // 5. 사용자에게 흥미로운 값 강조 (추적 경로에서 표시됨)
   R->markInteresting(FileDescSym);
+  // 6. 리포트 등록
   C.emitReport(std::move(R));
 }
 
+// 리소스 누수(열린 파일이 닫히지 않은 경우)를 감지하고 리포트하는 함수
 void SimpleStreamChecker::reportLeaks(ArrayRef<SymbolRef> LeakedStreams,
                                       CheckerContext &C,
                                       ExplodedNode *ErrNode) const {
-  // Attach bug reports to the leak node.
-  // TODO: Identify the leaked file descriptor.
-  for (SymbolRef LeakedStream : LeakedStreams) {
+
+    // 1. 누수된 스트림이 없으면 리포트하지 않음
+  for (SymbolRef LeakedStream : LeakedStreams)
+  {
+      // 2. 버그 리포트 객체 생성
     auto R = std::make_unique<PathSensitiveBugReport>(
-        LeakBugType, "Opened file is never closed; potential resource leak",
+        LeakBugType,
+        "Opened file is never closed; potential resource leak",
         ErrNode);
+
     R->markInteresting(LeakedStream);
     C.emitReport(std::move(R));
   }
 }
 
+// 특정 함수 호출이 "파일을 절대 닫지 않는다"고 확신할 수 있는지를 판별하는 유틸리티 함수
 bool SimpleStreamChecker::guaranteedNotToCloseFile(
     const CallEvent &Call) const {
-  // If it's not in a system header, assume it might close a file.
+  // 1. 시스템 헤더가 아니면, 파일을 닫을 수 있다고 가정 (보수적)
   if (!Call.isInSystemHeader())
     return false;
 
-  // Handle cases where we know a buffer's /address/ can escape.
+  // 2. 인자가 escape될 수 있으면(포인터가 저장되거나, 콜백 등으로 전달), 
+  //     파일을 닫을 수 있다고 가정 (보수적)
   if (Call.argumentsMayEscape())
     return false;
 
-  // Note, even though fclose closes the file, we do not list it here
-  // since the checker is modeling the call.
+  // fclose 같은 함수는 여기서 따로 처리하지 않음(체커에서 직접 모델링하므로)
+  // e.g: fclose는 실제로 파일을 닫지만, 이 함수에서는 true/false로 따로 구분하지 않음
 
   return true;
 }
 
-// If the pointer we are tracking escaped, do not track the symbol as
-// we cannot reason about it anymore.
+// SimpleStreamChecker에서 파일 포인터(심볼)가 "escape"되는 상황
+// (즉, 추적 불가해지는 상황)을 처리하는 함수입니다.
 ProgramStateRef SimpleStreamChecker::checkPointerEscape(
     ProgramStateRef State, const InvalidatedSymbols &Escaped,
     const CallEvent *Call, PointerEscapeKind Kind) const {
+
   // If we know that the call cannot close a file, there is nothing to do.
   if (Kind == PSK_DirectEscapeOnCall && guaranteedNotToCloseFile(*Call)) {
     return State;
