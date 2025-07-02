@@ -18,8 +18,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8b26e21a400c0755",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.8 교착상채.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c8e3921f8cd9ed22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.9 기억장치 관리.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ef662e4b668b309",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/5. 운영체제의 개요.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1814e24bfe96a7a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.1 데이터 통신의 개요.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -81,8 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -98,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.7 프로세스 관리.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.1 데이터 통신의 개요.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.7 프로세스 관리.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.1 데이터 통신의 개요.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.7 프로세스 관리.md"
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.1 데이터 통신의 개요.md"
               }
             }
           }
@@ -160,8 +208,51 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "9b207565294118fe",
+  "floating": {
+    "id": "6a124e94936ed233",
+    "type": "floating",
+    "children": [
+      {
+        "id": "1e84f5f949275d77",
+        "type": "window",
+        "children": [
+          {
+            "id": "048f3bf4c2186616",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1911abd0638e6429",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Programing/정보처리기사/README.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -830,
+        "y": -417,
+        "width": 600,
+        "height": 641,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "1814e24bfe96a7a6",
   "lastOpenFiles": [
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/5. 운영체제의 개요.md",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.1 데이터 통신의 개요.md",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.9 기억장치 관리.md",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.8 교착상채.md",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.7 프로세스 관리.md",
+    "Programing/정보처리기사/README.md",
     "LLVM/CSA_Souce/CSA_Checkers/SimpleStreamChecker.md",
     "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
     "Manpage Lite/Manpage Lite.md",
@@ -182,14 +273,8 @@
     "LLVM/How to Write a Checker in 24 Hours/5. Let's Write a Unix Stream API Checker.md",
     "LLVM/How to Write a Checker in 24 Hours/4. Extending with Checkers.md",
     "LLVM/How to Write a Checker in 24 Hours/1. Why Static Analysis.md",
-    "LLVM/How to Write a Checker in 24 Hours/0. overview.md",
-    "LLVM/How to Write a Checker in 24 Hours/2. Symbolic Execution.md",
     "기타_자료/Pasted image 20250702135759.png",
     "Manpage Lite",
-    "LLVM/CSA_Souce/README_KR.md",
-    "LLVM/CSA_Souce/README.md",
-    "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.7 프로세스 관리.md",
-    "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.6 가상기억장치.md",
     "Programing/정보처리기사/5. 정보 시스템 구축 관리",
     "LLVM/CSA_Souce/CSA_Core",
     "LLVM/CSA_Souce/CSA_Frontend",
