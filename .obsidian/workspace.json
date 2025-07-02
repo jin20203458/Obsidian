@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/How to Write a Checker in 24 Hours/10. Report error on leak.md",
+                "file": "LLVM/CSA 논리적인 흐름 구조(ExplodedGraph).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10. Report error on leak"
+              "title": "CSA 논리적인 흐름 구조(ExplodedGraph)"
             }
           }
         ],
@@ -214,8 +214,8 @@
   },
   "active": "2e1e5db83fc51622",
   "lastOpenFiles": [
-    "LLVM/How to Write a Checker in 24 Hours/11. Don’t Warn If fopen Fails.md",
     "LLVM/How to Write a Checker in 24 Hours/10. Report error on leak.md",
+    "LLVM/How to Write a Checker in 24 Hours/11. Don’t Warn If fopen Fails.md",
     "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
     "LLVM/How to Write a Checker in 24 Hours/8. Add transitions driven by fclose.md",
     "Manpage Lite/Manpage Lite.md",
