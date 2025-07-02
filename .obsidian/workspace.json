@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.2 OSI7계층과 오류 제어 방식.md",
+                "file": "Programing/정보처리기사/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f0dd23c4e44e3d43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/2.1 네트워크 관련 신기술.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,6 +38,18 @@
               "type": "markdown",
               "state": {
                 "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.3 TCP,IP프로토콜, 패킷교환.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0123bc07521a8cff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.4 Unix.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.3 TCP,IP프로토콜, 패킷교환.md",
+                "file": "Programing/정보처리기사/2.1 네트워크 관련 신기술.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.3 TCP,IP프로토콜, 패킷교환.md",
+                "file": "Programing/정보처리기사/2.1 네트워크 관련 신기술.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.3 TCP,IP프로토콜, 패킷교환.md"
+                "file": "Programing/정보처리기사/2.1 네트워크 관련 신기술.md"
               }
             }
           }
@@ -200,8 +224,8 @@
           }
         ],
         "direction": "vertical",
-        "x": -830,
-        "y": -417,
+        "x": 444,
+        "y": 0,
         "width": 600,
         "height": 641,
         "maximize": false,
@@ -209,16 +233,18 @@
       }
     ]
   },
-  "active": "3c5aa969520c07f8",
+  "active": "f0dd23c4e44e3d43",
   "lastOpenFiles": [
-    "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.2 OSI7계층과 오류 제어 방식.md",
+    "Programing/정보처리기사/README.md",
+    "Programing/정보처리기사/2.1 네트워크 관련 신기술.md",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.4 Unix.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.3 TCP,IP프로토콜, 패킷교환.md",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.2 OSI7계층과 오류 제어 방식.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.1 데이터 통신의 개요.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/5. 운영체제의 개요.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.9 기억장치 관리.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.8 교착상채.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.7 프로세스 관리.md",
-    "Programing/정보처리기사/README.md",
     "LLVM/CSA_Souce/CSA_Checkers/SimpleStreamChecker.md",
     "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
     "Manpage Lite/Manpage Lite.md",
@@ -235,8 +261,6 @@
     "LLVM/CSA 논리적인 흐름 구조.md",
     "Manpage Lite/Symbol Status.md",
     "LLVM/How to Write a Checker in 24 Hours/Summary.md",
-    "LLVM/How to Write a Checker in 24 Hours/3. Builds a Graph of Reachable Program States.md",
-    "LLVM/How to Write a Checker in 24 Hours/5. Let's Write a Unix Stream API Checker.md",
     "기타_자료/Pasted image 20250702135759.png",
     "Manpage Lite",
     "Programing/정보처리기사/5. 정보 시스템 구축 관리",
