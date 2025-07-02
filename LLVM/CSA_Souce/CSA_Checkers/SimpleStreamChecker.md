@@ -259,24 +259,26 @@ ProgramStateRef SimpleStreamChecker::checkPointerEscape(
     ProgramStateRef State, const InvalidatedSymbols &Escaped,
     const CallEvent *Call, PointerEscapeKind Kind) const {
 
-  // If we know that the call cannot close a file, there is nothing to do.
+  // 함수 인자로 직접 전달되었고 && 파일을 닫을수 없으면 계속 추적
+  // 해당 조건이 아니라면 심볼을 삭제 
   if (Kind == PSK_DirectEscapeOnCall && guaranteedNotToCloseFile(*Call)) {
     return State;
   }
-
+  
+// escape된 모든 파일 포인터 심볼을 StreamMap에서 제거합니다.
   for (SymbolRef Sym : Escaped) {
-    // The symbol escaped. Optimistically, assume that the corresponding file
-    // handle will be closed somewhere else.
+  // 해당 파일이 다른 곳에서 닫힐 것이라고 가정
     State = State->remove<StreamMap>(Sym);
   }
   return State;
 }
 
+// 체커를 실제로 등록하는 함수
 void ento::registerSimpleStreamChecker(CheckerManager &mgr) {
   mgr.registerChecker<SimpleStreamChecker>();
 }
 
-// This checker should be enabled regardless of how language options are set.
+// 체커 활성화 여부 (여기에선 무조건 활성화)
 bool ento::shouldRegisterSimpleStreamChecker(const CheckerManager &mgr) {
   return true;
 }

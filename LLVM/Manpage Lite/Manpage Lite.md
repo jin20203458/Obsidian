@@ -149,12 +149,40 @@ ConditionTruthVal OpenFailed = CMgr.isNull(State, Sym);
 ```
 >CSA에서 **조건(Condition)이 참인지, 거짓인지, 또는 확실하지 않은지를 표현하기 위한 특수한 타입**
 
-|상태|의미|관련 함수|
-|---|---|---|
-|`isConstrainedTrue()`|**항상 참**인 조건 (예: `ptr == NULL` 확정)|조건은 반드시 성립함|
-|`isConstrainedFalse()`|**항상 거짓**인 조건 (예: `ptr != NULL` 확정)|조건은 절대 성립하지 않음|
-|`isUnderconstrained()` 또는 두 함수 모두 false|**확실하지 않음**|조건이 참일 수도, 거짓일 수도 있음|
+| 상태                                      | 의미                                  | 관련 함수                |
+| --------------------------------------- | ----------------------------------- | -------------------- |
+| `isConstrainedTrue()`                   | **항상 참**인 조건 (예: `ptr == NULL` 확정)  | 조건은 반드시 성립함          |
+| `isConstrainedFalse()`                  | **항상 거짓**인 조건 (예: `ptr != NULL` 확정) | 조건은 절대 성립하지 않음       |
+| `isUnderconstrained()` 또는 두 함수 모두 false | **확실하지 않음**                         | 조건이 참일 수도, 거짓일 수도 있음 |
 
+
+```cpp
+class InvalidatedSymbols
+
+using clang::ento::InvalidatedSymbols = typedef llvm::DenseSet<SymbolRef>
+
+//예시
+for (SymbolRef Sym : Escaped) { /*escape된 각 심볼 처리*/ } 
+```
+>`InvalidatedSymbols` (공식 타입, `llvm::DenseSet<SymbolRef>`의 별칭)
+- 이번에 escape된(무효화된) 심볼들의 집합
+- Hesh Set자료구조
+
+
+```cpp
+class PointerEscapeKind 
+
+```
+>**PointerEscapeKind (열거형)**
+- 포인터가 escape된 원인/방식을 구분
+
+| 값                          | 의미                | 예시 상황                    |
+| -------------------------- | ----------------- | ------------------------ |
+| `PSK_EscapeOnBind`         | 추적 불가 위치에 바인딩     | `global_ptr = local_ptr` |
+| `PSK_DirectEscapeOnCall`   | 함수 인자로 직접 전달      | `func(file_ptr)`         |
+| `PSK_IndirectEscapeOnCall` | 함수를 통한 간접적 escape | `func(&file_ptr)`        |
+| `PSK_EscapeOutParameters`  | 출력 매개변수로 생성된 심볼   | `func(NULL, &new_ptr)`   |
+| `PSK_EscapeOther`          | 기타 알 수 없는 원인      | 복잡한 포인터 연산 등             |
 
 ---
 ### 함수
@@ -171,6 +199,7 @@ T *FindNodeOrInsertPos(const FoldingSetNodeID &ID,
 - `T`는 `FoldingSet<T>`에 저장된 객체 타입입니다.
 - 이 함수는 **동일한 Profile 정보를 가진 기존 객체가 있다면 그 객체의 포인터를 반환**합니다.
 - 없다면 `nullptr`을 반환하고, 삽입을 위한 `InsertPos` 위치만 채워줘요.
+
 
 
 ```cpp
