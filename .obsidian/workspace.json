@@ -16,9 +16,7 @@
                 "file": "LLVM/CSA_Souce/CSA_Checkers/SimpleStreamChecker.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SimpleStreamChecker"
+              }
             }
           },
           {
@@ -30,9 +28,7 @@
                 "file": "Manpage Lite/BugReport.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "BugReport"
+              }
             }
           }
         ]
@@ -54,11 +50,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "파일 탐색기"
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -70,9 +63,7 @@
                 "file": "Programing/운영체제/컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2.프로세스 개요"
+              }
             }
           },
           {
@@ -87,9 +78,7 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "검색"
+              }
             }
           },
           {
@@ -97,9 +86,7 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "북마크"
+              "state": {}
             }
           }
         ]
@@ -130,9 +117,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "SimpleStreamChecker 의 백링크"
+              }
             }
           },
           {
@@ -144,9 +129,7 @@
                 "file": "LLVM/CSA_Souce/CSA_Checkers/SimpleStreamChecker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "SimpleStreamChecker 의 나가는 링크"
+              }
             }
           },
           {
@@ -156,12 +139,8 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "태그"
+                "useHierarchy": true
+              }
             }
           },
           {
@@ -170,13 +149,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/SimpleStreamChecker.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "SimpleStreamChecker 의 개요"
+                "file": "LLVM/CSA_Souce/CSA_Checkers/SimpleStreamChecker.md"
+              }
             }
           }
         ],
@@ -189,8 +163,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:빠른 전환기 열기": false,
-      "daily-notes:오늘의 일일 노트 열기": false,
+      "switcher:퀵 스위처 열기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
       "graph:그래프 뷰 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
