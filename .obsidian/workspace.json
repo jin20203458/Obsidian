@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "93025b9cebcd7428",
+        "id": "1fb846dff85567e4",
         "type": "tabs",
         "children": [
           {
-            "id": "f298391444bae7df",
+            "id": "9b207565294118fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/SimpleStreamChecker.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0ec608a55b49444d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Manpage Lite/BugReport.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.7 프로세스 관리.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -109,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/SimpleStreamChecker.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.7 프로세스 관리.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/SimpleStreamChecker.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.7 프로세스 관리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/SimpleStreamChecker.md"
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.7 프로세스 관리.md"
               }
             }
           }
@@ -171,8 +160,9 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "f298391444bae7df",
+  "active": "9b207565294118fe",
   "lastOpenFiles": [
+    "LLVM/CSA_Souce/CSA_Checkers/SimpleStreamChecker.md",
     "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
     "Manpage Lite/Manpage Lite.md",
     "LLVM/How to Write a Checker in 24 Hours/10. Report error on leak.md",
@@ -187,7 +177,6 @@
     "LLVM/CSA 논리적인 흐름 구조(ExplodedGraph).md",
     "LLVM/CSA 논리적인 흐름 구조.md",
     "Manpage Lite/Symbol Status.md",
-    "LLVM/CSA_Souce/CSA_Checkers/SimpleStreamChecker.md",
     "LLVM/How to Write a Checker in 24 Hours/Summary.md",
     "LLVM/How to Write a Checker in 24 Hours/3. Builds a Graph of Reachable Program States.md",
     "LLVM/How to Write a Checker in 24 Hours/5. Let's Write a Unix Stream API Checker.md",
