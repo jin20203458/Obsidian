@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "915f8ed6aab872ab",
+        "id": "93025b9cebcd7428",
         "type": "tabs",
         "children": [
           {
-            "id": "85a9528f483d80b9",
+            "id": "55852c0b60ffecde",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.6 가상기억장치.md",
+                "file": "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.6 가상기억장치.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "dd18a55ef6b0882e",
+            "id": "01f51fb2cc5bc823",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.7 프로세스 관리.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.7 프로세스 관리"
+              "title": "Summary"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.7 프로세스 관리.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/Summary.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "5.7 프로세스 관리 의 백링크"
+              "title": "Summary 의 백링크"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5.7 프로세스 관리.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "5.7 프로세스 관리 의 나가는 링크"
+              "title": "Summary 의 나가는 링크"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.7 프로세스 관리.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/Summary.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "5.7 프로세스 관리 의 개요"
+              "title": "Summary 의 개요"
             }
           }
         ],
@@ -198,63 +198,25 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "floating": {
-    "id": "f24d30eaa5781a47",
-    "type": "floating",
-    "children": [
-      {
-        "id": "74e2c71be5c12a1a",
-        "type": "window",
-        "children": [
-          {
-            "id": "6dfec96b7336491e",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0045503290bdf9ff",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Programing/정보처리기사/README.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "README"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -785,
-        "y": -407,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "dd18a55ef6b0882e",
+  "active": "01f51fb2cc5bc823",
   "lastOpenFiles": [
-    "5.6 가상기억장치.md",
-    "5.7 프로세스 관리.md",
+    "LLVM/Manpage Lite.md",
+    "LLVM/CSA_Souce/README_KR.md",
+    "LLVM/CSA_Souce/README.md",
+    "LLVM/CSA 논리적인 흐름 구조.md",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.7 프로세스 관리.md",
+    "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.6 가상기억장치.md",
+    "Programing/정보처리기사/README.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.5 디스크 스케줄링.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.4 분산운영체제.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.3 정보관리.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.2 프로세스 스케줄링.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.1 운영체제의 운영 방식.md",
-    "Programing/정보처리기사/README.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/3.1 Python의 연산.md",
     "LLVM/Checker Developer Manual/0. ReadME.md",
-    "LLVM/Manpage Lite.md",
     "Programing/정보처리기사/5. 정보 시스템 구축 관리",
     "README.md",
     "LLVM/Clang환경설정/Clang_Html_TEST.md",
-    "LLVM/CSA_Souce/README_KR.md",
-    "LLVM/CSA_Souce/README.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/4.2 제어문.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/4.1 반복문.md",
     "LLVM/Clang환경설정/Clang_Build.md",
@@ -262,7 +224,6 @@
     "LLVM/CSA_Souce/CSA_Frontend",
     "LLVM/CSA_Souce/CSA_Checkers",
     "LLVM/CSA_Souce",
-    "LLVM/CSA 논리적인 흐름 구조.md",
     "기타_자료/Pasted image 20250701172849.png",
     "기타_자료/Pasted image 20250701171239.png",
     "LLVM/How to Write a Checker in 24 Hours/0. overview.md",

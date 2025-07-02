@@ -1,9 +1,49 @@
 
-```cpp
-//===----------------------------------------------------------------------===//
-// Clang Static Analyzer
-//===----------------------------------------------------------------------===//
-```
+
+|구성 요소|역할 및 위치|
+|---|---|
+|**Core**|분석 엔진(심볼릭 실행, 상태 추적 등)만 담당. 체커 로직은 없음.|
+|**Checkers**|각종 버그 유형을 탐지하는 체커(Checker)들의 실제 구현 코드.|
+||`clang/lib/StaticAnalyzer/Checkers` 폴더에 존재.|
+|**Frontend**|소스코드 파싱, AST/CFG 생성 등 분석 준비 단계.|
+
+## 상세 설명
+
+## 1. **Core**
+
+- **역할:**  
+    프로그램의 실행 경로를 따라가며 상태(ProgramState)를 추적하고, 각 지점에서 체커에 이벤트를 전달하는 "엔진" 역할만 수행합니다.
+    
+- **구현 위치:**  
+    `clang/lib/StaticAnalyzer/Core` 폴더.
+    
+- **체커 코드 없음:**  
+    Core에는 버그 탐지 로직(예: 널 포인터 체크, 메모리 누수 체크 등)이 구현되어 있지 않습니다.  
+    → **체커는 Core 엔진이 탐색하는 각 지점에서 호출되는 "플러그인" 형태**로 동작합니다[1](https://clang-analyzer.llvm.org/checker_dev_manual.html)[2](https://github.com/microsoft/checkedc-clang/blob/master/clang/docs/checkedc/static-analyzer-with-z3.md).
+    
+
+## 2. **Checkers**
+
+- **역할:**  
+    실제로 버그를 탐지하는 로직(예: core.NullDereference, unix.Malloc 등)이 구현되어 있습니다.
+    
+- **구현 위치:**  
+    `clang/lib/StaticAnalyzer/Checkers` 폴더에 각 체커별 cpp 파일이 존재합니다[1](https://clang-analyzer.llvm.org/checker_dev_manual.html)[2](https://github.com/microsoft/checkedc-clang/blob/master/clang/docs/checkedc/static-analyzer-with-z3.md).
+    
+- **등록 및 호출:**  
+    분석 엔진(Core)이 각 분석 지점에서 등록된 체커들을 차례로 호출합니다.  
+    체커는 상태를 검사하여 버그를 리포트하거나, 상태를 업데이트할 수 있습니다[1](https://clang-analyzer.llvm.org/checker_dev_manual.html).
+    
+
+## 3. **Frontend**
+
+- **역할:**  
+    소스코드 → AST → CFG 생성, 분석 준비 등 전체 파이프라인의 앞단을 담당합니다.
+
+
+---
+
+### Clang Static Analyzer
 
 ---
 
@@ -198,7 +238,3 @@ $ clang -cc1 -analyzer-checker-help-developer
         
     - [논문 링크](http://lcs.ios.ac.cn/~xzx/memmodel.pdf)
         
-
----
-
-필요하시면 이 내용을 기반으로 **실습용 체커 작성 템플릿**, **ExplodedGraph 시각화 도식**, 또는 **디버그 커맨드 예제**도 드릴 수 있습니다.
