@@ -62,8 +62,8 @@ class ExplodedNode {
 
 ```cpp
 class ProgramState {
-  Environment Env;               // 표현식(Expression)의 평가 결과
-  StoreRef store;                // 변수, 메모리 위치의 값
+  Environment Env;              // 표현식(Expression)의 평가 결과
+  StoreRef store;               // 변수, 메모리 위치의 값
   GenericDataMap GDM;           // 사용자 정의 체커 상태 (예: StreamMap)
   ConstraintManager *CMgr;      // 조건 (심볼 조건들)
   SymbolManager *SymMgr;        // 심볼(SymbolRef) 생성 및 관리
