@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Manpage Lite/Manpage Lite.md",
+                "file": "LLVM/How to Write a Checker in 24 Hours/10. Report error on leak.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Manpage Lite"
+              "title": "10. Report error on leak"
             }
           }
         ],
@@ -214,9 +214,11 @@
   },
   "active": "2e1e5db83fc51622",
   "lastOpenFiles": [
-    "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
+    "LLVM/How to Write a Checker in 24 Hours/11. Don’t Warn If fopen Fails.md",
     "LLVM/How to Write a Checker in 24 Hours/10. Report error on leak.md",
+    "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
     "LLVM/How to Write a Checker in 24 Hours/8. Add transitions driven by fclose.md",
+    "Manpage Lite/Manpage Lite.md",
     "LLVM/CSA 논리적인 흐름 구조(ExplodedGraph).md",
     "기타_자료/Pasted image 20250702135759.png",
     "LLVM/CSA 논리적인 흐름 구조.md",
@@ -224,7 +226,6 @@
     "LLVM/How to Write a Checker in 24 Hours/SimpleStreamCheck.cpp.md",
     "LLVM/How to Write a Checker in 24 Hours/Summary.md",
     "Manpage Lite/Symbol Status.md",
-    "Manpage Lite/Manpage Lite.md",
     "LLVM/How to Write a Checker in 24 Hours/7. Add state transition corresponding to fopen.md",
     "LLVM/CSA_Souce/CSA_Checkers/SimpleStreamChecker.md",
     "Manpage Lite",
@@ -241,7 +242,6 @@
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.3 정보관리.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.2 프로세스 스케줄링.md",
     "Programing/정보처리기사/4. 프로그래밍 언어 활용/5.1 운영체제의 운영 방식.md",
-    "Programing/정보처리기사/4. 프로그래밍 언어 활용/3.1 Python의 연산.md",
     "Programing/정보처리기사/5. 정보 시스템 구축 관리",
     "LLVM/CSA_Souce/CSA_Core",
     "LLVM/CSA_Souce/CSA_Frontend",

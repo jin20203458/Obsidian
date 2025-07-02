@@ -8,7 +8,7 @@ class SymbolReaper
 //e.g
 SymReaper.isDead(Sym)          // 심볼이 죽었는지 판단. 
 SymReaper.isLive(Sym)          // 심볼이 살았는지 판단.
-SymReaper.isLiveRegion(Region) // 특정 메모리 여
+SymReaper.isLiveRegion(Region) // 특정 메모리 영역이 아직 살았는지 판단.
 ```
 
 >심볼이 "죽었는지"를 판단하는 가장 표준적인 도구
