@@ -85,12 +85,12 @@ ProgramState
 
 >explodedNode가 생성될때 각 체커에 맞는 콜백
 
-|콜백 함수|언제 호출됨|예시 목적|
-|---|---|---|
-|`checkPreCall()`|함수 호출 **이전**|fopen인지 확인, 인자 검사 등|
-|`checkPostCall()`|함수 호출 **이후**|fopen의 리턴값 추적|
-|`checkBind()`|값이 변수에 **할당될 때**|위험한 값 추적, taint 전파|
-|`checkLocation()`|메모리 접근 시|널 포인터 역참조 탐지|
-|`checkBranchCondition()`|조건문 평가 시|경로 조건 검증|
-|`checkDeadSymbols()`|심볼이 죽을 때|리소스 누수 확인|
-|`checkEndFunction()`|함수 끝날 때|정리, 누락된 리소스 확인|
+| 콜백 함수                    | 언제 호출됨           | 예시 목적               |
+| ------------------------ | ---------------- | ------------------- |
+| `checkPreCall()`         | 함수 호출 **이전**     | fopen인지 확인, 인자 검사 등 |
+| `checkPostCall()`        | 함수 호출 **이후**     | fopen의 리턴값 추적       |
+| `checkBind()`            | 값이 변수에 **할당될 때** | 위험한 값 추적, taint 전파  |
+| `checkLocation()`        | 메모리 접근 시         | 널 포인터 역참조 탐지        |
+| `checkBranchCondition()` | 조건문 평가 시         | 경로 조건 검증            |
+| `checkDeadSymbols()`     | 심볼이 죽을 때         | 리소스 누수 확인           |
+| `checkEndFunction()`     | 함수 끝날 때          | 정리, 누락된 리소스 확인      |

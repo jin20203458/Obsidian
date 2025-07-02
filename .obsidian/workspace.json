@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/CSA 논리적인 흐름 구조(ExplodedGraph).md",
+                "file": "Manpage Lite/Manpage Lite.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSA 논리적인 흐름 구조(ExplodedGraph)"
+              "title": "Manpage Lite"
             }
           }
         ],
@@ -214,14 +214,15 @@
   },
   "active": "2e1e5db83fc51622",
   "lastOpenFiles": [
+    "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
+    "LLVM/How to Write a Checker in 24 Hours/10. Report error on leak.md",
+    "LLVM/How to Write a Checker in 24 Hours/8. Add transitions driven by fclose.md",
+    "LLVM/CSA 논리적인 흐름 구조(ExplodedGraph).md",
     "기타_자료/Pasted image 20250702135759.png",
     "LLVM/CSA 논리적인 흐름 구조.md",
-    "LLVM/CSA 논리적인 흐름 구조(ExplodedGraph).md",
     "LLVM/How to Write a Checker in 24 Hours/CSA 경로 분할 직관적 예제.md",
     "LLVM/How to Write a Checker in 24 Hours/SimpleStreamCheck.cpp.md",
     "LLVM/How to Write a Checker in 24 Hours/Summary.md",
-    "LLVM/How to Write a Checker in 24 Hours/9. Report error on double close.md",
-    "LLVM/How to Write a Checker in 24 Hours/8. Add transitions driven by fclose.md",
     "Manpage Lite/Symbol Status.md",
     "Manpage Lite/Manpage Lite.md",
     "LLVM/How to Write a Checker in 24 Hours/7. Add state transition corresponding to fopen.md",
@@ -258,7 +259,6 @@
     "LLVM/Clang환경설정",
     "LLVM/Checker Developer Manual",
     "기타_자료/Pasted image 20250629002841.png",
-    "기타_자료/Pasted image 20250628183910.png",
-    "기타_자료/Pasted image 20250628172928.png"
+    "기타_자료/Pasted image 20250628183910.png"
   ]
 }

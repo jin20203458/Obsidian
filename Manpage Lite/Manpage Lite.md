@@ -3,6 +3,21 @@
 ### 자료형
 
 ```cpp
+class SymbolReaper
+
+//e.g
+SymReaper.isDead(Sym)          // 심볼이 죽었는지 판단. 
+SymReaper.isLive(Sym)          // 심볼이 살았는지 판단.
+SymReaper.isLiveRegion(Region) // 특정 메모리 여
+```
+
+>심볼이 "죽었는지"를 판단하는 가장 표준적인 도구
+- **SymbolReaper**는 Clang Static Analyzer에서 심볼(변수, 포인터 등)이 "살아있는지(live)" 또는 "죽었는지(dead)"를 추적/관리하는 유틸리티 클래스입니다.
+- 주로 checkDeadSymbols 콜백에서, 리소스 추적이나 누수 탐지 등에서 사용됩니다.
+
+
+
+```cpp
 template <typename T> 
 class FoldingSet;
 
