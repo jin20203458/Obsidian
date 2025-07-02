@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/SimpleStreamChecker.md",
+                "file": "LLVM/Manpage Lite/Manpage Lite.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/SimpleStreamChecker.md",
+                "file": "LLVM/Manpage Lite/Manpage Lite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/SimpleStreamChecker.md"
+                "file": "LLVM/Manpage Lite/Manpage Lite.md"
               }
             }
           }
@@ -160,47 +159,10 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "floating": {
-    "id": "6a124e94936ed233",
-    "type": "floating",
-    "children": [
-      {
-        "id": "cff79751c6a6b98d",
-        "type": "window",
-        "children": [
-          {
-            "id": "973b69b6d88ffe45",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d54287674863f22d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "LLVM/CSA_Souce/CSA_Checkers/SimpleStreamChecker.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -933,
-        "y": 230,
-        "width": 828,
-        "height": 982,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "d54287674863f22d",
+  "active": "a615369d18f533ed",
   "lastOpenFiles": [
-    "LLVM/Manpage Lite/Manpage Lite.md",
     "LLVM/CSA_Souce/CSA_Checkers/SimpleStreamChecker.md",
+    "LLVM/Manpage Lite/Manpage Lite.md",
     "Programing/정보처리기사/README.md",
     "LLVM/Manpage Lite/주요 checker 콜백 함수들.md",
     "LLVM/Manpage Lite/Symbol Status.md",
