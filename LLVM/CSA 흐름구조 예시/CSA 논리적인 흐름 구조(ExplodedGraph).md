@@ -63,8 +63,9 @@ class ExplodedNode {
 ```cpp
 class ProgramState {
   Environment Env;              // Expr* -> SVal을 저장하는 ImmutableMap
-  StoreRef store;               // 변수, 메모리 위치의 값
+  StoreRef store;               // 메모리 위치(Region) → SVal의 매핑
   GenericDataMap GDM;           // 사용자 정의 체커 상태 (예: StreamMap)
+  
   ConstraintManager *CMgr;      // 조건 (심볼 조건들)
   SymbolManager *SymMgr;        // 심볼(SymbolRef) 생성 및 관리
   MemRegionManager *MRMgr;      // 메모리 영역(region) 관리
@@ -74,6 +75,8 @@ class ProgramState {
 
 ```cpp
 using Environment = llvm::ImmutableMap<const Expr *, SVal>;
+using GenericDataMap = llvm::ImmutableMap<void*, void*>; //사용자 정의맵들
+
 
 class StoreRef { 
 public: 
@@ -84,7 +87,9 @@ public:
     StoreManager &getStoreManager() const;
 
 private: 
-    Store store; // 내부적으로 void* (opaque 포인터)
+    Store store; // 내부적으로 void* (opaque 포인터) 불변맵을 가르킴
+                 //  메모리 영역(예: 변수, 포인터 등) → 값(SVal)"의 매핑
+                 
     StoreManager *smgr; // sotre를 생성및 조작가능한 매니저
 };
 ```
