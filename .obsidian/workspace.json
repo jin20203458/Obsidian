@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "AllocationState.h"
             }
+          },
+          {
+            "id": "a9db865baaa1befe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/BuiltinRegistration.h.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BuiltinRegistration.h"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/AllocationState.h.md",
+                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/BuiltinRegistration.h.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "AllocationState.h 의 백링크"
+              "title": "BuiltinRegistration.h 의 백링크"
             }
           },
           {
@@ -142,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/AllocationState.h.md",
+                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/BuiltinRegistration.h.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "AllocationState.h 의 나가는 링크"
+              "title": "BuiltinRegistration.h 의 나가는 링크"
             }
           },
           {
@@ -171,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/AllocationState.h.md",
+                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/BuiltinRegistration.h.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AllocationState.h 의 개요"
+              "title": "BuiltinRegistration.h 의 개요"
             }
           }
         ],
@@ -280,10 +294,11 @@
       }
     ]
   },
-  "active": "8b54d22834a88ac7",
+  "active": "a9db865baaa1befe",
   "lastOpenFiles": [
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/SimpleStreamChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/AllocationState.h.md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/BuiltinRegistration.h.md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/SimpleStreamChecker.cpp.md",
     "LLVM/CSA_Souce/README.md",
     "LLVM/Manpage Lite/Symbol Status.md",
     "LLVM/Manpage Lite/Manpage Lite.md",
@@ -309,7 +324,6 @@
     "LLVM/How to Write a Checker in 24 Hours/6. Defining the State of a File Descriptor.md",
     "LLVM/How to Write a Checker in 24 Hours/7. Add state transition corresponding to fopen.md",
     "LLVM/How to Write a Checker in 24 Hours/8. Add transitions driven by fclose.md",
-    "LLVM/How to Write a Checker in 24 Hours/fopen, fclose.md",
     "기타_자료/Pasted image 20250702135759.png",
     "LLVM/Manpage Lite",
     "Programing/정보처리기사/5. 정보 시스템 구축 관리",
