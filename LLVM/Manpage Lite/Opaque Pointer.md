@@ -2,6 +2,7 @@
 **Opaque Pointer**(오페이크 포인터)란,  
 포인터가 가리키는 데이터 구조체의 내부 구현 내용이 _선언 시점에 공개되지 않은_ 포인터를 말합니다.
 
+> 링크 전까진 타 cpp가 다른cpp의 완전한 정보은닉을 실현 가능하다.
 ## 핵심 개념
 
 - **내용이 보이지 않는 포인터**  
@@ -13,43 +14,103 @@
     구현 변경 시 사용자 코드 재컴파일 없이 라이브러리만 교체할 수 있게 합니다.
     
 - **주로 C/C++에서 사용**  
-    특히 C++에서는 **Pimpl idiom(포인터 투 구현)**이나 **d-pointer** 패턴으로 널리 쓰입니다.
+    특히 C++에서는 **Pimpl idiom(포인터 투 구현)이나 d-pointer** 패턴으로 널리 쓰입니다.
     
 
 ## 동작 방식
 
 - 헤더 파일에는 포인터 타입만 선언하고, 구조체 정의는 소스 파일에 숨깁니다.
 
- **PublicClass.h**
+**person.h**
 ```cpp
-class PublicClass {
-private:
-    struct Impl;             // 선언만 (Incomplete type)
-    Impl* d_ptr_;            // 오페이크 포인터
-public:
-    PublicClass();
-    ~PublicClass();
-    void someMethod();
-};
+#ifndef PERSON_H
+#define PERSON_H
+typedef struct p person;  // 내부 정의는 감춤
+
+person* make_person(char *name, int age);
+void destroy_person(person *p);
+void say_hello(person *p);
+int reverse(person *p);
+#endif
 ```
 - 실제 구현은 cpp 파일에 숨겨 구현
 
 
-**PublicClass.cpp**
+**Person.cpp**
 ```cpp
-struct PublicClass::Impl {
-    int a;
-    int b;
-};
+// person.c
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include "person.h"
 
-PublicClass::PublicClass() : d_ptr_(new Impl{1, 2}) {}
-PublicClass::~PublicClass() { delete d_ptr_; }
+typedef struct p 
+{
+    char *name;
+    int age;
+    int token;
+} person;
 
-void PublicClass::someMethod() {
-    // d_ptr_ 내부 접근 가능
-    d_ptr_->a = 10;
+static int generate_token(void) 
+{
+    return rand();
+}
+
+person* make_person(char *name, int age)
+{
+    person *p = malloc(sizeof(person));
+    p->name = strdup(name);
+    p->age = age;
+    p->token = generate_token();
+    return p;
+}
+
+void destroy_person(person *p) 
+{
+    if (p) {
+        free(p->name);
+        free(p);
+    }
+}
+
+void say_hello(person *p) 
+{
+    printf("Hi %s, you are %d years of age! Your token is %d.\n",
+     p->name, p->age, p->token);
+}
+
+int reverse(person *p) 
+{
+    int len = strlen(p->name);
+    for (int i = 0, j = len - 1; i < j; ++i, --j) 
+    {
+        char tmp = p->name[i];
+        p->name[i] = p->name[j];
+        p->name[j] = tmp;
+    }
+    return len;
+}
+
+```
+
+
+**사용예시** main.c
+```cpp
+#include "person.h"
+#include <stdlib.h>
+
+int main(int argc, char **argv) 
+{
+    if (argc != 3) return 1;
+    person *p = make_person(argv[1], atoi(argv[2]));
+    say_hello(p);
+    reverse(p);
+    say_hello(p);
+    destroy_person(p);
+    return 0;
 }
 ```
+
 ## 장점
 
 - **컴파일 의존성 감소**  

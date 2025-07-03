@@ -74,7 +74,22 @@ class ProgramState {
 
 ```cpp
 using Environment = llvm::ImmutableMap<const Expr *, SVal>;
+
+class StoreRef { 
+public: 
+    StoreRef(Store store, StoreManager &smgr);
+    StoreRef(const StoreRef &sr); S
+    toreRef &operator=(const StoreRef &newStore);
+    Store getStore() const; 
+    StoreManager &getStoreManager() const;
+
+private: 
+    Store store; // 내부적으로 void* (opaque 포인터)
+    StoreManager *smgr; // sotre를 생성및 조작가능한 매니저
+};
 ```
+
+
 
 ```
 ProgramState
