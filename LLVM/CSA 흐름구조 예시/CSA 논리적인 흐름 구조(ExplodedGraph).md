@@ -1,4 +1,5 @@
 ![[Pasted image 20250702135759.png]]
+
 ```text
 ExplodedGraph
 ├── ExplodedNode (노드 1)
@@ -62,7 +63,7 @@ class ExplodedNode {
 
 ```cpp
 class ProgramState {
-  Environment Env;              // 표현식(Expression)의 평가 결과
+  Environment Env;              // Expr* -> SVal을 저장하는 ImmutableMap
   StoreRef store;               // 변수, 메모리 위치의 값
   GenericDataMap GDM;           // 사용자 정의 체커 상태 (예: StreamMap)
   ConstraintManager *CMgr;      // 조건 (심볼 조건들)
@@ -72,6 +73,9 @@ class ProgramState {
 };
 ```
 
+```cpp
+using Environment = llvm::ImmutableMap<const Expr *, SVal>;
+```
 
 ```
 ProgramState
@@ -94,3 +98,11 @@ ProgramState
 | `checkBranchCondition()` | 조건문 평가 시         | 경로 조건 검증            |
 | `checkDeadSymbols()`     | 심볼이 죽을 때         | 리소스 누수 확인           |
 | `checkEndFunction()`     | 함수 끝날 때          | 정리, 누락된 리소스 확인      |
+
+```cpp
+class SVal {
+  const void *Data;     // 실제 값을 가리키는 포인터
+  SValKind Kind;        // 값의 종류(enum)
+};
+
+```
