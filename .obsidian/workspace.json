@@ -4,39 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "78f4724b4f89f5c9",
+        "id": "0ea939588e8014ad",
         "type": "tabs",
         "children": [
           {
-            "id": "4b6e48544f0903fb",
+            "id": "8391ac7badbf78e9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLVM/Manpage Lite/매크로.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "매크로"
-            }
-          },
-          {
-            "id": "e1c56749507e6095",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/NoOwnershipChangeVisitor.h.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "NoOwnershipChangeVisitor.h"
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -55,11 +34,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "파일 탐색기"
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -71,9 +47,7 @@
                 "file": "Programing/운영체제/컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2.프로세스 개요"
+              }
             }
           },
           {
@@ -88,9 +62,7 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "검색"
+              }
             }
           },
           {
@@ -98,9 +70,7 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "북마크"
+              "state": {}
             }
           }
         ]
@@ -123,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,9 +100,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "CSA 논리적인 흐름 구조(ExplodedGraph) 의 백링크"
+              }
             }
           },
           {
@@ -142,12 +109,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "CSA 논리적인 흐름 구조(ExplodedGraph) 의 나가는 링크"
+              }
             }
           },
           {
@@ -157,12 +121,8 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "태그"
+                "useHierarchy": true
+              }
             }
           },
           {
@@ -170,14 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "CSA 논리적인 흐름 구조(ExplodedGraph) 의 개요"
+              "state": {}
             }
           }
         ],
@@ -190,46 +143,46 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:빠른 전환기 열기": false,
-      "daily-notes:오늘의 일일 노트 열기": false,
+      "switcher:퀵 스위처 열기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
       "graph:그래프 뷰 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "vscode-editor:Create Code File": false
+      "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "e1c56749507e6095",
+  "active": "8391ac7badbf78e9",
   "lastOpenFiles": [
-    "LLVM/Manpage Lite/주요 checker 콜백 함수들.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/NoOwnershipChangeVisitor.h.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/ErrnoModeling.h.md",
-    "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
-    "LLVM/Manpage Lite/매크로.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/SimpleStreamChecker.cpp.md",
-    "LLVM/Manpage Lite/자료형.md",
-    "LLVM/Manpage Lite/Opaque Pointer.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md",
-    "Programing/디자인 패턴/CRTP.md",
-    "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조.md",
-    "Programing/디자인 패턴/Visitor Pattern.md",
-    "LLVM/Manpage Lite/열거형.md",
-    "LLVM/Manpage Lite/Symbol Status.md",
-    "LLVM/Manpage Lite/0. Manpage Lite.md",
+    "Programing/정보처리기사/2.1 네트워크 관련 신기술.md",
+    "Programing/정보처리기사/README.md",
+    "LLVM/Manpage Lite/Manpage Lite.md",
     "Programing/디자인 패턴/X-Macro.md",
     "Programing/디자인 패턴/Double Dispatch.md",
+    "Programing/디자인 패턴/CRTP.md",
     "LLVM/Manpage Lite/함수.md",
-    "LLVM/Manpage Lite/BugReport.md",
-    "LLVM/CSA 흐름구조 예시",
+    "LLVM/Manpage Lite/자료형.md",
+    "LLVM/Manpage Lite/열거형.md",
+    "LLVM/Manpage Lite/매크로.md",
+    "LLVM/Manpage Lite/Opaque Pointer.md",
+    "LLVM/Manpage Lite/0. Manpage Lite.md",
+    "LLVM/Clang 환경설정/Clang_Static_Analyzer.md",
+    "LLVM/Clang 환경설정/Clang_Html_TEST.md",
+    "LLVM/Clang 환경설정/Clang_Build.md",
+    "LLVM/Clang 환경설정",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/NoOwnershipChangeVisitor.h.md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/ErrnoModeling.h.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/BuiltinRegistration.h.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/AllocationState.h.md",
-    "LLVM/CSA_Souce/README.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/SimpleStreamChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp",
-    "Programing/정보처리기사/README.md",
-    "Programing/정보처리기사/2.1 네트워크 관련 신기술.md",
-    "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.4 Unix.md",
-    "Programing/정보처리기사/4. 프로그래밍 언어 활용/6.3 TCP,IP프로토콜, 패킷교환.md",
+    "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조.md",
+    "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
+    "LLVM/CSA 흐름구조 예시",
+    "LLVM/CSA_Souce/CSA_Checkers/SimpleStreamChecker.md",
+    "LLVM/Manpage Lite/주요 checker 콜백 함수들.md",
+    "LLVM/Manpage Lite/Symbol Status.md",
     "기타_자료/Pasted image 20250702135759.png",
     "LLVM/Manpage Lite",
     "Programing/정보처리기사/5. 정보 시스템 구축 관리",
@@ -244,7 +197,6 @@
     "기타_자료/Pasted image 20250701132221.png",
     "기타_자료/Pasted image 20250701132121.png",
     "기타_자료/Pasted image 20250701111533.png",
-    "Programing/디자인 패턴",
     "기타_자료/Pasted image 20250629002841.png",
     "기타_자료/Pasted image 20250628183910.png"
   ]
