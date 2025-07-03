@@ -1,4 +1,6 @@
 [
   "editing-toolbar",
-  "obsidian-git"
+  "obsidian-git",
+  "vscode-editor",
+  "code-styler"
 ]
