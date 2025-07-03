@@ -55,16 +55,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/ErrnoModeling.h.md",
+                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/BuiltinRegistration.h.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ErrnoModeling.h"
+              "title": "BuiltinRegistration.h"
+            }
+          },
+          {
+            "id": "82709f98630bb7a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SValExplainer.h"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -151,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/ErrnoModeling.h.md",
+                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +175,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "ErrnoModeling.h 의 백링크"
+              "title": "SValExplainer.h 의 백링크"
             }
           },
           {
@@ -170,12 +184,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/ErrnoModeling.h.md",
+                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "ErrnoModeling.h 의 나가는 링크"
+              "title": "SValExplainer.h 의 나가는 링크"
             }
           },
           {
@@ -199,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/ErrnoModeling.h.md",
+                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ErrnoModeling.h 의 개요"
+              "title": "SValExplainer.h 의 개요"
             }
           }
         ],
@@ -308,9 +322,10 @@
       }
     ]
   },
-  "active": "87f684195bc5ef7a",
+  "active": "82709f98630bb7a3",
   "lastOpenFiles": [
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/BuiltinRegistration.h.md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/ErrnoModeling.h.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/AllocationState.h.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/SimpleStreamChecker.cpp.md",
@@ -337,7 +352,6 @@
     "LLVM/How to Write a Checker in 24 Hours/11. Don’t Warn If fopen Fails.md",
     "LLVM/How to Write a Checker in 24 Hours/CSA 경로 분할 직관적 예제.md",
     "LLVM/How to Write a Checker in 24 Hours/6. Defining the State of a File Descriptor.md",
-    "LLVM/How to Write a Checker in 24 Hours/7. Add state transition corresponding to fopen.md",
     "기타_자료/Pasted image 20250702135759.png",
     "LLVM/Manpage Lite",
     "Programing/정보처리기사/5. 정보 시스템 구축 관리",
