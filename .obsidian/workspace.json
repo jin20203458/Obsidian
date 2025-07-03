@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
+                "file": "LLVM/Manpage Lite/자료형.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "CSA 논리적인 흐름 구조(ExplodedGraph) 의 백링크"
+              "title": "자료형 의 백링크"
             }
           },
           {
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
+                "file": "LLVM/Manpage Lite/자료형.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "CSA 논리적인 흐름 구조(ExplodedGraph) 의 나가는 링크"
+              "title": "자료형 의 나가는 링크"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
+                "file": "LLVM/Manpage Lite/자료형.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "CSA 논리적인 흐름 구조(ExplodedGraph) 의 개요"
+              "title": "자료형 의 개요"
             }
           }
         ],
@@ -267,10 +267,10 @@
       }
     ]
   },
-  "active": "5314e5075e9c5ab4",
+  "active": "6adb6b59d71f395b",
   "lastOpenFiles": [
-    "LLVM/Manpage Lite/열거형.md",
     "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
+    "LLVM/Manpage Lite/열거형.md",
     "LLVM/Manpage Lite/자료형.md",
     "LLVM/Manpage Lite/Symbol Status.md",
     "LLVM/Manpage Lite/0. Manpage Lite.md",
