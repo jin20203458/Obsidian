@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Core/SVal.def.md",
+                "file": "LLVM/CSA_Souce/CSA_Core/SValVisitor.h.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SVal.def"
+              "title": "SValVisitor.h"
             }
           }
         ],
@@ -270,14 +270,15 @@
   },
   "active": "fc5a923adb09e864",
   "lastOpenFiles": [
-    "LLVM/CSA_Souce/CSA_Core/SValVisitor.h.md",
     "LLVM/CSA_Souce/CSA_Core/SVal.def.md",
+    "LLVM/Manpage Lite/Symbol Status.md",
+    "Programing/디자인 패턴/X-Macro.md",
+    "LLVM/CSA_Souce/CSA_Core/SValVisitor.h.md",
     "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
     "LLVM/CSA_Souce/CSA_Core/My code file.ts",
     "LLVM/Manpage Lite/주요 checker 콜백 함수들.md",
     "LLVM/Manpage Lite/열거형.md",
     "LLVM/Manpage Lite/매크로.md",
-    "LLVM/Manpage Lite/Symbol Status.md",
     "LLVM/Manpage Lite/자료형.md",
     "LLVM/CSA_Souce/README.md",
     "LLVM/CSA 흐름구조 예시/CSA Exploded Graph 흐름도.md",
@@ -295,7 +296,6 @@
     "Programing/디자인 패턴/CRTP.md",
     "Programing/디자인 패턴/Visitor Pattern.md",
     "LLVM/Manpage Lite/0. Manpage Lite.md",
-    "Programing/디자인 패턴/X-Macro.md",
     "Programing/디자인 패턴/Double Dispatch.md",
     "LLVM/Manpage Lite/BugReport.md",
     "LLVM/CSA 흐름구조 예시",
