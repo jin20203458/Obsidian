@@ -127,19 +127,38 @@ class SVal {
 
 아래는 대표적인 SValKind 값들(Clang 20 기준, 실제 SVals.def 참고):
 
-|SValKind 종류|설명|
-|---|---|
-|UndefinedValKind|정의되지 않은 값 (미정의, 예: 사용 전 변수)|
-|UnknownValKind|알 수 없는 값 (분석 불가, 예: 외부 함수 반환값 등)|
-|LocKind|위치 값(Loc) 계열의 추상 타입|
-|LocConcreteIntKind|구체적인 주소(정수) 값 (예: 0x1000)|
-|LocMemRegionValKind|메모리 영역(Region) 값 (예: 변수, 배열, 구조체의 주소)|
-|NonLocKind|NonLoc 계열의 추상 타입(비-주소 값, 즉 일반 값)|
-|NonLocConcreteIntKind|구체적인 정수 값(예: 42, -1 등)|
-|NonLocSymbolValKind|심볼릭 값(예: x, y+1 등 수식)|
-|NonLocLocAsIntegerKind|주소를 정수로 변환한 값|
-|NonLocCompoundValKind|복합 값(예: 구조체 전체 값 등)|
-|NonLocLazyCompoundValKind|LazyCompoundVal, Store의 특정 시점 전체를 캡슐화한 값|
-|NonLocPointerToMemberKind|멤버 포인터 값(C++의 &Class::member)|
-
+```
+SVal
+├─ UndefinedVal                  (BASIC_SVAL)
+├─ DefinedOrUnknownSVal          (ABSTRACT_SVAL)
+│  ├─ UnknownVal                 (BASIC_SVAL)
+│  └─ DefinedSVal                (ABSTRACT_SVAL)
+│     ├─ Loc                     (ABSTRACT_SVAL)         [포인터/주소계열]
+│     │   ├─ ConcreteInt         (LOC_SVAL)              (구체 주소값)
+│     │   ├─ GotoLabel           (LOC_SVAL)              (라벨 주소)
+│     │   └─ MemRegionVal        (LOC_SVAL)              (메모리 영역 참조)
+│     └─ NonLoc                  (ABSTRACT_SVAL)         [비주소계열]
+│         ├─ CompoundVal         (NONLOC_SVAL)           (복합값)
+│         ├─ ConcreteInt         (NONLOC_SVAL)           (정수값)
+│         ├─ LazyCompoundVal     (NONLOC_SVAL)           (지연 복합값)
+│         ├─ LocAsInteger        (NONLOC_SVAL)           (주소를 정수로 변환)
+│         ├─ SymbolVal           (NONLOC_SVAL)           (심볼릭 값)
+│         └─ PointerToMember     (NONLOC_SVAL)           (멤버포인터)
+```
 - 각 SValKind는 Loc/nonloc/undefined/unknown 등 계층 구조를 가집니다.
+
+
+```
+Visit(SVal V)
+  ├── VisitConcreteInt(loc::ConcreteInt V)
+  │      └── VisitLoc(Loc V)
+  │            └── VisitDefinedSVal(DefinedSVal V)
+  │                  └── VisitSVal(SVal V)
+  │
+  ├── VisitCompoundVal(nonloc::CompoundVal V)
+  │      └── VisitNonLoc(NonLoc V)
+  │            └── VisitDefinedSVal(DefinedSVal V)
+  │                  └── VisitSVal(SVal V)
+  │
+  └── ...
+```
