@@ -52,6 +52,8 @@ public:
     llvm_unreachable("Unknown SVal kind!");
   }
 
+// 방문자(Visitor) 패턴에서 “구체 타입의 함수”가 오버라이드되지 않았으면
+// 자동으로 “더 상위 타입”의 Visit 함수로 넘김(전달)
   // Dispatch to the more generic handler as a default implementation.
 #define BASIC_SVAL(Id, Parent)                                                 \
   RetTy Visit##Id(Id V) { return derived().Visit##Parent(V.castAs<Id>()); }
