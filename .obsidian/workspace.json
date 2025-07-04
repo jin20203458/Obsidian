@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Manpage Lite/ASTContext.md",
+                "file": "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ASTContext"
+              "title": "CSA 논리적인 흐름 구조(ExplodedGraph)"
             }
           }
         ],
@@ -217,8 +217,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 3618,
-        "y": 86,
+        "x": 3803,
+        "y": 20,
         "width": 805,
         "height": 1158,
         "maximize": false,
@@ -228,15 +228,17 @@
   },
   "active": "38b75f83a32fd875",
   "lastOpenFiles": [
-    "LLVM/Manpage Lite/기타 자료형.md",
+    "LLVM/Manpage Lite/Type.md",
+    "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
+    "LLVM/CSA 흐름구조 예시/CSA Exploded Graph 흐름도.md",
+    "LLVM/Manpage Lite/Opaque Pointer.md",
+    "LLVM/Manpage Lite/Inter-procedural Analysis (IPA).md",
+    "LLVM/Manpage Lite/Symbol Status.md",
     "LLVM/Manpage Lite/ASTContext.md",
     "LLVM/Manpage Lite/열거형.md",
+    "LLVM/Manpage Lite/기타 자료형.md",
     "LLVM/Clang 환경설정/Clang_Html_TEST.md",
     "LLVM/Clang 환경설정/Clang_Static_Analyzer.md",
-    "LLVM/CSA 흐름구조 예시/CSA Exploded Graph 흐름도.md",
-    "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
-    "LLVM/Manpage Lite/Type.md",
-    "LLVM/Manpage Lite/Opaque Pointer.md",
     "LLVM/Clang 환경설정/Clang_Build.md",
     "Programing/운영체제/컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
     "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조.md",
@@ -257,8 +259,6 @@
     "Programing/운영체제/안드로이드/5. 고급 위젯과 이벤트 처리.md",
     "무제",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md",
-    "LLVM/Manpage Lite/Inter-procedural Analysis (IPA).md",
-    "LLVM/CSA_Souce/CSA_Core/SValVisitor.h.md",
     "LLVM/CSA_Souce/CSA_Core/My code file.ts",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/My code file.cpp",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/My code file.ts",
