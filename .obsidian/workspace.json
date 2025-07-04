@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Manpage Lite/자료형.md",
+                "file": "LLVM/Manpage Lite/매크로.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "자료형"
+              "title": "매크로"
+            }
+          },
+          {
+            "id": "5d4f913019a06ae2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLVM/Manpage Lite/IPInter-procedural Analysis(A).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IPInter-procedural Analysis(A)"
             }
           },
           {
@@ -64,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -259,8 +273,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 3445,
-        "y": 25,
+        "x": 3929,
+        "y": 59,
         "width": 872,
         "height": 1158,
         "maximize": false,
@@ -268,10 +282,12 @@
       }
     ]
   },
-  "active": "9939b3be54d437f0",
+  "active": "5d4f913019a06ae2",
   "lastOpenFiles": [
-    "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
+    "LLVM/Manpage Lite/매크로.md",
+    "LLVM/Manpage Lite/IPInter-procedural Analysis(A).md",
     "LLVM/Manpage Lite/자료형.md",
+    "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md",
     "Programing/디자인 패턴/CRTP.md",
     "LLVM/CSA_Souce/CSA_Core/SVal.def.md",
@@ -285,7 +301,6 @@
     "LLVM/CSA_Souce/CSA_Core/My code file.ts",
     "LLVM/Manpage Lite/주요 checker 콜백 함수들.md",
     "LLVM/Manpage Lite/열거형.md",
-    "LLVM/Manpage Lite/매크로.md",
     "LLVM/CSA_Souce/README.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/ErrnoModeling.h.md",
     "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조.md",
@@ -298,7 +313,6 @@
     "Programing/디자인 패턴/Visitor Pattern.md",
     "LLVM/Manpage Lite/0. Manpage Lite.md",
     "Programing/디자인 패턴/Double Dispatch.md",
-    "LLVM/Manpage Lite/BugReport.md",
     "LLVM/CSA 흐름구조 예시",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp",
