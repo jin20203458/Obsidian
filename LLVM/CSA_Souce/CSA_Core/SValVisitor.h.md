@@ -150,3 +150,19 @@ public:
 ```
 
 
+X-Macro기법으로 컴파일 이전에 
+
+```cpp
+switch (V.getKind()) {
+  case SVal::UnknownValKind:
+    return derived().VisitUnknownVal(V.castAs<UnknownVal>());
+  case SVal::UndefinedValKind:
+    return derived().VisitUndefinedVal(V.castAs<UndefinedVal>());
+  case SVal::LocMemRegionValKind:
+    return derived().VisitMemRegionVal(V.castAs<loc::MemRegionVal>());
+  case SVal::NonLocConcreteIntKind:
+    return derived().VisitConcreteInt(V.castAs<nonloc::ConcreteInt>());
+  // ... 이하 생략 ...
+}
+```
+이러한 코드가 만들어진다.
