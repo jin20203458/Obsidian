@@ -8,42 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7f14533798914596",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programing/정보처리기사/3.1 인터페이스 보안.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4cc3ed28ccb292f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programing/정보처리기사/3.2 소프트웨어 개발보안.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "349c090834dfadac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programing/정보처리기사/3.3 시큐어 코딩 가이드.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "16b045dc71a058e8",
             "type": "leaf",
             "state": {
@@ -55,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -223,15 +186,15 @@
         "zoom": 0
       },
       {
-        "id": "822ae4e79bfa2d3f",
+        "id": "521ea7a0f8adfe1c",
         "type": "window",
         "children": [
           {
-            "id": "feead178886f6fef",
+            "id": "94af6d6b7eb5377d",
             "type": "tabs",
             "children": [
               {
-                "id": "7bec4609f7ae98f5",
+                "id": "620833ae566b107e",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -246,10 +209,10 @@
           }
         ],
         "direction": "vertical",
-        "x": -1076,
-        "y": -410,
-        "width": 600,
-        "height": 600,
+        "x": -853,
+        "y": 720,
+        "width": 765,
+        "height": 675,
         "maximize": false,
         "zoom": 0
       }
@@ -257,9 +220,9 @@
   },
   "active": "16b045dc71a058e8",
   "lastOpenFiles": [
-    "Programing/정보처리기사/3.3 시큐어 코딩 가이드.md",
-    "Programing/정보처리기사/3.4 소프트웨어 개발 보안 구축 및 방법론의 종류.md",
     "Programing/정보처리기사/README.md",
+    "Programing/정보처리기사/3.4 소프트웨어 개발 보안 구축 및 방법론의 종류.md",
+    "Programing/정보처리기사/3.3 시큐어 코딩 가이드.md",
     "Programing/정보처리기사/3.2 소프트웨어 개발보안.md",
     "Programing/정보처리기사/3.1 인터페이스 보안.md",
     "Programing/정보처리기사/2.1 네트워크 관련 신기술.md",
