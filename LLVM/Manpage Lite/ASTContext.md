@@ -14,7 +14,7 @@ clang::QualType IntType = Context.IntTy;
 ```
 
 계층구조
-```
+```scss
 clang::ASTContext
 ├── FoldingSet<Type>           (각종 타입 유일 집합)
 ├── DenseMap<Decl*, AttrVec*>  (선언별 속성)
@@ -37,7 +37,7 @@ int add(int a, int b) {
 }
 ```
 
-```
+```scss
 TranslationUnitDecl
 └── FunctionDecl (name: "add", return type: 'int', params: 'a' (int), 'b' (int))
     └── CompoundStmt (function body)
