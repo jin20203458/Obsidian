@@ -43,6 +43,7 @@ Point p;
 ---
 ## 🔷 MemRegion 클래스 계층 구조 (일부)
 
+**축약형**
 ```scss
 MemRegion
 ├── CodeTextRegion      (함수 등)
@@ -56,6 +57,35 @@ MemRegion
 ├── CXXBaseObjectRegion (기초 클래스 하위 객체)
 └── ObjCIvarRegion      (Objective-C 인스턴스 변수)
 ```
+
+**실제구조**
+```scss
+MemRegion                            ← (추상 클래스, 모든 Region의 부모)
+
+├── MemSpaceRegion                   ← "메모리 공간" 표현 (스택, 힙, 전역 등)
+│   ├── StackLocalsSpaceRegion      ← 함수 지역변수 공간 (지역 변수)
+│   ├── StackArgumentsSpaceRegion   ← 함수 매개변수 공간 (파라미터)
+│   ├── HeapSpaceRegion             ← malloc/new 할당 공간
+│   └── GlobalSpaceRegion           ← 전역 변수 공간
+
+├── CodeTextRegion                  ← 함수, 블록, 람다 등의 코드 위치
+
+├── SubRegion                       ← 특정 상위 Region 위에 얹히는 하위 영역
+│   ├── VarRegion                   ← 변수 하나 (지역/전역 포함)
+│   ├── ParamVarRegion              ← 매개변수
+│   ├── SymbolicRegion              ← 심볼로 식별되는 메모리
+│   ├── FieldRegion                 ← 구조체나 클래스의 멤버
+│   ├── ElementRegion               ← 배열 요소
+│   ├── CompoundLiteralRegion       ← 복합 리터럴
+│   ├── AllocaRegion                ← alloca 결과
+│   ├── StringRegion                ← 문자열 리터럴
+│   ├── ObjCIvarRegion              ← Objective-C 인스턴스 변수
+│   ├── CXXTempObjectRegion         ← C++ 임시 객체
+│   ├── CXXBaseObjectRegion         ← 기초 클래스의 서브 객체
+│   └── 기타 블록, 람다 관련 Region들...
+
+```
+
 
 ---
 ## 🔷 실제 예
