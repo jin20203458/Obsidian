@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c16d4148d2893bf5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/3.4 암호화 알고리즘.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programing/정보처리기사/3.4 소프트웨어 개발 보안 구축 및 방법론의 종류.md",
+                "file": "Programing/정보처리기사/README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programing/정보처리기사/3.4 소프트웨어 개발 보안 구축 및 방법론의 종류.md",
+                "file": "Programing/정보처리기사/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programing/정보처리기사/3.4 소프트웨어 개발 보안 구축 및 방법론의 종류.md"
+                "file": "Programing/정보처리기사/README.md"
               }
             }
           }
@@ -218,10 +231,11 @@
       }
     ]
   },
-  "active": "16b045dc71a058e8",
+  "active": "620833ae566b107e",
   "lastOpenFiles": [
-    "Programing/정보처리기사/README.md",
+    "Programing/정보처리기사/3.4 암호화 알고리즘.md",
     "Programing/정보처리기사/3.4 소프트웨어 개발 보안 구축 및 방법론의 종류.md",
+    "Programing/정보처리기사/README.md",
     "Programing/정보처리기사/3.3 시큐어 코딩 가이드.md",
     "Programing/정보처리기사/3.2 소프트웨어 개발보안.md",
     "Programing/정보처리기사/3.1 인터페이스 보안.md",
@@ -249,7 +263,6 @@
     "기타_자료/Pasted image 20240622015046.png",
     "기타_자료/Pasted image 20240606204955.png",
     "LLVM/How to Write a Checker in 24 Hours/1. Why Static Analysis.md",
-    "LLVM/How to Write a Checker in 24 Hours/2. Symbolic Execution.md",
     "무제",
     "LLVM/CSA_Souce/CSA_Core/My code file.ts",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/My code file.cpp",
