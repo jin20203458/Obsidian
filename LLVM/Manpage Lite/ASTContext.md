@@ -30,6 +30,13 @@ clang::ASTContext
 > Clang이 C/C++ 소스 코드를 분석하여 만든 **추상 구문 트리(AST, Abstract Syntax Tree)의 모든 정보를 총괄하는 핵심 클래스**
 
 TU(.cpp, .c)당 1개의 AST가 생성
+```cpp
+int add(int a, int b) {
+    int sum = a + b;
+    return sum;
+}
+```
+
 ```
 TranslationUnitDecl
 └── FunctionDecl (name: "add", return type: 'int', params: 'a' (int), 'b' (int))
@@ -43,3 +50,12 @@ TranslationUnitDecl
             └── DeclRefExpr (refers to 'sum', type: 'int')
 ```
 
+
+
+Clang AST는 일반적으로 다음과 같은 종류의 노드들로 구성됩니다:
+
+|카테고리|대표 클래스|예시|
+|---|---|---|
+|**선언(Declaration)**|`Decl`|`FunctionDecl`, `VarDecl`, `RecordDecl`|
+|**문장/표현식(Statement/Expression)**|`Stmt`|`IfStmt`, `ReturnStmt`, `BinaryOperator`, `CallExpr`, `DeclRefExpr`|
+|**타입(Type)**|`Type`|`BuiltinType`, `PointerType`, `FunctionProtoType`|
