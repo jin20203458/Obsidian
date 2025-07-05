@@ -59,3 +59,5 @@ Clang AST는 일반적으로 다음과 같은 종류의 노드들로 구성됩�
 |**선언(Declaration)**|`Decl`|`FunctionDecl`, `VarDecl`, `RecordDecl`|
 |**문장/표현식(Statement/Expression)**|`Stmt`|`IfStmt`, `ReturnStmt`, `BinaryOperator`, `CallExpr`, `DeclRefExpr`|
 |**타입(Type)**|`Type`|`BuiltinType`, `PointerType`, `FunctionProtoType`|
+`FunctionDecl` : 함수 선언과 정의를 모두 표현
+- 정의일 경우 함수 몸체가 붙는데 이것이 `CompoundStmt`
