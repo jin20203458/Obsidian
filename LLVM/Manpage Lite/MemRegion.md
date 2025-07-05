@@ -41,8 +41,8 @@ Point p;
 |`new int`|`SymbolicRegion` (힙 영역이므로 추상적으로 모델링됨)|
 
 ---
+## 🔷 MemRegion 클래스 계층 구조 (일부)
 
-🔷 MemRegion 클래스 계층 구조 (일부)
 ```scss
 MemRegion
 ├── CodeTextRegion      (함수 등)
@@ -56,3 +56,44 @@ MemRegion
 ├── CXXBaseObjectRegion (기초 클래스 하위 객체)
 └── ObjCIvarRegion      (Objective-C 인스턴스 변수)
 ```
+
+---
+## 🔷 실제 예
+
+```cpp
+int x = 5;
+int *p = &x;
+```
+
+- `x`는 `VarRegion`으로 모델링
+    
+- 만약 `int *p = &x;` 라면 `p`의 `SVal`은 `loc::MemRegionVal(VarRegion(x))`
+
+```cpp
+int arr[10];
+arr[3] = 42;
+```
+
+- `arr` → `VarRegion`
+    
+- `arr[3]` → `ElementRegion` (superRegion: arr, index: 3)
+
+---
+
+## 🔷 요약
+
+|항목|설명|
+|---|---|
+|역할|메모리 공간을 추상적으로 나타냄|
+|형태|클래스 계층으로 다양하게 나뉨 (`VarRegion`, `FieldRegion` 등)|
+|생성 시점|변수 선언, 배열 접근, 구조체 필드 접근, 힙 할당 등|
+|사용 목적|SVal이 어떤 메모리를 참조하는지 표현하기 위해|
+
+---
+
+## 🧠 꿀팁: SVal과 MemRegion의 관계
+
+- `SVal`이 포인터 값을 나타낼 때 → `loc::MemRegionVal`
+    
+- 이 `MemRegion`이 `VarRegion`, `FieldRegion`, `SymbolicRegion` 등으로 구성되어  
+    `"이 포인터는 어떤 메모리를 가리키고 있다"`는 걸 설명해 줌
