@@ -29,4 +29,17 @@ clang::ASTContext
 
 > Clang이 C/C++ 소스 코드를 분석하여 만든 **추상 구문 트리(AST, Abstract Syntax Tree)의 모든 정보를 총괄하는 핵심 클래스**
 
+TU(.cpp, .c)당 1개의 AST가 생성
+```
+TranslationUnitDecl
+└── FunctionDecl (name: "add", return type: 'int', params: 'a' (int), 'b' (int))
+    └── CompoundStmt (function body)
+        ├── DeclStmt (declaration of 'sum')
+        │   └── VarDecl (name: "sum", type: 'int')
+        │       └── BinaryOperator (op: '+', type: 'int') (initialization of 'sum')
+        │           ├── DeclRefExpr (refers to 'a', type: 'int')
+        │           └── DeclRefExpr (refers to 'b', type: 'int')
+        └── ReturnStmt
+            └── DeclRefExpr (refers to 'sum', type: 'int')
+```
 

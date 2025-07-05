@@ -1,5 +1,9 @@
 ### CTU:교차 번역 단위 분석
 
+**참조** :
+[[ASTContext]]
+[[Inter-procedural Analysis (IPA)]]
+
 Inter-procedural Analysis (IPA)와 관련하여 "교차 번역 단위 분석 (Cross-Translation Unit Analysis)" 또는 줄여서 **CTU 분석**에 대해 설명해 드리겠습니다.
 
 ### 교차 번역 단위 분석 (Cross-Translation Unit Analysis, CTU 분석)

@@ -2,5 +2,6 @@
   "accentColor": "",
   "theme": "obsidian",
   "interfaceFontFamily": "Cascadia Code",
-  "textFontFamily": "Cascadia Code"
+  "textFontFamily": "Cascadia Code",
+  "baseFontSize": 14
 }
