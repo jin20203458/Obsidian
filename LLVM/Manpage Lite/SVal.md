@@ -131,9 +131,21 @@ public:
 
 ##  요약
 
-|구성|설명|
-|---|---|
-|`SVal`|정적 분석기의 추상 값 표현의 기본 클래스|
-|`Kind`|어떤 타입인지 구분 (`ConcreteInt`, `SymbolVal`, ...)|
-|`BaseKind`|loc (주소) 또는 nonloc (값) 구분|
-|내부 데이터|`void* Data`로 보관, 실제 클래스에서 캐스팅|
+| 구성         | 설명                                           |
+| ---------- | -------------------------------------------- |
+| `SVal`     | 정적 분석기의 추상 값 표현의 기본 클래스                      |
+| `Kind`     | 어떤 타입인지 구분 (`ConcreteInt`, `SymbolVal`, ...) |
+| `BaseKind` | loc (주소) 또는 nonloc (값) 구분                    |
+| 내부 데이터     | `void* Data`로 보관, 실제 클래스에서 캐스팅               |
+```scss
+clang::ento::SymbolData (추상 클래스)
+├── SymbolRegionValue  ← 지역 변수 등의 초기값 심볼
+├── SymbolConjured     ← 표현식 평가 결과에서 생성된 임시 심볼
+├── SymbolDerived      ← 어떤 심볼에서 파생된 값 (ex: 구조체 필드)
+├── SymbolExtent       ← 배열의 크기 등 메모리 범위
+├── SymbolMetadata     ← 부가 정보 표현
+├── SymIntExpr         ← 심볼 + 상수 (e.g., x + 1)
+├── SymSymExpr         ← 심볼 + 심볼 (e.g., x == y)
+└── UnarySymExpr       ← !x, -x 등
+
+```
