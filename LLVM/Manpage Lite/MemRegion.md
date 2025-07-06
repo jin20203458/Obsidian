@@ -6,7 +6,22 @@ Clang Static Analyzer에서 `MemRegion`은 **메모리를 추상적으로 표현
 - 말 그대로 `"메모리의 한 구역(region)"`을 의미해요.
     
 - 실제 주소나 크기를 갖진 않지만, **논리적으로 이 변수가 차지하는 메모리 영역**을 나타냅니다.
-    
+
+## 상속구조
+```cpp
+class MemRegion {
+  // 모든 메모리 영역의 공통 인터페이스
+};
+
+class MemSpaceRegion : public MemRegion {
+  // 스택, 힙, 전역 등 메모리 공간 루트 역할
+};
+
+class SubRegion : public MemRegion {
+  const MemRegion *SuperRegion; // 부모 포인터!
+};
+```
+
 
 ---
 
@@ -58,7 +73,7 @@ MemRegion
 └── ObjCIvarRegion      (Objective-C 인스턴스 변수)
 ```
 
-**실제구조**
+**실제 상속 계층도**
 ```scss
 MemRegion                            ← (추상 클래스, 모든 Region의 부모)
 
@@ -84,6 +99,15 @@ MemRegion                            ← (추상 클래스, 모든 Region의 부
 │   ├── CXXBaseObjectRegion         ← 기초 클래스의 서브 객체
 │   └── 기타 블록, 람다 관련 Region들...
 
+```
+
+
+## 🔷 객체 계층도 (런타임에서 실제 구성된 객체들 간의 관계)
+```scss
+StackLocalsSpaceRegion        ← MemSpaceRegion 객체
+└── VarRegion(x)              ← SubRegion 객체
+    └── FieldRegion(x.a)      ← SubRegion 객체
+        └── ElementRegion(2)  ← SubRegion 객체
 ```
 
 
@@ -127,3 +151,4 @@ arr[3] = 42;
     
 - 이 `MemRegion`이 `VarRegion`, `FieldRegion`, `SymbolicRegion` 등으로 구성되어  
     `"이 포인터는 어떤 메모리를 가리키고 있다"`는 걸 설명해 줌
+
