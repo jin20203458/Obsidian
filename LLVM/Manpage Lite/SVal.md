@@ -54,12 +54,17 @@ SVal
 ```scss
 SVal
 ├── DefinedOrUnknownSVal
-│   ├── UnknownVal         ← 값이 아예 없음
+│   ├── UnknownVal                  ← 값이 뭔지 전혀 모름
 │   └── DefinedSVal
-│       ├── UndefinedVal   ← 초기화 안 됨
-│       ├── loc::MemRegionVal
-│       ├── loc::ConcreteInt
-│       └── nonloc::XXX
+│       ├── UndefinedVal            ← 초기화되지 않음
+│       └── Concrete/Abstract 값
+│           ├── loc::MemRegionVal   ← 어떤 메모리 주소 (Region)
+│           ├── loc::ConcreteInt    ← 구체적인 주소 값
+│           ├── nonloc::ConcreteInt ← 정수 상수
+│           ├── nonloc::SymbolVal   ← 어떤 심볼 (추상값)
+│           ├── nonloc::SymExprVal  ← 연산 결과 (sym + 1 등)
+│           ├── nonloc::LazyCompoundVal ← 복합타입의 추상값 (struct 등)
+│           └── ... 기타
 ```
 
 ---

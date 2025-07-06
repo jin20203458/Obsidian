@@ -8,36 +8,48 @@
         "type": "tabs",
         "children": [
           {
-            "id": "31c299f5d84a7fe1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programing/정보처리기사/5. 정보시스템 구축관리/3.5.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e55b3b3361292118",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programing/정보처리기사/1. 소프트웨어 설계/1. 소프트웨어 공학이란.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5328dedc886341f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programing/정보처리기사/1. 소프트웨어 설계/0. 소프트웨어 설계 핵심이론.md",
+                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd3cd633ebf68e57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLVM/Manpage Lite/SymbolicRegion.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54a5f020c6060c04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLVM/Manpage Lite/MemRegion.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2c283b5f8e35d955",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLVM/Manpage Lite/MemRegionVar.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programing/정보처리기사/1. 소프트웨어 설계/0. 소프트웨어 설계 핵심이론.md",
+                "file": "LLVM/Manpage Lite/MemRegion.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programing/정보처리기사/1. 소프트웨어 설계/0. 소프트웨어 설계 핵심이론.md",
+                "file": "LLVM/Manpage Lite/MemRegion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programing/정보처리기사/1. 소프트웨어 설계/0. 소프트웨어 설계 핵심이론.md"
+                "file": "LLVM/Manpage Lite/MemRegion.md"
               }
             }
           }
@@ -212,13 +224,21 @@
       }
     ]
   },
-  "active": "5328dedc886341f2",
+  "active": "54a5f020c6060c04",
   "lastOpenFiles": [
-    "Programing/정보처리기사/1. 소프트웨어 설계/1. 소프트웨어 공학이란.md",
-    "Programing/정보처리기사/1. 소프트웨어 설계/0. 소프트웨어 설계 핵심이론.md",
-    "Programing/정보처리기사/5. 정보시스템 구축관리/3.5.md",
-    "Programing/정보처리기사/5. 정보시스템 구축관리/2.1 네트워크 관련 신기술.md",
+    "LLVM/Manpage Lite/MemRegionVar.md",
+    "LLVM/CSA_Souce/README.md",
+    "LLVM/Manpage Lite/MemRegion.md",
+    "LLVM/Manpage Lite/SymbolicRegion.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md",
+    "LLVM/Manpage Lite/Symbol Status.md",
+    "LLVM/Manpage Lite/SVal.md",
+    "LLVM/Manpage Lite/ASTContext.md",
+    "Programing/정보처리기사/5. 정보시스템 구축관리/3.5.md",
+    "Programing/정보처리기사/1. 소프트웨어 설계/1. 소프트웨어 공학이란.md",
+    "LLVM/CSA_Souce/CSA_Core/SValVisitor.h.md",
+    "Programing/정보처리기사/1. 소프트웨어 설계/0. 소프트웨어 설계 핵심이론.md",
+    "Programing/정보처리기사/5. 정보시스템 구축관리/2.1 네트워크 관련 신기술.md",
     "Programing/정보처리기사/README.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/ErrnoModeling.h.md",
     "Programing/정보처리기사/5. 정보시스템 구축관리/3.4 암호화 알고리즘.md",
@@ -230,16 +250,8 @@
     "LLVM/Manpage Lite/Inter-procedural Analysis (IPA).md",
     "LLVM/Manpage Lite/Cross-Translation Unit Analysis (CTU).md",
     "LLVM/Manpage Lite/BugReport.md",
-    "LLVM/Manpage Lite/ASTContext.md",
     "LLVM/Manpage Lite/0. Manpage Lite.md",
     "LLVM/Manpage Lite/열거형.md",
-    "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
-    "LLVM/Manpage Lite/Type.md",
-    "LLVM/CSA 흐름구조 예시/CSA Exploded Graph 흐름도.md",
-    "LLVM/Manpage Lite/Opaque Pointer.md",
-    "LLVM/Manpage Lite/Symbol Status.md",
-    "LLVM/Manpage Lite/기타 자료형.md",
-    "LLVM/Clang 환경설정/Clang_Html_TEST.md",
     "LLVM/CSA 흐름구조 예시/My code file.cpp",
     "기타_자료/Pasted image 20250704154224.png",
     "기타_자료/Pasted image 20240622015046.png",
