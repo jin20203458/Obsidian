@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md",
+                "file": "Programing/정보처리기사/5. 정보시스템 구축관리/3.5.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e55b3b3361292118",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/1. 소프트웨어 설계/1. 소프트웨어 공학이란.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5328dedc886341f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/정보처리기사/1. 소프트웨어 설계/0. 소프트웨어 설계 핵심이론.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
   "right": {
     "id": "adc9c89b59119b10",
@@ -86,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md",
+                "file": "Programing/정보처리기사/1. 소프트웨어 설계/0. 소프트웨어 설계 핵심이론.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md",
+                "file": "Programing/정보처리기사/1. 소프트웨어 설계/0. 소프트웨어 설계 핵심이론.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md"
+                "file": "Programing/정보처리기사/1. 소프트웨어 설계/0. 소프트웨어 설계 핵심이론.md"
               }
             }
           }
@@ -185,52 +209,24 @@
         "height": 800,
         "maximize": false,
         "zoom": 0
-      },
-      {
-        "id": "521ea7a0f8adfe1c",
-        "type": "window",
-        "children": [
-          {
-            "id": "94af6d6b7eb5377d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "620833ae566b107e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Programing/정보처리기사/README.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -853,
-        "y": 720,
-        "width": 767,
-        "height": 675,
-        "maximize": false,
-        "zoom": 0
       }
     ]
   },
-  "active": "31c299f5d84a7fe1",
+  "active": "5328dedc886341f2",
   "lastOpenFiles": [
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/ErrnoModeling.h.md",
-    "Programing/정보처리기사/3.5.md",
+    "Programing/정보처리기사/1. 소프트웨어 설계/1. 소프트웨어 공학이란.md",
+    "Programing/정보처리기사/1. 소프트웨어 설계/0. 소프트웨어 설계 핵심이론.md",
+    "Programing/정보처리기사/5. 정보시스템 구축관리/3.5.md",
+    "Programing/정보처리기사/5. 정보시스템 구축관리/2.1 네트워크 관련 신기술.md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md",
     "Programing/정보처리기사/README.md",
-    "Programing/정보처리기사/3.4 암호화 알고리즘.md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/ErrnoModeling.h.md",
+    "Programing/정보처리기사/5. 정보시스템 구축관리/3.4 암호화 알고리즘.md",
     "Programing/정보처리기사/무제 파일.md",
-    "Programing/정보처리기사/3.4 소프트웨어 개발 보안 구축 및 방법론의 종류.md",
-    "Programing/정보처리기사/3.3 시큐어 코딩 가이드.md",
-    "Programing/정보처리기사/3.2 소프트웨어 개발보안.md",
-    "Programing/정보처리기사/3.1 인터페이스 보안.md",
-    "Programing/정보처리기사/2.1 네트워크 관련 신기술.md",
+    "Programing/정보처리기사/5. 정보시스템 구축관리/3.4 소프트웨어 개발 보안 구축 및 방법론의 종류.md",
+    "Programing/정보처리기사/5. 정보시스템 구축관리/3.3 시큐어 코딩 가이드.md",
+    "Programing/정보처리기사/5. 정보시스템 구축관리/3.2 소프트웨어 개발보안.md",
+    "Programing/정보처리기사/5. 정보시스템 구축관리/3.1 인터페이스 보안.md",
     "LLVM/Manpage Lite/Inter-procedural Analysis (IPA).md",
     "LLVM/Manpage Lite/Cross-Translation Unit Analysis (CTU).md",
     "LLVM/Manpage Lite/BugReport.md",
@@ -244,9 +240,6 @@
     "LLVM/Manpage Lite/Symbol Status.md",
     "LLVM/Manpage Lite/기타 자료형.md",
     "LLVM/Clang 환경설정/Clang_Html_TEST.md",
-    "LLVM/Clang 환경설정/Clang_Static_Analyzer.md",
-    "LLVM/Clang 환경설정/Clang_Build.md",
-    "Programing/운영체제/컴퓨터 구조, 운영체제/운영체제 복습/2.프로세스 개요.md",
     "LLVM/CSA 흐름구조 예시/My code file.cpp",
     "기타_자료/Pasted image 20250704154224.png",
     "기타_자료/Pasted image 20240622015046.png",
