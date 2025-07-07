@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
+                "file": "LLVM/Manpage Lite/SymbolicRegion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSA 논리적인 흐름 구조(ExplodedGraph)"
+              "title": "SymbolicRegion"
             }
           },
           {
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/Manpage Lite/ElementRegion.md",
+                "file": "LLVM/Manpage Lite/SymbolicRegion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "ElementRegion 의 백링크"
+              "title": "SymbolicRegion 의 백링크"
             }
           },
           {
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/Manpage Lite/ElementRegion.md",
+                "file": "LLVM/Manpage Lite/SymbolicRegion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "ElementRegion 의 나가는 링크"
+              "title": "SymbolicRegion 의 나가는 링크"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/Manpage Lite/ElementRegion.md",
+                "file": "LLVM/Manpage Lite/SymbolicRegion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ElementRegion 의 개요"
+              "title": "SymbolicRegion 의 개요"
             }
           }
         ]
@@ -253,11 +253,11 @@
       }
     ]
   },
-  "active": "8506293c52812299",
+  "active": "2e7c2ea3b121e6da",
   "lastOpenFiles": [
-    "LLVM/Manpage Lite/MemRegion.md",
-    "LLVM/Manpage Lite/ElementRegion.md",
     "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
+    "LLVM/Manpage Lite/ElementRegion.md",
+    "LLVM/Manpage Lite/MemRegion.md",
     "LLVM/Manpage Lite/ASTContext.md",
     "LLVM/Manpage Lite/기타 함수.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md",
