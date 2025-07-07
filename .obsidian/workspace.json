@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programing/Language/C++/가변 템플릿(Variadic Template).md",
+                "file": "Programing/디자인 패턴/Double Dispatch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "가변 템플릿(Variadic Template)"
+              "title": "Double Dispatch"
+            }
+          },
+          {
+            "id": "a030aeccda297ee0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/디자인 패턴/Policy-based Design.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Policy-based Design"
             }
           },
           {
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programing/Language/C++/가변 템플릿(Variadic Template).md",
+                "file": "Programing/디자인 패턴/Policy-based Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "가변 템플릿(Variadic Template) 의 백링크"
+              "title": "Policy-based Design 의 백링크"
             }
           },
           {
@@ -142,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programing/Language/C++/가변 템플릿(Variadic Template).md",
+                "file": "Programing/디자인 패턴/Policy-based Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "가변 템플릿(Variadic Template) 의 나가는 링크"
+              "title": "Policy-based Design 의 나가는 링크"
             }
           },
           {
@@ -171,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programing/Language/C++/가변 템플릿(Variadic Template).md",
+                "file": "Programing/디자인 패턴/Policy-based Design.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "가변 템플릿(Variadic Template) 의 개요"
+              "title": "Policy-based Design 의 개요"
             }
           }
         ]
@@ -200,16 +214,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b331988b2b0ba7c0",
+  "active": "a030aeccda297ee0",
   "lastOpenFiles": [
-    "Programing/Language/C++/예외처리.md",
+    "Programing/디자인 패턴/Double Dispatch.md",
+    "Programing/디자인 패턴/Policy-based Design.md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/SimpleStreamChecker.cpp.md",
     "Programing/Language/C++/가변 템플릿(Variadic Template).md",
+    "Programing/Language/C++/예외처리.md",
     "Programing/기타/문맥자유문법(Context-Free Grammar, CFG).md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalysisOrderChecker.cpp.md",
     "LLVM/Manpage Lite/checker 콜백 함수들.md",
     "LLVM/Manpage Lite/BugReport.md",
     "LLVM/CSA 흐름구조 예시/CSA Exploded Graph 흐름도.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/SimpleStreamChecker.cpp.md",
     "LLVM/Manpage Lite/ASTContext.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
@@ -230,8 +246,6 @@
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용",
     "무기체계 소프트웨어 코딩 규칙",
     "LLVM/Manpage Lite/ElementRegion.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/taggedUnionMdoeling.h.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/ErrnoModeling.h.md"
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md"
   ]
 }
