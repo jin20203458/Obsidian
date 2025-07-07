@@ -30,17 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "67bfb2db3480d07b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programing/정보처리기사/2. 소프트웨어 개발/0. 소프트웨어 개발 핵심이론.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programing/정보처리기사/2. 소프트웨어 개발/0. 소프트웨어 개발 핵심이론.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programing/정보처리기사/2. 소프트웨어 개발/0. 소프트웨어 개발 핵심이론.md"
+              }
             }
           }
         ]
@@ -167,7 +163,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "67bfb2db3480d07b",
+  "active": "2092dc9d08d3bde2",
   "lastOpenFiles": [
     "Programing/정보처리기사/2. 소프트웨어 개발/0. 소프트웨어 개발 핵심이론.md",
     "Programing/정보처리기사/2. 소프트웨어 개발/1. 통합 구현.md",
