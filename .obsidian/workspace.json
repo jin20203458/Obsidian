@@ -11,10 +11,14 @@
             "id": "994365068acdfb11",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "스타일.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "스타일"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d26ae100fa3968f6",
@@ -90,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "스타일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "스타일 의 백링크"
             }
           },
           {
@@ -108,11 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "스타일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "나가는 링크"
+              "title": "스타일 의 나가는 링크"
             }
           },
           {
@@ -136,12 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "스타일.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "스타일 의 개요"
             }
           }
         ]
@@ -205,6 +213,11 @@
   },
   "active": "994365068acdfb11",
   "lastOpenFiles": [
+    "무기체계 코딩 규칙/C,C++ 공통적용/스타일/무제.md",
+    "스타일.md",
+    "무기체계 코딩 규칙/C,C++ 공통적용/스타일",
+    "무기체계 코딩 규칙/C,C++ 공통적용",
+    "무기체계 코딩 규칙",
     "LLVM/Manpage Lite/ElementRegion.md",
     "LLVM/Manpage Lite/SVal.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md",
