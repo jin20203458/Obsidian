@@ -1,62 +1,50 @@
 {
   "main": {
-    "id": "110c6e8067792ed0",
+    "id": "76377b5430c31da5",
     "type": "split",
     "children": [
       {
-        "id": "264b1c6c875e4ef3",
+        "id": "db6b3bc8518f374f",
         "type": "tabs",
         "children": [
           {
-            "id": "5328dedc886341f2",
+            "id": "f0f997092eeed4d3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d91c07fc5849d976",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "4b2b3e823c9c17d8",
+    "id": "d726c8068cd1f5f2",
     "type": "split",
     "children": [
       {
-        "id": "3484fd6769667590",
+        "id": "5fa7f7b38c94e69e",
         "type": "tabs",
         "children": [
           {
-            "id": "816cbcd0ff6621fa",
+            "id": "e4f470d9efa9b6f7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
             }
           },
           {
-            "id": "b67ec28144c0f60a",
+            "id": "f9f588188b4c0ecd",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -67,192 +55,115 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "검색"
             }
           },
           {
-            "id": "1bf250a3cb056560",
+            "id": "1920019f601a38b4",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 300
   },
   "right": {
-    "id": "adc9c89b59119b10",
+    "id": "d26ae100fa3968f6",
     "type": "split",
     "children": [
       {
-        "id": "d0151af8d8263923",
+        "id": "6dec5340657711f3",
         "type": "tabs",
         "children": [
           {
-            "id": "3715fbea726b4cd8",
+            "id": "c0952454601dd1ae",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "백링크"
             }
           },
           {
-            "id": "130a09d51e57e4ab",
+            "id": "d9ba7662c80464fb",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "나가는 링크"
             }
           },
           {
-            "id": "f886bcaa3c9fb94c",
+            "id": "c3000941fdb46b54",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
             }
           },
           {
-            "id": "27894491a949a19b",
+            "id": "ce2ea18559935a74",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md"
-              }
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "개요"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
+      "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "vscode-editor:Create Code File": false,
       "obsidian-git:Open Git source control": false,
+      "vscode-editor:Create Code File": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "floating": {
-    "id": "50d89e117dfa1655",
-    "type": "floating",
-    "children": [
-      {
-        "id": "691eae852f3c81b6",
-        "type": "window",
-        "children": [
-          {
-            "id": "c85e9c3bb8f8fa44",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "1d704832f622fe03",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "LLVM/Manpage Lite/Type.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 3803,
-        "y": 20,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-<<<<<<< HEAD
-  "active": "1d704832f622fe03",
-  "lastOpenFiles": [
-=======
-  "active": "d91c07fc5849d976",
-  "lastOpenFiles": [
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md",
-    "LLVM/Manpage Lite/SymbolicRegion.md",
->>>>>>> 55801fbe75a01dd5d0c3583d86c3f2b6097b58c7
-    "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
-    "LLVM/Manpage Lite/Type.md",
-    "LLVM/CSA 흐름구조 예시/CSA Exploded Graph 흐름도.md",
-    "LLVM/Manpage Lite/SVal.md",
-    "LLVM/Manpage Lite/Symbol Status.md",
-    "LLVM/Manpage Lite/SymbolRegionValue.md",
-    "LLVM/Manpage Lite/MemRegionVar.md",
-    "LLVM/Manpage Lite/MemRegion.md",
-    "LLVM/CSA_Souce/README.md",
-    "LLVM/Manpage Lite/ASTContext.md",
-    "Programing/정보처리기사/5. 정보시스템 구축관리/3.5.md",
-    "Programing/정보처리기사/1. 소프트웨어 설계/1. 소프트웨어 공학이란.md",
-    "LLVM/CSA_Souce/CSA_Core/SValVisitor.h.md",
-    "Programing/정보처리기사/1. 소프트웨어 설계/0. 소프트웨어 설계 핵심이론.md",
-    "Programing/정보처리기사/5. 정보시스템 구축관리/2.1 네트워크 관련 신기술.md",
-    "Programing/정보처리기사/README.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/ErrnoModeling.h.md",
-    "Programing/정보처리기사/5. 정보시스템 구축관리/3.4 암호화 알고리즘.md",
-    "Programing/정보처리기사/무제 파일.md",
-    "Programing/정보처리기사/5. 정보시스템 구축관리/3.4 소프트웨어 개발 보안 구축 및 방법론의 종류.md",
-    "Programing/정보처리기사/5. 정보시스템 구축관리/3.3 시큐어 코딩 가이드.md",
-    "Programing/정보처리기사/5. 정보시스템 구축관리/3.2 소프트웨어 개발보안.md",
-    "Programing/정보처리기사/5. 정보시스템 구축관리/3.1 인터페이스 보안.md",
-    "LLVM/Manpage Lite/Inter-procedural Analysis (IPA).md",
-    "LLVM/Manpage Lite/Cross-Translation Unit Analysis (CTU).md",
-    "LLVM/CSA 흐름구조 예시/My code file.cpp",
-    "기타_자료/Pasted image 20250704154224.png",
-    "기타_자료/Pasted image 20240622015046.png",
-    "기타_자료/Pasted image 20240606204955.png",
-    "무제",
-    "LLVM/CSA_Souce/CSA_Core/My code file.ts",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/My code file.cpp",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/My code file.ts",
-    "LLVM/CSA 흐름구조 예시",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp",
-    "기타_자료/Pasted image 20250702135759.png",
-    "LLVM/Manpage Lite",
-    "Programing/정보처리기사/5. 정보 시스템 구축 관리",
-    "기타_자료/Pasted image 20250701172849.png",
-    "기타_자료/Pasted image 20250701171239.png",
-    "기타_자료/Pasted image 20250701140548.png",
-    "기타_자료/Pasted image 20250701132424.png",
-    "기타_자료/Pasted image 20250701132221.png",
-    "기타_자료/Pasted image 20250701132121.png"
-  ]
+  "active": "f0f997092eeed4d3",
+  "lastOpenFiles": []
 }
