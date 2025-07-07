@@ -16,9 +16,7 @@
                 "file": "Programing/Language/C++/예외처리.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "예외처리"
+              }
             }
           },
           {
@@ -30,9 +28,7 @@
                 "file": "Programing/디자인 패턴/Double Dispatch.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Double Dispatch"
+              }
             }
           },
           {
@@ -44,9 +40,7 @@
                 "file": "Programing/디자인 패턴/Policy-based Design.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Policy-based Design"
+              }
             }
           },
           {
@@ -58,9 +52,7 @@
                 "file": "LLVM/Manpage Lite/checker 콜백 함수들.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "checker 콜백 함수들"
+              }
             }
           }
         ],
@@ -83,11 +75,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": true
-              },
-              "icon": "lucide-folder-closed",
-              "title": "파일 탐색기"
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -102,9 +91,7 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "검색"
+              }
             }
           },
           {
@@ -112,9 +99,7 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "북마크"
+              "state": {}
             }
           }
         ]
@@ -145,9 +130,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Policy-based Design 의 백링크"
+              }
             }
           },
           {
@@ -159,9 +142,7 @@
                 "file": "Programing/디자인 패턴/Policy-based Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Policy-based Design 의 나가는 링크"
+              }
             }
           },
           {
@@ -171,12 +152,8 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "태그"
+                "useHierarchy": true
+              }
             }
           },
           {
@@ -185,13 +162,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programing/디자인 패턴/Policy-based Design.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Policy-based Design 의 개요"
+                "file": "Programing/디자인 패턴/Policy-based Design.md"
+              }
             }
           }
         ]
@@ -203,10 +175,10 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:빠른 전환기 열기": false,
+      "switcher:퀵 스위처 열기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "obsidian-git:Open Git source control": false,
