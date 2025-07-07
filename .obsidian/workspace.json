@@ -8,91 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "495fc6e0ad2a5b68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "5. 변환 규칙"
-            }
-          },
-          {
-            "id": "679b6d685cff54f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "6. 포인터, 배열 규칙"
-            }
-          },
-          {
-            "id": "82bebbdc09f93c37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "7. 연산자 규칙"
-            }
-          },
-          {
-            "id": "80ece404b2420f37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "5. 변환 규칙"
-            }
-          },
-          {
-            "id": "62f8c08e72cce512",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "C 전용 규칙"
-            }
-          },
-          {
             "id": "f0f997092eeed4d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Manpage Lite/ASTContext.md",
+                "file": "Programing/Language/C++/예외처리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ASTContext"
+              "title": "예외처리"
+            }
+          },
+          {
+            "id": "b331988b2b0ba7c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programing/Language/C++/가변 템플릿(Variadic Template).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "가변 템플릿(Variadic Template)"
+            }
+          },
+          {
+            "id": "78e4d48402282d12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLVM/Manpage Lite/checker 콜백 함수들.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "checker 콜백 함수들"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
+                "file": "Programing/Language/C++/가변 템플릿(Variadic Template).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "C 전용 규칙 의 백링크"
+              "title": "가변 템플릿(Variadic Template) 의 백링크"
             }
           },
           {
@@ -184,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
+                "file": "Programing/Language/C++/가변 템플릿(Variadic Template).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "C 전용 규칙 의 나가는 링크"
+              "title": "가변 템플릿(Variadic Template) 의 나가는 링크"
             }
           },
           {
@@ -213,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
+                "file": "Programing/Language/C++/가변 템플릿(Variadic Template).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "C 전용 규칙 의 개요"
+              "title": "가변 템플릿(Variadic Template) 의 개요"
             }
           }
         ]
@@ -242,16 +200,24 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "62f8c08e72cce512",
+  "active": "b331988b2b0ba7c0",
   "lastOpenFiles": [
+    "Programing/Language/C++/예외처리.md",
+    "Programing/Language/C++/가변 템플릿(Variadic Template).md",
+    "Programing/기타/문맥자유문법(Context-Free Grammar, CFG).md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalysisOrderChecker.cpp.md",
+    "LLVM/Manpage Lite/checker 콜백 함수들.md",
+    "LLVM/Manpage Lite/BugReport.md",
+    "LLVM/CSA 흐름구조 예시/CSA Exploded Graph 흐름도.md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/SimpleStreamChecker.cpp.md",
+    "LLVM/Manpage Lite/ASTContext.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/C++ 전용 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙",
-    "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙",
-    "LLVM/Manpage Lite/ASTContext.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
@@ -266,14 +232,6 @@
     "LLVM/Manpage Lite/ElementRegion.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/SValExplainer.h.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/taggedUnionMdoeling.h.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/ErrnoModeling.h.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/NoOwnershipChangeVisitor.h.md",
-    "LLVM/Manpage Lite/MemRegion.md",
-    "LLVM/Manpage Lite/SymbolicRegion.md",
-    "LLVM/Manpage Lite/기타 함수.md",
-    "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/SimpleStreamChecker.cpp.md",
-    "LLVM/Manpage Lite/Type.md",
-    "LLVM/Manpage Lite/Symbol Status.md"
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/ErrnoModeling.h.md"
   ]
 }
