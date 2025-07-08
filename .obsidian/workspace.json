@@ -85,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/1. 데이터베이스의 개념.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/1. 데이터베이스의 개념.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programing/정보처리기사/3. 데이터베이스 구축/무제 파일.md"
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/1. 데이터베이스의 개념.md"
               }
             }
           }
