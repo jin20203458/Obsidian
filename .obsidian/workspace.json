@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cf4e6c51767820d5",
+        "id": "5c6dee9292b40ddf",
         "type": "tabs",
         "children": [
           {
-            "id": "96d460cf8c3b3677",
+            "id": "bcf542f0dfeb257e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Manpage Lite/Inter-procedural Analysis (IPA).md",
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/1. 데이터베이스의 개념.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/Manpage Lite/Inter-procedural Analysis (IPA).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/Manpage Lite/Inter-procedural Analysis (IPA).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/Manpage Lite/Inter-procedural Analysis (IPA).md"
+                "file": "Programing/정보처리기사/3. 데이터베이스 구축/무제 파일.md"
               }
             }
           }
@@ -149,8 +147,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "96d460cf8c3b3677",
+  "active": "e4f470d9efa9b6f7",
   "lastOpenFiles": [
+    "Programing/정보처리기사/3. 데이터베이스 구축/1. 데이터베이스의 개념.md",
+    "Programing/정보처리기사/3. 데이터베이스 구축/무제 파일.md",
+    "LLVM/Manpage Lite/Inter-procedural Analysis (IPA).md",
     "LLVM/Manpage Lite/AnalysisDeclContext.md",
     "LLVM/Manpage Lite/SourceManager.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalyzerStatsChecker.cpp.md",
@@ -178,9 +179,6 @@
     "Programing/Language/C++/예외처리.md",
     "Programing/Language/C++/가변 템플릿(Variadic Template).md",
     "Programing/기타/문맥자유문법(Context-Free Grammar, CFG).md",
-    "LLVM/Manpage Lite/BugReport.md",
-    "LLVM/CSA 흐름구조 예시/CSA Exploded Graph 흐름도.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙",
     "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙",
     "무기체계 코딩 규칙/C,C++ 공통적용/스타일",
