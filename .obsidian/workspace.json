@@ -13,26 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Manpage Lite/AnalysisDeclContext.md",
+                "file": "LLVM/Manpage Lite/Inter-procedural Analysis (IPA).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AnalysisDeclContext"
-            }
-          },
-          {
-            "id": "8a98625b63d573c2",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "title": "Inter-procedural Analysis (IPA)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "LLVM/Manpage Lite/Inter-procedural Analysis (IPA).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "Inter-procedural Analysis (IPA) 의 백링크"
             }
           },
           {
@@ -123,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "LLVM/Manpage Lite/Inter-procedural Analysis (IPA).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "나가는 링크"
+              "title": "Inter-procedural Analysis (IPA) 의 나가는 링크"
             }
           },
           {
@@ -151,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "LLVM/Manpage Lite/Inter-procedural Analysis (IPA).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "Inter-procedural Analysis (IPA) 의 개요"
             }
           }
         ]
@@ -179,10 +171,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e4f470d9efa9b6f7",
+  "active": "96d460cf8c3b3677",
   "lastOpenFiles": [
-    "LLVM/Manpage Lite/SourceManager.md",
     "LLVM/Manpage Lite/AnalysisDeclContext.md",
+    "LLVM/Manpage Lite/SourceManager.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalyzerStatsChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalysisOrderChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/SimpleStreamChecker.cpp.md",
