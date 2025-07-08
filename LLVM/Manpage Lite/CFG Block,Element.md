@@ -51,12 +51,12 @@ int foo(int x)
 ```
 ## 1. CFGBlock이란?
 
-- **CFGBlock**은 함수의 실행 흐름을 나누는 **하나의 코드 블록(노드)**입니다.
+- **CFGBlock**은 함수의 실행 흐름을 나누는 **하나의 코드 블록**(노드)입니다.
     
 - 예를 들어, if문, for문, 함수 본문, 조건 분기 등 **실행 경로의 한 구간**을 나타냅니다.
     
-- 여러 CFGBlock이 연결되어 전체 함수의 **Control Flow Graph(제어 흐름 그래프, CFG)**를 구성합니다.
-    
+- 여러 CFGBlock이 연결되어 전체 함수의 **Control Flow Graph**(제어 흐름 그래프, CFG)를 구성합니다.
+- 내부 구조는 CFGElement를 가지고 있는 동적배열
 
 ## 예시
 
