@@ -8,45 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ac070afb651b8853",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programing/디자인 패턴/Policy-based Design.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Policy-based Design"
-            }
-          },
-          {
-            "id": "13affa3a7744f028",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalysisOrderChecker.cpp.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AnalysisOrderChecker.cpp"
-            }
-          },
-          {
             "id": "a3990e4219f92098",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Manpage Lite/기타 함수.md",
+                "file": "LLVM/Manpage Lite/CFG Block,Element.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "기타 함수"
+              "title": "CFG Block,Element"
             }
           },
           {
@@ -77,8 +49,7 @@
               "title": "CSA 주요 객체들 간의 구조도 및 관계"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d26ae100fa3968f6",
@@ -234,68 +204,6 @@
     "type": "floating",
     "children": [
       {
-        "id": "3bee2267520b1d34",
-        "type": "window",
-        "children": [
-          {
-            "id": "cd3051392b6ff9dc",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "3f9cf095635d0d7f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "LLVM/Manpage Lite/CheckerContext.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "CheckerContext"
-                }
-              },
-              {
-                "id": "df22d4a417931732",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "LLVM/Manpage Lite/AnalysisDeclContext.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "AnalysisDeclContext"
-                }
-              },
-              {
-                "id": "1eabc3f933cbe6e8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "LLVM/Manpage Lite/ASTContext.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "ASTContext"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical",
-        "x": 1692,
-        "y": 105,
-        "width": 773,
-        "height": 1158,
-        "maximize": false,
-        "zoom": 0
-      },
-      {
         "id": "572dd2ff84356d21",
         "type": "window",
         "children": [
@@ -321,8 +229,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 1108,
-        "y": 122,
+        "x": 1155,
+        "y": 103,
         "width": 773,
         "height": 1158,
         "maximize": false,
@@ -330,19 +238,19 @@
       }
     ]
   },
-  "active": "6629964e2016bd72",
+  "active": "a3990e4219f92098",
   "lastOpenFiles": [
+    "LLVM/Manpage Lite/ASTContext.md",
     "LLVM/Manpage Lite/CFG.md",
+    "LLVM/Manpage Lite/CheckerContext.md",
+    "LLVM/Manpage Lite/AnalysisDeclContext.md",
+    "LLVM/CSA 흐름구조 예시/CSA 주요 객체들 간의 구조도 및 관계.md",
+    "LLVM/Manpage Lite/기타 함수.md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalysisOrderChecker.cpp.md",
+    "Programing/디자인 패턴/Policy-based Design.md",
     "LLVM/Manpage Lite/CFG Block,Element.md",
     "기타_자료/Pasted image 20250708142713.png",
-    "LLVM/Manpage Lite/AnalysisDeclContext.md",
-    "LLVM/Manpage Lite/기타 함수.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/무제.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalysisOrderChecker.cpp.md",
-    "LLVM/Manpage Lite/CheckerContext.md",
-    "Programing/디자인 패턴/Policy-based Design.md",
-    "LLVM/CSA 흐름구조 예시/CSA 주요 객체들 간의 구조도 및 관계.md",
-    "LLVM/Manpage Lite/ASTContext.md",
     "기타_자료/Pasted image 20250708141235.png",
     "기타_자료/Pasted image 20250708140925.png",
     "기타_자료/Pasted image 20250708135351.png",

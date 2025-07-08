@@ -74,3 +74,32 @@ int foo(int x)
 - 실제로는 한 줄의 코드(문장, 조건, 선언 등) 또는 특정 연산을 의미합니다.
     
 - 즉, **CFGBlock을 구성하는 작은 단위**입니다.
+
+```cpp
+// clang/include/clang/Analysis/CFG.h
+
+class CFGElement {
+public:
+    // 어떤 종류의 CFG 요소인가?
+    enum Kind {
+        Statement,           // 일반 문장(Expr, Stmt 등) → CFGStmt로 저장
+        AutomaticObjDtor,    // 자동 소멸자 → CFGAutomaticObjDtor
+        ImplicitDtor,        // 암시적 소멸자 등
+        Initializer,         // 멤버 초기화 등
+        ScopeBegin, ScopeEnd // 스코프 진입/종료 등
+        // ... 기타 여러 종류
+    };
+
+    Kind getKind() const;
+
+    // 타입별 안전한 다운캐스팅 (variant 느낌)
+    template <typename T>
+    const T *getAs() const;
+
+    // 구체적 데이터 저장 (내부적으로 union 구조체 또는 포인터)
+private:
+    Kind MyKind;
+    void *Data; // 실제 데이터(Statement*, Dtor*, Initializer*, ...)의 포인터
+};
+
+```
