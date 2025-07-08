@@ -127,7 +127,7 @@ class SVal {
 
 아래는 대표적인 SValKind 값들(Clang 20 기준, 실제 SVals.def 참고):
 
-```
+```scss
 SVal
 ├─ UndefinedVal                  (BASIC_SVAL)
 ├─ DefinedOrUnknownSVal          (ABSTRACT_SVAL)
@@ -148,7 +148,7 @@ SVal
 - 각 SValKind는 Loc/nonloc/undefined/unknown 등 계층 구조를 가집니다.
 
 
-```
+```scss
 Visit(SVal V)
   ├── VisitConcreteInt(loc::ConcreteInt V)
   │      └── VisitLoc(Loc V)

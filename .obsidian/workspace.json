@@ -36,17 +36,17 @@
             }
           },
           {
-            "id": "1eabc3f933cbe6e8",
+            "id": "1047deea57bf0faa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Manpage Lite/checker 콜백 함수들.md",
+                "file": "LLVM/CSA 흐름구조 예시/CSA 주요 객체들 간의 구조도 및 관계.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "checker 콜백 함수들"
+              "title": "CSA 주요 객체들 간의 구조도 및 관계"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/Manpage Lite/checker 콜백 함수들.md",
+                "file": "LLVM/Manpage Lite/AnalysisDeclContext.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "checker 콜백 함수들 의 백링크"
+              "title": "AnalysisDeclContext 의 백링크"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/Manpage Lite/checker 콜백 함수들.md",
+                "file": "LLVM/Manpage Lite/AnalysisDeclContext.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "checker 콜백 함수들 의 나가는 링크"
+              "title": "AnalysisDeclContext 의 나가는 링크"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/Manpage Lite/checker 콜백 함수들.md",
+                "file": "LLVM/Manpage Lite/AnalysisDeclContext.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "checker 콜백 함수들 의 개요"
+              "title": "AnalysisDeclContext 의 개요"
             }
           }
         ]
@@ -200,18 +200,128 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1eabc3f933cbe6e8",
+  "floating": {
+    "id": "11a3ecc11321295f",
+    "type": "floating",
+    "children": [
+      {
+        "id": "0d1e5345f3f7f84d",
+        "type": "window",
+        "children": [
+          {
+            "id": "8c48c9fff8649477",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "df22d4a417931732",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "LLVM/Manpage Lite/AnalysisDeclContext.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "AnalysisDeclContext"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 872,
+        "y": 519,
+        "width": 600,
+        "height": 701,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "3c9126b13fe070ab",
+        "type": "window",
+        "children": [
+          {
+            "id": "76b975df45f5851b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1eabc3f933cbe6e8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "LLVM/Manpage Lite/ASTContext.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "ASTContext"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2670,
+        "y": 145,
+        "width": 773,
+        "height": 1158,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "3bee2267520b1d34",
+        "type": "window",
+        "children": [
+          {
+            "id": "cd3051392b6ff9dc",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3f9cf095635d0d7f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "LLVM/Manpage Lite/CheckerContext.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "CheckerContext"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 141,
+        "y": 76,
+        "width": 773,
+        "height": 1158,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "df22d4a417931732",
   "lastOpenFiles": [
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalysisOrderChecker.cpp.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/SimpleStreamChecker.cpp.md",
-    "LLVM/Manpage Lite/ASTContext.md",
-    "LLVM/Manpage Lite/SVal.md",
+    "LLVM/Manpage Lite/CheckerContext.md",
+    "LLVM/Manpage Lite/AnalysisDeclContext.md",
+    "LLVM/CSA 흐름구조 예시/CSA 주요 객체들 간의 구조도 및 관계.md",
+    "기타_자료/Pasted image 20250708135351.png",
+    "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
     "Programing/디자인 패턴/Policy-based Design.md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalysisOrderChecker.cpp.md",
+    "LLVM/Manpage Lite/ASTContext.md",
+    "LLVM/Manpage Lite/checker 콜백 함수들.md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/SimpleStreamChecker.cpp.md",
+    "LLVM/Manpage Lite/SVal.md",
     "Programing/디자인 패턴/Template Mixin Pattern.md",
     "Programing/정보처리기사/2. 소프트웨어 개발/1. 통합 구현.md",
     "Programing/정보처리기사/2. 소프트웨어 개발/0. 소프트웨어 개발 핵심이론.md",
     "Programing/정보처리기사/1. 소프트웨어 설계/0. 소프트웨어 설계 핵심이론.md",
-    "LLVM/Manpage Lite/checker 콜백 함수들.md",
     "Programing/디자인 패턴/Double Dispatch.md",
     "Programing/Language/C++/예외처리.md",
     "Programing/Language/C++/가변 템플릿(Variadic Template).md",
@@ -225,11 +335,6 @@
     "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
-    "LLVM/Manpage Lite/Opaque Pointer.md",
     "무기체계 코딩 규칙/C,C++ 공통적용/스타일",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용",
     "무기체계 소프트웨어 코딩 규칙"
