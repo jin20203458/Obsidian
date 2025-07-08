@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Manpage Lite/SVal.md",
+                "file": "LLVM/Manpage Lite/ASTContext.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SVal"
+              "title": "ASTContext"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/Manpage Lite/SVal.md",
+                "file": "LLVM/Manpage Lite/ASTContext.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "SVal 의 백링크"
+              "title": "ASTContext 의 백링크"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/Manpage Lite/SVal.md",
+                "file": "LLVM/Manpage Lite/ASTContext.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "SVal 의 나가는 링크"
+              "title": "ASTContext 의 나가는 링크"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/Manpage Lite/SVal.md",
+                "file": "LLVM/Manpage Lite/ASTContext.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "SVal 의 개요"
+              "title": "ASTContext 의 개요"
             }
           }
         ]
@@ -188,6 +188,7 @@
   },
   "active": "13affa3a7744f028",
   "lastOpenFiles": [
+    "LLVM/Manpage Lite/SVal.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/SimpleStreamChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalysisOrderChecker.cpp.md",
     "Programing/디자인 패턴/Policy-based Design.md",
@@ -215,7 +216,6 @@
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "LLVM/Manpage Lite/Opaque Pointer.md",
-    "LLVM/Manpage Lite/MemRegionVar.md",
     "무기체계 코딩 규칙/C,C++ 공통적용/스타일",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용",
     "무기체계 소프트웨어 코딩 규칙"
