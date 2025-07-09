@@ -13,15 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalyzerStatsChecker.cpp.md",
+                "file": "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AnalyzerStatsChecker.cpp"
+              "title": "CSA 논리적인 흐름 구조(ExplodedGraph)"
+            }
+          },
+          {
+            "id": "65d2c6076c20b9d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLVM/Manpage Lite/LocationContext.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LocationContext"
+            }
+          },
+          {
+            "id": "a35688eeea65897c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLVM/Manpage Lite/ProgramPoint.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ProgramPoint"
+            }
+          },
+          {
+            "id": "847f3de5063b01d9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalyzerStatsChecker.cpp.md",
+                "file": "LLVM/Manpage Lite/LocationContext.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +143,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "AnalyzerStatsChecker.cpp 의 백링크"
+              "title": "LocationContext 의 백링크"
             }
           },
           {
@@ -113,12 +152,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalyzerStatsChecker.cpp.md",
+                "file": "LLVM/Manpage Lite/LocationContext.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "AnalyzerStatsChecker.cpp 의 나가는 링크"
+              "title": "LocationContext 의 나가는 링크"
             }
           },
           {
@@ -142,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalyzerStatsChecker.cpp.md",
+                "file": "LLVM/Manpage Lite/LocationContext.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AnalyzerStatsChecker.cpp 의 개요"
+              "title": "LocationContext 의 개요"
             }
           }
         ]
@@ -171,8 +210,23 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e3bcc65920b8c993",
+  "active": "65d2c6076c20b9d1",
   "lastOpenFiles": [
+    "LLVM/Manpage Lite/ProgramPoint.md",
+    "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
+    "LLVM/CSA 흐름구조 예시/CSA 주요 객체들 간의 구조도 및 관계.md",
+    "LLVM/Manpage Lite/LocationContext.md",
+    "LLVM/Manpage Lite/CheckerContext.md",
+    "LLVM/CSA 흐름구조 예시/CSA Exploded Graph 흐름도.md",
+    "LLVM/Manpage Lite/기타 자료형.md",
+    "LLVM/Manpage Lite/ASTContext.md",
+    "LLVM/Manpage Lite/기타 함수.md",
+    "LLVM/Manpage Lite/CFG Block,Element.md",
+    "LLVM/Manpage Lite/SVal.md",
+    "LLVM/Manpage Lite/MemRegionVar.md",
+    "LLVM/Manpage Lite/checker 콜백 함수들.md",
+    "LLVM/Manpage Lite/Cross-Translation Unit Analysis (CTU).md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalyzerStatsChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalysisOrderChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/SimpleStreamChecker.cpp.md",
     "Programing/정보처리기사/3. 데이터베이스 구축/1. 데이터베이스의 개념.md",
@@ -180,29 +234,14 @@
     "LLVM/Manpage Lite/Inter-procedural Analysis (IPA).md",
     "LLVM/Manpage Lite/AnalysisDeclContext.md",
     "LLVM/Manpage Lite/SourceManager.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalyzerStatsChecker.cpp.md",
-    "LLVM/CSA 흐름구조 예시/CSA 주요 객체들 간의 구조도 및 관계.md",
-    "LLVM/Manpage Lite/CFG Block,Element.md",
     "LLVM/Manpage Lite/CFG.md",
-    "LLVM/Manpage Lite/ASTContext.md",
-    "LLVM/Manpage Lite/CheckerContext.md",
-    "LLVM/Manpage Lite/기타 함수.md",
     "Programing/디자인 패턴/Policy-based Design.md",
     "기타_자료/Pasted image 20250708142713.png",
     "기타_자료/Pasted image 20250708141235.png",
     "기타_자료/Pasted image 20250708140925.png",
     "기타_자료/Pasted image 20250708135351.png",
-    "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
-    "LLVM/Manpage Lite/checker 콜백 함수들.md",
-    "LLVM/Manpage Lite/SVal.md",
     "Programing/디자인 패턴/Template Mixin Pattern.md",
     "Programing/정보처리기사/2. 소프트웨어 개발/1. 통합 구현.md",
-    "Programing/정보처리기사/2. 소프트웨어 개발/0. 소프트웨어 개발 핵심이론.md",
-    "Programing/정보처리기사/1. 소프트웨어 설계/0. 소프트웨어 설계 핵심이론.md",
-    "Programing/디자인 패턴/Double Dispatch.md",
-    "Programing/Language/C++/예외처리.md",
-    "Programing/Language/C++/가변 템플릿(Variadic Template).md",
-    "Programing/기타/문맥자유문법(Context-Free Grammar, CFG).md",
     "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙",
     "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙",
     "무기체계 코딩 규칙/C,C++ 공통적용/스타일",

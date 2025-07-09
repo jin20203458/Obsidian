@@ -1,6 +1,11 @@
 
 >  **CheckerContext는 ExplodedNode 생성 시점의 모든 분석 문맥(정적+동적 정보, 유틸리티 등)을 한데 모아둔 집합체**입니다.
 
+참조:
+[[AnalysisDeclContext]]
+[[BugReport]]
+[[LocationContext]]
+
 ```scss
 [CheckerContext]
    ├── AnalysisDeclContext*         (현재 함수/메서드의 구조 정보)
