@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Manpage Lite/SVal.md",
+                "file": "LLVM/Manpage Lite/MemRegion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SVal"
+              "title": "MemRegion"
             }
           },
           {
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/Manpage Lite/SVal.md",
+                "file": "LLVM/Manpage Lite/MemRegion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "SVal 의 백링크"
+              "title": "MemRegion 의 백링크"
             }
           },
           {
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/Manpage Lite/SVal.md",
+                "file": "LLVM/Manpage Lite/MemRegion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "SVal 의 나가는 링크"
+              "title": "MemRegion 의 나가는 링크"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/Manpage Lite/SVal.md",
+                "file": "LLVM/Manpage Lite/MemRegion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "SVal 의 개요"
+              "title": "MemRegion 의 개요"
             }
           }
         ]
@@ -216,6 +216,8 @@
   },
   "active": "18745c410a54ba2e",
   "lastOpenFiles": [
+    "LLVM/Manpage Lite/MemRegionVar.md",
+    "LLVM/Manpage Lite/SVal.md",
     "LLVM/Manpage Lite/ProgramState.md",
     "LLVM/Manpage Lite/ExplodedNode.md",
     "LLVM/Manpage Lite/ElementRegion,FieldRegion.md",
@@ -223,7 +225,6 @@
     "LLVM/Manpage Lite/Symbol Status.md",
     "Programing/디자인 패턴/Template Mixin Pattern.md",
     "Programing/디자인 패턴/Opaque Pointer.md",
-    "LLVM/Manpage Lite/MemRegionVar.md",
     "LLVM/Manpage Lite/MemRegion.md",
     "LLVM/Manpage Lite/Store.md",
     "LLVM/Manpage Lite/ExplodedGraph.md",
@@ -237,7 +238,6 @@
     "LLVM/Manpage Lite/ProgramPoint.md",
     "LLVM/Manpage Lite/Cross-Translation Unit Analysis (CTU).md",
     "LLVM/Manpage Lite/SourceManager.md",
-    "LLVM/Manpage Lite/SVal.md",
     "LLVM/Manpage Lite/ASTContext.md",
     "LLVM/Manpage Lite/CFG Block,Element.md",
     "LLVM/Manpage Lite/BugReport.md",
