@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Manpage Lite/ProgramState.md",
+                "file": "LLVM/Manpage Lite/SVal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ProgramState"
+              "title": "SVal"
             }
           },
           {
@@ -55,16 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Manpage Lite/checker 콜백 함수들.md",
+                "file": "LLVM/Manpage Lite/ExplodedNode.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "checker 콜백 함수들"
+              "title": "ExplodedNode"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/Manpage Lite/checker 콜백 함수들.md",
+                "file": "LLVM/Manpage Lite/SVal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "checker 콜백 함수들 의 백링크"
+              "title": "SVal 의 백링크"
             }
           },
           {
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/Manpage Lite/checker 콜백 함수들.md",
+                "file": "LLVM/Manpage Lite/SVal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "checker 콜백 함수들 의 나가는 링크"
+              "title": "SVal 의 나가는 링크"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/Manpage Lite/checker 콜백 함수들.md",
+                "file": "LLVM/Manpage Lite/SVal.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "checker 콜백 함수들 의 개요"
+              "title": "SVal 의 개요"
             }
           }
         ]
@@ -214,20 +214,21 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b7b7b61a22fd1d15",
+  "active": "18745c410a54ba2e",
   "lastOpenFiles": [
+    "LLVM/Manpage Lite/ProgramState.md",
+    "LLVM/Manpage Lite/ExplodedNode.md",
+    "LLVM/Manpage Lite/ElementRegion,FieldRegion.md",
+    "LLVM/Manpage Lite/checker 콜백 함수들.md",
     "LLVM/Manpage Lite/Symbol Status.md",
     "Programing/디자인 패턴/Template Mixin Pattern.md",
     "Programing/디자인 패턴/Opaque Pointer.md",
     "LLVM/Manpage Lite/MemRegionVar.md",
     "LLVM/Manpage Lite/MemRegion.md",
     "LLVM/Manpage Lite/Store.md",
-    "LLVM/Manpage Lite/ExplodedNode.md",
     "LLVM/Manpage Lite/ExplodedGraph.md",
-    "LLVM/Manpage Lite/ProgramState.md",
     "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
     "LLVM/CSA 흐름구조 예시/CSA 주요 객체들 간의 구조도 및 관계.md",
-    "LLVM/Manpage Lite/checker 콜백 함수들.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
     "LLVM/Manpage Lite/StoreManager.md",
     "LLVM/Manpage Lite/ProgramStateManager.md",
@@ -241,7 +242,6 @@
     "LLVM/Manpage Lite/CFG Block,Element.md",
     "LLVM/Manpage Lite/BugReport.md",
     "LLVM/Manpage Lite/AnalysisDeclContext.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalyzerStatsChecker.cpp.md",
     "기타_자료/Pasted image 20250708142713.png",
     "기타_자료/Pasted image 20250708141235.png",
     "기타_자료/Pasted image 20250708140925.png",
