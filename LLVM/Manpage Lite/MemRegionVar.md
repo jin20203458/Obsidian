@@ -1,3 +1,7 @@
+
+참조:
+[[MemRegion]]
+
 ```scss
 SVal
 └── Loc

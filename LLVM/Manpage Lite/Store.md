@@ -6,7 +6,7 @@
 
 참조:
 [[StoreManager]]
-
+[[MemRegion]]
 ## 주요 역할
 
 - **메모리 지역(MemRegion) ↔ 값(SVal) 매핑**

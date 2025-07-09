@@ -1,4 +1,5 @@
-
+참조:
+[[MemRegionVar]]
 ## 🔷 `MemRegion`이란?
 
 Clang Static Analyzer에서 `MemRegion`은 **메모리를 추상적으로 표현하는 기본 클래스**입니다.
