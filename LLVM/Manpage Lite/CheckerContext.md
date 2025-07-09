@@ -8,7 +8,6 @@
 
 ```scss
 [CheckerContext]
-   ├── AnalysisDeclContext*         (현재 함수/메서드의 구조 정보)
    ├── ProgramStateRef              (현재 분석 경로의 동적 상태)
    ├── ExplodedNode*                (현재 분석 노드)
    ├── BugReporter*                 (버그 리포트 유틸리티)

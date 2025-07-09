@@ -1,17 +1,18 @@
-
+참조:
+[[ProgramPoint]]
+[[AnalysisDeclContext]]
 **LocationContext**는 Clang Static Analyzer에서 프로그램의 실행 위치(컨텍스트)를 표현하는 핵심 클래스입니다.  
 이 컨텍스트는 단순히 소스코드의 한 지점만을 나타내는 것이 아니라, **함수 호출, 블록 진입, 임시 객체 생성 등 다양한 실행 스택의 계층 구조**까지 포함합니다.
 
 ## 주요 멤버 변수 및 구조
 
 
-|멤버/구조|설명|
-|---|---|
-|`const LocationContext *Parent`|상위(부모) LocationContext를 가리키는 포인터. 계층 구조의 핵심.|
-|`const LocationContext *Data`|실제 컨텍스트별로 의미가 다름(예: 함수 정보, 블록 정보 등).|
-|`AnalysisDeclContext *ADC`|이 컨텍스트에 해당하는 함수/블록의 AST 및 분석 정보.|
-|`Kind`|컨텍스트 종류(enum): StackFrame, BlockInvocation, Scope 등.|
-|`unsigned Id`|각 LocationContext의 고유 식별자.|
+| 멤버/구조                           | 설명                                                   |
+| ------------------------------- | ---------------------------------------------------- |
+| `const LocationContext *Parent` | 상위(부모) LocationContext를 가리키는 포인터. 계층 구조의 핵심.         |
+| `AnalysisDeclContext *ADC`      | 이 컨텍스트에 해당하는 함수/블록의 AST 및 분석 정보.                     |
+| `Kind`                          | 컨텍스트 종류(enum): StackFrame, BlockInvocation, Scope 등. |
+| `unsigned Id`                   | 각 LocationContext의 고유 식별자.                           |
 
 ## 계층 구조 예시
 
