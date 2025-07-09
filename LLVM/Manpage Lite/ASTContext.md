@@ -1,4 +1,8 @@
 
+참조:
+[[Decl]]
+[[Stmt]]
+
 ```cpp
 class ASTContext {
   llvm::FoldingSet<PointerType> PointerTypes; //포인터 타입 집합

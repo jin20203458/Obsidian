@@ -27,36 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Manpage Lite/AnalysisDeclContext.md",
+                "file": "LLVM/Manpage Lite/ASTContext.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AnalysisDeclContext"
-            }
-          },
-          {
-            "id": "a35688eeea65897c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLVM/Manpage Lite/ProgramPoint.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ProgramPoint"
-            }
-          },
-          {
-            "id": "847f3de5063b01d9",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "ASTContext"
             }
           }
         ],
@@ -133,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/Manpage Lite/AnalysisDeclContext.md",
+                "file": "LLVM/Manpage Lite/ASTContext.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "AnalysisDeclContext 의 백링크"
+              "title": "ASTContext 의 백링크"
             }
           },
           {
@@ -152,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/Manpage Lite/AnalysisDeclContext.md",
+                "file": "LLVM/Manpage Lite/ASTContext.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "AnalysisDeclContext 의 나가는 링크"
+              "title": "ASTContext 의 나가는 링크"
             }
           },
           {
@@ -181,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/Manpage Lite/AnalysisDeclContext.md",
+                "file": "LLVM/Manpage Lite/ASTContext.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AnalysisDeclContext 의 개요"
+              "title": "ASTContext 의 개요"
             }
           }
         ]
@@ -212,36 +188,36 @@
   },
   "active": "65d2c6076c20b9d1",
   "lastOpenFiles": [
+    "LLVM/Manpage Lite/Decl.md",
+    "LLVM/Manpage Lite/ElementRegion.md",
     "LLVM/Manpage Lite/LocationContext.md",
-    "LLVM/Manpage Lite/CheckerContext.md",
     "LLVM/Manpage Lite/AnalysisDeclContext.md",
-    "LLVM/Manpage Lite/MemRegion.md",
+    "LLVM/Manpage Lite/Type.md",
+    "LLVM/Manpage Lite/SymbolRegionValue.md",
+    "LLVM/Manpage Lite/SymbolicRegion.md",
+    "LLVM/Manpage Lite/Symbol Status.md",
+    "LLVM/Manpage Lite/SVal.md",
+    "LLVM/Manpage Lite/Stmt.md",
+    "LLVM/Manpage Lite/SourceManager.md",
     "LLVM/Manpage Lite/ProgramPoint.md",
-    "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
+    "LLVM/Manpage Lite/Opaque Pointer.md",
+    "LLVM/Manpage Lite/MemRegion.md",
+    "LLVM/Manpage Lite/Inter-procedural Analysis (IPA).md",
+    "LLVM/Manpage Lite/Cross-Translation Unit Analysis (CTU).md",
+    "LLVM/Manpage Lite/CheckerContext.md",
+    "LLVM/Manpage Lite/CFG.md",
+    "LLVM/Manpage Lite/ASTContext.md",
     "LLVM/CSA 흐름구조 예시/CSA 주요 객체들 간의 구조도 및 관계.md",
     "LLVM/CSA 흐름구조 예시/CSA Exploded Graph 흐름도.md",
+    "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
+    "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조.md",
     "LLVM/Manpage Lite/기타 자료형.md",
-    "LLVM/Manpage Lite/ASTContext.md",
     "LLVM/Manpage Lite/기타 함수.md",
     "LLVM/Manpage Lite/CFG Block,Element.md",
-    "LLVM/Manpage Lite/SVal.md",
-    "LLVM/Manpage Lite/MemRegionVar.md",
-    "LLVM/Manpage Lite/checker 콜백 함수들.md",
-    "LLVM/Manpage Lite/Cross-Translation Unit Analysis (CTU).md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalyzerStatsChecker.cpp.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalysisOrderChecker.cpp.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/SimpleStreamChecker.cpp.md",
-    "Programing/정보처리기사/3. 데이터베이스 구축/1. 데이터베이스의 개념.md",
-    "Programing/정보처리기사/3. 데이터베이스 구축/무제 파일.md",
-    "LLVM/Manpage Lite/Inter-procedural Analysis (IPA).md",
-    "LLVM/Manpage Lite/SourceManager.md",
-    "LLVM/Manpage Lite/CFG.md",
-    "Programing/디자인 패턴/Policy-based Design.md",
     "기타_자료/Pasted image 20250708142713.png",
     "기타_자료/Pasted image 20250708141235.png",
     "기타_자료/Pasted image 20250708140925.png",
     "기타_자료/Pasted image 20250708135351.png",
-    "Programing/디자인 패턴/Template Mixin Pattern.md",
     "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙",
     "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙",
     "무기체계 코딩 규칙/C,C++ 공통적용/스타일",

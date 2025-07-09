@@ -1,4 +1,7 @@
 
+>Symbolic Execution(심볼릭 실행) 과정에서 생성되는 **동적 값**  
+ 분석 중 변수, 표현식, 메모리 위치 등의 심볼릭/구체적 값을 추상적으로 표현
+
 ```cpp
 namespace clang {
 namespace ento {
