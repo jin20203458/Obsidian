@@ -16,7 +16,9 @@
                 "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalyzerStatsChecker.cpp.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "AnalyzerStatsChecker.cpp"
             }
           }
         ]
@@ -38,8 +40,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
             }
           },
           {
@@ -54,7 +59,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "검색"
             }
           },
           {
@@ -62,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
             }
           }
         ]
@@ -93,7 +102,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "AnalyzerStatsChecker.cpp 의 백링크"
             }
           },
           {
@@ -105,7 +116,9 @@
                 "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalyzerStatsChecker.cpp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "AnalyzerStatsChecker.cpp 의 나가는 링크"
             }
           },
           {
@@ -115,8 +128,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
             }
           },
           {
@@ -125,8 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalyzerStatsChecker.cpp.md"
-              }
+                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalyzerStatsChecker.cpp.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "AnalyzerStatsChecker.cpp 의 개요"
             }
           }
         ]
@@ -138,8 +160,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
+      "switcher:빠른 전환기 열기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "templates:템플릿 삽입": false,
