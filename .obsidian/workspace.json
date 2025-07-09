@@ -62,19 +62,9 @@
               "icon": "lucide-file",
               "title": "checker 콜백 함수들"
             }
-          },
-          {
-            "id": "42ea87087cf80a33",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -147,6 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "LLVM/Manpage Lite/checker 콜백 함수들.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "checker 콜백 함수들 의 백링크"
             }
           },
           {
@@ -165,11 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "LLVM/Manpage Lite/checker 콜백 함수들.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "나가는 링크"
+              "title": "checker 콜백 함수들 의 나가는 링크"
             }
           },
           {
@@ -193,12 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "LLVM/Manpage Lite/checker 콜백 함수들.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "checker 콜백 함수들 의 개요"
             }
           }
         ]
@@ -221,7 +214,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "42ea87087cf80a33",
+  "active": "b7b7b61a22fd1d15",
   "lastOpenFiles": [
     "LLVM/Manpage Lite/Symbol Status.md",
     "Programing/디자인 패턴/Template Mixin Pattern.md",

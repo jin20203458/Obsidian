@@ -14,10 +14,10 @@
 
 ## **문장(Statement) 관련**
 
-|템플릿 매개변수|콜백 함수|호출 시점|용도|
-|---|---|---|---|
-|`check::PreStmt<ReturnStmt>`|`checkPreStmt(const ReturnStmt *S, CheckerContext &C)`|return 문 실행 직전|반환값 검증|
-|`check::PostStmt<DeclStmt>`|`checkPostStmt(const DeclStmt *S, CheckerContext &C)`|선언문 실행 직후|변수 초기화 추적|
+| 템플릿 매개변수                     | 콜백 함수                                                  | 호출 시점          | 용도        |
+| ---------------------------- | ------------------------------------------------------ | -------------- | --------- |
+| `check::PreStmt<ReturnStmt>` | `checkPreStmt(const ReturnStmt *S, CheckerContext &C)` | return 문 실행 직전 | 반환값 검증    |
+| `check::PostStmt<DeclStmt>`  | `checkPostStmt(const DeclStmt *S, CheckerContext &C)`  | 선언문 실행 직후      | 변수 초기화 추적 |
 
 ## **심볼 생명주기 관련**
 
