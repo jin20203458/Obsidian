@@ -1,6 +1,7 @@
 참조:
 [[ProgramPoint]]
 [[AnalysisDeclContext]]
+
 **LocationContext**는 Clang Static Analyzer에서 프로그램의 실행 위치(컨텍스트)를 표현하는 핵심 클래스입니다.  
 이 컨텍스트는 단순히 소스코드의 한 지점만을 나타내는 것이 아니라, **함수 호출, 블록 진입, 임시 객체 생성 등 다양한 실행 스택의 계층 구조**까지 포함합니다.
 
