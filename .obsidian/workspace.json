@@ -8,34 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e3bcc65920b8c993",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "6. 포인터, 배열 규칙"
-            }
-          },
-          {
-            "id": "f3de7eb36a9436db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLVM/Manpage Lite/ProgramStateManager.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ProgramStateManager"
-            }
-          },
-          {
             "id": "18745c410a54ba2e",
             "type": "leaf",
             "state": {
@@ -63,8 +35,7 @@
               "title": "ExplodedNode"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -214,8 +185,51 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "18745c410a54ba2e",
+  "floating": {
+    "id": "c79b9a37759081b7",
+    "type": "floating",
+    "children": [
+      {
+        "id": "651cfb02d7464d0e",
+        "type": "window",
+        "children": [
+          {
+            "id": "1a17f4aecef1b5b2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4803406773a12797",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "LLVM/Manpage Lite/Exper(AST 주요 표현식).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Exper(AST 주요 표현식)"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 3909,
+        "y": 2,
+        "width": 844,
+        "height": 745,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "4803406773a12797",
   "lastOpenFiles": [
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ArrayBoundChecker.cpp.md",
+    "LLVM/Manpage Lite/Inter-procedural Analysis (IPA).md",
+    "LLVM/Manpage Lite/Exper(AST 주요 표현식).md",
+    "LLVM/Manpage Lite/ProgramStateManager.md",
     "LLVM/Manpage Lite/기타 함수.md",
     "LLVM/Manpage Lite/MemRegion.md",
     "LLVM/Manpage Lite/MemRegionVar.md",
@@ -233,15 +247,11 @@
     "LLVM/CSA 흐름구조 예시/CSA 주요 객체들 간의 구조도 및 관계.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
     "LLVM/Manpage Lite/StoreManager.md",
-    "LLVM/Manpage Lite/ProgramStateManager.md",
     "LLVM/CSA 흐름구조 예시/CSA Exploded Graph 흐름도.md",
     "LLVM/Manpage Lite/ExprEngine,CoreEngine.md",
     "LLVM/Manpage Lite/ProgramPoint.md",
     "LLVM/Manpage Lite/Cross-Translation Unit Analysis (CTU).md",
     "LLVM/Manpage Lite/SourceManager.md",
-    "LLVM/Manpage Lite/ASTContext.md",
-    "LLVM/Manpage Lite/CFG Block,Element.md",
-    "LLVM/Manpage Lite/BugReport.md",
     "기타_자료/Pasted image 20250708142713.png",
     "기타_자료/Pasted image 20250708141235.png",
     "기타_자료/Pasted image 20250708140925.png",
