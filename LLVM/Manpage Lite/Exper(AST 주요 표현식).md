@@ -2,18 +2,18 @@
 
 ## 요약 표
 
-|노드 이름|역할/예시|
-|---|---|
-|DeclRefExpr|변수/함수 참조 (`x`, `foo`)|
-|IntegerLiteral|정수 상수 (`42`)|
-|FloatingLiteral|실수 상수 (`3.14`)|
-|CallExpr|함수 호출 (`foo(1, 2)`)|
-|ArraySubscriptExpr|배열 인덱싱 (`arr`)|
-|BinaryOperator|이항 연산 (`x + y`, `a == b`)|
-|UnaryOperator|단항 연산 (`-x`, `!flag`)|
-|MemberExpr|멤버 접근 (`obj.value`)|
-|ImplicitCastExpr|암시적 형변환|
-|CStyleCastExpr|명시적 C 스타일 형변환|
+| 노드 이름              | 역할/예시                     |
+| ------------------ | ------------------------- |
+| DeclRefExpr        | 변수/함수 참조 (`x`, `foo`)     |
+| IntegerLiteral     | 정수 상수 (`42`)              |
+| FloatingLiteral    | 실수 상수 (`3.14`)            |
+| CallExpr           | 함수 호출 (`foo(1, 2)`)       |
+| ArraySubscriptExpr | 배열 인덱싱 (`arr`)            |
+| BinaryOperator     | 이항 연산 (`x + y`, `a == b`) |
+| UnaryOperator      | 단항 연산 (`-x`, `!flag`)     |
+| MemberExpr         | 멤버 접근 (`obj.value`)       |
+| ImplicitCastExpr   | 암시적 형변환                   |
+| CStyleCastExpr     | 명시적 C 스타일 형변환             |
 
 ---
 

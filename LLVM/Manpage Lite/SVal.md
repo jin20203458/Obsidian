@@ -37,7 +37,6 @@ SVal
 └── NonLoc (숫자, 심볼, 복합값 등)
     ├── ConcreteInt
     ├── SymbolVal
-    ├── SymExprVal
     ├── LazyCompoundVal
     └── LocAsInteger
 ```
@@ -57,17 +56,20 @@ SVal
 ```scss
 SVal
 ├── DefinedOrUnknownSVal
-│   ├── UnknownVal                  ← 값이 뭔지 전혀 모름
+│   ├── UnknownVal
 │   └── DefinedSVal
-│       ├── UndefinedVal            ← 초기화되지 않음
-│       └── Concrete/Abstract 값
-│           ├── loc::MemRegionVal   ← 어떤 메모리 주소 (Region)
-│           ├── loc::ConcreteInt    ← 구체적인 주소 값
-│           ├── nonloc::ConcreteInt ← 정수 상수
-│           ├── nonloc::SymbolVal   ← 어떤 심볼 (추상값)
-│           ├── nonloc::SymExprVal  ← 연산 결과 (sym + 1 등)
-│           ├── nonloc::LazyCompoundVal ← 복합타입의 추상값 (struct 등)
-│           └── ... 기타
+│       ├── UndefinedVal
+│       ├── Loc
+│       │   ├── loc::MemRegionVal
+│       │   └── loc::ConcreteInt
+│       └── NonLoc
+│           ├── nonloc::ConcreteInt
+│           ├── nonloc::SymbolVal   ← 심볼/연산식 모두 포함
+│           ├── nonloc::LazyCompoundVal
+│           ├── nonloc::LocAsInteger
+│           ├── nonloc::CompoundVal
+│           └── nonloc::PointerToMember
+
 ```
 
 ---

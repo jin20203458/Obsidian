@@ -19,7 +19,7 @@ clang::QualType IntType = Context.IntTy;
 
 계층구조
 ```scss
-clang::ASTContext
+###### clang::ASTContext
 ├── FoldingSet<Type>           (각종 타입 유일 집합)
 ├── DenseMap<Decl*, AttrVec*>  (선언별 속성)
 ├── IdentifierTable            (식별자 테이블)
