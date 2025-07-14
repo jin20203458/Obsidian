@@ -1,6 +1,23 @@
 
 >  **LLVM/Clang의 AST(Abstract Syntax Tree) 유틸리티**로, 주로 **포인터의 원점을 추적**하고 **참조 카운팅 객체**를 다루는 기능을 제공
 
+
+
+```cpp
+
+bool tryToFindPtrOrigin(
+    const Expr *E,  // 분석하고자 하는 AST 노드 
+    
+    bool StopAtFirstRefCountedObj, 
+    // 참조 카운팅 객체를 처음 발견했을 때 바로 중단할지 여부를 결정하는 플래그
+    std::function<bool(const clang::Expr *, bool)> callback
+    //분석 도중 특정 조건을 만족하는 표현식을 찾았을 때 실행할 콜백 함수
+    ) 
+```
+- `Expr` 포인터(E)를 다양한 구체적인 표현식 타입(예: `ParenExpr`, `CastExpr`, `CallExpr` 등)으로 **계속 다운캐스트(dyn_cast)** 하면서, 실제 의미 있는 "기원"이 나올 때까지 하위 표현식으로 내려감
+
+
+
 ```cpp
 //=======- ASTUtils.cpp ------------------------------------------*- C++ -*-==//
 //
