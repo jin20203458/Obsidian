@@ -171,85 +171,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "floating": {
-    "id": "2cdd47d2c7cd0b28",
-    "type": "floating",
-    "children": [
-      {
-        "id": "3c1973d38381bddc",
-        "type": "window",
-        "children": [
-          {
-            "id": "149fc6e28d74546e",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "3369f338a2404e01",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "LLVM/Manpage Lite/ASTContext.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "ASTContext"
-                }
-              }
-            ]
-          },
-          {
-            "id": "d1e98a95f18bd355",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b9bbf0f9bd3e4c69",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "6. 포인터, 배열 규칙"
-                }
-              },
-              {
-                "id": "cbc597d196b02e9e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "6. 포인터, 배열 규칙"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical",
-        "x": 3725,
-        "y": 51,
-        "width": 1295,
-        "height": 701,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "27fe69a6f1917342",
   "lastOpenFiles": [
+    "LLVM/Manpage Lite/ASTContext.md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ASTUtils.cpp.md",
     "LLVM/Manpage Lite/기타 함수.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
-    "LLVM/Manpage Lite/ASTContext.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
@@ -259,7 +186,6 @@
     "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/BitwiseShiftChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/BasicObjCFoundationCheckers.cpp.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ASTUtils.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/SimpleStreamChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ArrayBoundChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalyzerStatsChecker.cpp.md",
