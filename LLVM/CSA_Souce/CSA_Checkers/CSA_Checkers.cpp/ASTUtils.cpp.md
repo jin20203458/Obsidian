@@ -17,6 +17,11 @@ bool tryToFindPtrOrigin(
 - `Expr` 포인터(E)를 다양한 구체적인 표현식 타입(예: `ParenExpr`, `CastExpr`, `CallExpr` 등)으로 **계속 다운캐스트(dyn_cast)** 하면서, 실제 의미 있는 "기원"이 나올 때까지 하위 표현식으로 내려감
 - 기원이 존재함에 따라 bool값 반환
 
+```cpp
+bool isASafeCallArg(const Expr *E) 
+```
+- 함수 호출의 인자로 전달되는 표현식이 안전한가?
+- 
 
 ```cpp
 //=======- ASTUtils.cpp ------------------------------------------*- C++ -*-==//
