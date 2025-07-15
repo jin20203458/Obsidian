@@ -1,6 +1,10 @@
 
 >**BitwiseShiftChecker.cpp**는 LLVM 프로젝트의 일부로, C++ 코드에서 비트 시프트 연산(`<<`, `>>`)의 피연산자가 잘못된 경우(음수이거나 너무 큰 값일 때) 발생할 수 있는 정의되지 않은 동작(undefined behavior)을 분석하는 체크 도구입니다.
 
+고칠점 
+<font color="#c00000">- 해당 함수는 C++에서 부호 비트까지 밀어도 된다는 잘못된 가정을 함  </font>
+
+
 ### 1. **오른쪽 피연산자가 비트폭 이상 (Overshift / Shift Count Too Large)**
 
 - **조건:**  
@@ -66,3 +70,5 @@ int z = x << y; // 0x100000000, 부호 비트까지 밀려 UB!
 
 **적발 근거:**  
 `checkLeftShiftOverflow()`에서 검출.
+
+[]
