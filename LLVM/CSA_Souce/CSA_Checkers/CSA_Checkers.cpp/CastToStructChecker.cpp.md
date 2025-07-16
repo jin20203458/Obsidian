@@ -1,4 +1,4 @@
-
+[[AST-based Checking]]
 이 체커의 **핵심 목적**은 포인터 캐스팅 시 발생할 수 있는 두 가지 주요 메모리 오용 패턴을 탐지하는 것입니다. 이 패턴들은 데이터 손상이나 메모리 접근 오류로 이어질 수 있는 심각한 버그의 원인이 됩니다. 이 체커는 LLVM 프로젝트의 일부로, Apache License v2.0 with LLVM Exceptions에 따라 라이선스가 부여됩니다[1](https://llvm.org/LICENSE.txt).
 
 1. **구조체가 아닌 타입을 구조체로 캐스팅**하는 경우 (`char *` -> `struct T *`)

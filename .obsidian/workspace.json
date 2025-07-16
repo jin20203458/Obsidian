@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/CastToStructChecker.cpp.md",
+                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/CastValueChecker.cpp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CastToStructChecker.cpp"
+              "title": "CastValueChecker.cpp"
             }
           },
           {
-            "id": "0c811e8101676b59",
+            "id": "be44cc5a2919a54c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/CastSizeChecker.cpp.md",
+                "file": "LLVM/Manpage Lite/ConstraintManager.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CastSizeChecker.cpp"
+              "title": "ConstraintManager"
             }
           },
           {
@@ -255,10 +255,18 @@
   },
   "active": "27fe69a6f1917342",
   "lastOpenFiles": [
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalysisOrderChecker.cpp.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/CastSizeChecker.cpp.md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/SimpleStreamChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/CastToStructChecker.cpp.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/무제.md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/CastSizeChecker.cpp.md",
+    "LLVM/Manpage Lite/Method of Analysis/Path-Sensitive Analysis.md",
+    "LLVM/Manpage Lite/Method of Analysis/AST-based Checking.md",
+    "LLVM/Manpage Lite/ProgramPoint.md",
+    "LLVM/Manpage Lite/분석관련.md",
+    "LLVM/Manpage Lite/Method of Analysis",
+    "LLVM/Manpage Lite/ConstraintManager.md",
+    "LLVM/Manpage Lite/Method of Analysis/Cross-Translation Unit Analysis (CTU).md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalysisOrderChecker.cpp.md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/CastValueChecker.cpp.md",
     "LLVM/Manpage Lite/ASTContext.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/BuiltinFunctionChecker.cpp.md",
@@ -266,7 +274,6 @@
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
     "LLVM/Manpage Lite/checker 콜백 함수들.md",
-    "LLVM/Manpage Lite/ConstraintManager.md",
     "LLVM/Manpage Lite/BasicValueFactory.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/BoolAssignmentChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/BitwiseShiftChecker.cpp.md",
@@ -275,12 +282,6 @@
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ASTUtils.cpp.md",
-    "LLVM/Manpage Lite/기타 함수.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/BasicObjCFoundationCheckers.cpp.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/SimpleStreamChecker.cpp.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ArrayBoundChecker.cpp.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalyzerStatsChecker.cpp.md",
-    "LLVM/Manpage Lite/Stmt.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/My code file.cpp",
     "기타_자료/Pasted image 20250708142713.png",
     "기타_자료/Pasted image 20250708141235.png",
