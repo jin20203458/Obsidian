@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/C++ 전용 규칙.md",
+                "file": "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/1. C++ 전용 규칙.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C++ 전용 규칙"
+              "title": "1. C++ 전용 규칙"
+            }
+          },
+          {
+            "id": "6604ee6d95a99b29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/2. C++ 전용 규칙.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. C++ 전용 규칙"
             }
           },
           {
@@ -35,7 +49,8 @@
               "title": "ASTContext"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -55,7 +70,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -253,10 +268,11 @@
       }
     ]
   },
-  "active": "27fe69a6f1917342",
+  "active": "6604ee6d95a99b29",
   "lastOpenFiles": [
+    "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/1. C++ 전용 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/2. C++ 전용 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/C++ 전용 규칙.md",
     "LLVM/Manpage Lite/ConstraintManager.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/CastValueChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/CheckPlacementNew.cpp.md",
@@ -281,7 +297,6 @@
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/BoolAssignmentChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/BitwiseShiftChecker.cpp.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/My code file.cpp",
     "기타_자료/Pasted image 20250708142713.png",
     "기타_자료/Pasted image 20250708141235.png",
