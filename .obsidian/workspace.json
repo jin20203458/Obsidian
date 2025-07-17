@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ConversionChecker.cpp.md",
+                "file": "LLVM/Manpage Lite/ParentMapContext.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ConversionChecker.cpp"
+              "title": "ParentMapContext"
             }
           },
           {
@@ -35,7 +35,8 @@
               "title": "ConversionChecker.cpp"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -253,14 +254,15 @@
       }
     ]
   },
-  "active": "27fe69a6f1917342",
+  "active": "962ddf964550c442",
   "lastOpenFiles": [
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ConversionChecker.cpp.md",
+    "LLVM/Manpage Lite/ParentMapContext.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ArrayBoundChecker.cpp.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ConversionChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/CastValueChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/CheckPlacementNew.cpp.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
@@ -281,7 +283,6 @@
     "LLVM/Manpage Lite/Method of Analysis",
     "LLVM/Manpage Lite/Method of Analysis/Cross-Translation Unit Analysis (CTU).md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalysisOrderChecker.cpp.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/BuiltinFunctionChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/My code file.cpp",
     "기타_자료/Pasted image 20250708142713.png",
     "기타_자료/Pasted image 20250708141235.png",
