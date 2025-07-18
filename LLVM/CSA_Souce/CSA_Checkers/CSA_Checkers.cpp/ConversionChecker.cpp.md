@@ -16,7 +16,7 @@
     - 할당(`=`), 복합 대입(`+=`, `*=` 등), 비교 연산(`>`, `<`, `==`, ...) 및 반환문 등에서 `ImplicitCastExpr`가 사용될 때
  
 ---
-
+`unsigned int`와 `signed int`가 섞여 있을 때의 규칙은, `signed int`를 `unsigned int`로 변환하는 것
 ### 체커가 경고하는 조건 (예시 포함)
 
 #### 1. **부호 손실 (Loss of sign)**
