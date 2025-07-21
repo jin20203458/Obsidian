@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
+                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. 스타일"
+              "title": "6. 포인터, 배열 규칙"
             }
           },
           {
@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/DeadStoresChecker.cpp.md",
+                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ArrayBoundChecker.cpp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DeadStoresChecker.cpp"
+              "title": "ArrayBoundChecker.cpp"
+            }
+          },
+          {
+            "id": "2296069172e5e32d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/DebugCheckers.cpp.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DebugCheckers.cpp"
             }
           },
           {
@@ -49,8 +63,7 @@
               "title": "2. 초기화 규칙"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -254,12 +267,13 @@
                   "title": "5. 변환 규칙"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical",
-        "x": 3501,
-        "y": 709,
+        "x": 3536,
+        "y": 1,
         "width": 866,
         "height": 683,
         "maximize": false,
@@ -267,21 +281,22 @@
       }
     ]
   },
-  "active": "62789e977a91f75f",
+  "active": "27fe69a6f1917342",
   "lastOpenFiles": [
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/DeadStoresChecker.cpp.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/DebugCheckers.cpp.md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ArrayBoundChecker.cpp.md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/DeadStoresChecker.cpp.md",
     "LLVM/Manpage Lite/CFG Block,Element.md",
     "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/1. C++ 전용 규칙.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ConversionChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/SimpleStreamChecker.cpp.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ArrayBoundChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/CXXDeleteChecker.cpp.md",
     "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/2. C++ 전용 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
@@ -294,7 +309,6 @@
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/CastSizeChecker.cpp.md",
     "LLVM/Manpage Lite/Method of Analysis/Path-Sensitive Analysis.md",
     "LLVM/Manpage Lite/Method of Analysis/AST-based Checking.md",
-    "LLVM/Manpage Lite/ProgramPoint.md",
     "LLVM/Manpage Lite/Method of Analysis",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/My code file.cpp",
     "기타_자료/Pasted image 20250708142713.png",
