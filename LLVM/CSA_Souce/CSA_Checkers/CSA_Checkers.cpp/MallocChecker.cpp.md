@@ -44,3 +44,8 @@ void f() {
   // free(p); // 해제 안 하면 leak 경고
 }
 ```
+
+
+class RefState
+ 메모리 관리 관점에서의 심볼(symbol) 상태.
+
