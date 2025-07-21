@@ -49,3 +49,14 @@ void f() {
 class RefState
  메모리 관리 관점에서의 심볼(symbol) 상태.
 
+
+```scss
+[Clang Analyzer]  
+     ↓  
+[MallocChecker::checkPostCall()] ← 공식 콜백 (자동 호출)  
+     ↓  
+if (malloc 호출) → checkBasicAlloc() ← CHECK_FN 함수 (내부 분기)  
+if (free 호출)   → checkFree()  
+if (strdup 호출) → checkStrdup()  
+...
+```
