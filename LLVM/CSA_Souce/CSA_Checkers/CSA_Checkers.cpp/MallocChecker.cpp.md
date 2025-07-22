@@ -112,7 +112,12 @@ class NoMemOwnershipChangeVisitor final : public NoOwnershipChangeVisitor
 // - **역할: 버그 리포트 생성기 (보고서 작성자)**
 class MallocBugVisitor final : public BugReporterVisitor
 
+// realloc 실패 상황에서 스택 트레이스에 표시할 메시지(힌트)를 생성하는 클래스
+class StackHintGeneratorForReallocationFailed : public StackHintGeneratorForSymbol
 
+// 특정 심볼(메모리 블록 등)을 더 이상 추적하지 않도록
+// 프로그램 상태(RegionState) 에서 해당 심볼 정보를 제거하는 역할
+class StopTrackingCallback final : public SymbolVisitor 
 ```
 
 
