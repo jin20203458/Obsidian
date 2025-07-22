@@ -60,3 +60,89 @@ if (free 호출)   → checkFree()
 if (strdup 호출) → checkStrdup()  
 ...
 ```
+
+```cpp
+  /// 휴리스틱(경험적)으로 호출 대상 함수(callee)가 메모리 해제를 의도하는지 추정합니다.
+  /// 이는 구문적으로(syntactically) 판단하는데, 이유는 실행 경로의 다양한 분기(대체 경로)를 고려해야 하며
+  /// 그 결과, 경로-민감(path-sensitive)한 정보는 사용할 수 없기 때문입니다.
+  bool doesFnIntendToHandleOwnership(const Decl *Callee,
+                                     ASTContext &ACtx) final {
+    using namespace clang::ast_matchers;
+    const FunctionDecl *FD = dyn_cast<FunctionDecl>(Callee);
+
+    // 함수 본문에서 delete 또는 call(함수 호출)이 있는지 패턴 매칭
+    auto Matches = match(findAll(stmt(anyOf(cxxDeleteExpr().bind("delete"),
+                                            callExpr().bind("call")))),
+                         *FD->getBody(), ACtx);
+    for (BoundNodes Match : Matches) {
+      // delete 표현식이 있다면, 소유권(메모리 해제)을 처리한다고 간주
+      if (Match.getNodeAs<CXXDeleteExpr>("delete"))
+        return true;
+
+      // 함수 호출이 있다면, isFreeingCallAsWritten을 통해 해제 함수인지 추가로 확인
+      if (const auto *Call = Match.getNodeAs<CallExpr>("call"))
+        if (isFreeingCallAsWritten(*Call))
+          return true;
+    }
+    // TODO: 해제뿐 아니라 메모리 저장(대입)을 시도한 경우에도 소유권이 바뀔 수 있음.
+    // 향후에는 이런 경우도 확인하도록 추가해야 함.
+    return false;
+  }
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
