@@ -46,7 +46,7 @@ void f() {
 ```
 
 
-class RefState
+### class RefState
  메모리 관리 관점에서의 심볼(symbol) 상태.
 
 

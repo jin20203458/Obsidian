@@ -337,8 +337,9 @@
       }
     ]
   },
-  "active": "803367e07a822978",
+  "active": "c1e89736891ae658",
   "lastOpenFiles": [
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/MallocChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ASTUtils.cpp.md",
     "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/1. C++ 전용 규칙.md",
@@ -349,7 +350,6 @@
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/DereferenceChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ArrayBoundChecker.cpp.md",
