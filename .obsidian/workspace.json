@@ -324,8 +324,7 @@
                   "title": "7. 연산자 규칙"
                 }
               }
-            ],
-            "currentTab": 6
+            ]
           }
         ],
         "direction": "vertical",
@@ -338,10 +337,10 @@
       }
     ]
   },
-  "active": "c1e89736891ae658",
+  "active": "803367e07a822978",
   "lastOpenFiles": [
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ASTUtils.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/MallocChecker.cpp.md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ASTUtils.cpp.md",
     "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/1. C++ 전용 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/2. C++ 전용 규칙.md",
