@@ -92,12 +92,28 @@ if (strdup 호출) → checkStrdup()
 ```
 
 
+```cpp
+
+```
 
 
+```cpp
+// - **역할: 메모리 누수 검사기 (총괄 책임자)**
+class MallocChecker
+    : public Checker<check::DeadSymbols, check::PointerEscape,
+                     check::ConstPointerEscape, check::PreStmt<ReturnStmt>,
+                     check::EndFunction, check::PreCall, check::PostCall,
+                     check::NewAllocator, check::PostStmt<BlockExpr>,
+                     check::PostObjCMessage, check::Location, eval::Assume> 
+
+// - **역할: 소유권 변경 없음 검증기 (특수 임무 전문가)**
+class NoMemOwnershipChangeVisitor final : public NoOwnershipChangeVisitor
+
+// - **역할: 버그 리포트 생성기 (보고서 작성자)**
+class MallocBugVisitor final : public BugReporterVisitor
 
 
-
-
+```
 
 
 
