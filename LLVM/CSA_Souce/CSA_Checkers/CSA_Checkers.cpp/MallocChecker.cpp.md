@@ -142,6 +142,7 @@ REGISTER_MAP_WITH_PROGRAMSTATE(ReallocPairs, SymbolRef, ReallocPair)
 
 //  "만약 [Key]라는 값을 반환하면, [Value]라는 메모리는 해제된 것이다" 라는 규칙을 저장하는 테이블
 REGISTER_MAP_WITH_PROGRAMSTATE(FreeReturnValue, SymbolRef, SymbolRef)
+// K: 대상 심볼 > V:리턴값 심볼
 
 // 셋
 // 크기가 0으로 할당된 메모리 심볼들을 모아놓은 블랙리스트
