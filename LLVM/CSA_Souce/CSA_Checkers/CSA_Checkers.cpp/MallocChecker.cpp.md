@@ -115,13 +115,33 @@ class StopTrackingCallback final : public SymbolVisitor
 ```
 
 
+### 함수 디스패치를 위한 맵 (Function Dispatch Maps)
 
+`checkPostCall`과 같은 메인 라우터 함수가 특정 함수 호출을 만났을 때, 어떤 검사 로직을 실행할지 빠르고 효율적으로 찾기 위해 사용됩니다. 이 맵들은 모두 **`CallDescriptionMap`** 타입이며, (함수 프로필, 실행할 콜백 함수) 쌍을 저장합니다[1](https://clang.llvm.org/doxygen/MallocChecker_8cpp_source.html).
 
+|맵 이름|주요 역할 및 대상 함수|
+|---|---|
+|**`AllocatingMemFnMap`**|메모리 **할당** 함수를 처리합니다[1](https://clang.llvm.org/doxygen/MallocChecker_8cpp_source.html). `malloc`, `calloc`, `valloc`, `strdup`, `kmalloc` 등[1](https://clang.llvm.org/doxygen/MallocChecker_8cpp_source.html).|
+|**`FreeingMemFnMap`**|메모리 **해제** 함수를 처리합니다[1](https://clang.llvm.org/doxygen/MallocChecker_8cpp_source.html). `free`, `kfree`, `g_free` 등[1](https://clang.llvm.org/doxygen/MallocChecker_8cpp_source.html).|
+|**`ReallocatingMemFnMap`**|메모리 **재할당** 함수를 처리합니다[1](https://clang.llvm.org/doxygen/MallocChecker_8cpp_source.html). `realloc`, `reallocf`, `g_realloc_n` 등[1](https://clang.llvm.org/doxygen/MallocChecker_8cpp_source.html).|
+|**`AllocaMemFnMap`**|스택 메모리를 할당하는 `alloca` 계열 함수를 처리합니다[1](https://clang.llvm.org/doxygen/MallocChecker_8cpp_source.html). `alloca`, `_alloca`, `__builtin_alloca_with_align`[1](https://clang.llvm.org/doxygen/MallocChecker_8cpp_source.html).|
+|**`PreFnMap` / `PostFnMap`**|`getdelim`, `getline`과 같이 호출 전/후에 특별한 검사가 필요한 특정 함수들을 처리합니다[1](https://clang.llvm.org/doxygen/MallocChecker_8cpp_source.html).|
 
+### 프로그램 상태(ProgramState) 저장을 위한 맵과 셋
 
+분석기가 코드 경로를 따라가면서 각 메모리 영역의 상태를 추적하고 저장하기 위해 사용되는 핵심 자료구조입니다. 이들은 `REGISTER_MAP_WITH_PROGRAMSTATE` 와 `REGISTER_SET_WITH_PROGRAMSTATE` 매크로를 통해 분석기의 상태 시스템에 등록됩니다[1](https://clang.llvm.org/doxygen/MallocChecker_8cpp_source.html).
 
+### 맵
 
+### 셋(Set)
 
+- **`ReallocSizeZeroSymbols`**: 크기가 0으로 할당된 메모리 심볼들을 모아놓은 블랙리스트입니다.
+    
+    - **정의**: `REGISTER_SET_WITH_PROGRAMSTATE(ReallocSizeZeroSymbols, SymbolRef)`[1](https://clang.llvm.org/doxygen/MallocChecker_8cpp_source.html).
+        
+    - **역할**: `malloc(0)`이나 `realloc(ptr, 0)` 등으로 생성된 메모리 심볼들을 저장합니다.
+        
+    - **목적**: 이후 분석 과정에서 이 셋에 포함된 심볼에 접근하려는 시도를 '0 크기 메모리 사용' 버그로 신속하게 탐지하기 위해 사용됩니다[1](https://clang.llvm.org/doxygen/MallocChecker_8cpp_source.html).
 
 
 
