@@ -131,18 +131,23 @@ class StopTrackingCallback final : public SymbolVisitor
 
 분석기가 코드 경로를 따라가면서 각 메모리 영역의 상태를 추적하고 저장하기 위해 사용되는 핵심 자료구조입니다. 이들은 `REGISTER_MAP_WITH_PROGRAMSTATE` 와 `REGISTER_SET_WITH_PROGRAMSTATE` 매크로를 통해 분석기의 상태 시스템에 등록됩니다[1](https://clang.llvm.org/doxygen/MallocChecker_8cpp_source.html).
 
-### 맵
 
-### 셋(Set)
+```cpp
+// 맵
+//  각 메모리 영역의 상태를 추적하는 맵
+REGISTER_MAP_WITH_PROGRAMSTATE(RegionState, SymbolRef, RefState)
 
-- **`ReallocSizeZeroSymbols`**: 크기가 0으로 할당된 메모리 심볼들을 모아놓은 블랙리스트입니다.
-    
-    - **정의**: `REGISTER_SET_WITH_PROGRAMSTATE(ReallocSizeZeroSymbols, SymbolRef)`[1](https://clang.llvm.org/doxygen/MallocChecker_8cpp_source.html).
-        
-    - **역할**: `malloc(0)`이나 `realloc(ptr, 0)` 등으로 생성된 메모리 심볼들을 저장합니다.
-        
-    - **목적**: 이후 분석 과정에서 이 셋에 포함된 심볼에 접근하려는 시도를 '0 크기 메모리 사용' 버그로 신속하게 탐지하기 위해 사용됩니다[1](https://clang.llvm.org/doxygen/MallocChecker_8cpp_source.html).
+// `realloc` 함수의 복잡한 동작을 모델링하기 위한 맵
+REGISTER_MAP_WITH_PROGRAMSTATE(ReallocPairs, SymbolRef, ReallocPair)
 
+//  "만약 [Key]라는 값을 반환하면, [Value]라는 메모리는 해제된 것이다" 라는 규칙을 저장하는 테이블
+REGISTER_MAP_WITH_PROGRAMSTATE(FreeReturnValue, SymbolRef, SymbolRef)
+
+// 셋
+// 크기가 0으로 할당된 메모리 심볼들을 모아놓은 블랙리스트
+REGISTER_SET_WITH_PROGRAMSTATE(ReallocSizeZeroSymbols, SymbolRef)
+
+```
 
 
 
