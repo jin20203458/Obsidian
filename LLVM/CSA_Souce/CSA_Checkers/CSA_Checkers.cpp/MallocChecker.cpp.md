@@ -48,8 +48,6 @@ void f() {
 
 ### class RefState
  메모리 관리 관점에서의 심볼(symbol) 상태.
-
-
 ```scss
 [Clang Analyzer]  
      ↓  
@@ -60,6 +58,7 @@ if (free 호출)   → checkFree()
 if (strdup 호출) → checkStrdup()  
 ...
 ```
+
 
 ```cpp
   /// 휴리스틱(경험적)으로 호출 대상 함수(callee)가 메모리 해제를 의도하는지 추정합니다.
@@ -89,69 +88,6 @@ if (strdup 호출) → checkStrdup()
     return false;
   }
 
-```
-
-
-```cpp
-// checkCXXNewOrCXXDelete: C++의 new/delete 연산자 함수가 직접 호출될 때를 분석하는 함수
-void MallocChecker::checkCXXNewOrCXXDelete(const CallEvent &Call,
-                                           CheckerContext &C) const {
-  // 1. 초기 상태 준비 및 유효성 검사
-  ProgramStateRef State = C.getState();
-  bool IsKnownToBeAllocatedMemory = false; // 'delete'를 위한 출력 파라미터
-  const auto *CE = dyn_cast_or_null<CallExpr>(Call.getOriginExpr());
-  if (!CE)
-    return;
-
-  // 1a. 이 함수가 처리하는 대상이 표준 new/delete 연산자인지 확인합니다.
-  //     만약 사용자가 오버로딩한 비표준 연산자라면, 여기서 assert가 실패할 수 있습니다.
-  assert(isStandardNewDelete(Call));
-
-  // 2. 호출된 연산자의 종류를 식별합니다.
-  const FunctionDecl *FD = C.getCalleeDecl(CE);
-
-  // 3. 연산자의 종류에 따라 각기 다른 분석 로직을 수행합니다.
-  switch (FD->getOverloadedOperator()) {
-
-  // 3a. 'operator new'가 호출된 경우 (단일 객체 할당)
-  case OO_New:
-    // AF_CXXNew 플래그: 이 메모리는 'new'로 할당되었음을 명시합니다.
-    State =
-        MallocMemAux(C, Call, CE->getArg(0), UndefinedVal(), State, AF_CXXNew);
-    // 0바이트 할당을 검사합니다.
-    State = ProcessZeroAllocCheck(Call, 0, State);
-    break;
-
-  // 3b. 'operator new[]'가 호출된 경우 (배열 할당)
-  case OO_Array_New:
-    // AF_CXXNewArray 플래그: 이 메모리는 'new[]'로 할당되었음을 명시합니다.
-    State = MallocMemAux(C, Call, CE->getArg(0), UndefinedVal(), State,
-                         AF_CXXNewArray);
-    State = ProcessZeroAllocCheck(Call, 0, State);
-    break;
-
-  // 3c. 'operator delete'가 호출된 경우 (단일 객체 해제)
-  case OO_Delete:
-    // AF_CXXNew 플래그: 'new'로 할당된 메모리만 해제할 수 있다고 지정합니다.
-    State = FreeMemAux(C, Call, State, 0, false, IsKnownToBeAllocatedMemory,
-                       AF_CXXNew);
-    break;
-
-  // 3d. 'operator delete[]'가 호출된 경우 (배열 해제)
-  case OO_Array_Delete:
-    // AF_CXXNewArray 플래그: 'new[]'로 할당된 메모리만 해제할 수 있다고 지정합니다.
-    State = FreeMemAux(C, Call, State, 0, false, IsKnownToBeAllocatedMemory,
-                       AF_CXXNewArray);
-    break;
-
-  // 3e. 위 4가지 경우가 아니라면, 로직 오류이므로 프로그램을 중단시킵니다.
-  default:
-    llvm_unreachable("not a new/delete operator");
-  }
-
-  // 4. 분석 결과가 반영된 새로운 상태를 분석 엔진에 전달합니다.
-  C.addTransition(State);
-}
 ```
 
 
