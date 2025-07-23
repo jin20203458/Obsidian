@@ -150,7 +150,12 @@ REGISTER_SET_WITH_PROGRAMSTATE(ReallocSizeZeroSymbols, SymbolRef)
 ```
 
 
-
+```cpp
+ProgramStateRef MallocChecker::MallocMemAux(CheckerContext &C,
+                                            const CallEvent &Call, SVal Size,
+                                            SVal Init, ProgramStateRef State,
+                                            AllocationFamily Family) const {
+```
 
 
 
