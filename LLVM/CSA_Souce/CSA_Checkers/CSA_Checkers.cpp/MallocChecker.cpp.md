@@ -138,11 +138,14 @@ class StopTrackingCallback final : public SymbolVisitor
 REGISTER_MAP_WITH_PROGRAMSTATE(RegionState, SymbolRef, RefState)
 
 // `realloc` 함수의 복잡한 동작을 모델링하기 위한 맵
+// K: 현재 포인터 > V: 이전 포인터 
 REGISTER_MAP_WITH_PROGRAMSTATE(ReallocPairs, SymbolRef, ReallocPair)
+
+
 
 //  "만약 [Key]라는 값을 반환하면, [Value]라는 메모리는 해제된 것이다" 라는 규칙을 저장하는 테이블
 REGISTER_MAP_WITH_PROGRAMSTATE(FreeReturnValue, SymbolRef, SymbolRef)
-// K: 대상 심볼 > V:리턴값 심볼
+// K: 함수의 반환값 > V:해제된 포인터
 
 // 셋
 // 크기가 0으로 할당된 메모리 심볼들을 모아놓은 블랙리스트
