@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/MallocChecker.cpp.md",
+                "file": "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MallocChecker.cpp"
+              "title": "CSA 논리적인 흐름 구조(ExplodedGraph)"
             }
           }
         ]
@@ -230,10 +230,14 @@
       }
     ]
   },
-  "active": "8aabe14f2829d1f7",
+  "active": "8740dfd79f1ca9da",
   "lastOpenFiles": [
-    "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/1. C++ 전용 규칙.md",
+    "LLVM/CSA 흐름구조 예시/CSA Exploded Graph 흐름도.md",
+    "LLVM/CSA 흐름구조 예시/CSA 주요 객체들 간의 구조도 및 관계.md",
+    "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ArrayBoundChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/MallocChecker.cpp.md",
+    "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/1. C++ 전용 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/2. C++ 전용 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",

@@ -1,6 +1,6 @@
 ![[Pasted image 20250702135759.png]]
 
-```text
+```scss
 ExplodedGraph
 ├── ExplodedNode (노드 1)
 │   ├── ProgramPoint: if (x == 0) 조건 검사 지점
