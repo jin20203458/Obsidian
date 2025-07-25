@@ -24,3 +24,5 @@
 [ 여기에 분석을 원하는 코드를 붙여넣으세요 ]
 
 ```
+
+PointerArithChecker까지 확인
