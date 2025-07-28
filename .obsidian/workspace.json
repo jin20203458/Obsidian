@@ -273,10 +273,10 @@
           }
         ],
         "direction": "vertical",
-        "x": 3644,
-        "y": 1,
-        "width": 1477,
-        "height": 802,
+        "x": 3622,
+        "y": 0,
+        "width": 1496,
+        "height": 777,
         "maximize": false,
         "zoom": 0
       }
@@ -284,9 +284,9 @@
   },
   "active": "57da4d7ec5ab3cc8",
   "lastOpenFiles": [
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/StackAddrEscapeChecker.cpp.md",
     "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/1. C++ 전용 규칙.md",
     "Programing/기타/AI 탬플릿.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/StackAddrEscapeChecker.cpp.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/MallocChecker.cpp.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
