@@ -282,8 +282,9 @@
       }
     ]
   },
-  "active": "6bab292054e81f09",
+  "active": "57da4d7ec5ab3cc8",
   "lastOpenFiles": [
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/DereferenceChecker.cpp.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/StackAddrEscapeChecker.cpp.md",
     "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
