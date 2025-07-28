@@ -1,5 +1,5 @@
 ```
-지금부터 제시하는 C++ 코드에 대해, 아래의 형식과 규칙에 따라 상세히 분석해줘.
+지금부터 제시하는 Clang Static Analyzer C++ 코드에 대해, 아래의 형식과 규칙에 따라 상세히 분석해줘.
 
 **[분석 규칙]**
 
@@ -26,3 +26,7 @@
 ```
 
 PointerArithChecker까지 확인
+
+기타 주요 체커 :
+[[MallocChecker.cpp]]
+[[ReturnUnDefChecker.cpp]]
