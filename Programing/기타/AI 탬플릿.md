@@ -25,11 +25,30 @@
 
 ```
 
-사용 확정 체커 : 
+#### 사용 확정 체커 : 
+1. **스타일:**
 
+2. **초기화:** 
+[[UndefinedAssignmentChecker.cpp]]
+[[CallAndMessageChecker.cpp]]
 
+3. **식별자 규칙:**
 
-기타 주요 체커 :
+4. **조건식:**
+[[UnreachableCodeChecker.cpp]]
+
+5. **변환규칙**
+[[ConversionChecker.cpp]] 
+
+6. **포인터, 배열 규칙:**
+[[DereferenceChecker.cpp]] : 널 포인터 역참조
+[[StackAddrEscapeChecker.cpp]] : 스텍 탈출
+[[ArrayBoundChecker.cpp]] : 배열초과
+[[ArrayBoundCheckerV2.cpp]] 
+
+7. **연산자 규칙:**
+
+#### 기타 주요 체커 :
 [[MallocChecker.cpp]]
 [[ReturnUnDefChecker.cpp]]
 [[UndefBranchChecker.cpp]]
@@ -41,4 +60,5 @@
 
 
 ValistChecker.cpp < c에서 많이 쓰이진 않지만 중요한체커 *보류*
+VLASizeChecker.cpp < c99에서만 사용하는 가변길이 배열 체커
 
