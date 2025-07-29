@@ -31,3 +31,4 @@ PointerArithChecker까지 확인
 [[MallocChecker.cpp]]
 [[ReturnUnDefChecker.cpp]]
 [[UndefBranchChecker.cpp]]
+[[UndefinedAssignmentChecker.cpp]]
