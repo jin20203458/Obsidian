@@ -33,3 +33,7 @@ PointerArithChecker까지 확인
 [[UndefBranchChecker.cpp]]
 [[UndefinedAssignmentChecker.cpp]]
 [[UndefinedNewArraySizeChecker.cpp]]
+
+[[UninitializedObjectChecker.cpp]]
+[[UninitializedPointee.cpp]]
+
