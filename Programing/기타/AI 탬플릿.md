@@ -25,7 +25,9 @@
 
 ```
 
-PointerArithChecker까지 확인
+사용 확정 체커 : 
+
+
 
 기타 주요 체커 :
 [[MallocChecker.cpp]]
@@ -36,4 +38,7 @@ PointerArithChecker까지 확인
 
 [[UninitializedObjectChecker.cpp]]
 [[UninitializedPointee.cpp]]
+
+
+ValistChecker.cpp < c에서 많이 쓰이진 않지만 중요한체커 *보류*
 
