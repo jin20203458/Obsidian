@@ -69,24 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalyzerStatsChecker.cpp.md",
+                "file": "LLVM/Clang 환경설정/Clang_Html_TEST.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AnalyzerStatsChecker.cpp"
-            }
-          },
-          {
-            "id": "d0ad0e80b7cc55b5",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "기타_자료/Pasted image 20250114184350.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250114184350"
+              "title": "Clang_Html_TEST"
             }
           }
         ]
@@ -323,9 +311,11 @@
   },
   "active": "e53eb00aa2a6412b",
   "lastOpenFiles": [
+    "LLVM/Clang 환경설정/Clang_Html_TEST.md",
+    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalyzerStatsChecker.cpp.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "LLVM/Clang 환경설정/Clang_Static_Analyzer.md",
     "LLVM/Clang 환경설정/Clang-tidy.md",
-    "LLVM/Clang 환경설정/Clang_Html_TEST.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/taggedUnionMdoeling.h.md",
     "LLVM/How to Write a Checker in 24 Hours/0. overview.md",
     "LLVM/How to Write a Checker in 24 Hours/3. Builds a Graph of Reachable Program States.md",
@@ -342,7 +332,6 @@
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/UndefinedNewArraySizeChecker.cpp.md",
     "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조.md",
     "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "Programing/기타/AI 탬플릿.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/VirtualCallChecker.cpp.md",
     "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
@@ -351,7 +340,6 @@
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalyzerStatsChecker.cpp.md"
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md"
   ]
 }
