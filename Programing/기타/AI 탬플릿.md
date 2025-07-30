@@ -47,6 +47,14 @@
 [[ArrayBoundCheckerV2.cpp]] 
 
 7. **연산자 규칙:**
+[[DivZeroChecker.cpp]] : 0으로 나누기
+[[BitwiseShiftChecker.cpp]]: 비트 스와핑
+
+**c 전용:**
+
+**cpp 전용:**
+[[VirtualCallChecker.cpp]] : 가상 생성,소멸자 내부 Virtual Call
+
 
 #### 기타 주요 체커 :
 [[MallocChecker.cpp]]
