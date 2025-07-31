@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Clang 환경설정/Clang_Build.md",
+                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clang_Build"
+              "title": "1. 스타일"
             }
           },
           {
@@ -229,10 +229,10 @@
   },
   "active": "e53eb00aa2a6412b",
   "lastOpenFiles": [
+    "LLVM/Clang 환경설정/Clang_Build.md",
     "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/1. C++ 전용 규칙.md",
     "LLVM/Clang 환경설정/Clang_Html_TEST.md",
     "LLVM/Clang 환경설정/Clang-tidy.md",
-    "LLVM/Clang 환경설정/Clang_Build.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalyzerStatsChecker.cpp.md",
     "LLVM/Clang 환경설정/Clang_Static_Analyzer.md",
