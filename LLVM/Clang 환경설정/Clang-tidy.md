@@ -72,3 +72,7 @@ Clang-Tidy는 클랭 기반 AST를 활용하여 코드를 구조적으로 분석
 ```
 cmake --build . --config Release --target clang-tidy --parallel 12
 ```
+체커사용 예시
+```
+clang-tidy .\*.cpp -checks=defence-style-no-goto -std=c++17
+```
