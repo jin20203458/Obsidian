@@ -67,5 +67,8 @@ Clang-Tidy는 클랭 기반 AST를 활용하여 코드를 구조적으로 분석
 - 코드 전체의 AST를 한 번 탐색하여 사용자가 정의한 규칙에 맞게 특정 구문 노드를 찾아내고
     
 - 위반 사항을 진단 메시지로 출력하며, 필요시 자동 수정 제안까지 제공합니다.
-    
- -w
+
+증분빌드 명령어
+```
+cmake --build . --config Release --target clang-tidy --parallel 12
+```
