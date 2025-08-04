@@ -35,8 +35,7 @@
               "title": "AI 탬플릿"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,15 +185,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c37e718aa4ee83bc",
+  "active": "e53eb00aa2a6412b",
   "lastOpenFiles": [
-    "LLVM/Clang 환경설정/Clang_Build.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
+    "LLVM/Clang 환경설정/Clang-tidy.md",
+    "LLVM/Clang 환경설정/Clang_Static_Analyzer.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
+    "Programing/기타/AI 탬플릿.md",
+    "LLVM/Clang 환경설정/Clang_Build.md",
     "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/1. C++ 전용 규칙.md",
     "LLVM/Clang 환경설정/Clang_Html_TEST.md",
-    "LLVM/Clang 환경설정/Clang-tidy.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalyzerStatsChecker.cpp.md",
-    "LLVM/Clang 환경설정/Clang_Static_Analyzer.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.h/taggedUnionMdoeling.h.md",
     "LLVM/How to Write a Checker in 24 Hours/0. overview.md",
     "LLVM/How to Write a Checker in 24 Hours/3. Builds a Graph of Reachable Program States.md",
@@ -210,13 +211,11 @@
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/UndefinedNewArraySizeChecker.cpp.md",
     "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조.md",
     "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
-    "Programing/기타/AI 탬플릿.md",
     "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/VirtualCallChecker.cpp.md",
     "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md"
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md"
   ]
 }
