@@ -71,7 +71,7 @@ namespace defenceStyle {
 
   
 
-// 모든 statement를 line 단위로 카운트하는 Visitor
+// 함수 내부 명령문 검사 Visitor
 
 class LineCountVisitor : public clang::RecursiveASTVisitor<LineCountVisitor> {
 
@@ -83,52 +83,63 @@ public:
 
   
 
-  bool VisitStmt(clang::Stmt *S) {
+bool VisitStmt(clang::Stmt *S) {
 
-    // 중괄호(CompoundStmt) 자체, NullStmt는 제외
+  // 중괄호(CompoundStmt)와 NullStmt 제외
 
-    if (isa<CompoundStmt>(S) || isa<NullStmt>(S)) return true;
-
-  
-
-    // 현재 statement의 시작 위치를 기준으로 라인 번호를 가져옴
-
-    clang::SourceLocation loc = S->getBeginLoc();
-
-    if (loc.isInvalid() || !Ctx.getSourceManager().isInMainFile(loc)) return true;
+  if (isa<CompoundStmt>(S) || isa<NullStmt>(S)) return true;
 
   
 
-    // 라인 번호를 기준으로 statement를 카운트
+  clang::SourceLocation loc = S->getBeginLoc();
 
-    unsigned line = Ctx.getSourceManager().getSpellingLineNumber(loc);
-
-    lineCount[line].push_back(S);
+  if (loc.isInvalid() || !Ctx.getSourceManager().isInMainFile(loc)) return true;
 
   
 
-    // 2개 이상 statement가 있는 줄은 진단
+  unsigned line = Ctx.getSourceManager().getSpellingLineNumber(loc);
 
-    if (lineCount[line].size() == 2)
+  llvm::errs() << "Visiting Stmt at line: " << line << " addr: " << S << "\n";
 
-    { // 첫 번째는 허용, 두 번째부터 경고
+  
 
-      for (auto *stmt : lineCount[line])
+  auto &vec = lineCount[line];
 
-      {
+  if (std::find(vec.begin(), vec.end(), S) == vec.end()) {
 
-        Check->diag(stmt->getBeginLoc(),
+    vec.push_back(S);
 
-          u8"한 줄에 여러 개의 명령문(statement)이 있습니다. 각 명령문은 별도의 줄에 작성해야 합니다.");
+    llvm::errs() << "  Added Stmt addr: " << S << " to line " << line << ". Count now: " << vec.size() << "\n";
 
-      }
+  } else {
 
-    }
-
-    return true;
+    llvm::errs() << "  Skipped duplicate Stmt addr: " << S << " at line " << line << "\n";
 
   }
 
+  
+
+  if (vec.size() == 2) {
+
+    llvm::errs() << "  Line " << line << " has multiple statements. Emitting diagnostics.\n";
+
+    for (auto *stmt : vec) {
+
+      Check->diag(stmt->getBeginLoc(),
+
+        u8"한 줄에 여러 개의 명령문(statement)이 있습니다. 각 명령문은 별도의 줄에 작성해야 합니다.");
+
+    }
+
+  }
+
+  
+
+  return true;
+
+}
+
+  
   
 
 private:
@@ -137,7 +148,7 @@ private:
 
   ClangTidyCheck *Check;
 
-  llvm::DenseMap<unsigned, std::vector<clang::Stmt *>> lineCount;
+  llvm::DenseMap<unsigned, std::vector<const clang::Stmt *>> lineCount;
 
 };
 
@@ -151,7 +162,6 @@ void MultiStatementPerLineCheck::registerMatchers(MatchFinder *Finder) {
 }
 
   
-  
 
 void MultiStatementPerLineCheck::check(const MatchFinder::MatchResult &Result) {
 
@@ -161,35 +171,41 @@ void MultiStatementPerLineCheck::check(const MatchFinder::MatchResult &Result) {
 
   auto &Ctx = *Result.Context;
 
+  auto &SM = Ctx.getSourceManager();
+
   
 
-  // 1. 전역 선언(변수/함수/타입 등): 한 줄에 2개 이상 있으면 경고
+  // 전역 선언 라인별 그룹핑
 
   llvm::DenseMap<unsigned, std::vector<const Decl *>> declLineMap;
 
-  for (auto *D : TU->decls())
+  
 
-  {
+  for (auto *D : TU->decls()) {
 
     clang::SourceLocation loc = D->getBeginLoc();
 
-    if (loc.isInvalid() || !Ctx.getSourceManager().isInMainFile(loc)) continue;
+    if (loc.isInvalid() || !SM.isInMainFile(loc)) continue;
 
   
 
-    unsigned line = Ctx.getSourceManager().getSpellingLineNumber(loc);
-
-    declLineMap[line].push_back(D);
+    unsigned line = SM.getSpellingLineNumber(loc);
 
   
 
-    if (declLineMap[line].size() == 2)
+    // 중복 등록 방지
 
-    {
+    auto &v = declLineMap[line];
 
-      for (auto *decl : declLineMap[line])
+    if (std::find(v.begin(), v.end(), D) == v.end())
 
-      {
+      v.push_back(D);
+
+  
+
+    if (declLineMap[line].size() == 2) {
+
+      for (auto *decl : declLineMap[line]) {
 
         diag(decl->getBeginLoc(),
 
@@ -201,15 +217,11 @@ void MultiStatementPerLineCheck::check(const MatchFinder::MatchResult &Result) {
 
   
 
-    // 2. 함수 정의 내부 명령문도 별도 검사
+    // 함수 내부 명령문 검사
 
-    if (auto *FD = llvm::dyn_cast<FunctionDecl>(D))
+    if (auto *FD = llvm::dyn_cast<FunctionDecl>(D)) {
 
-     {
-
-      if (FD->hasBody())
-
-      {
+      if (FD->hasBody()) {
 
         const Stmt *Body = FD->getBody();
 
