@@ -63,8 +63,7 @@
               "title": "SwitchStyleCheck"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -255,14 +254,14 @@
   },
   "active": "a4bae61c1f0ad5f0",
   "lastOpenFiles": [
+    "Programing/기타/AI 탬플릿.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "LLVM/ClangT_Source/defenceStyle/SwitchStyleCheck.md",
     "LLVM/ClangT_Source/defenceStyle/SingleExitAndReturnTypeCheck.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "LLVM/Manpage Lite/MatchFinder, MatchResult.md",
     "LLVM/Manpage Lite/0. Manpage Lite.md",
     "LLVM/Clang 환경설정/Clang-tidy.md",
     "LLVM/ClangT_Source/defenceStyle/NoMeaninglessExprCheck.md",
-    "Programing/기타/AI 탬플릿.md",
     "LLVM/ClangT_Source/defenceStyle/NoAutoTypeCheck.md",
     "LLVM/Manpage Lite/매크로.md",
     "LLVM/Manpage Lite/MemRegionVar.md",
