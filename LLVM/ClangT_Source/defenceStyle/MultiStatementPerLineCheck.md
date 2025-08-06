@@ -53,11 +53,17 @@ public:
 
 #include "clang/ASTMatchers/ASTMatchFinder.h"
 
-#include "clang/AST/RecursiveASTVisitor.h"
-
 #include "clang/Basic/SourceManager.h"
 
+#include "llvm/ADT/DenseMap.h"
+
   
+
+// NOTE : 메크로 확장이나 기타 전처리 작업시 행해지는지 작업에 의하여 AST로 변환되는 시점에 이미
+
+// 문제가 되지 않는 경우는 (실제 사람이 보는 코드에서만 문제가 되는 경우는) 체크하지 않습니다.
+
+// 추후 관련부분을 확장할수 있지만 현재로서는 전역 선언과 함수 본문내 선언만 검사합니다.
 
 using namespace clang::ast_matchers;
 
@@ -71,90 +77,6 @@ namespace defenceStyle {
 
   
 
-// 함수 내부 명령문 검사 Visitor
-
-class LineCountVisitor : public clang::RecursiveASTVisitor<LineCountVisitor> {
-
-public:
-
-  LineCountVisitor(clang::ASTContext &Ctx, ClangTidyCheck *Check)
-
-      : Ctx(Ctx), Check(Check) {}
-
-  
-
-bool VisitStmt(clang::Stmt *S) {
-
-  // 중괄호(CompoundStmt)와 NullStmt 제외
-
-  if (isa<CompoundStmt>(S) || isa<NullStmt>(S)) return true;
-
-  
-
-  clang::SourceLocation loc = S->getBeginLoc();
-
-  if (loc.isInvalid() || !Ctx.getSourceManager().isInMainFile(loc)) return true;
-
-  
-
-  unsigned line = Ctx.getSourceManager().getSpellingLineNumber(loc);
-
-  llvm::errs() << "Visiting Stmt at line: " << line << " addr: " << S << "\n";
-
-  
-
-  auto &vec = lineCount[line];
-
-  if (std::find(vec.begin(), vec.end(), S) == vec.end()) {
-
-    vec.push_back(S);
-
-    llvm::errs() << "  Added Stmt addr: " << S << " to line " << line << ". Count now: " << vec.size() << "\n";
-
-  } else {
-
-    llvm::errs() << "  Skipped duplicate Stmt addr: " << S << " at line " << line << "\n";
-
-  }
-
-  
-
-  if (vec.size() == 2) {
-
-    llvm::errs() << "  Line " << line << " has multiple statements. Emitting diagnostics.\n";
-
-    for (auto *stmt : vec) {
-
-      Check->diag(stmt->getBeginLoc(),
-
-        u8"한 줄에 여러 개의 명령문(statement)이 있습니다. 각 명령문은 별도의 줄에 작성해야 합니다.");
-
-    }
-
-  }
-
-  
-
-  return true;
-
-}
-
-  
-  
-
-private:
-
-  clang::ASTContext &Ctx;
-
-  ClangTidyCheck *Check;
-
-  llvm::DenseMap<unsigned, std::vector<const clang::Stmt *>> lineCount;
-
-};
-
-  
-  
-
 void MultiStatementPerLineCheck::registerMatchers(MatchFinder *Finder) {
 
   Finder->addMatcher(translationUnitDecl().bind("tu"), this);
@@ -165,69 +87,183 @@ void MultiStatementPerLineCheck::registerMatchers(MatchFinder *Finder) {
 
 void MultiStatementPerLineCheck::check(const MatchFinder::MatchResult &Result) {
 
+  
+
   const auto *TU = Result.Nodes.getNodeAs<TranslationUnitDecl>("tu");
 
-  if (!TU) return;
+  if (!TU)
 
-  auto &Ctx = *Result.Context;
-
-  auto &SM = Ctx.getSourceManager();
+    return;
 
   
 
-  // 전역 선언 라인별 그룹핑
+  ASTContext &Ctx = *Result.Context;
+
+  const SourceManager &SM = Ctx.getSourceManager();
+
+  
+
+  // 전역 선언 검사
 
   llvm::DenseMap<unsigned, std::vector<const Decl *>> declLineMap;
 
+  for (const Decl *D : TU->decls())
+
+  {
+
   
 
-  for (auto *D : TU->decls()) {
+    SourceLocation loc = D->getBeginLoc();
 
-    clang::SourceLocation loc = D->getBeginLoc();
+    if (loc.isInvalid() || !SM.isInMainFile(loc))
 
-    if (loc.isInvalid() || !SM.isInMainFile(loc)) continue;
+      continue;
 
   
 
     unsigned line = SM.getSpellingLineNumber(loc);
 
-  
+    llvm::errs() << "[GlobalDecl] Decl at line " << line << ", addr: " << D << "\n";
 
-    // 중복 등록 방지
-
-    auto &v = declLineMap[line];
-
-    if (std::find(v.begin(), v.end(), D) == v.end())
-
-      v.push_back(D);
+    auto &decls = declLineMap[line];
 
   
 
-    if (declLineMap[line].size() == 2) {
+    if (std::find(decls.begin(), decls.end(), D) == decls.end()) // 중복 검사
 
-      for (auto *decl : declLineMap[line]) {
+    {
 
-        diag(decl->getBeginLoc(),
+      decls.push_back(D);
 
-          u8"한 줄에 여러 개의 전역 선언(변수/함수/타입 등)이 있습니다. 각 선언은 별도의 줄에 작성해야 합니다.");
+      llvm::errs() << "  Added Decl addr: " << D << " to line " << line << ". Count now: " << decls.size() << "\n";
 
-      }
+    }
+
+    else
+
+    {
+
+      llvm::errs() << "  Skipped duplicate Decl addr: " << D << " at line " << line << "\n";
 
     }
 
   
 
-    // 함수 내부 명령문 검사
+    if (decls.size() == 2)
 
-    if (auto *FD = llvm::dyn_cast<FunctionDecl>(D)) {
+    {
 
-      if (FD->hasBody()) {
+      llvm::errs() << "  Line " << line << " has multiple global declarations. Emitting diagnostics.\n";
 
-        const Stmt *Body = FD->getBody();
+      for (const Decl *decl : decls)
 
-        LineCountVisitor Visitor(Ctx, this);
+      {
 
-        Visitor.TraverseStmt(const_cast<Stmt *>(Body));
+        diag(decl->getBeginLoc(),
+
+             u8"한 줄에 여러 개의 전역 선언(변수/함수/타입 등)이 있습니다. 각 선언은 별도의 줄에 작성해야 합니다.");
+
+      }
+
+    }
+
+  }
+
+  
+
+  // 함수 내부 최상위 명령문만 검사
+
+  for (const Decl *D : TU->decls())
+
+   {
+
+    if (const auto *FD = dyn_cast<FunctionDecl>(D))
+
+    {
+
+      if (!FD->hasBody()) // 함수 본문이 없으면 스킵(선언일 경우)
+
+        continue;
+
+      // 함수 본문 내부 검사
+
+      const Stmt *Body = FD->getBody();
+
+      if (const auto *CS = dyn_cast<CompoundStmt>(Body))
+
+      {
+
+  
+
+        llvm::DenseMap<unsigned, std::vector<const Stmt *>> lineCount;
+
+        for (const Stmt *Child : CS->body())
+
+        {
+
+          if (!Child)
+
+            continue;
+
+  
+
+          SourceLocation loc = Child->getBeginLoc();
+
+          if (loc.isInvalid() || !SM.isInMainFile(loc))
+
+            continue;
+
+          llvm::errs() << "[FuncBody] Visiting FunctionDecl addr: " << FD << "\n";
+
+  
+
+          unsigned line = SM.getSpellingLineNumber(loc);
+
+          llvm::errs() << "  Visiting Stmt at line: " << line << ", addr: " << Child << "\n";
+
+          auto &stmts = lineCount[line];
+
+  
+
+          if (std::find(stmts.begin(), stmts.end(), Child) == stmts.end())
+
+          {
+
+            stmts.push_back(Child);
+
+            llvm::errs() << "    Added Stmt addr: " << Child << " to line " << line << ". Count now: " << stmts.size() << "\n";
+
+          }
+
+          else
+
+          {
+
+            llvm::errs() << "    Skipped duplicate Stmt addr: " << Child << " at line " << line << "\n";
+
+          }
+
+  
+
+          if (stmts.size() == 2)
+
+          {
+
+            llvm::errs() << "    Line " << line << " has multiple statements. Emitting diagnostics.\n";
+
+            for (const Stmt *stmt : stmts)
+
+            {
+
+              diag(stmt->getBeginLoc(),
+
+                   u8"한 줄에 여러 개의 명령문(statement)이 있습니다. 각 명령문은 별도의 줄에 작성해야 합니다.");
+
+            }
+
+          }
+
+        }
 
       }
 
