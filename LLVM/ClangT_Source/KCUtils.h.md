@@ -226,3 +226,43 @@ void MultiStatementPerLineCheck::check(const MatchFinder::MatchResult &Result) {
 }  // namespace clang
 
 ```
+
+
+임시
+```cpp
+// 전역 선언 검사
+void MultiStatementPerLineCheck::checkGlobalDecls(const TranslationUnitDecl *TU,
+                                                  const SourceManager &SM) {
+  llvm::DenseMap<unsigned, llvm::SmallPtrSet<const Decl*, 8>> declLineMap;
+
+  for (const Decl *D : TU->decls()) 
+  {
+    SourceLocation loc = D->getBeginLoc();
+    if (loc.isInvalid() || !SM.isInMainFile(loc))
+      continue;
+
+    unsigned line = SM.getSpellingLineNumber(loc);
+    declLineMap[line].insert(D); // 자동으로 중복 제거됨
+  }
+
+  for (const auto &lineDeclPair : declLineMap) 
+  {
+    unsigned line = lineDeclPair.first;
+    const auto &decls = lineDeclPair.second;
+    if (decls.size() < 2)
+      continue;
+
+    std::string lineText = kcutils::getSourceLineText(SM, (*decls.begin())->getBeginLoc());
+    unsigned commaCount = kcutils::countCommas(lineText);
+
+    // 콤마 개수 + 1 >= 선언 개수면 오탐 방지
+    if (commaCount + 1 >= decls.size())
+      continue;
+
+    for (const Decl *decl : decls)
+      diag(decl->getBeginLoc(),
+           u8"한 줄에 여러 개의 전역 선언(변수/함수/타입 등)이 있습니다. 각 선언은 별도의 줄에 작성해야 합니다.");
+  }
+}
+
+```
