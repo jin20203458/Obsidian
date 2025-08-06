@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/ClangT_Source/defenceStyle/MultiStatementPerLineCheck.md",
+                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MultiStatementPerLineCheck"
+              "title": "1. 스타일"
             }
           },
           {
@@ -281,12 +281,19 @@
       }
     ]
   },
-  "active": "a4bae61c1f0ad5f0",
+  "active": "e869033112aef927",
   "lastOpenFiles": [
-    "LLVM/ClangT_Source/defenceStyle/MultiStatementPerLineCheck.md",
-    "LLVM/ClangT_Source/defenceStyle/NoAutoTypeCheck.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "LLVM/ClangT_Source/defenceStyle/SwitchStyleCheck.md",
+    "LLVM/ClangT_Source/무제.md",
+    "LLVM/ClangT_Source/defenceStyle/MultiStatementPerLineCheck.md",
+    "LLVM/ClangT_Source/defenceStyle/NoAutoTypeCheck.md",
     "LLVM/ClangT_Source/defenceStyle/SingleExitAndReturnTypeCheck.md",
     "LLVM/ClangT_Source/defenceStyle/NoMeaninglessExprCheck.md",
     "LLVM/ClangT_Source/defenceStyle/NoGotoCheck.md",
@@ -305,10 +312,6 @@
     "LLVM/ClangT_Source/defenceStyle",
     "LLVM/ClangT_Source",
     "LLVM/How to Write a Checker in 24 Hours/2. Symbolic Execution.md",
-    "LLVM/How to Write a Checker in 24 Hours/1. Why Static Analysis.md",
-    "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
-    "LLVM/Clang 환경설정/Clang_Html_TEST.md",
-    "LLVM/Checker Developer Manual/0. ReadME.md",
     "기타_자료/Pasted image 20250708142713.png",
     "기타_자료/Pasted image 20250708141235.png",
     "기타_자료/Pasted image 20250708140925.png",
@@ -319,9 +322,6 @@
     "기타_자료/Pasted image 20250701171239.png",
     "기타_자료/Pasted image 20250701140548.png",
     "기타_자료/Pasted image 20250701132424.png",
-    "기타_자료",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md"
+    "기타_자료"
   ]
 }
