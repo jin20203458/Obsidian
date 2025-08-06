@@ -281,10 +281,10 @@
       }
     ]
   },
-  "active": "e869033112aef927",
+  "active": "a4bae61c1f0ad5f0",
   "lastOpenFiles": [
-    "LLVM/ClangT_Source/defenceStyle/MultiStatementPerLineCheck.md",
     "LLVM/ClangT_Source/defenceStyle/NoAutoTypeCheck.md",
+    "LLVM/ClangT_Source/defenceStyle/MultiStatementPerLineCheck.md",
     "LLVM/ClangT_Source/defenceStyle/SwitchStyleCheck.md",
     "LLVM/ClangT_Source/defenceStyle/SingleExitAndReturnTypeCheck.md",
     "LLVM/ClangT_Source/defenceStyle/NoMeaninglessExprCheck.md",
