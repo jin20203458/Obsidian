@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -286,8 +286,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 3655,
-        "y": 2,
+        "x": 1710,
+        "y": 312,
         "width": 685,
         "height": 600,
         "maximize": false,
@@ -295,7 +295,7 @@
       }
     ]
   },
-  "active": "a4bae61c1f0ad5f0",
+  "active": "e869033112aef927",
   "lastOpenFiles": [
     "LLVM/ClangT_Source/KCUtils.h.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
