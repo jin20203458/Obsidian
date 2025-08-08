@@ -43,6 +43,8 @@ public:
       : RetType(RetType), Check(Check), Ctx(Ctx), HasReturn(false), ReturnCount(0) {}
 
   bool VisitReturnStmt(clang::ReturnStmt *RS) {
+
+    if (!RS) return true;
     HasReturn = true;
     ReturnCount++;
 
@@ -86,14 +88,22 @@ private:
 };
 
 void SingleExitAndReturnTypeCheck::registerMatchers(MatchFinder *Finder) {
-  Finder->addMatcher(functionDecl(isDefinition()).bind("func"), this);
+    Finder->addMatcher(
+        functionDecl(
+            isDefinition(),
+            isExpansionInMainFile()  
+        ).bind("func"), 
+        this);
 }
 
 void SingleExitAndReturnTypeCheck::check(const MatchFinder::MatchResult &Result) {
   const auto *FD = Result.Nodes.getNodeAs<FunctionDecl>("func");
   if (!FD) return;
-  if (FD->isMain()) return; // main 함수는 예외
 
+  // main 함수,생성,소멸자는 예외 (필요시 주석 해제)
+  // if (FD->isMain()) return; 
+  // if (isa<CXXConstructorDecl>(FD)) return; 
+  // if (isa<CXXDestructorDecl>(FD)) return;
   clang::QualType retType = FD->getReturnType().getCanonicalType();
 
   const clang::Stmt *Body = FD->getBody();

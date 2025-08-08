@@ -41,19 +41,20 @@ void IfStyleCheck::registerMatchers(MatchFinder *Finder) {
  
 Finder->addMatcher(
   ifStmt(
+    isExpansionInMainFile(),
     unless(hasElse(stmt()))
   ).bind("ifWithoutElse"),
   this);
 }
 
 void IfStyleCheck::check(const MatchFinder::MatchResult &Result) {
-  if (const auto *IS = Result.Nodes.getNodeAs<IfStmt>("ifWithoutElse"))
-   {
-    diag(IS->getIfLoc(),
+    const auto *ifStatement = Result.Nodes.getNodeAs<IfStmt>("ifWithoutElse");
+    
+    if (!ifStatement) return;
+    
+    diag(ifStatement->getIfLoc(),
          u8"if 문에는 반드시 else 블록이 필요합니다.");
-   }
 }
-
 
 } // namespace defenceStyle
 } // namespace tidy

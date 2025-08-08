@@ -38,18 +38,31 @@ namespace defenceStyle {
 
 void NoAutoTypeCheck::registerMatchers(MatchFinder *Finder) {
   // 변수 선언에서 auto
-  Finder->addMatcher(varDecl(hasType(autoType())).bind("autoVar"), this);
+   Finder->addMatcher(
+        varDecl(
+            isExpansionInMainFile(), 
+            hasType(autoType())
+        ).bind("autoVar"), 
+        this);
   // 함수 선언에서 auto 반환형 (C++14 이상 지원)
-  Finder->addMatcher(functionDecl(returns(autoType())).bind("autoFunc"), this);
+  Finder->addMatcher(
+        functionDecl(
+            isExpansionInMainFile(), 
+            returns(autoType())
+        ).bind("autoFunc"), 
+        this);
 }
 
 void NoAutoTypeCheck::check(const MatchFinder::MatchResult &Result) {
-  if (const auto *VD = Result.Nodes.getNodeAs<VarDecl>("autoVar")) {
+
+  if (const auto *VD = Result.Nodes.getNodeAs<VarDecl>("autoVar")) 
+  {
     diag(VD->getBeginLoc(),
          u8"변수 선언 시 'auto' 사용을 금지합니다. 타입을 명시하세요.");
     return;
   }
-  if (const auto *FD = Result.Nodes.getNodeAs<FunctionDecl>("autoFunc")) {
+  if (const auto *FD = Result.Nodes.getNodeAs<FunctionDecl>("autoFunc")) 
+  {
     diag(FD->getBeginLoc(), u8"함수 선언 시 'auto' 반환 타입 사용을 "
                             u8"금지합니다. 반환 타입을 명시하세요.");
     return;
@@ -59,4 +72,5 @@ void NoAutoTypeCheck::check(const MatchFinder::MatchResult &Result) {
 } // namespace defenceStyle
 } // namespace tidy
 } // namespace clang
+
 ```
