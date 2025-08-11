@@ -1,4 +1,11 @@
 ```shell
+Checks: '-*,defence-style-extern-function-declaration'
+CheckOptions:
+  - key: defence-style-extern-function-declaration.RequireExplicitExtern
+    value: 'true'    # ← extern 강제 켜기 (기본값 false)
+```
+
+```shell
 PS C:\Users\user\Desktop\ErrorTest\ErrorTest> clang-tidy .\*.cpp -checks="-*,defence-style-extern-function-declaration" -- -std=c++17 -w
 
 
