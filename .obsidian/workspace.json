@@ -225,10 +225,10 @@
       }
     ]
   },
-  "active": "a4bae61c1f0ad5f0",
+  "active": "6a92fa93a5fd9c5a",
   "lastOpenFiles": [
-    "LLVM/ClangT_Source/defenceStyle/ExternFunctionDeclarationCheck.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
+    "LLVM/ClangT_Source/defenceStyle/ExternFunctionDeclarationCheck.md",
     "LLVM/ClangT_Source/defenceStyle/IfStyleCheck.md",
     "LLVM/ClangT_Source/defenceStyle/MacroDefinedBeforeUseCheck.md",
     "LLVM/ClangT_Source/defenceStyle/SwitchStyleCheck.md",
