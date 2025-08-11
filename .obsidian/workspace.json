@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Manpage Lite/BugReport.md",
+                "file": "LLVM/ClangT_Source/defenceStyle/CharArrayStringSizeCheck.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BugReport"
+              "title": "CharArrayStringSizeCheck"
             }
           },
           {
@@ -41,16 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/ClangT_Source/defenceStyle/CharArrayStringSizeCheck.md",
+                "file": "LLVM/Manpage Lite/매크로.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CharArrayStringSizeCheck"
+              "title": "매크로"
+            }
+          },
+          {
+            "id": "19cb134f2812f0a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLVM/Manpage Lite/Clang AST에서의 배열 타입 저장 방식.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Clang AST에서의 배열 타입 저장 방식"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,7 +84,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -239,8 +253,13 @@
       }
     ]
   },
-  "active": "c37e718aa4ee83bc",
+  "active": "2c3926c79bf1096b",
   "lastOpenFiles": [
+    "LLVM/Manpage Lite/Clang AST에서의 배열 타입 저장 방식.md",
+    "LLVM/ClangT_Source/defenceStyle/CharArrayStringSizeCheck.md",
+    "LLVM/Manpage Lite/BugReport.md",
+    "LLVM/Manpage Lite/매크로.md",
+    "LLVM/Manpage Lite/다차원 배열 차원 해석 & AST 타입 계층.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
@@ -248,14 +267,11 @@
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
-    "LLVM/ClangT_Source/defenceStyle/CharArrayStringSizeCheck.md",
     "LLVM/ClangT_Source/defenceStyle/ExternFunctionDeclarationCheck.md",
     "LLVM/ClangT_Source/defenceStyle/NoAutoTypeCheck.md",
     "LLVM/ClangT_Source/defenceStyle/NoGotoCheck.md",
     "LLVM/ClangT_Source/defenceStyle/SingleExitAndReturnTypeCheck.md",
     "LLVM/ClangT_Source/defenceStyle/SwitchStyleCheck.md",
-    "LLVM/Manpage Lite/다차원 배열 차원 해석 & AST 타입 계층.md",
-    "LLVM/Manpage Lite/BugReport.md",
     "LLVM/ClangT_Source/defenceStyle/IfStyleCheck.md",
     "LLVM/ClangT_Source/defenceStyle/MacroDefinedBeforeUseCheck.md",
     "LLVM/ClangT_Source/defenceStyle/NoMeaninglessExprCheck.md",
@@ -265,8 +281,6 @@
     "Programing/기타/AI 탬플릿.md",
     "LLVM/Manpage Lite/MatchFinder, MatchResult.md",
     "LLVM/Clang 환경설정/Clang-tidy.md",
-    "LLVM/Manpage Lite/매크로.md",
-    "LLVM/Manpage Lite/MemRegionVar.md",
     "LLVM/ClangT_Source/defenceStyle/My code file.cpp",
     "LLVM/ClangT_Source/defenceStyle",
     "LLVM/ClangT_Source",

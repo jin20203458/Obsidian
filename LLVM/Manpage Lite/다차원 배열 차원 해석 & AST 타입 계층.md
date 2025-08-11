@@ -48,6 +48,7 @@ ConstantArrayTypeLoc[2]     // 1회차: 가장 바깥
         └── BuiltinTypeLoc(int) // 4회차: 실제 타입
 ```
 
+
 ---
 
 ### 4️⃣ 핵심 정리
