@@ -253,10 +253,10 @@
       }
     ]
   },
-  "active": "2c3926c79bf1096b",
+  "active": "e53eb00aa2a6412b",
   "lastOpenFiles": [
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
     "LLVM/ClangT_Source/defenceStyle/CharArrayStringSizeCheck.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
     "LLVM/Manpage Lite/Clang AST에서의 배열 타입 저장 방식.md",
     "LLVM/Manpage Lite/BugReport.md",
     "LLVM/Manpage Lite/매크로.md",
