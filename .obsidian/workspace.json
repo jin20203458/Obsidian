@@ -4,67 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "dd7e55fc608692e4",
+        "id": "ebce6e7f25ad3276",
         "type": "tabs",
         "children": [
-          {
-            "id": "6a92fa93a5fd9c5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLVM/ClangT_Source/defenceStyle/SwitchStyleCheck.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SwitchStyleCheck"
-            }
-          },
           {
             "id": "2c3926c79bf1096b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
+                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. 스타일"
-            }
-          },
-          {
-            "id": "757d3d96fb243aa7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLVM/Manpage Lite/매크로.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "매크로"
-            }
-          },
-          {
-            "id": "19cb134f2812f0a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLVM/Manpage Lite/Clang AST에서의 배열 타입 저장 방식.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Clang AST에서의 배열 타입 저장 방식"
+              "title": "3. 식별자 규칙"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -255,10 +212,11 @@
   },
   "active": "2c3926c79bf1096b",
   "lastOpenFiles": [
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
+    "LLVM/ClangT_Source/defenceStyle/SwitchStyleCheck.md",
     "LLVM/CSA_Source/CSA_Checkers/CSA_Checkers.cpp/UndefinedAssignmentChecker.cpp.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/1. C++ 전용 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
@@ -274,7 +232,6 @@
     "LLVM/ClangT_Source/defenceStyle/NoAutoTypeCheck.md",
     "LLVM/ClangT_Source/defenceStyle/NoGotoCheck.md",
     "LLVM/ClangT_Source/defenceStyle/SingleExitAndReturnTypeCheck.md",
-    "LLVM/ClangT_Source/defenceStyle/SwitchStyleCheck.md",
     "LLVM/ClangT_Source/defenceStyle/IfStyleCheck.md",
     "LLVM/ClangT_Source/defenceStyle/MacroDefinedBeforeUseCheck.md",
     "LLVM/ClangT_Source/defenceStyle/NoMeaninglessExprCheck.md",
