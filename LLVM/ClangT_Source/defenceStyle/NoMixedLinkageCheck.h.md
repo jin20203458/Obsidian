@@ -8,3 +8,6 @@ static int file_local;       // → LinkKind::Internal
 const int const_var = 10;    // → LinkKind::Internal
 extern const int ext_const;  // → LinkKind::External
 ```
+ clang-tidy *.cpp -checks="-*,defence-style-no-mixed-linkage" -header-filter=.* -- -std=c++17 -w
+
+ clang-tidy .\*.cpp -checks="-*,defence-style-no-mixed-linkage" -- -std=c++17 -w
