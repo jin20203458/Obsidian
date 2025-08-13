@@ -114,7 +114,6 @@ void func() {
 ## **매크로 기반 자동 코드 생성**
 
 **STMT 매크로의 실제 확장**
-
 ```cpp
 // clang/AST/StmtNodes.inc의 내용
 STMT(CompoundStmt, Stmt)
@@ -124,3 +123,65 @@ STMT(DeclStmt, Stmt)
 // ... 수백 개의 STMT 정의들
 ```
 
+ **매크로 확장 결과 (개념적)**
+```cpp
+// TraverseStmt 내부의 switch문 자동 생성
+switch (S->getStmtClass()) {
+    case Stmt::CompoundStmtClass:
+        return getDerived().TraverseCompoundStmt(
+            static_cast<CompoundStmt*>(S));
+            
+    case Stmt::IfStmtClass:
+        return getDerived().TraverseIfStmt(
+            static_cast<IfStmt*>(S));
+            
+    case Stmt::ForStmtClass:
+        return getDerived().TraverseForStmt(
+            static_cast<ForStmt*>(S));
+            
+    case Stmt::DeclStmtClass:
+        return getDerived().VisitDeclStmt(
+            static_cast<DeclStmt*>(S));
+            
+    // ... 수백 개의 case문들이 자동 생성!
+}
+```
+
+## **컴파일 타임 vs 런타임 비교**
+
+ **기존 Visitor 패턴 (런타임 다형성)**
+ ```cpp
+ class Node {
+public:
+    virtual void accept(Visitor* v) = 0;  // 가상함수
+};
+
+class CompoundNode : public Node {
+public:
+    void accept(Visitor* v) override {
+        v->visit(this);  // 런타임에 vtable lookup
+    }
+};
+
+// 실행 시 오버헤드
+// call qword ptr [rax+8]  ; vtable 간접 호출
+```
+
+ **RecursiveASTVisitor (컴파일타임 다형성)**
+```cpp
+// 컴파일러가 생성하는 실제 코드 (개념적)
+class RecursiveASTVisitor_ShadowVisitor {
+public:
+    bool TraverseStmt(Stmt *S) {
+        switch (S->getStmtClass()) {
+            case Stmt::CompoundStmtClass:
+                // 직접 호출! vtable 없음
+                return static_cast<ShadowVisitor*>(this)
+                    ->TraverseCompoundStmt(static_cast<CompoundStmt*>(S));
+        }
+    }
+};
+
+// 실행 시 최적화
+// call ShadowVisitor::TraverseCompoundStmt  ; 직접 호출!
+```
