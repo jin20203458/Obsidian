@@ -13,12 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
+                "file": "LLVM/ClangT_Source/defenceStyle/NoMeaninglessExprCheck.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. 식별자 규칙"
+              "title": "NoMeaninglessExprCheck"
+            }
+          },
+          {
+            "id": "7154787414ef1758",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLVM/Manpage Lite/0. Manpage Lite.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0. Manpage Lite"
+            }
+          },
+          {
+            "id": "3bbe29f076709386",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLVM/Manpage Lite/RecursiveASTVisitor.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RecursiveASTVisitor"
             }
           },
           {
@@ -35,7 +63,8 @@
               "title": "NoMixedLinkageCheck.h"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -185,13 +214,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "2c3926c79bf1096b",
+  "active": "3bbe29f076709386",
   "lastOpenFiles": [
+    "LLVM/Manpage Lite/0. Manpage Lite.md",
+    "LLVM/Manpage Lite/RecursiveASTVisitor.md",
+    "LLVM/ClangT_Source/defenceStyle/NoShadowingCheck.md",
+    "LLVM/ClangT_Source/defenceStyle/NoMeaninglessExprCheck.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
     "LLVM/ClangT_Source/defenceStyle/NoMixedLinkageCheck.h.md",
     "LLVM/CSA_Source/CSA_Checkers/CSA_Checkers.cpp/UndefinedAssignmentChecker.cpp.md",
     "LLVM/ClangT_Source/defenceStyle/IfStyleCheck.md",
@@ -209,10 +242,6 @@
     "LLVM/ClangT_Source/defenceStyle/NoAutoTypeCheck.md",
     "LLVM/ClangT_Source/defenceStyle/NoGotoCheck.md",
     "LLVM/ClangT_Source/defenceStyle/SingleExitAndReturnTypeCheck.md",
-    "LLVM/ClangT_Source/defenceStyle/MacroDefinedBeforeUseCheck.md",
-    "LLVM/ClangT_Source/defenceStyle/NoMeaninglessExprCheck.md",
-    "LLVM/ClangT_Source/defenceStyle/MultiStatementPerLineCheck.md",
-    "LLVM/ClangT_Source/KCUtils.h.md",
     "LLVM/ClangT_Source/defenceStyle/My code file.cpp",
     "LLVM/ClangT_Source/defenceStyle",
     "LLVM/ClangT_Source",
