@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Manpage Lite/RecursiveASTVisitor.md",
+                "file": "LLVM/Manpage Lite/RecursiveASTVisitor_2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RecursiveASTVisitor"
+              "title": "RecursiveASTVisitor_2"
             }
           },
           {
@@ -216,8 +216,9 @@
   },
   "active": "3bbe29f076709386",
   "lastOpenFiles": [
+    "LLVM/Manpage Lite/RecursiveASTVisitor_1.md",
+    "LLVM/Manpage Lite/RecursiveASTVisitor_2.md",
     "LLVM/Manpage Lite/ASTContext.md",
-    "LLVM/Manpage Lite/RecursiveASTVisitor.md",
     "Programing/디자인 패턴/CRTP.md",
     "LLVM/Manpage Lite/0. Manpage Lite.md",
     "LLVM/ClangT_Source/defenceStyle/NoShadowingCheck.md",
@@ -241,7 +242,6 @@
     "LLVM/Manpage Lite/매크로.md",
     "LLVM/Manpage Lite/다차원 배열 차원 해석 & AST 타입 계층.md",
     "LLVM/ClangT_Source/defenceStyle/ExternFunctionDeclarationCheck.md",
-    "LLVM/ClangT_Source/defenceStyle/NoAutoTypeCheck.md",
     "LLVM/ClangT_Source/defenceStyle/My code file.cpp",
     "LLVM/ClangT_Source/defenceStyle",
     "LLVM/ClangT_Source",
