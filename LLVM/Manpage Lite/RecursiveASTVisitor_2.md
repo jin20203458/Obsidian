@@ -185,3 +185,41 @@ public:
 // 실행 시 최적화
 // call ShadowVisitor::TraverseCompoundStmt  ; 직접 호출!
 ```
+
+
+---
+
+## **자동 호출의 핵심 구성 요소들**
+
+ **1. getStmtClass() - AST 노드 타입 식별**
+```cpp
+class Stmt {
+public:
+    StmtClass getStmtClass() const { return sClass; }
+    //        ^^^^^^^^^^^
+    //        각 노드의 고유한 타입 식별자
+private:
+    StmtClass sClass;  // 컴파일 타임에 결정됨
+};
+```
+
+ **2. static_cast - 안전한 타입 변환**
+ ```cpp
+ // switch에서 이미 타입을 확인했으므로 static_cast 안전
+case Stmt::CompoundStmtClass:
+    return getDerived().TraverseCompoundStmt(
+        static_cast<CompoundStmt*>(S));  // 안전한 다운캐스팅
+```
+
+ **3. CRTP의 getDerived() - 컴파일타임 캐스팅**
+ ```cpp
+ template <typename Derived>
+Derived &getDerived() { 
+    return static_cast<Derived&>(*this); 
+    //     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    //     컴파일 타임에 정확한 타입으로 캐스팅
+}
+```
+
+
+---
