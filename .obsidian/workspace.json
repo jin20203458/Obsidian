@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/CSA_Source/CSA_Checkers/CSA_Checkers.cpp/ConversionChecker.cpp.md",
+                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ConversionChecker.cpp"
+              "title": "5. 변환 규칙"
             }
           },
           {
@@ -187,6 +187,7 @@
   },
   "active": "2c3926c79bf1096b",
   "lastOpenFiles": [
+    "LLVM/CSA_Source/CSA_Checkers/CSA_Checkers.cpp/ConversionChecker.cpp.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
@@ -212,7 +213,6 @@
     "LLVM/ClangT_Source/defenceStyle/IfStyleCheck.md",
     "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/1. C++ 전용 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
-    "LLVM/ClangT_Source/defenceStyle/CharArrayStringSizeCheck.md",
     "LLVM/ClangT_Source/defenceStyle/My code file.cpp",
     "LLVM/ClangT_Source/defenceStyle",
     "LLVM/ClangT_Source",
