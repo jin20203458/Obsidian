@@ -2,7 +2,7 @@
 [[Clang-tidy]]
 [[ASTContext]]
 [[AST-based Checking]]
-
+[[Clang-tidy 매칭방식]]
 ## 1. **목적**
 
 Clang-Tidy는 C/C++ 소스 코드에서 코딩 스타일, 문법, 간단한 버그, 코드 관례 위반 등을  
