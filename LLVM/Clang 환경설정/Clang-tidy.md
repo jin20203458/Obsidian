@@ -74,5 +74,7 @@ cmake --build . --config Release --target clang-tidy --parallel 12
 ```
 체커사용 예시
 ```
-clang-tidy .\*.cpp -checks=defence-style-no-goto -std=c++17
+clang-tidy .\*.cpp -checks="-*,defence-style-no-out-of-range-assignment" -- -std=c++17 -w
+
+
 ```
