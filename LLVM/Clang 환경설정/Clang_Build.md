@@ -132,3 +132,12 @@ cmake -G "Visual Studio 17 2022" -A x64 `
 cmake --build . --config Debug --parallel 8
 
 ```
+
+##  빌드 완료 후 확인사항
+```shell
+# 디버그 체커 목록 확인
+.\bin\clang.exe -cc1 -analyzer-checker-help | findstr debug
+
+# Exploded Graph 시각화 테스트
+.\bin\clang.exe -cc1 -analyze -analyzer-checker=debug.ViewExplodedGraph ErrorTest.cpp
+```
