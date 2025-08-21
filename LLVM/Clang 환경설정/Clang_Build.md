@@ -104,3 +104,31 @@ setx PATH "$($env:PATH);C:\Dev\llvm-project\build\bin\Release" /M
 **성공 확인:** **새로운 PowerShell 창을 열고** `clang --version`을 입력했을 때 버전 정보가 나오면 성공입니다.
 
 이 과정을 통해 새로운 정적 분석 도구 개발과 테스트에 필요한 모든 LLVM/Clang 구성 요소를 한 번에 효율적으로 구축했습니다.
+
+
+
+
+
+## 0) 디버그 모드 재 빌드
+
+```shell
+# 1. 빌드 디렉토리 완전 삭제
+cd C:\Users\user\Documents\llvm-project
+Remove-Item -Recurse -Force build
+
+# 2. 새로운 빌드 디렉토리 생성
+mkdir build
+cd build
+
+# 3. Debug 모드로 CMake 설정
+cmake -G "Visual Studio 17 2022" -A x64 `
+      -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra;compiler-rt;lld" `
+      -DLLVM_TARGETS_TO_BUILD="X86" `
+      -DCMAKE_BUILD_TYPE=Debug `
+      -DLLVM_ENABLE_ASSERTIONS=ON `
+      ../llvm
+
+# 4. Debug 빌드 실행
+cmake --build . --config Debug --parallel 8
+
+```
