@@ -141,3 +141,19 @@ cmake --build . --config Debug --parallel 8
 # Exploded Graph 시각화 테스트
 .\bin\clang.exe -cc1 -analyze -analyzer-checker=debug.ViewExplodedGraph ErrorTest.cpp
 ```
+
+*인코딩 문제시*
+```shell
+# 현재 빌드를 중지한 후
+cmake -G "Visual Studio 17 2022" -A x64 `
+      -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra;compiler-rt;lld" `
+      -DLLVM_TARGETS_TO_BUILD="X86" `
+      -DCMAKE_BUILD_TYPE=Debug `
+      -DLLVM_ENABLE_ASSERTIONS=ON `
+      -DCMAKE_CXX_FLAGS="/utf-8" `
+      -DCMAKE_C_FLAGS="/utf-8" `
+      ../llvm
+
+cmake --build . --config Debug --parallel 8
+
+```
