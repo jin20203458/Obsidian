@@ -168,4 +168,6 @@ cmake -G "Visual Studio 17 2022" -A x64 `
       -DCMAKE_CXX_FLAGS="/utf-8" `
       -DCMAKE_C_FLAGS="/utf-8" `
       ../llvm
+      
+cmake --build . --config RelWithDebInfo  --parallel 8
 ```
