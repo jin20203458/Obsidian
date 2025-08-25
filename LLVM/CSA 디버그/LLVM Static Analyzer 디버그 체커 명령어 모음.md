@@ -4,11 +4,17 @@
 
 ## 🎯 핵심 시각화 체커들
 
+- 명령어는 프론트엔드
+
 | 체커 이름                            | 설명              | 명령어                                                                             |
 | -------------------------------- | --------------- | ------------------------------------------------------------------------------- |
 | **Exploded Graph 시각화** ⭐⭐⭐       | 심볼릭 실행 경로 시각화   | `clang -cc1 -analyze -analyzer-checker="debug.ViewExplodedGraph" your_file.cpp` |
 | **Control Flow Graph (CFG)** ⭐⭐⭐ | 함수 내부 제어 흐름 시각화 | `clang -cc1 -analyze -analyzer-checker="debug.ViewCFG" your_file.cpp`           |
 | **Call Graph** ⭐⭐                | 함수 간 호출 관계 시각화  | `clang -cc1 -analyze -analyzer-checker="debug.ViewCallGraph" your_file.cpp`     |
+드라이버 : 
+```cpp
+clang++ --analyze -Xanalyzer -analyzer-checker="debug.ViewExplodedGraph" ErrorTest.cpp
+```
 
 ---
 
