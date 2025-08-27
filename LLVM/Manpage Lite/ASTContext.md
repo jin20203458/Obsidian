@@ -54,7 +54,20 @@ TranslationUnitDecl
             └── DeclRefExpr (refers to 'sum', type: 'int')
 ```
 
+```cpp
+class BinaryOperator : public Expr {  // Expr을 상속
+    // ...
+};
 
+class Expr : public ValueStmt {       // ValueStmt를 상속
+    // ...
+};
+
+class ValueStmt : public Stmt {       // Stmt를 상속  
+    // ...
+};
+
+```
 
 Clang AST는 일반적으로 다음과 같은 종류의 노드들로 구성됩니다:
 
