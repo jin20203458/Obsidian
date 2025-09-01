@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Manpage Lite/Must Analysis May Analysis.md",
+                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Must Analysis May Analysis"
+              "title": "7. 연산자 규칙"
             }
           },
           {
@@ -301,9 +301,13 @@
   },
   "active": "7784b677cf45b0f7",
   "lastOpenFiles": [
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
+    "LLVM/Manpage Lite/IgnoreImplicit(), IgnoreImpCasts().md",
+    "LLVM/Manpage Lite/AnalysisDeclContext.md",
     "LLVM/Manpage Lite/고정점 정리 (Fixed-Point Theorem).md",
-    "LLVM/Manpage Lite/Must Analysis May Analysis.md",
     "LLVM/Manpage Lite/격자이론 (Lattice Theory).md",
+    "LLVM/Manpage Lite/Must Analysis May Analysis.md",
     "LLVM/Manpage Lite/Clang AST에서의 배열 타입 저장 방식.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
@@ -312,10 +316,7 @@
     "LLVM/Manpage Lite/Exper(AST 주요 표현식).md",
     "Programing/Language/C++/enum class.md",
     "LLVM/ClangT_Source/defenceStyle/NoMixedCharWideStringCheck.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
-    "LLVM/Manpage Lite/IgnoreImplicit(), IgnoreImpCasts().md",
     "LLVM/ClangT_Source/defenceStyle/InitBeforeUseCheck.md",
     "Programing/Language/C++/C++ 생성자 (trivial vs non-trivial).md",
     "LLVM/CSA_Source/CSA_Checkers/CSA_Checkers.cpp/UndefinedAssignmentChecker.cpp.md",
@@ -326,7 +327,6 @@
     "LLVM/Clang 환경설정/AST dump 시험용.md",
     "LLVM/Clang 환경설정/Clang_Build.md",
     "LLVM/Clang 환경설정/Clang_Html_TEST.md",
-    "LLVM/Clang 환경설정/Clang_Static_Analyzer.md",
     "LLVM/CSA 디버그",
     "LLVM/ClangT_Source/defenceStyle/My code file.cpp",
     "LLVM/ClangT_Source/defenceStyle",
