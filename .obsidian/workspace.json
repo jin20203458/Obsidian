@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
+                "file": "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7. 연산자 규칙"
+              "title": "C 전용 규칙"
             }
           }
         ],
@@ -273,13 +273,13 @@
   },
   "active": "539858c4dfa88821",
   "lastOpenFiles": [
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
     "LLVM/ClangT_Source/defenceStyle/NoAssignmentInConditionCheck.md",
     "LLVM/ClangT_Source/defenceStyle/ExternFunctionDeclarationCheck.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
     "LLVM/ClangT_Source/defenceStyle/BoolLogicOnlyOpsCheck.md",
     "LLVM/ClangT_Source/defenceStyle/IfStyleCheck.md",
     "LLVM/ClangT_Source/defenceStyle/UnevaluatedSideEffectCheck.md",
-    "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/2. C++ 전용 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/1. C++ 전용 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
