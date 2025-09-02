@@ -76,9 +76,21 @@
               "icon": "lucide-file",
               "title": "7. 연산자 규칙"
             }
+          },
+          {
+            "id": "a256e5f26d96601e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.9.12"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -229,14 +241,21 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ea375caf4fd1926f",
+  "active": "a256e5f26d96601e",
   "lastOpenFiles": [
+    "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/2. C++ 전용 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/1. C++ 전용 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "LLVM/ClangT_Source/defenceStyle/UnsignedMinusAssignmentCheck.md",
     "LLVM/ClangT_Source/defenceStyle/ExternFunctionDeclarationCheck.md",
     "LLVM/Clang 환경설정/Clang-tidy.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
     "LLVM/Clang 환경설정/Clang_Build.md",
     "LLVM/CSA 디버그/LLVM Static Analyzer 디버그 체커 명령어 모음.md",
     "LLVM/Clang 환경설정/Clnag 명령어 모음.md",
@@ -250,13 +269,6 @@
     "LLVM/Manpage Lite/llvm BitVector bits.md",
     "LLVM/Manpage Lite/AnalysisDeclContext.md",
     "LLVM/Manpage Lite/Must Analysis May Analysis.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
-    "LLVM/Manpage Lite/Exper(AST 주요 표현식).md",
-    "Programing/Language/C++/enum class.md",
-    "LLVM/ClangT_Source/defenceStyle/NoMixedCharWideStringCheck.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
-    "LLVM/ClangT_Source/defenceStyle/InitBeforeUseCheck.md",
     "LLVM/CSA 디버그",
     "LLVM/ClangT_Source/defenceStyle/My code file.cpp",
     "LLVM/ClangT_Source/defenceStyle",
