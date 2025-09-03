@@ -5,7 +5,7 @@
 
 <font color="#00b050">3) malloc에서 사용하는 인자값은 assign될 변수 type의 정수배이어야 한다.</font>
 
-4) **함수의 Argument type과 개수는 함수의 Prototype, 선언, 정의가 모두 같아야 한다.**
+<font color="#00b050">4) 함수의 Argument type과 개수는 함수의 Prototype, 선언, 정의가 모두 같아야 한다.</font>
 
 5) **구조체/배열의 초기화 시 default 초기화 값(0)을 제외하고, 구조에 맞게 ‘{}’를 사용하여 선언된 Size에 맞게 초기화 해야 한다.**
 
@@ -126,7 +126,7 @@ void foo(void)
 ---
 
 4) **함수의 Argument type과 개수는 함수의 Prototype, 선언, 정의가 모두 같아야 한다.**
-
+[[FunctionSignatureConsistencyCheck]]
 ### ❌ 잘못된 예
 
 ```c
