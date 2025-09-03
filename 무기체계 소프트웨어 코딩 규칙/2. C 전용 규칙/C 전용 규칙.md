@@ -3,7 +3,7 @@
 
 <font color="#00b050">2) #include 구문에서 표준에 맞지 않는 Character set을 사용하지 않아야 한다.</font>
 
-3) **malloc에서 사용하는 인자값은 assign될 변수 type의 정수배이어야 한다.**
+<font color="#00b050">3) malloc에서 사용하는 인자값은 assign될 변수 type의 정수배이어야 한다.</font>
 
 4) **함수의 Argument type과 개수는 함수의 Prototype, 선언, 정의가 모두 같아야 한다.**
 
@@ -85,7 +85,7 @@ extern void foo(void)
 ---
 
 3) **malloc에서 사용하는 인자값은 assign될 변수 type의 정수배이어야 한다.**
-
+[[MallocSizeMultipleCheck]]
 ### ❌ 잘못된 예
 
 ```c
