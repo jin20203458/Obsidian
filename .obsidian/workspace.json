@@ -125,6 +125,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "LLVM/ClangT_Source/defenceStyle/CharArrayStringSizeCheck.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CharArrayStringSizeCheck"
+            }
+          },
+          {
+            "id": "6dc097b2f8ba3d97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
                 "mode": "source",
                 "source": false
@@ -134,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -285,12 +299,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "26b0f433645f242e",
+  "active": "6dc097b2f8ba3d97",
   "lastOpenFiles": [
+    "LLVM/Clang 환경설정/Clnag 명령어 모음.md",
+    "LLVM/Clang 환경설정/Clang-tidy.md",
+    "LLVM/ClangT_Source/defenceStyle/무제.md",
+    "LLVM/ClangT_Source/defenceStyle/CharArrayStringSizeCheck.md",
+    "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
     "LLVM/ClangT_Source/defenceStyle/IncludeCharsetCheck.md",
     "LLVM/ClangT_Source/defenceStyle/ExternFunctionDeclarationCheck.md",
-    "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
     "LLVM/ClangT_Source/defenceStyle/NoAssignmentInConditionCheck.md",
     "LLVM/ClangT_Source/defenceStyle/BoolLogicOnlyOpsCheck.md",
@@ -304,15 +322,11 @@
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "LLVM/ClangT_Source/defenceStyle/UnsignedMinusAssignmentCheck.md",
-    "LLVM/Clang 환경설정/Clang-tidy.md",
     "LLVM/Clang 환경설정/Clang_Build.md",
     "LLVM/CSA 디버그/LLVM Static Analyzer 디버그 체커 명령어 모음.md",
-    "LLVM/Clang 환경설정/Clnag 명령어 모음.md",
     "LLVM/Clang 환경설정/AI template.md",
     "LLVM/Manpage Lite/RecursiveASTVisitor_1.md",
     "LLVM/Manpage Lite/IgnoreImplicit(), IgnoreImpCasts().md",
-    "LLVM/Clang 환경설정/AST dump 시험용.md",
-    "LLVM/Manpage Lite/고정점 정리 (Fixed-Point Theorem).md",
     "LLVM/CSA 디버그",
     "LLVM/ClangT_Source/defenceStyle/My code file.cpp",
     "LLVM/ClangT_Source/defenceStyle",
