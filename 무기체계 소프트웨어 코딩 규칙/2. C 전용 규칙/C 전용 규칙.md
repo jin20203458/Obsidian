@@ -127,6 +127,7 @@ void foo(void)
 
 4) **함수의 Argument type과 개수는 함수의 Prototype, 선언, 정의가 모두 같아야 한다.**
 [[FunctionSignatureConsistencyCheck]]
+[[FunctionCallArgumentConsistencyCheck]]
 ### ❌ 잘못된 예
 
 ```c
