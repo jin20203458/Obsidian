@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/ClangT_Source/defenceStyle/IfStyleCheck.md",
+                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IfStyleCheck"
+              "title": "4. 조건식 규칙"
             }
           },
           {
@@ -55,16 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
+                "file": "LLVM/CSA_Source/CSA_Checkers/CSA_Checkers.cpp/CallAndMessageChecker.cpp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C 전용 규칙"
+              "title": "CallAndMessageChecker.cpp"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -215,24 +215,25 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "40f066a3e1cd688f",
+  "active": "69c5cd520d8ea0e5",
   "lastOpenFiles": [
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
+    "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/1. C++ 전용 규칙.md",
+    "LLVM/ClangT_Source/defenceStyle/IfStyleCheck.md",
+    "LLVM/CSA_Source/CSA_Checkers/CSA_Checkers.cpp/CallAndMessageChecker.cpp.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
     "LLVM/ClangT_Source/defenceStyle/AggregateInitStyleCheck.md",
     "LLVM/ClangT_Source/defenceStyle/ExternFunctionDeclarationCheck.md",
     "LLVM/ClangT_Source/defenceStyle/FunctionCallArgumentConsistencyCheck.md",
-    "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/1. C++ 전용 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
     "LLVM/Clang 환경설정/Clnag 명령어 모음.md",
     "LLVM/Clang 환경설정/Clang-tidy 매칭방식.md",
     "LLVM/ClangT_Source/defenceStyle/FunctionSignatureConsistencyCheck.md",
-    "LLVM/ClangT_Source/defenceStyle/IfStyleCheck.md",
     "LLVM/ClangT_Source/defenceStyle/CharArrayStringSizeCheck.md",
     "LLVM/Clang 환경설정/Clang_Build.md",
     "LLVM/CSA 디버그/LLVM Static Analyzer 디버그 체커 명령어 모음.md",
@@ -242,7 +243,6 @@
     "LLVM/ClangT_Source/defenceStyle/InitBeforeUseCheck.md",
     "LLVM/Clang 환경설정/Clang-tidy.md",
     "LLVM/ClangT_Source/defenceStyle/IncludeCharsetCheck.md",
-    "LLVM/ClangT_Source/defenceStyle/NoAssignmentInConditionCheck.md",
     "LLVM/CSA 디버그",
     "LLVM/ClangT_Source/defenceStyle/My code file.cpp",
     "LLVM/ClangT_Source/defenceStyle",
