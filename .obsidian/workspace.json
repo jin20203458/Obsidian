@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "복습, 소개용/1. LLVM이란.md",
+                "file": "복습, 소개용/1. LLVM(Low Level Virtual Machine).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. LLVM이란"
+              "title": "1. LLVM(Low Level Virtual Machine)"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6e350fc4ceef89b0",
@@ -174,8 +175,14 @@
   },
   "active": "be0e0d5dcf39efed",
   "lastOpenFiles": [
+    "기타_자료/Pasted image 20250909102521.png",
+    "기타_자료/Pasted image 20250909102435.png",
+    "기타_자료/Pasted image 20250909101700.png",
+    "기타_자료/Pasted image 20250909101648.png",
+    "기타_자료/Pasted image 20250909101600.png",
+    "기타_자료/Pasted image 20250909101249.png",
     "복습, 소개용/2..md",
-    "복습, 소개용/1. LLVM이란.md",
+    "복습, 소개용/1. LLVM(Low Level Virtual Machine).md",
     "LLVM/CSA_Source/CSA_Checkers/CSA_Checkers.cpp/CallAndMessageChecker.cpp.md",
     "LLVM/ClangT_Source/defenceStyle/InitBeforeUseCheck.md",
     "LLVM/ClangT_Source/defenceStyle/CharArrayStringSizeCheck.md",
@@ -200,7 +207,6 @@
     "LLVM/ClangT_Source/defenceStyle/FunctionSignatureConsistencyCheck.md",
     "LLVM/Clang 환경설정/Clang_Build.md",
     "LLVM/CSA 디버그/LLVM Static Analyzer 디버그 체커 명령어 모음.md",
-    "LLVM/Clang 환경설정/AI template.md",
     "LLVM/CSA 디버그",
     "LLVM/ClangT_Source/defenceStyle/My code file.cpp",
     "LLVM/ClangT_Source/defenceStyle",
@@ -210,11 +216,6 @@
     "기타_자료/Pasted image 20250708140925.png",
     "기타_자료/Pasted image 20250708135351.png",
     "기타_자료/Pasted image 20250704154224.png",
-    "기타_자료/Pasted image 20250702135759.png",
-    "기타_자료/Pasted image 20250701172849.png",
-    "기타_자료/Pasted image 20250701171239.png",
-    "기타_자료/Pasted image 20250701140548.png",
-    "기타_자료/Pasted image 20250701132424.png",
     "기타_자료"
   ]
 }
