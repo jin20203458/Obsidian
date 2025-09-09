@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "복습, 소개용/2. Clang.md",
+                "file": "복습, 소개용/4. AST 추상구문트리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Clang"
+              "title": "4. AST 추상구문트리"
             }
           },
           {
@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "복습, 소개용/3.전처리기와 PPCallbacks.md",
+                "file": "복습, 소개용/번외) Clang 컴파일 방식의 특징.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.전처리기와 PPCallbacks"
+              "title": "번외) Clang 컴파일 방식의 특징"
+            }
+          },
+          {
+            "id": "b7d8eaa050c11b68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "복습, 소개용/번외) Clang AST의 실제 표현.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "번외) Clang AST의 실제 표현"
             }
           },
           {
@@ -41,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "복습, 소개용/4. AST.md",
+                "file": "복습, 소개용/4. AST 추상구문트리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. AST"
+              "title": "4. AST 추상구문트리"
             }
           },
           {
@@ -63,8 +77,7 @@
               "title": "3.전처리기와 PPCallbacks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,14 +228,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d4f08bacdad6115e",
+  "active": "be0e0d5dcf39efed",
   "lastOpenFiles": [
-    "복습, 소개용/4. AST.md",
+    "복습, 소개용/2. Clang.md",
+    "복습, 소개용/번외) Clang AST의 실제 표현.md",
+    "복습, 소개용/4. AST 추상구문트리.md",
+    "복습, 소개용/3.전처리기와 PPCallbacks.md",
+    "복습, 소개용/번외) Clang 컴파일 방식의 특징.md",
+    "기타_자료/Pasted image 20250909130520.png",
     "LLVM/ClangT_Source/defenceStyle/MacroDefinedBeforeUseCheck.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
-    "복습, 소개용/3.전처리기와 PPCallbacks.md",
-    "복습, 소개용/2. Clang.md",
     "복습, 소개용/1. LLVM(Low Level Virtual Machine).md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
@@ -241,8 +257,6 @@
     "LLVM/Manpage Lite/Method of Analysis/ReadME.md",
     "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조.md",
     "LLVM/CSA 흐름구조 예시/Clang Static Analyzer 전체 분석 순서.md",
-    "LLVM/Clang 환경설정/Clnag 명령어 모음.md",
-    "LLVM/Clang 환경설정/Clang-tidy 매칭방식.md",
     "기타_자료/Pasted image 20250909110543.png",
     "기타_자료/Pasted image 20250909110508.png",
     "기타_자료/Pasted image 20250909102521.png",
@@ -257,7 +271,6 @@
     "LLVM/ClangT_Source/defenceStyle",
     "LLVM/ClangT_Source",
     "기타_자료/Pasted image 20250708142713.png",
-    "기타_자료/Pasted image 20250708141235.png",
     "기타_자료"
   ]
 }
