@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/CSA 디버그/LLVM Static Analyzer 디버그 체커 명령어 모음.md",
+                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLVM Static Analyzer 디버그 체커 명령어 모음"
+              "title": "7. 연산자 규칙"
             }
           },
           {
@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programing/디자인 패턴/CRTP.md",
+                "file": "LLVM/ClangT_Source/defenceStyle/NoShadowingCheck.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CRTP"
+              "title": "NoShadowingCheck"
             }
           }
         ]
@@ -214,34 +214,44 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d4f08bacdad6115e",
+  "active": "c37e718aa4ee83bc",
   "lastOpenFiles": [
-    "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조.md",
-    "LLVM/CSA 흐름구조 예시/Clang Static Analyzer 전체 분석 순서.md",
-    "LLVM/Manpage Lite/ExplodedNode.md",
-    "LLVM/Manpage Lite/ExplodedGraph.md",
-    "LLVM/Manpage Lite/Method of Analysis/Cross-Translation Unit Analysis (CTU).md",
-    "복습, 소개용/6. 경로민감분석.md",
-    "복습, 소개용/번외) Clang 컴파일 방식의 특징.md",
-    "LLVM/CSA 흐름구조 예시/CSA 주요 객체들 간의 구조도 및 관계.md",
-    "LLVM/CSA 디버그/LLVM Static Analyzer 디버그 체커 명령어 모음.md",
-    "LLVM/Clang 환경설정/AST dump 시험용.md",
-    "복습, 소개용/2. Clang.md",
-    "복습, 소개용/번외) Clang AST의 실제 표현.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
-    "복습, 소개용/5. CFG 제어흐름그래프.md",
-    "복습, 소개용/4. AST 추상구문트리.md",
-    "복습, 소개용/3. 전처리기와 PPCallbacks.md",
-    "LLVM/ClangT_Source/defenceStyle/NoShadowingCheck.md",
-    "Programing/디자인 패턴/CRTP.md",
-    "LLVM/ClangT_Source/defenceStyle/NoAutoTypeCheck.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
-    "LLVM/ClangT_Source/defenceStyle/MacroDefinedBeforeUseCheck.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
-    "복습, 소개용/1. LLVM(Low Level Virtual Machine).md",
-    "LLVM/Clang 환경설정/Clang_Build.md",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/2. 리눅스 시스템의 이해/3. x 윈도우.md",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/2. 리눅스 시스템의 이해/5. 프로세스.md",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/2. 리눅스 시스템의 이해/1. 리눅스와 하드웨어.md",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/2. 리눅스 시스템의 이해/4. 셸(Shell).md",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/2. 리눅스 시스템의 이해/2. 리눅스의 구조.md",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/3. 네트워크의 이해/2. 네트워크의 설정.md",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/3. 네트워크의 이해/1. 네트워크의 기초.md",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/1. 리눅스의 개요/2. 리눅스의 기초.md",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/1. 리눅스의 개요/1. 운영체제의 개요.md",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/2. 리눅스 시스템의 이해",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/2. 리눅스 시스템 관리/1. 사용자 관리.md",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/2. 리눅스 시스템 관리/2. 파일시스템 관리.md",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/3. 네트워크의 이해",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/1. 리눅스의 개요",
+    "Programing/운영체제/리눅스/리눅스 2차/서버 서비스/메일/makemap.md",
+    "Programing/운영체제/리눅스/리눅스 2차/서버 서비스/메일/NFS.md",
+    "Programing/운영체제/리눅스/리눅스 2차/서버 서비스/메일/makemap 1.md",
+    "Programing/운영체제/리눅스/리눅스 2차/서버 서비스/메일/access.md",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/리눅스.md",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/2. 리눅스 시스템 관리",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 기출/필기합격후기.md",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 기출/리눅스 기출 3과목.md",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 기출/리눅스 기출 1과목.md",
+    "Programing/운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/quota.md",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 기출/리눅스 기출 2과목.md",
+    "Programing/운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/mount.md",
+    "Programing/운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/mke2fs,dumpe2fs.md",
+    "Programing/운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/LVM.md",
+    "Programing/운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/ln.md",
+    "Programing/운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리/dd.md",
+    "Programing/운영체제/리눅스/리눅스 2차/서버 서비스/메일",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념",
+    "Programing/운영체제/리눅스/리눅스 1차/리눅스 기출",
+    "Programing/운영체제/리눅스/리눅스 2차/파일시스템 및 저장장치 관리",
+    "Programing/운영체제/리눅스/리눅스 2차/시스템 관리",
     "기타_자료/Pasted image 20250909134246.png",
     "기타_자료/Pasted image 20250909130520.png",
     "기타_자료/Pasted image 20250909110543.png",
@@ -251,12 +261,6 @@
     "기타_자료/Pasted image 20250909101700.png",
     "기타_자료/Pasted image 20250909101648.png",
     "기타_자료/Pasted image 20250909101600.png",
-    "기타_자료/Pasted image 20250909101249.png",
-    "복습, 소개용",
-    "LLVM/CSA 디버그",
-    "LLVM/ClangT_Source/defenceStyle/My code file.cpp",
-    "LLVM/ClangT_Source/defenceStyle",
-    "LLVM/ClangT_Source",
-    "기타_자료"
+    "기타_자료/Pasted image 20250909101249.png"
   ]
 }
