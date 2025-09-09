@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "복습, 소개용/2. Clang.md",
+                "file": "복습, 소개용/6. 경로민감분석.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Clang"
+              "title": "6. 경로민감분석"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "복습, 소개용/3. 전처리기와 PPCallbacks.md",
+                "file": "복습, 소개용/번외) Clang AST의 실제 표현.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. 전처리기와 PPCallbacks"
+              "title": "번외) Clang AST의 실제 표현"
             }
           },
           {
@@ -55,16 +55,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/ClangT_Source/defenceStyle/NoShadowingCheck.md",
+                "file": "Programing/디자인 패턴/CRTP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NoShadowingCheck"
+              "title": "CRTP"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,36 +214,36 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9d872d22c5752f1f",
+  "active": "d4f08bacdad6115e",
   "lastOpenFiles": [
-    "복습, 소개용/4. AST 추상구문트리.md",
-    "복습, 소개용/번외) Clang AST의 실제 표현.md",
     "복습, 소개용/번외) Clang 컴파일 방식의 특징.md",
-    "복습, 소개용/3. 전처리기와 PPCallbacks.md",
-    "LLVM/ClangT_Source/defenceStyle/NoAutoTypeCheck.md",
+    "LLVM/CSA 흐름구조 예시/CSA 주요 객체들 간의 구조도 및 관계.md",
+    "LLVM/CSA 디버그/LLVM Static Analyzer 디버그 체커 명령어 모음.md",
+    "복습, 소개용/6. 경로민감분석.md",
+    "LLVM/Clang 환경설정/AST dump 시험용.md",
+    "복습, 소개용/2. Clang.md",
+    "복습, 소개용/번외) Clang AST의 실제 표현.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
+    "복습, 소개용/5. CFG 제어흐름그래프.md",
+    "복습, 소개용/4. AST 추상구문트리.md",
+    "복습, 소개용/3. 전처리기와 PPCallbacks.md",
+    "LLVM/ClangT_Source/defenceStyle/NoShadowingCheck.md",
+    "Programing/디자인 패턴/CRTP.md",
+    "LLVM/ClangT_Source/defenceStyle/NoAutoTypeCheck.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
     "LLVM/ClangT_Source/defenceStyle/MacroDefinedBeforeUseCheck.md",
-    "복습, 소개용/2. Clang.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
-    "LLVM/CSA 디버그/LLVM Static Analyzer 디버그 체커 명령어 모음.md",
     "복습, 소개용/1. LLVM(Low Level Virtual Machine).md",
     "LLVM/Clang 환경설정/Clang_Build.md",
     "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
-    "복습, 소개용/6. 경로민감분석.md",
-    "복습, 소개용/5. CFG 제어흐름그래프.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
     "LLVM/CSA 디버그/디버그 관련사항들(임시_).md",
-    "LLVM/Clang 환경설정/AST dump 시험용.md",
     "기타_자료/Pasted image 20250909134246.png",
     "기타_자료/Pasted image 20250909130520.png",
     "LLVM/Manpage Lite/Method of Analysis/Path-Sensitive Analysis.md",
-    "LLVM/Manpage Lite/AnalysisDeclContext.md",
-    "LLVM/Manpage Lite/ASTContext.md",
-    "LLVM/Manpage Lite/BasicValueFactory.md",
     "기타_자료/Pasted image 20250909110543.png",
     "기타_자료/Pasted image 20250909110508.png",
     "기타_자료/Pasted image 20250909102521.png",
