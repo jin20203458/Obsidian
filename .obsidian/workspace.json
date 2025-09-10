@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/ClangT_Source/defenceStyle/BoolLogicOnlyOpsCheck.md",
+                "file": "LLVM/Clang 환경설정/AI template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BoolLogicOnlyOpsCheck"
+              "title": "AI template"
             }
           },
           {
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -243,12 +243,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c6d38802b58bdd82",
+  "active": "614920e4f6dc838c",
   "lastOpenFiles": [
-    "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
-    "LLVM/ClangT_Source/defenceStyle/NullPointerArithmeticCheck.md",
     "LLVM/ClangT_Source/defenceStyle/BoolLogicOnlyOpsCheck.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
+    "LLVM/ClangT_Source/defenceStyle/NullPointerArithmeticCheck.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
