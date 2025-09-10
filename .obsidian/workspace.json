@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -243,8 +243,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "614920e4f6dc838c",
+  "active": "c6d38802b58bdd82",
   "lastOpenFiles": [
+    "LLVM/Clang 환경설정/AI template.md",
     "LLVM/ClangT_Source/defenceStyle/BoolLogicOnlyOpsCheck.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
@@ -271,7 +272,6 @@
     "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/2. 리눅스 시스템의 이해/4. 셸(Shell).md",
     "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/2. 리눅스 시스템의 이해/2. 리눅스의 구조.md",
     "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/3. 네트워크의 이해/2. 네트워크의 설정.md",
-    "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/3. 네트워크의 이해/1. 네트워크의 기초.md",
     "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/2. 리눅스 시스템의 이해",
     "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/3. 네트워크의 이해",
     "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/1. 리눅스의 개요",
