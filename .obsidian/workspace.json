@@ -63,8 +63,7 @@
               "title": "AlwaysConstantConditionCheck"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,14 +214,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c6d38802b58bdd82",
+  "active": "614920e4f6dc838c",
   "lastOpenFiles": [
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
     "LLVM/Clang 환경설정/AI template.md",
     "LLVM/Clang 환경설정/AST dump 시험용.md",
     "LLVM/Manpage Lite/고정점 정리 (Fixed-Point Theorem).md",
     "LLVM/Manpage Lite/Immediately-Invoked Lambda Expression, IILE.md",
     "LLVM/ClangT_Source/defenceStyle/AlwaysConstantConditionCheck.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
     "LLVM/CSA_Source/CSA_Checkers/CSA_Checkers.cpp/CallAndMessageChecker.cpp.md",
     "LLVM/ClangT_Source/defenceStyle/AggregateInitStyleCheck.md",
     "LLVM/ClangT_Source/defenceStyle/SignedBitwiseSafetyCheck.md",
