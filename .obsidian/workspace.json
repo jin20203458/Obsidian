@@ -246,8 +246,8 @@
   "active": "c6d38802b58bdd82",
   "lastOpenFiles": [
     "LLVM/Clang 환경설정/AI template.md",
-    "LLVM/ClangT_Source/defenceStyle/BoolLogicOnlyOpsCheck.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
+    "LLVM/ClangT_Source/defenceStyle/BoolLogicOnlyOpsCheck.md",
     "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
     "LLVM/ClangT_Source/defenceStyle/NullPointerArithmeticCheck.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
