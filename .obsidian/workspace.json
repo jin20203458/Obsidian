@@ -22,35 +22,35 @@
             }
           },
           {
-            "id": "179967710e4428a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/구현 아이디어2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "구현 아이디어2"
-            }
-          },
-          {
             "id": "15d81579e8f7308d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/ClangT_Source/defenceStyle/AlwaysConstantConditionCheck.md",
+                "file": "LLVM/ClangT_Source/defenceStyle/InitBeforeUseCheck.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AlwaysConstantConditionCheck"
+              "title": "InitBeforeUseCheck"
+            }
+          },
+          {
+            "id": "0434adff13af0d28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7. 연산자 규칙"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -228,6 +228,20 @@
                 }
               },
               {
+                "id": "179967710e4428a7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/구현 아이디어2.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "구현 아이디어2"
+                }
+              },
+              {
                 "id": "c6d38802b58bdd82",
                 "type": "leaf",
                 "state": {
@@ -241,7 +255,8 @@
                   "title": "구현 아이디어1"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical",
@@ -254,23 +269,25 @@
       }
     ]
   },
-  "active": "179967710e4428a7",
+  "active": "0434adff13af0d28",
   "lastOpenFiles": [
-    "LLVM/Clang 환경설정/AI template.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/구현 아이디어1.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/구현 아이디어2.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
+    "LLVM/Clang 환경설정/AI template.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
+    "LLVM/ClangT_Source/defenceStyle/UninitializedAddressToConstParamCheck.md",
+    "LLVM/ClangT_Source/defenceStyle/InitBeforeUseCheck.md",
+    "LLVM/ClangT_Source/defenceStyle/AlwaysConstantConditionCheck.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/구현 아이디어2.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/구현 아이디어1.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
     "LLVM/ClangT_Source/defenceStyle/NoFloatEqualityCheck.md",
     "LLVM/ClangT_Source/defenceStyle/ArrayIndexBoundCheck.md",
     "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
     "LLVM/ClangT_Source/defenceStyle/CharArrayStringSizeCheck.md",
-    "LLVM/ClangT_Source/defenceStyle/AlwaysConstantConditionCheck.md",
     "LLVM/ClangT_Source/defenceStyle/ShiftAmountRangeCheck.md",
     "LLVM/ClangT_Source/defenceStyle/UnreachableCodeCheck.md",
     "LLVM/Clang 환경설정/Clang-tidy 매칭방식.md",
@@ -280,8 +297,6 @@
     "LLVM/CSA_Source/CSA_Checkers/CSA_Checkers.cpp/CallAndMessageChecker.cpp.md",
     "LLVM/ClangT_Source/defenceStyle/AggregateInitStyleCheck.md",
     "LLVM/ClangT_Source/defenceStyle/SignedBitwiseSafetyCheck.md",
-    "LLVM/ClangT_Source/defenceStyle/BoolLogicOnlyOpsCheck.md",
-    "LLVM/ClangT_Source/defenceStyle/NullPointerArithmeticCheck.md",
     "기타_자료/Pasted image 20240604014434.png",
     "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/2. 리눅스 시스템의 이해",
     "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/3. 네트워크의 이해",
