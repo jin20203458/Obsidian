@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "6. 포인터, 배열 규칙"
             }
+          },
+          {
+            "id": "1e11e1c874732b35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/무제.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "무제"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -283,10 +297,12 @@
       }
     ]
   },
-  "active": "179967710e4428a7",
+  "active": "1e11e1c874732b35",
   "lastOpenFiles": [
-    "LLVM/Clang 환경설정/AI template.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/무제.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/구현 아이디어2.md",
+    "LLVM/Clang 환경설정/AI template.md",
     "LLVM/ClangT_Source/defenceStyle/NullDereferenceGuardCheck.md",
     "LLVM/ClangT_Source/defenceStyle/AlwaysConstantConditionCheck.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
@@ -297,7 +313,6 @@
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "LLVM/ClangT_Source/defenceStyle/UninitializedAddressToConstParamCheck.md",
     "LLVM/ClangT_Source/defenceStyle/InitBeforeUseCheck.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/구현 아이디어2.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/구현 아이디어1.md",
     "LLVM/ClangT_Source/defenceStyle/NoFloatEqualityCheck.md",
     "LLVM/ClangT_Source/defenceStyle/ArrayIndexBoundCheck.md",
@@ -310,7 +325,6 @@
     "LLVM/Clang 환경설정/AST dump 시험용.md",
     "LLVM/Manpage Lite/고정점 정리 (Fixed-Point Theorem).md",
     "LLVM/CSA_Source/CSA_Checkers/CSA_Checkers.cpp/CallAndMessageChecker.cpp.md",
-    "LLVM/ClangT_Source/defenceStyle/AggregateInitStyleCheck.md",
     "기타_자료/Pasted image 20240604014434.png",
     "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/2. 리눅스 시스템의 이해",
     "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/3. 네트워크의 이해",
