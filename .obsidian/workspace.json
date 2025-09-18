@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
+                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7. 연산자 규칙"
+              "title": "6. 포인터, 배열 규칙"
             }
           }
         ],
@@ -298,6 +298,7 @@
   },
   "active": "508f9136147dc4ec",
   "lastOpenFiles": [
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
@@ -306,7 +307,6 @@
     "LLVM/ClangT_Source/defenceStyle/AlwaysConstantConditionCheck.md",
     "LLVM/ClangT_Source/defenceStyle/InitBeforeUseCheck.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/구현 아이디어1.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
     "LLVM/Clang 환경설정/AI template.md",
     "LLVM/ClangT_Source/defenceStyle/NonZeroDivisorGuardCheck.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
