@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
+                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/고려사항들(문제시 참조).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. 포인터, 배열 규칙"
+              "title": "고려사항들(문제시 참조)"
             }
           }
         ],
@@ -298,8 +298,8 @@
   },
   "active": "508f9136147dc4ec",
   "lastOpenFiles": [
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
     "LLVM/Checker Developer Manual/0. ReadME.md",
@@ -315,7 +315,7 @@
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/구현 아이디어2.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/무제.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/고려사항들(문제시 참조).md",
     "LLVM/ClangT_Source/defenceStyle/NullDereferenceGuardCheck.md",
     "LLVM/ClangT_Source/defenceStyle/UninitializedAddressToConstParamCheck.md",
     "LLVM/ClangT_Source/defenceStyle/NoFloatEqualityCheck.md",
