@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/구현 아이디어1.md",
+                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "구현 아이디어1"
+              "title": "5. 변환 규칙"
             }
           },
           {
@@ -62,37 +62,8 @@
               "icon": "lucide-file",
               "title": "ArrayIndexBoundCheck"
             }
-          },
-          {
-            "id": "508f9136147dc4ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/구현 아이디어1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "구현 아이디어1"
-            }
-          },
-          {
-            "id": "ee966af843b00a1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLVM/복습, 소개용/1. LLVM(Low Level Virtual Machine).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. LLVM(Low Level Virtual Machine)"
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -310,29 +281,29 @@
       }
     ]
   },
-  "active": "ee966af843b00a1f",
+  "active": "206c578e5a68dddd",
   "lastOpenFiles": [
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/구현 아이디어1.md",
+    "LLVM/ClangT_Source/defenceStyle/ArrayIndexBoundCheck.md",
+    "LLVM/복습, 소개용/1. LLVM(Low Level Virtual Machine).md",
+    "LLVM/Clang 환경설정/AI template.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/개발 순서.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "LLVM/복습, 소개용/5. CFG 제어흐름그래프.md",
-    "LLVM/Clang 환경설정/AI template.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/구현 아이디어1.md",
     "LLVM/ClangT_Source/defenceStyle/IncludeCharsetCheck.md",
     "LLVM/ClangT_Source/defenceStyle/RepresentableCastCheck.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/고려사항들(문제시 참조).md",
     "LLVM/ClangT_Source/defenceStyle/InitBeforeUseCheck.md",
     "LLVM/ClangT_Source/defenceStyle/AlwaysConstantConditionCheck.md",
     "LLVM/Checker Developer Manual/0. ReadME.md",
-    "LLVM/ClangT_Source/defenceStyle/ArrayIndexBoundCheck.md",
     "LLVM/ClangT_Source/defenceStyle/NonZeroDivisorGuardCheck.md",
     "LLVM/ClangT_Source/defenceStyle/MultiStatementPerLineCheck.md",
-    "LLVM/복습, 소개용/1. LLVM(Low Level Virtual Machine).md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/구현 아이디어2.md",
     "LLVM/ClangT_Source/defenceStyle/NullDereferenceGuardCheck.md",
     "LLVM/ClangT_Source/defenceStyle/UninitializedAddressToConstParamCheck.md",
