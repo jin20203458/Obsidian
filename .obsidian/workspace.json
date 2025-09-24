@@ -257,80 +257,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "floating": {
-    "id": "a95a4f367903ce9d",
-    "type": "floating",
-    "children": [
-      {
-        "id": "d8f10a7b2f82c247",
-        "type": "window",
-        "children": [
-          {
-            "id": "934593750e3b8795",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "614920e4f6dc838c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "LLVM/Clang 환경설정/AI template.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "AI template"
-                }
-              },
-              {
-                "id": "179967710e4428a7",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/구현 아이디어2.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "구현 아이디어2"
-                }
-              },
-              {
-                "id": "c6d38802b58bdd82",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/구현 아이디어1.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "구현 아이디어1"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 3680,
-        "y": 0,
-        "width": 880,
-        "height": 782,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "386234f96bef1f8c",
   "lastOpenFiles": [
-    "UI/1. WPF(Windows Presentation Foundation).md",
+    "LLVM/Clang 환경설정/AI template.md",
     "UI/2. MVVM(Model-View-ViewModel).md",
+    "UI/1. WPF(Windows Presentation Foundation).md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/체크 옵션들 예제.md",
     "UI",
-    "LLVM/Clang 환경설정/AI template.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/구현 아이디어1.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
