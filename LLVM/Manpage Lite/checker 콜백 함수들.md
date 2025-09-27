@@ -21,10 +21,10 @@
 
 ## **심볼 생명주기 관련**
 
-|템플릿 매개변수|콜백 함수|호출 시점|용도|
-|---|---|---|---|
-|`check::DeadSymbols`|`checkDeadSymbols(SymbolReaper &SR, CheckerContext &C)`|심볼 소멸 시|리소스 누수 탐지|
-|`check::LiveSymbols`|`checkLiveSymbols(ProgramStateRef State, SymbolReaper &SR)`|심볼 생존 확인 시|심볼 생존 연장|
+| 템플릿 매개변수             | 콜백 함수                                                       | 호출 시점      | 용도        |
+| -------------------- | ----------------------------------------------------------- | ---------- | --------- |
+| `check::DeadSymbols` | `checkDeadSymbols(SymbolReaper &SR, CheckerContext &C)`     | 심볼 소멸 시    | 리소스 누수 탐지 |
+| `check::LiveSymbols` | `checkLiveSymbols(ProgramStateRef State, SymbolReaper &SR)` | 심볼 생존 확인 시 | 심볼 생존 연장  |
 
 ## **포인터 관련**
 

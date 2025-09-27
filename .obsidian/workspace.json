@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ASTUtils.cpp.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ASTUtils.cpp.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ASTUtils.cpp.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ASTUtils.cpp.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -151,41 +151,45 @@
   },
   "active": "27fe69a6f1917342",
   "lastOpenFiles": [
-    "LLVM/Manpage Lite/ASTContext.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ASTUtils.cpp.md",
-    "LLVM/Manpage Lite/기타 함수.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/6. 포인터, 배열 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/5. 변환 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/4. 조건식 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/3. 식별자 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
-    "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙/C 전용 규칙.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/BitwiseShiftChecker.cpp.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/BasicObjCFoundationCheckers.cpp.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/SimpleStreamChecker.cpp.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ArrayBoundChecker.cpp.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalyzerStatsChecker.cpp.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/무제.md",
-    "LLVM/Manpage Lite/Stmt.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/ArrayBoundCheckerV2.cpp.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/AnalysisOrderChecker.cpp.md",
-    "LLVM/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
-    "LLVM/Manpage Lite/ProgramStateManager.md",
-    "LLVM/Manpage Lite/CheckerContext.md",
-    "LLVM/Manpage Lite/ParentMapContext.md",
-    "LLVM/CSA_Souce/CSA_Checkers/CSA_Checkers.cpp/My code file.cpp",
-    "LLVM/CSA 흐름구조 예시/Clang Static Analyzer 전체 분석 순서.md",
-    "LLVM/Manpage Lite/Exper(AST 주요 표현식).md",
+    "conflict-files-obsidian-git.md",
+    "LLVM/복습, 소개용/번외) Clang 컴파일 방식의 특징.md",
+    "LLVM/복습, 소개용/번외) Clang AST의 실제 표현.md",
+    "LLVM/복습, 소개용/6. 경로민감분석.md",
+    "LLVM/복습, 소개용/5. CFG 제어흐름그래프.md",
+    "LLVM/복습, 소개용/4. AST 추상구문트리.md",
+    "LLVM/복습, 소개용/3. 전처리기와 PPCallbacks.md",
+    "LLVM/복습, 소개용/2. Clang.md",
+    "LLVM/복습, 소개용/1. LLVM(Low Level Virtual Machine).md",
+    "LLVM/복습, 소개용",
+    "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/2. C++ 전용 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/1. C++ 전용 규칙.md",
+    "UI/2. MVVM(Model-View-ViewModel).md",
+    "UI/현재 구조.md",
+    "UI/0. 각 체커및 옵션 도표.md",
+    "UI/UI_TEST.md",
+    "UI/1. WPF(Windows Presentation Foundation).md",
+    "UI",
+    "Programing/기타/AI 탬플릿.md",
+    "Programing/Language/메모리 할당자.md",
+    "Programing/Language/C++/C++ 생성자 (trivial vs non-trivial).md",
+    "LLVM/Manpage Lite/Method of Analysis/ReadME.md",
+    "LLVM/Manpage Lite/Method of Analysis/Path-Sensitive Analysis.md",
+    "LLVM/Manpage Lite/Method of Analysis/Inter-procedural Analysis (IPA).md",
+    "LLVM/Manpage Lite/Method of Analysis/Cross-Translation Unit Analysis (CTU).md",
+    "LLVM/Manpage Lite/Method of Analysis/AST-based Checking.md",
+    "LLVM/Manpage Lite/Method of Analysis",
+    "LLVM/Manpage Lite/MatchFinder, MatchResult.md",
+    "LLVM/Manpage Lite/Immediately-Invoked Lambda Expression, IILE.md",
+    "LLVM/ClangT_Source/defenceStyle",
+    "LLVM/ClangT_Source",
+    "LLVM/CSA_Source/CSA_Checkers/CSA_Checkers.h",
+    "LLVM/CSA_Source/CSA_Checkers/CSA_Checkers.cpp",
+    "LLVM/CSA_Source/CSA_Core",
+    "LLVM/CSA_Source/CSA_Checkers",
+    "LLVM/CSA_Source",
     "기타_자료/Pasted image 20250708142713.png",
     "기타_자료/Pasted image 20250708141235.png",
     "기타_자료/Pasted image 20250708140925.png",
-    "기타_자료/Pasted image 20250708135351.png",
-    "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙",
-    "무기체계 소프트웨어 코딩 규칙/2. C 전용 규칙",
-    "무기체계 코딩 규칙/C,C++ 공통적용/스타일",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용",
-    "무기체계 소프트웨어 코딩 규칙"
+    "기타_자료/Pasted image 20250708135351.png"
   ]
 }

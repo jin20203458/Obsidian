@@ -1,9 +1,18 @@
 
+<font color="#00b050">1) Scanf의 Argument 에는 Object Value가 저장된 주소값이 입력되어야 한다.</font>
+
+<font color="#00b050">2) #include 구문에서 표준에 맞지 않는 Character set을 사용하지 않아야 한다.</font>
+
+<font color="#00b050">3) malloc에서 사용하는 인자값은 assign될 변수 type의 정수배이어야 한다.</font>
+
+<font color="#00b050">4) 함수의 Argument type과 개수는 함수의 Prototype, 선언, 정의가 모두 같아야 한다.</font>
+
+<font color="#00b050">5) 구조체/배열의 초기화 시 default 초기화 값(0)을 제외하고, 구조에 맞게 ‘{}’를 사용하여 선언된 Size에 맞게 초기화 해야 한다.</font>
 
 ---
 
 1) **Scanf의 Argument 에는 Object Value가 저장된 주소값이 입력되어야 한다.**
-
+[[VarargsFormatCheck]]
 ### ❌ 잘못된 예
 
 ```c
@@ -43,7 +52,7 @@ extern void foo(void)
 ---
 
 2) `#include` **구문에서 표준에 맞지 않는 Character set을 사용하지 않아야 한다.**
-
+[[IncludeCharsetCheck]]
 ### ❌ 잘못된 예
 
 ```c
@@ -76,7 +85,7 @@ extern void foo(void)
 ---
 
 3) **malloc에서 사용하는 인자값은 assign될 변수 type의 정수배이어야 한다.**
-
+[[MallocSizeMultipleCheck]]
 ### ❌ 잘못된 예
 
 ```c
@@ -117,7 +126,8 @@ void foo(void)
 ---
 
 4) **함수의 Argument type과 개수는 함수의 Prototype, 선언, 정의가 모두 같아야 한다.**
-
+[[FunctionSignatureConsistencyCheck]]
+[[FunctionCallArgumentConsistencyCheck]]
 ### ❌ 잘못된 예
 
 ```c
@@ -161,7 +171,7 @@ void test(unsigned char a)        // 호출부도 일치
 ---
 
 5) **구조체/배열의 초기화 시 default 초기화 값(0)을 제외하고, 구조에 맞게 ‘{}’를 사용하여 선언된 Size에 맞게 초기화 해야 한다.**
-
+[[AggregateInitStyleCheck]]
 ### ❌ 잘못된 예
 
 ```c

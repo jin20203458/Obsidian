@@ -104,3 +104,70 @@ setx PATH "$($env:PATH);C:\Dev\llvm-project\build\bin\Release" /M
 **성공 확인:** **새로운 PowerShell 창을 열고** `clang --version`을 입력했을 때 버전 정보가 나오면 성공입니다.
 
 이 과정을 통해 새로운 정적 분석 도구 개발과 테스트에 필요한 모든 LLVM/Clang 구성 요소를 한 번에 효율적으로 구축했습니다.
+
+
+
+
+
+## 0) 디버그 모드 재 빌드
+
+```shell
+# 1. 빌드 디렉토리 완전 삭제
+cd C:\Users\user\Documents\llvm-project
+Remove-Item -Recurse -Force build
+
+# 2. 새로운 빌드 디렉토리 생성
+mkdir build
+cd build
+
+# 3. Debug 모드로 CMake 설정
+cmake -G "Visual Studio 17 2022" -A x64 `
+      -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra;compiler-rt;lld" `
+      -DLLVM_TARGETS_TO_BUILD="X86" `
+      -DCMAKE_BUILD_TYPE=Debug `
+      -DLLVM_ENABLE_ASSERTIONS=ON `
+      ../llvm
+
+# 4. Debug 빌드 실행
+cmake --build . --config Debug --parallel 8
+
+```
+
+##  빌드 완료 후 확인사항
+```shell
+# 디버그 체커 목록 확인
+.\bin\clang.exe -cc1 -analyzer-checker-help | findstr debug
+
+# Exploded Graph 시각화 테스트
+.\bin\clang.exe -cc1 -analyze -analyzer-checker=debug.ViewExplodedGraph ErrorTest.cpp
+```
+
+*인코딩 문제시*
+```shell
+# 현재 빌드를 중지한 후
+cmake -G "Visual Studio 17 2022" -A x64 `
+      -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra;compiler-rt;lld" `
+      -DLLVM_TARGETS_TO_BUILD="X86" `
+      -DCMAKE_BUILD_TYPE=Debug `
+      -DLLVM_ENABLE_ASSERTIONS=ON `
+      -DCMAKE_CXX_FLAGS="/utf-8" `
+      -DCMAKE_C_FLAGS="/utf-8" `
+      ../llvm
+
+cmake --build . --config Debug --parallel 8
+
+```
+
+디버그,릴리즈 
+```shell
+cmake -G "Visual Studio 17 2022" -A x64 `
+      -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra;compiler-rt;lld" `
+      -DLLVM_TARGETS_TO_BUILD="X86" `
+      -DCMAKE_BUILD_TYPE=RelWithDebInfo `
+      -DLLVM_ENABLE_ASSERTIONS=ON `
+      -DCMAKE_CXX_FLAGS="/utf-8" `
+      -DCMAKE_C_FLAGS="/utf-8" `
+      ../llvm
+      
+cmake --build . --config RelWithDebInfo  --parallel 8
+```
