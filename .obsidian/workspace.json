@@ -62,20 +62,6 @@
               "icon": "lucide-file",
               "title": "clang-tidy 파일 탐색 규칙"
             }
-          },
-          {
-            "id": "3aa9096bed73a409",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLVM/복습, 소개용/1. LLVM(Low Level Virtual Machine).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. LLVM(Low Level Virtual Machine)"
-            }
           }
         ],
         "currentTab": 3
