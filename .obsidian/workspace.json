@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UI/clang-tidy 파일 탐색 규칙.md",
+                "file": "UI/UI_TEST.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "clang-tidy 파일 탐색 규칙"
+              "title": "UI_TEST"
             }
           }
         ],
@@ -217,8 +217,8 @@
   },
   "active": "d5d44dbcca6f4168",
   "lastOpenFiles": [
-    "UI/2. MVVM(Model-View-ViewModel).md",
     "UI/clang-tidy 파일 탐색 규칙.md",
+    "UI/2. MVVM(Model-View-ViewModel).md",
     "UI/0. 체커 옵션(설명).md",
     "UI/(개선안)시각적 계층 구조.md",
     "UI/(개선안)필터링 옵션 추가.md",
