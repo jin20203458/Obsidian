@@ -90,9 +90,23 @@
               "icon": "lucide-file",
               "title": "메모"
             }
+          },
+          {
+            "id": "99bdf2d6e0cb5685",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "번외사항들/메모1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "메모1"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -243,10 +257,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e92b695ac229ef04",
+  "active": "99bdf2d6e0cb5685",
   "lastOpenFiles": [
-    "번외사항들/체크 옵션들 예제.md",
     "번외사항들/메모.md",
+    "번외사항들/메모1.md",
+    "번외사항들/체크 옵션들 예제.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/2. 초기화 규칙.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/7. 연산자 규칙.md",
@@ -271,7 +286,6 @@
     "UI/0. 체커 옵션(자료형).md",
     "LLVM/복습, 소개용/1. LLVM(Low Level Virtual Machine).md",
     "LLVM/복습, 소개용/2. Clang.md",
-    "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/1. C++ 전용 규칙.md",
     "UI",
     "기타_자료/Pasted image 20240604014434.png",
     "Programing/운영체제/리눅스/리눅스 1차/리눅스 개념/1. 리눅스 실무의 이해/2. 리눅스 시스템의 이해",
