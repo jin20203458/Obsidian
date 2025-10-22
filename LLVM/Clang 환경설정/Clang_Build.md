@@ -148,7 +148,7 @@ cmake --build . --config Debug --parallel 8
 cmake -G "Visual Studio 17 2022" -A x64 `
       -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra;compiler-rt;lld" `
       -DLLVM_TARGETS_TO_BUILD="X86" `
-      -DCMAKE_BUILD_TYPE=Debug `
+      #-DCMAKE_BUILD_TYPE=Debug `
       -DLLVM_ENABLE_ASSERTIONS=ON `
       -DCMAKE_CXX_FLAGS="/utf-8" `
       -DCMAKE_C_FLAGS="/utf-8" `
