@@ -77,13 +77,3 @@
 |                 | `ReservedIdentifierCheck`                     | 표준에 의해 예약된 식별자(예: `_`로 시작하는 이름) 사용을 감지합니다.                            |
 |                 | `UnsafeFunctionsCheck`                        | `gets`와 같이 버퍼 오버플로우에 취약한 안전하지 않은 함수 사용을 검사합니다.                        |
 
-1. [https://clang.llvm.org/extra/clang-tidy/checks/list.html](https://clang.llvm.org/extra/clang-tidy/checks/list.html)
-2. [https://clang.llvm.org/extra/doxygen/classclang_1_1tidy_1_1ClangTidyCheck.html](https://clang.llvm.org/extra/doxygen/classclang_1_1tidy_1_1ClangTidyCheck.html)
-3. [https://www.reddit.com/r/embedded/comments/yd4ahb/clangtidy_which_check_flags_you_typically_use/?tl=ko](https://www.reddit.com/r/embedded/comments/yd4ahb/clangtidy_which_check_flags_you_typically_use/?tl=ko)
-4. [https://www.reddit.com/r/embedded/comments/yd4ahb/clangtidy_which_check_flags_you_typically_use/](https://www.reddit.com/r/embedded/comments/yd4ahb/clangtidy_which_check_flags_you_typically_use/)
-5. [https://gjbex.github.io/Defensive_programming_and_debugging/CodeValidation/StaticCodeAnalyzers/clang_tidy/](https://gjbex.github.io/Defensive_programming_and_debugging/CodeValidation/StaticCodeAnalyzers/clang_tidy/)
-6. [https://makurisgame190817.tistory.com/11](https://makurisgame190817.tistory.com/11)
-7. [http://llvm-cs.pcc.me.uk/tools/clang/tools/extra/test/clang-tidy/checkers/](http://llvm-cs.pcc.me.uk/tools/clang/tools/extra/test/clang-tidy/checkers/)
-8. [https://gist.github.com/johnmcfarlane/d9eb7843d120b61ff575109e56b8eec0](https://gist.github.com/johnmcfarlane/d9eb7843d120b61ff575109e56b8eec0)
-9. [https://github.com/woojung3/custom-clang-tidy-checks](https://github.com/woojung3/custom-clang-tidy-checks)
-10. [https://news.ycombinator.com/item?id=19349009](https://news.ycombinator.com/item?id=19349009)

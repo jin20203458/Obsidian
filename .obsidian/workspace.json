@@ -8,45 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7ea801c1177ab5a9",
+            "id": "0ca72814cc9c0b77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UI/1차 완성본.md",
+                "file": "Clang-tidy 모듈들/CERT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1차 완성본"
+              "title": "CERT"
             }
           },
           {
-            "id": "f390207ee635d59b",
+            "id": "4403a48fd152dabf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clang-tidy 모듈들/bugprone.md",
+                "file": "Clang-tidy 모듈들/google.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bugprone"
-            }
-          },
-          {
-            "id": "f565d02c429cefe1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clang-tidy 모듈들/CppCoreGuidelines.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CppCoreGuidelines"
+              "title": "google"
             }
           },
           {
@@ -229,20 +215,27 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f390207ee635d59b",
+  "active": "4403a48fd152dabf",
   "lastOpenFiles": [
+    "Clang-tidy 모듈들/CERT.md",
+    "Clang-tidy 모듈들/google.md",
+    "Clang-tidy 모듈들/Miscellaneous.md",
+    "Clang-tidy 모듈들/Readability.md",
+    "Clang-tidy 모듈들/Performance.md",
+    "Clang-tidy 모듈들/Modernize.md",
     "Clang-tidy 모듈들/CppCoreGuidelines.md",
     "Clang-tidy 모듈들/bugprone.md",
+    "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/1. C++ 전용 규칙.md",
+    "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/2. C++ 전용 규칙.md",
+    "UI/1차 완성본.md",
     "UI/무제.md",
     "메모장.md",
-    "UI/1차 완성본.md",
     "UI/(개선안)시각적 계층 구조.md",
     "UI/UI_TEST.md",
     "번외사항들/구현 아이디어2.md",
     "번외사항들/고려사항들(문제시 참조).md",
     "Clang-tidy 모듈들/bugprone",
     "Clang-tidy 모듈들",
-    "무기체계 소프트웨어 코딩 규칙/3. C++ 전용 규칙/2. C++ 전용 규칙.md",
     "UI/기타) 0. 공부내용.md",
     "LLVM/Clang 환경설정/Clang_Build.md",
     "번외사항들/개발 순서.md",
@@ -252,13 +245,6 @@
     "UI/2. MVVM(Model-View-ViewModel).md",
     "UI/1. WPF(Windows Presentation Foundation).md",
     "UI/0. 체커 옵션(자료형).md",
-    "번외사항들/메모.md",
-    "번외사항들/메모1.md",
-    "번외사항들/체크 옵션들 예제.md",
-    "무기체계 소프트웨어 코딩 규칙/ai프롬프트 Rules/공통 포인터,배열.md",
-    "무기체계 소프트웨어 코딩 규칙/ai프롬프트 Rules/공통 연산자.md",
-    "무기체계 소프트웨어 코딩 규칙/ai프롬프트 Rules/C 전용.md",
-    "무기체계 소프트웨어 코딩 규칙/ai프롬프트 Rules/Cpp 전용.md",
     "무기체계 소프트웨어 코딩 규칙/ai프롬프트 Rules",
     "번외사항들",
     "UI",
