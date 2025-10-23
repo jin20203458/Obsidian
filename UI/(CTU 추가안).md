@@ -1,211 +1,427 @@
-완전히 동의합니다! **ArqaStatic의 경우 CodeChecker보다 직접 통합이 훨씬 효율적입니다.** 두 가지 접근 방법을 비교해드리겠습니다.
+네, 그렇다면 상황이 명확합니다. LLVM 빌드 환경과 커스텀 체커 개발 경험이 있으시다면, **`clang-tidy.cpp`를 직접 수정하여 Static Analyzer의 CTU(Cross Translation Unit) 기능을 통합하는 것이 압도적으로 유리합니다.**
 
-## 접근 방법 비교
+제공해주신 훌륭한 접근 방안(옵션 2)을 바탕으로, **ArqaStatic에 CTU 기능을 탑재한 커스텀 `clang-tidy`를 통합하는 체계적인 가이드**를 정리해 드립니다.
 
-## 옵션 1: Static Analyzer 직접 실행 (추천 ⭐⭐⭐⭐⭐)
+---
 
-**장점:**
+## 1. 최종 목표 및 전략 🎯
 
-- ✅ 기존 UI 활용 (WPF)
-    
-- ✅ 단순한 통합
-    
-- ✅ Python 의존성 없음
-    
-- ✅ 실시간 피드백 가능
-    
-- ✅ CTU 지원 가능
-    
+전략:
 
-**단점:**
+clang.exe --analyze를 별도로 실행하는 대신 (옵션 1), 기존 clang-tidy.exe 바이너리 자체에 Static Analyzer의 CTU(파일 간 분석) 기능을 활성화하는 코드를 추가합니다.
 
-- ⚠️ CTU 설정이 다소 복잡
-    
+**기대 효과:**
 
-## 옵션 2: ClangTidy.cpp 수정 (고급, 최고 통제권 ⭐⭐⭐⭐)
-
-**장점:**
-
-- ✅ 완전한 커스터마이징
+- **단일 바이너리:** `clang-tidy.exe` 하나로 Tidy 체커, Static Analyzer 체커, CTU 분석까지 모두 처리합니다.
     
-- ✅ 단일 실행 파일
+- **완전한 통합:** ArqaStatic UI는 기존처럼 `ClangTidyRunnerService`만 호출하면 됩니다.
     
-- ✅ 최적 성능
+- **강력한 분석:** `safety-*` 같은 커스텀 체커가 CTU 정보를 활용하여 함수 호출 경계를 넘어선 널 포인터 역참조 등을 탐지할 수 있습니다.
     
-
-**단점:**
-
-- ⚠️ LLVM 빌드 필요
-    
-- ⚠️ 유지보수 부담
-    
-- ⚠️ LLVM 버전 업데이트 시 재빌드
+- **의존성 없음:** Python(CodeChecker)이나 별도 프로세스 실행이 필요 없습니다.
     
 
 ---
 
-## 옵션 1: Static Analyzer 직접 추가 (권장)
+## 2. 구현 로드맵 🗺️
 
-## 1.1 아키텍처
+전체 작업은 크게 4단계로 나뉩니다.
 
-text
-
-`ArqaStatic WPF UI     ↓ ├─ ClangTidyRunnerService (기존) │   └─ clang-tidy.exe │ └─ StaticAnalyzerRunnerService (신규)     └─ clang.exe --analyze`
-
-## 1.2 구현 예시
-
-**StaticAnalyzerRunnerService.cs**
-
-csharp
-
-`using System.Diagnostics; using System.Text.RegularExpressions; namespace ArqaStatic.Services {     public class StaticAnalyzerRunnerService : IStaticAnalyzerService     {         // Static Analyzer 출력: file.cpp:10:5: warning: ...         private static readonly Regex DiagnosticPattern = new Regex(             @"^(?<file>.+?):(?<line>\d+):(?<column>\d+):\s+(?<severity>\w+):\s+(?<message>.+)",             RegexOptions.Compiled         );         public async Task RunAnalysisAsync(             string clangPath,                    // clang.exe 경로             string projectPath,             IEnumerable<string> filesToAnalyze,             IEnumerable<CheckerItem> enabledCheckers,             string compileCommandsPath,             bool enableCTU,                      // CTU 활성화 옵션             Action<DiagnosticItem> onDiagnosticFound,             Action<int, int>? onProgressChanged = null)         {             // CTU 준비 (선택적)             string ctuDir = null;             if (enableCTU)             {                 ctuDir = await PrepareCTUIndex(                     clangPath,                      projectPath,                      compileCommandsPath                 );             }             int current = 0;             int total = filesToAnalyze.Count();             // 각 파일 분석             foreach (var file in filesToAnalyze)             {                 current++;                 onProgressChanged?.Invoke(current, total);                 await AnalyzeFile(                     clangPath,                     file,                     enabledCheckers,                     ctuDir,                     onDiagnosticFound                 );             }         }         private async Task<string> PrepareCTUIndex(             string clangPath,             string projectPath,             string compileCommandsPath)         {             string ctuDir = Path.Combine(projectPath, ".ctu-temp");             Directory.CreateDirectory(ctuDir);             // 1. AST 덤프 생성             var files = ParseCompileCommands(compileCommandsPath);                          foreach (var file in files)             {                 var astArgs = new List<string>                 {                     "-emit-ast",                     "-o", Path.Combine(ctuDir, $"{Path.GetFileName(file)}.ast"),                     file                 };                 await RunProcess(clangPath, string.Join(" ", astArgs));             }             // 2. External Definition Map 생성             var mapFile = Path.Combine(ctuDir, "externalDefMap.txt");             foreach (var file in files)             {                 var mapArgs = new List<string>                 {                     "-Xclang", "-ast-dump",                     "-fsyntax-only",                     file                 };                 // clang-extdef-mapping 또는 직접 구현                 // 간단히는: AST에서 external definition 추출             }             return ctuDir;         }         private async Task AnalyzeFile(             string clangPath,             string file,             IEnumerable<CheckerItem> checkers,             string ctuDir,             Action<DiagnosticItem> onDiagnosticFound)         {             var args = new List<string>             {                 "--analyze",                // Static Analyzer 모드                 "-Xclang", "-analyzer-output=text",  // 텍스트 출력             };             // 체커 활성화             foreach (var checker in checkers)             {                 args.Add("-Xclang");                 args.Add($"-analyzer-checker={checker.Name}");             }             // CTU 설정             if (!string.IsNullOrEmpty(ctuDir))             {                 args.Add("-Xclang");                 args.Add("-analyzer-config");                 args.Add("-Xclang");                 args.Add($"ctu-dir={ctuDir}");                                  args.Add("-Xclang");                 args.Add("-analyzer-config");                 args.Add("-Xclang");                 args.Add("experimental-enable-naive-ctu-analysis=true");             }             // 분석 대상 파일             args.Add(file);             // 실행             var startInfo = new ProcessStartInfo             {                 FileName = clangPath,                 Arguments = string.Join(" ", args),                 UseShellExecute = false,                 RedirectStandardOutput = true,                 RedirectStandardError = true,                 CreateNoWindow = true             };             using var process = new Process { StartInfo = startInfo };             process.OutputDataReceived += (sender, e) =>             {                 if (!string.IsNullOrEmpty(e.Data))                 {                     var diagnostic = ParseDiagnostic(e.Data);                     if (diagnostic != null)                         onDiagnosticFound(diagnostic);                 }             };             process.ErrorDataReceived += (sender, e) =>             {                 if (!string.IsNullOrEmpty(e.Data))                 {                     var diagnostic = ParseDiagnostic(e.Data);                     if (diagnostic != null)                         onDiagnosticFound(diagnostic);                 }             };             process.Start();             process.BeginOutputReadLine();             process.BeginErrorReadLine();             await process.WaitForExitAsync();         }         private DiagnosticItem ParseDiagnostic(string line)         {             var match = DiagnosticPattern.Match(line);             if (!match.Success) return null;             return new DiagnosticItem             {                 FilePath = match.Groups["file"].Value,                 Line = int.Parse(match.Groups["line"].Value),                 Column = int.Parse(match.Groups["column"].Value),                 Message = match.Groups["message"].Value,                 CheckName = "clang-analyzer" // 상세 체커명 추출 가능             };         }         private List<string> ParseCompileCommands(string path)         {             // compile_commands.json 파싱             var json = File.ReadAllText(path);             var commands = JsonSerializer.Deserialize<List<CompileCommand>>(json);             return commands.Select(c => c.File).ToList();         }         private class CompileCommand         {             public string File { get; set; }             public string Command { get; set; }             public string Directory { get; set; }         }     } }`
-
-## 1.3 UI 통합
-
-**MainViewModel.cs 수정**
-
-csharp
-
-`public enum AnalyzerMode {     ClangTidy,           // 기존     StaticAnalyzer,      // 신규     Both                 // 둘 다 } private AnalyzerMode _selectedMode = AnalyzerMode.ClangTidy; public AnalyzerMode SelectedMode {     get => _selectedMode;     set => SetProperty(ref _selectedMode, value); } public async Task RunAnalysisCommand() {     Results.Clear();          if (SelectedMode == AnalyzerMode.ClangTidy || SelectedMode == AnalyzerMode.Both)     {         // 기존 Clang-Tidy 실행         await _clangTidyRunner.RunAnalysisAsync(...);     }          if (SelectedMode == AnalyzerMode.StaticAnalyzer || SelectedMode == AnalyzerMode.Both)     {         // 신규 Static Analyzer 실행         await _staticAnalyzerRunner.RunAnalysisAsync(...);     } }`
-
-**MainWindow.xaml 수정**
-
-xml
-
-`<ComboBox SelectedItem="{Binding SelectedMode}">     <ComboBoxItem Content="Clang-Tidy (빠름)" />     <ComboBoxItem Content="Static Analyzer (정확함, CTU 가능)" />     <ComboBoxItem Content="둘 다 실행 (추천)" /> </ComboBox> <CheckBox Content="CTU 분석 활성화 (파일 간 분석)"            IsChecked="{Binding EnableCTU}"           IsEnabled="{Binding IsStaticAnalyzerSelected}" />`
+1. **Phase 1: `clang-tidy` 핵심 수정 (C++)**
+    
+    - `ClangTidyOptions.h`: CTU 활성화(`EnableCTU`), CTU 인덱스 경로(`CTUDir`) 옵션을 추가합니다.
+        
+    - `ClangTidy.cpp` (`prepareCTUIndex`): CTU 분석에 필요한 AST 덤프 및 `externalDefMap.txt` 파일을 생성하는 로직을 추가합니다.
+        
+    - `ClangTidy.cpp` (`runClangTidy`): `EnableCTU` 옵션이 켜지면 `prepareCTUIndex`를 호출하도록 수정합니다.
+        
+    - `ClangTidy.cpp` (`createASTConsumer`): 컴파일러의 `AnalyzerOptions`에 CTU 관련 설정(`experimental-enable-naive-ctu-analysis`, `ctu-dir` 등)을 전달합니다.
+        
+2. **Phase 2: 옵션 연동 (C++)**
+    
+    - `ClangTidyMain.cpp`: `--enable-ctu`, `--ctu-dir` 커맨드라인 옵션을 추가합니다.
+        
+    - `ClangTidyOptions.cpp`: `.clang-tidy` YAML 설정 파일에서 `EnableCTU`, `CTUDir`를 읽을 수 있도록 YAML 매핑을 추가합니다.
+        
+3. **Phase 3: ArqaStatic 연동 (C# / XAML)**
+    
+    - `ClangTidyRunnerService.cs`: `EnableCTU` 옵션을 받아 `clang-tidy.exe`에 `--enable-ctu` 인자를 전달하도록 수정합니다.
+        
+    - `MainViewModel.cs` / `MainWindow.xaml`: UI에 "CTU 분석 활성화" 체크박스를 추가합니다.
+        
+4. **Phase 4: 커스텀 체커 수정 (C++)**
+    
+    - 개발 중이신 `safety-*` 체커가 `ASTContext`의 Cross-TU 기능을 활용하여 다른 파일의 함수 정의(Definition)를 가져와 분석하도록 수정합니다.
+        
 
 ---
 
-## 옵션 2: ClangTidy.cpp 수정
+## 3. 단계별 상세 가이드 🛠️
 
-## 2.1 수정 전략
+제시해주신 코드 스케치를 기반으로 각 파일의 수정 사항을 체계적으로 배치했습니다.
 
-**목표:** ClangTidy.cpp에 CTU 지원 추가
+### Phase 1: `clang-tidy` 핵심 수정
 
-**수정 위치:**
+#### 1.1. `ClangTidyOptions.h`: 옵션 필드 추가
 
-cpp
+`struct ClangTidyOptions` 내부에 CTU 관련 설정을 추가합니다.
 
-`// ClangTidy.cpp의 createASTConsumer 함수 #if CLANG_TIDY_ENABLE_STATIC_ANALYZER   AnalyzerOptions &AnalyzerOptions = Compiler.getAnalyzerOpts();      // 추가: CTU 설정   if (Context.getOptions().EnableCTU) {     AnalyzerOptions.Config["experimental-enable-naive-ctu-analysis"] = "true";     AnalyzerOptions.Config["ctu-dir"] = Context.getOptions().CTUDirectory;     AnalyzerOptions.Config["ctu-index-name"] = "externalDefMap.txt";   }      // 기존 코드 계속... #endif`
+C++
 
-## 2.2 빌드 과정
+```
+// clang-tools-extra/clang-tidy/ClangTidyOptions.h
+struct ClangTidyOptions {
+    // ... 기존 필드들 ...
 
-bash
+    // ===== CTU 지원 추가 =====
+    std::optional<bool> EnableCTU;
+    std::optional<std::string> CTUDir;
+    std::optional<std::string> CTUIndexName; // (선택적)
+};
+```
 
-`# 1. LLVM 소스 다운로드 git clone https://github.com/llvm/llvm-project.git cd llvm-project # 2. ClangTidy.cpp 수정 # clang-tools-extra/clang-tidy/ClangTidy.cpp # 3. CMake 빌드 mkdir build && cd build cmake -G "Visual Studio 17 2022" -A x64 \   -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra" \   -DCMAKE_BUILD_TYPE=Release \   ../llvm # 4. 빌드 (수 시간 소요) cmake --build . --config Release # 5. 결과물 # build/bin/clang-tidy.exe`
+_(참고: `llvm::yaml::MappingTraits` 업데이트도 필요합니다. Phase 2.2 참고)_
 
-## 2.3 장단점
+#### 1.2. `ClangTidy.cpp`: CTU 인덱스 생성 로직 추가 (개념적 예시)
 
-**장점:**
+`runClangTidy` 함수가 호출되기 전에, CTU 인덱스를 미리 생성하는 헬퍼 함수들을 추가합니다.
 
-- ✅ 단일 실행 파일 (clang-tidy.exe)
+C++
+
+```
+// clang-tools-extra/clang-tidy/ClangTidy.cpp
+namespace {
+
+// (제시해주신 prepareCTUIndex 및 generateExternalDefMap 로직)
+// 이 함수들은 컴파일 데이터베이스를 기반으로 각 파일의 AST를 덤프하고
+// externalDefMap.txt를 생성하는 역할을 합니다.
+bool prepareCTUIndex(
+    const CompilationDatabase &Compilations,
+    ArrayRef<std::string> InputFiles,
+    StringRef CTUDir,
+    DiagnosticsEngine &DE) 
+{
+    llvm::outs() << "Preparing CTU index in: " << CTUDir << "\n";
     
-- ✅ 완벽한 통합
-    
-- ✅ 최고 성능
-    
+    // 1. CTU 디렉토리 생성
+    if (std::error_code EC = llvm::sys::fs::create_directories(CTUDir)) {
+       llvm::errs() << "Error creating CTU directory: " << EC.message() << "\n";
+       return false;
+    }
 
-**단점:**
+    // 2. 각 파일에 대해 AST 덤프 생성 (-emit-ast)
+    // ... (Compilations에서 커맨드를 가져와 -emit-ast, -o <ctu-dir/file.ast> 추가 후 실행) ...
+    // (참고: system() 대신 Clang 드라이버를 직접 호출하는 것이 더 견고합니다.)
 
-- ❌ 빌드 시간 길음 (수 시간)
+    // 3. External Definition Map 생성
+    // ... (generateExternalDefMap 호출, AST에서 External Def를 추출하여 맵 파일 생성) ...
     
-- ❌ LLVM 업데이트마다 재빌드
-    
-- ❌ 유지보수 부담
-    
-- ❌ 100GB+ 디스크 공간
-    
+    llvm::outs() << "CTU index preparation complete.\n";
+    return true;
+}
+
+} // namespace
+```
+
+#### 1.3. `ClangTidy.cpp` (`runClangTidy`): CTU 인덱싱 트리거
+
+`runClangTidy` 함수 초입부에서 CTU 옵션이 켜져 있으면 인덱싱을 수행합니다.
+
+C++
+
+```
+// clang-tools-extra/clang-tidy/ClangTidy.cpp
+std::vector<ClangTidyError> runClangTidy(
+    clang::tidy::ClangTidyContext &Context,
+    const CompilationDatabase &Compilations,
+    ArrayRef<std::string> InputFiles,
+    /* ... (기타 인자) ... */) 
+{
+    ClangTool Tool(Compilations, InputFiles,
+                   std::make_shared<PCHContainerOperations>(), BaseFS);
+
+    // ===== CTU 지원 추가 =====
+    if (Context.getOptions().EnableCTU.value_or(false)) {
+        std::string CTUDir = Context.getOptions().CTUDir.value_or("./ctu-dir");
+        
+        DiagnosticsEngine DE(new DiagnosticIDs(), new DiagnosticOptions());
+        if (!prepareCTUIndex(Compilations, InputFiles, CTUDir, DE)) {
+            // 실패 시 경고만 하고 Tidy 분석은 계속 진행 (CTU 없이)
+            llvm::errs() << "Warning: CTU index preparation failed. "
+                         << "Proceeding without CTU analysis.\n";
+        }
+    }
+    // ===== CTU 지원 끝 =====
+
+    // ... (기존 ClangTool 설정 코드) ...
+}
+```
+
+#### 1.4. `ClangTidy.cpp` (`createASTConsumer`): CTU 옵션 전달
+
+`ClangTidyASTConsumerFactory::createASTConsumer` 내부에서 `CompilerInstance`의 `AnalyzerOptions`에 CTU 설정을 주입합니다.
+
+C++
+
+```
+// clang-tools-extra/clang-tidy/ClangTidy.cpp
+std::unique_ptr<clang::ASTConsumer> 
+ClangTidyASTConsumerFactory::createASTConsumer(
+    clang::CompilerInstance &Compiler, StringRef File) 
+{
+    // ... (기존 Consumers, Profiling, Finder 등 설정) ...
+
+    #if CLANG_TIDY_ENABLE_STATIC_ANALYZER
+    // Static Analyzer 체커가 활성화된 경우
+    AnalyzerOptions &AnalyzerOptions = Compiler.getAnalyzerOpts();
+    // ... (기존 AnalyzerOptions 설정) ...
+
+    if (!AnalyzerOptions.CheckersAndPackages.empty()) {
+        // ... (기존 setStaticAnalyzerCheckerOpts 등) ...
+
+        // ===== CTU 설정 추가 =====
+        if (Context.getOptions().EnableCTU.value_or(false)) {
+            std::string CTUDir = Context.getOptions().CTUDir.value_or("./ctu-dir");
+            std::string CTUIndex = Context.getOptions().CTUIndexName.value_or("externalDefMap.txt");
+            
+            AnalyzerOptions.Config["experimental-enable-naive-ctu-analysis"] = "true";
+            AnalyzerOptions.Config["ctu-dir"] = CTUDir;
+            AnalyzerOptions.Config["ctu-index-name"] = CTUIndex;
+            
+            // (선택적) CTU 호출 목록 파일 지정
+            // AnalyzerOptions.Config["ctu-invocation-list"] = CTUDir + "/invocations.yaml";
+        }
+        // ===== CTU 설정 끝 =====
+
+        // ... (ento::CreateAnalysisConsumer 호출) ...
+    }
+    #endif
+
+    // ... (ClangTidyASTConsumer 생성 및 반환) ...
+}
+```
 
 ---
 
-## 최종 권장사항
+### Phase 2: 옵션 연동
 
-## 단기: 옵션 1 (Static Analyzer 직접 실행)
+#### 2.1. `ClangTidyMain.cpp`: 커맨드라인 옵션 추가
 
-text
+`clang-tidy.exe`가 `--enable-ctu` 인자를 받도록 합니다.
 
-`ArqaStatic ├─ ClangTidyRunnerService ✅ (기존) └─ StaticAnalyzerRunnerService ✅ (신규, 2-3일 작업)`
+C++
 
-**이유:**
+```
+// clang-tools-extra/clang-tidy/tool/ClangTidyMain.cpp
+static cl::OptionCategory ClangTidyCategory("clang-tidy options");
 
-1. **빠른 구현** (2-3일)
+// ... (기존 cl::opt들) ...
+
+// ===== CTU 옵션 추가 =====
+static cl::opt<bool> EnableCTU(
+    "enable-ctu",
+    cl::desc("Enable Cross Translation Unit (CTU) analysis"),
+    cl::init(false),
+    cl::cat(ClangTidyCategory));
+
+static cl::opt<std::string> CTUDir(
+    "ctu-dir",
+    cl::desc("Path to CTU index directory"),
+    cl::init("./ctu-dir"), // 기본값
+    cl::cat(ClangTidyCategory));
+
+// ... (main 함수 내부) ...
+int clangTidyMain(int argc, const char **argv) {
+    // ... (옵션 파싱) ...
     
-2. **유지보수 쉬움**
-    
-3. **CTU 지원**
-    
-4. **기존 UI 재활용**
-    
+    ClangTidyOptions EffectiveOptions = OptionsProvider->getGlobalOptions();
 
-## 중기: CTU 간소화
+    // ===== CTU 옵션 설정 =====
+    if (EnableCTU.getNumOccurrences() > 0)
+        EffectiveOptions.EnableCTU = EnableCTU;
+    if (CTUDir.getNumOccurrences() > 0)
+        EffectiveOptions.CTUDir = CTUDir;
 
-Static Analyzer의 CTU는 복잡하므로:
+    // ... (runClangTidy 호출) ...
+}
+```
 
-csharp
+#### 2.2. `ClangTidyOptions.cpp`: `.clang-tidy` YAML 지원
 
-`// 간단한 CTU (함수 호출 정보만) public class SimpleCTUAnalyzer {     // 1. 모든 파일에서 함수 정의 수집     // 2. 호출 관계 추적     // 3. 간단한 데이터 플로우 분석 }`
+`.clang-tidy` 파일에서 CTU를 켜고 끌 수 있게 합니다.
 
-## 장기: 필요시 커스텀 체커 개발
+C++
 
-cpp
-
-`// 귀하의 safety-* 체커에 파일 간 분석 추가 class SafetyCfgNullDereferenceCheck : public ClangTidyCheck {     // CTU 정보 활용 };`
+```
+// clang-tools-extra/clang-tidy/ClangTidyOptions.cpp
+template <>
+struct MappingTraits<ClangTidyOptions> {
+    static void mapping(IO &IO, ClangTidyOptions &Options) {
+        // ... (기존 매핑) ...
+        
+        // ===== CTU 옵션 추가 =====
+        IO.mapOptional("EnableCTU", Options.EnableCTU);
+        IO.mapOptional("CTUDir", Options.CTUDir);
+        IO.mapOptional("CTUIndexName", Options.CTUIndexName);
+    }
+};
+```
 
 ---
 
-## 구현 우선순위
+### Phase 3: ArqaStatic 연동
 
-## Phase 1 (1주)
+#### 3.1. `ClangTidyRunnerService.cs`: `--enable-ctu` 인자 전달
 
-text
+UI의 `EnableCTU` (bool) 값을 받아 `clang-tidy.exe`의 인자로 넘겨줍니다.
 
-`1. StaticAnalyzerRunnerService 구현 2. 기본 분석 (CTU 없이) 3. UI 통합 4. 테스트`
+C#
 
-## Phase 2 (2주)
+```
+// ArqaStatic.Services.ClangTidyRunnerService.cs
+private string BuildClangTidyArguments(
+    // ... (기존 인자들) ...
+    bool enableCTU, // ⬅️ MainViewModel에서 전달받을 새 파라미터
+    string projectPath // ⬅️ CTU 인덱스 경로 설정을 위한 프로젝트 경로
+) {
+    var argsList = new List<string>();
+    // ... (기존 파일 목록, -p 옵션 등 추가) ...
 
-text
+    // ===== CTU 활성화 (수정된 clang-tidy 사용) =====
+    if (enableCTU)
+    {
+        string ctuIndexPath = Path.Combine(projectPath, ".ctu-index"); // 예시 경로
+        argsList.Add("--enable-ctu");
+        argsList.Add($"--ctu-dir \"{ctuIndexPath}\"");
+    }
 
-`1. CTU 인덱스 생성 구현 2. CTU 분석 통합 3. 성능 최적화`
+    // ... (나머지 옵션들) ...
+    return string.Join(" ", argsList);
+}
+```
 
-## Phase 3 (선택)
+#### 3.2. `MainWindow.xaml`: CTU 체크박스 추가
 
-text
+`MainViewModel`에 `EnableCTU` (bool) 속성을 추가하고, UI에 체크박스를 바인딩합니다.
 
-`1. ClangTidy.cpp 수정 검토 2. 또는 CodeChecker 연동`
+XML
+
+```
+<CheckBox Content="CTU 분석 활성화 (파일 간 분석, 매우 느림)"
+          IsChecked="{Binding EnableCTU}"
+          ToolTip="함수 호출 경계를 넘어 버그를 탐지합니다. (예: Nullptr가 다른 파일에서 반환되는 경우)" />
+```
 
 ---
 
-## 예상 코드 크기
+### Phase 4: 커스텀 체커에서 CTU 활용
 
-**StaticAnalyzerRunnerService.cs**
+CTU가 활성화되면, Static Analyzer의 `CrossTranslationUnitContext`를 활용할 수 있게 됩니다.
 
-- 약 500-700줄 (CTU 포함)
-    
-- 기존 ClangTidyRunnerService와 유사한 구조
-    
+C++
 
-**UI 수정**
+```
+// YourCustomChecks/SafetyCfgNullDereferenceCheck.cpp
+void SafetyCfgNullDereferenceCheck::check(
+    const MatchFinder::MatchResult &Result) 
+{
+    const auto *CallExpr = Result.Nodes.getNodeAs<CallExpr>("call");
+    if (!CallExpr) return;
 
-- 약 100줄 (XAML + ViewModel)
-    
+    // 호출된 함수의 선언(Declaration) 가져오기
+    if (const auto *CalleeDecl = CallExpr->getDirectCallee()) {
+        
+        // 함수 정의(Definition) 가져오기
+        // 1. 현재 파일(TU)에서 정의(body)를 찾습니다.
+        const FunctionDecl *Def = CalleeDecl->getDefinition();
 
-**총 작업량**
+        // 2. 현재 파일에 정의가 없다면 (외부 함수라면)
+        if (!Def || !Def->hasBody()) {
+            
+            // 3. ===== CTU를 통해 외부 정의를 가져옵니다. =====
+            // (Static Analyzer의 CrossTranslationUnitContext를 가져와야 함)
+            // 실제 구현은 Clang의 ento::CrossTranslationUnitContext 인프라를
+            // 체커에 주입하거나 접근해야 합니다.
+            //
+            // const ento::CrossTranslationUnitContext *CTUCtx = 
+            //    getAnalysisContext()->getCrossTranslationUnitContext();
+            // if (CTUCtx) {
+            //     Def = CTUCtx->getDefinition(CalleeDecl);
+            // }
+        }
 
-- 2-3일 (기본 구현)
-    
-- 1주일 (CTU 포함)
-    
+        // 4. 가져온 함수 정의(Def)를 분석합니다.
+        if (Def && Def->hasBody()) {
+            // 예: 이 함수의 반환 값이 Null인지 등을 분석
+            // analyzeFunctionBody(Def, Result.Context);
+        }
+    }
+}
+```
 
 ---
 
-## 결론
+## 4. 빌드 및 테스트 전략 🧪
 
-**Option 1 (Static Analyzer 직접 추가)을 강력히 추천합니다!**
+### 4.1. 빌드 (부분 빌드)
 
-text
+LLVM 전체를 다시 빌드할 필요 없이, `clang-tidy` 타겟만 재빌드하여 시간을 절약합니다.
 
-`장점: + 빠른 구현 + 기존 UI 활용 + CTU 지원 + Python 의존성 없음 + 유지보수 쉬움 단점: - CTU 설정 복잡 (하지만 1회만)`
+Bash
 
-이 방식이 ArqaStatic의 현재 구조와 가장 잘 맞으며, **CodeChecker 없이도 CTU를 활용**할 수 있습니다! 🚀
+```
+# llvm-project/build 디렉토리에서
+cmake --build . --target clang-tidy --config Release
+```
 
-구현하시면서 막히는 부분 있으면 언제든 질문해주세요!
+_결과물: `build/bin/clang-tidy.exe` (모든 기능이 통합된 바이너리)_
+
+### 4.2. 테스트
+
+제시해주신 예제(`file1.cpp`, `file2.cpp`)로 CTU 기능을 검증합니다.
+
+**`file1.cpp`**
+
+C++
+
+```
+// file1.cpp
+int* dangerous_function() {
+    return nullptr;
+}
+```
+
+**`file2.cpp`**
+
+C++
+
+```
+// file2.cpp
+extern int* dangerous_function();
+int main() {
+    int* p = dangerous_function();
+    *p = 10;  // ⬅️ CTU 없이는 감지 불가, CTU 활성화 시 감지되어야 함
+    return 0;
+}
+```
+
+**테스트 커맨드:**
+
+Bash
+
+```
+# 1. compile_commands.json 생성 (CMake 또는 기타 빌드 시스템)
+# (프로젝트 루트에 build/compile_commands.json가 있다고 가정)
+
+# 2. CTU 없이 실행 (버그 탐지 실패 예상)
+./build/bin/clang-tidy file1.cpp file2.cpp -p ./build
+
+# 3. CTU 활성화 후 실행 (버그 탐지 성공 예상)
+./build/bin/clang-tidy file1.cpp file2.cpp -p ./build --enable-ctu --ctu-dir=./ctu-temp
+```
+
+---
+
+## 5. 결론
+
+이 접근 방식(옵션 2 수정)은 LLVM 빌드 환경이 준비된 상황에서 가장 이상적입니다. ArqaStatic은 **CTU가 완벽하게 통합된 단일 `clang-tidy.exe`**만 배포하면 되며, 커스텀 체커의 성능을 극대화할 수 있습니다. 🚀
