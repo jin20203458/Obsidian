@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clang-tidy 모듈들/google.md",
+                "file": "UI/0. 체커 옵션(설명).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "google"
+              "title": "0. 체커 옵션(설명)"
             }
           },
           {
@@ -215,10 +215,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4403a48fd152dabf",
+  "active": "c37e718aa4ee83bc",
   "lastOpenFiles": [
-    "Clang-tidy 모듈들/CERT.md",
     "Clang-tidy 모듈들/google.md",
+    "Clang-tidy 모듈들/CERT.md",
     "Clang-tidy 모듈들/Miscellaneous.md",
     "Clang-tidy 모듈들/Readability.md",
     "Clang-tidy 모듈들/Performance.md",
