@@ -172,8 +172,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e4f470d9efa9b6f7",
+  "active": "0e89b9dca2bb2b65",
   "lastOpenFiles": [
+    "Programing/게임프로그래밍/게임 엔진/언리얼/1. 언리얼.md",
     "conflict-files-obsidian-git.md",
     "번외사항들/체크 옵션들 예제.md",
     "번외사항들/메모1.md",
@@ -201,7 +202,6 @@
     "UI/(개선안)시각적 계층 구조.md",
     "UI/(개선안) 외부 INCLUDE 방법론.md",
     "UI/(CTU 추가안).md",
-    "LLVM/Clang-tidy/ClangT_Source/defenceStyle/VarargsFormatCheck.md",
     "LLVM/Clang-tidy/ClangT_Source/defenceStyle",
     "LLVM/Clang-tidy/ClangT_Source",
     "LLVM/Clang-tidy/Clang-tidy 모듈들",
