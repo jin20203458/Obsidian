@@ -130,6 +130,7 @@ cmake -G "Visual Studio 17 2022" -A x64 `
 
 # 4. Debug 빌드 실행
 cmake --build . --config Debug --parallel 8
+# cmake --build . --config Release --parallel 16
 
 ```
 
