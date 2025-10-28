@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Clang-tidy/파일 수정안'.tidy'.md",
+                "file": "LLVM/Clang-tidy/ClangT_Source/KCUtils.h.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "파일 수정안'.tidy'"
+              "title": "KCUtils.h"
+            }
+          },
+          {
+            "id": "770fb3049965808c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLVM/Clang-tidy/ClangT_Source/Clang-Tidy.cpp.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Clang-Tidy.cpp"
             }
           },
           {
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -201,14 +215,19 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c6133b31779350b4",
+  "active": "770fb3049965808c",
   "lastOpenFiles": [
-    "LLVM/Clang-tidy/Clang-tidy 실행 흐름.md",
-    "LLVM/Clang-tidy/파일 수정안'.tidy'.md",
     "LLVM/Clang-tidy/ClangT_Source/KCUtils.h.md",
-    "LLVM/Clang-tidy/ClangT_Source/defenceStyle/NoAssignmentInConditionCheck.md",
-    "LLVM/Clang-tidy/ClangT_Source/defenceStyle/IfStyleCheck.md",
-    "LLVM/Clang-tidy/ClangT_Source/defenceStyle/ArrayIndexBoundCheck.md",
+    "LLVM/Clang-tidy/ClangT_Source/Clang-Tidy.cpp.md",
+    "LLVM/Clang-tidy/ClangT_Source/ARQA_MODULES/ArrayIndexBoundCheck.md",
+    "메모장.md",
+    "README.md",
+    "LLVM/Clang 환경설정/메모.md",
+    "z.개발사항들/AI template.md",
+    "LLVM/Clang-tidy/파일 수정안'.tidy'.md",
+    "LLVM/Clang-tidy/Clang-tidy 실행 흐름.md",
+    "LLVM/Clang-tidy/ClangT_Source/ARQA_MODULES/NoAssignmentInConditionCheck.md",
+    "LLVM/Clang-tidy/ClangT_Source/ARQA_MODULES/IfStyleCheck.md",
     "z.번외사항들/개발 순서.md",
     "z.개발사항들/체커그룹만들기(Checkers.td 수정).md",
     "z.개발사항들/디버깅.md",
@@ -225,14 +244,9 @@
     "z.번외사항들/체크 옵션들 예제.md",
     "z.번외사항들/메모1.md",
     "z.번외사항들/메모.md",
-    "z.번외사항들/구현 아이디어2.md",
-    "z.번외사항들/구현 아이디어1.md",
-    "z.번외사항들/고려사항들(문제시 참조).md",
     "z.번외사항들",
-    "무기체계 소프트웨어 코딩 규칙/ai프롬프트 Rules/공통 포인터,배열.md",
-    "무기체계 소프트웨어 코딩 규칙/ai프롬프트 Rules/공통 초기화.md",
     "무기체계 소프트웨어 코딩 규칙/ai프롬프트 Rules",
-    "LLVM/Clang-tidy/ClangT_Source/defenceStyle",
+    "LLVM/Clang-tidy/ClangT_Source/ARQA_MODULES",
     "LLVM/Clang-tidy/ClangT_Source",
     "LLVM/Clang-tidy/Clang-tidy 모듈들",
     "LLVM/Clang-tidy",
