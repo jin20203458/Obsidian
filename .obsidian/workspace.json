@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5,
-    "collapsed": true
+    "width": 277.5
   },
   "right": {
     "id": "d26ae100fa3968f6",
@@ -190,21 +189,21 @@
   },
   "active": "08a558ce2bb277b5",
   "lastOpenFiles": [
+    "LLVM/Clang-tidy/ClangT_Source/Clang-Tidy.cpp(Org).md",
+    "LLVM/Clang-tidy/ClangT_Source/KCUtils.h.md",
+    "LLVM/Clang-tidy/파일 수정안'.tidy'.md",
+    "z.개발사항들/체커그룹만들기(Checkers.td 수정).md",
     "z.개발사항들/AI template.md",
     "LLVM/Clang-tidy/ClangT_Source/Clang-Tidy.cpp.md",
     "LLVM/Clang-tidy/Clang-tidy 실행 흐름.md",
-    "LLVM/Clang-tidy/ClangT_Source/KCUtils.h.md",
-    "LLVM/Clang-tidy/ClangT_Source/Clang-Tidy.cpp(Org).md",
     "LLVM/Clang-tidy/ClangT_Source/My code file.cpp",
     "LLVM/Clang-tidy/ClangT_Source/ARQA_MODULES/ArrayIndexBoundCheck.md",
     "메모장.md",
     "README.md",
     "LLVM/Clang 환경설정/메모.md",
-    "LLVM/Clang-tidy/파일 수정안'.tidy'.md",
     "LLVM/Clang-tidy/ClangT_Source/ARQA_MODULES/NoAssignmentInConditionCheck.md",
     "LLVM/Clang-tidy/ClangT_Source/ARQA_MODULES/IfStyleCheck.md",
     "z.번외사항들/개발 순서.md",
-    "z.개발사항들/체커그룹만들기(Checkers.td 수정).md",
     "z.개발사항들/디버깅.md",
     "z.개발사항들",
     "UI/2. MVVM(Model-View-ViewModel).md",
