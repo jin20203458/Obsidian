@@ -26,9 +26,21 @@
 `static const char *AnalyzerCheckNamePrefix = "clang-analyzer-";` << 기존
 `static const char *AnalyzerCheckNamePrefix = "path-sensitivity-";` << 변경
 
-### `AnalyzerDiagnosticConsumer`
+
+--- 
+
+### `class AnalyzerDiagnosticConsumer`
 
 **역할**: Static Analyzer의 진단 결과를 Clang-Tidy 형식으로 변환
 **상속**: `ento::PathDiagnosticConsumer` (Static Analyzer의 진단 소비자 인터페이스)
 
-`FlushDiagnosticsImpl`
+ **함수 이름**: `FlushDiagnosticsImpl` (부분)
+
+**역할**: Static Analyzer가 발견한 버그들을 Clang-Tidy 형식으로 변환하여 출력
+
+
+---
+
+### `class ErrorReporter`
+
+**역할**: Clang-Tidy 진단 메시지 출력 및 자동 수정을 담당하는 객체 초기화
