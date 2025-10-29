@@ -34,8 +34,7 @@
 **역할**: Static Analyzer의 진단 결과를 Clang-Tidy 형식으로 변환
 **상속**: `ento::PathDiagnosticConsumer` (Static Analyzer의 진단 소비자 인터페이스)
 
- **함수 이름**: `FlushDiagnosticsImpl` (부분)
-
+**함수명**: `FlushDiagnosticsImpl` (부분)
 **역할**: Static Analyzer가 발견한 버그들을 Clang-Tidy 형식으로 변환하여 출력
 
 
@@ -44,3 +43,11 @@
 ### `class ErrorReporter`
 
 **역할**: Clang-Tidy 진단 메시지 출력 및 자동 수정을 담당하는 객체 초기화
+
+
+**함수명**: `ErrorReporter` (생성자)
+**역할**: Clang-Tidy 진단 메시지 출력 및 자동 수정을 담당하는 객체 초기화
+
+**함수명**: `reportDiagnostic`
+**역할**: `ClangTidyCheck`가 발견한 단일 에러(`ClangTidyError`)를 받아, 사용자에게 보여줄 진단 메시지를 생성하고 자동 수정(`Fix-It`)을 준비합니다.
+
