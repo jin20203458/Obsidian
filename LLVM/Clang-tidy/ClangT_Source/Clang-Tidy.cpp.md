@@ -51,3 +51,7 @@
 **함수명**: `reportDiagnostic`
 **역할**: `ClangTidyCheck`가 발견한 단일 에러(`ClangTidyError`)를 받아, 사용자에게 보여줄 진단 메시지를 생성하고 자동 수정(`Fix-It`)을 준비합니다.
 
+
+---
+
+### `class ClangTidyASTConsumer`
