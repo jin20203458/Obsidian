@@ -1,7 +1,8 @@
 {
   "accentColor": "",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "interfaceFontFamily": "Cascadia Code",
   "textFontFamily": "Cascadia Code",
-  "baseFontSize": 14
+  "baseFontSize": 14,
+  "cssTheme": "Things"
 }
