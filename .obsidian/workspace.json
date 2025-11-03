@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기타 참조 사항들/Sema (Semantic Analyzer).md",
+                "file": "z.개발사항들/AI template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sema (Semantic Analyzer)"
+              "title": "AI template"
             }
           }
         ],
@@ -217,13 +217,14 @@
   },
   "active": "28dc0bb443d88bc6",
   "lastOpenFiles": [
+    "z.개발사항들/Clang 과정.md",
+    "기타 참조 사항들/Sema (Semantic Analyzer).md",
     "기타 참조 사항들/PCH (Precompiled Header).md",
     "기타 참조 사항들/Lexing(Lexical Analysis).md",
     "기타 참조 사항들/Clang-Tidy(Cache).md",
     "기타 참조 사항들/Clang-구현예시.md",
     "기타 참조 사항들/전통적 컴파일러 기법.md",
     "z.개발사항들/AI template.md",
-    "기타 참조 사항들/Sema (Semantic Analyzer).md",
     "LLVM/복습, 소개용/번외 컴파일 오류).md",
     "메모장.md",
     "Certificate of Enrollment.md",
@@ -231,7 +232,6 @@
     "LLVM/복습, 소개용/6. 경로민감분석.md",
     "LLVM/복습, 소개용/1. LLVM(Low Level Virtual Machine).md",
     "LLVM/복습, 소개용/2. Clang.md",
-    "z.개발사항들/Clang 과정.md",
     "기타 참조 사항들",
     "z.개발사항들/디버깅.md",
     "LLVM/Clang-tidy/ClangT_Source/ARQA_MODULES/CharArrayStringSizeCheck.md",
