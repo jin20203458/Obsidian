@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기타 참조 사항들/전통적 컴파일러 기법.md",
+                "file": "기타 참조 사항들/Sema (Semantic Analyzer).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "전통적 컴파일러 기법"
+              "title": "Sema (Semantic Analyzer)"
             }
           }
         ],
@@ -217,11 +217,12 @@
   },
   "active": "28dc0bb443d88bc6",
   "lastOpenFiles": [
+    "기타 참조 사항들/PCH (Precompiled Header).md",
+    "기타 참조 사항들/Lexing(Lexical Analysis).md",
+    "기타 참조 사항들/Clang-Tidy(Cache).md",
     "기타 참조 사항들/Clang-구현예시.md",
     "기타 참조 사항들/전통적 컴파일러 기법.md",
-    "기타 참조 사항들/Clang-Tidy(Cache).md",
     "z.개발사항들/AI template.md",
-    "기타 참조 사항들/Lexing(Lexical Analysis).md",
     "기타 참조 사항들/Sema (Semantic Analyzer).md",
     "LLVM/복습, 소개용/번외 컴파일 오류).md",
     "메모장.md",
@@ -230,7 +231,6 @@
     "LLVM/복습, 소개용/6. 경로민감분석.md",
     "LLVM/복습, 소개용/1. LLVM(Low Level Virtual Machine).md",
     "LLVM/복습, 소개용/2. Clang.md",
-    "기타 참조 사항들/PCH (Precompiled Header).md",
     "z.개발사항들/Clang 과정.md",
     "기타 참조 사항들",
     "z.개발사항들/디버깅.md",
