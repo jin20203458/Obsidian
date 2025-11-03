@@ -1,8 +1,8 @@
 [
-  "editing-toolbar",
-  "obsidian-git",
-  "vscode-editor",
-  "obsidian-excalidraw-plugin",
   "pseudocode-in-obs",
-  "code-styler"
+  "code-styler",
+  "editing-toolbar",
+  "obsidian-excalidraw-plugin",
+  "obsidian-git",
+  "vscode-editor"
 ]
