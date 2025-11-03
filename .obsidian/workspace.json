@@ -34,6 +34,20 @@
               "icon": "lucide-file",
               "title": "메모장"
             }
+          },
+          {
+            "id": "ddd076f418201ce5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "z.개발사항들/의사코드 탬플릿.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "의사코드 탬플릿"
+            }
           }
         ],
         "currentTab": 1
@@ -181,13 +195,17 @@
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "vscode-editor:Create Code File": false
     }
   },
   "active": "9dc8fc8a4636b347",
   "lastOpenFiles": [
-    "z.개발사항들/디버깅.md",
+    "z.개발사항들/의사코드 탬플릿.md",
     "z.개발사항들/메모장.md",
+    "z.개발사항들/디버깅.md",
     "기타 참조 사항들/전통적 컴파일러 기법.md",
     "기타 참조 사항들/Clang-구현예시.md",
     "z.개발사항들/체커그룹만들기(Checkers.td 수정).md",
@@ -213,7 +231,6 @@
     "LLVM/Clang-tidy/Clang-tidy 실행 흐름.md",
     "LLVM/Clang-tidy/ClangT_Source/KCUtils.h.md",
     "LLVM/Clang-tidy/ClangT_Source/My code file.cpp",
-    "LLVM/Clang-tidy/ClangT_Source/ARQA_MODULES/ArrayIndexBoundCheck.md",
     "z.개발사항들",
     "z.번외사항들",
     "무기체계 소프트웨어 코딩 규칙/ai프롬프트 Rules",
