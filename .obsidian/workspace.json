@@ -35,8 +35,7 @@
               "title": "메모장"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,10 +186,10 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "814d2ee7923ac96e",
+  "active": "9dc8fc8a4636b347",
   "lastOpenFiles": [
-    "AI Tempate/의사코드 탬플릿/의사코드 간결 황금률.md",
     "z.개발사항들/메모장.md",
+    "AI Tempate/의사코드 탬플릿/의사코드 간결 황금률.md",
     "AI Tempate/의사코드 탬플릿/의사코드 상세 황금률.md",
     "기타 참조 사항들/Clang-구현예시.md",
     "z.개발사항들/Clang 과정.md",
