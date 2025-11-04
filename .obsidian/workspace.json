@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Tempate/의사코드 탬플릿/의사코드 간결 황금률.md",
+                "file": "z.개발사항들/메모장 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "의사코드 간결 황금률"
+              "title": "메모장 1"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -107,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5,
-    "collapsed": true
+    "width": 277.5
   },
   "right": {
     "id": "d26ae100fa3968f6",
@@ -202,11 +201,11 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "814d2ee7923ac96e",
+  "active": "7c83f08ad34d4bf5",
   "lastOpenFiles": [
     "AI Tempate/의사코드 탬플릿/의사코드 간결 황금률.md",
-    "z.개발사항들/메모장 1.md",
     "z.개발사항들/메모장.md",
+    "z.개발사항들/메모장 1.md",
     "기타 참조 사항들/Clang-구현예시.md",
     "AI Tempate/의사코드 탬플릿/의사코드 상세 황금률.md",
     "AI Tempate/AI template.md",
