@@ -55,16 +55,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "의사코드/ast-.md",
+                "file": "의사코드/cfg-.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ast-"
+              "title": "cfg-"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,13 +214,13 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "97a1686e6086f4a6",
+  "active": "9dc8fc8a4636b347",
   "lastOpenFiles": [
+    "의사코드/cfg-.md",
     "AI Tempate/의사코드 탬플릿/의사코드 간결 황금률.md",
     "의사코드/ast-.md",
     "의사코드/lex-.md",
     "z.개발사항들/메모장.md",
-    "의사코드/cfg-.md",
     "의사코드",
     "ast",
     "z.개발사항들/lex",

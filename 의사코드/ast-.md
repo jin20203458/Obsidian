@@ -225,3 +225,94 @@
 
 
 
+
+```pseudo
+\begin{algorithm}  
+\caption{InitBeforeUseCheck: Uninitialized Variable Detector}  
+\begin{algorithmic}
+
+\State \textbf{Function Call Order:}  
+\State 1. Check (Entry)  
+\State 2. $\to$ analyzeFunction (Worklist fixpoint)  
+\State 3. $\to$ processBlock (Transfer function)
+
+\State $\phantom{x}$
+
+\Function{Check}{$MatchResult$}  
+\State $\text{FD} \gets$ matched FunctionDecl  
+\State $\text{analyzeFunction}(\text{FD})$  
+\EndFunction
+
+\State $\phantom{x}$
+
+\Function{analyzeFunction}{$FD$}  
+\State $\text{CFG} \gets \text{buildCFG}(\text{FD.body})$  
+\State collect local vars and build index map
+
+\State initialize InState and OutState for all blocks  
+\State $\text{InState}[\text{Entry}] \gets$ all uninit
+
+\State $\text{worklist} \gets$ Entry successors
+
+\While{worklist not empty}  
+\State $B \gets$ pop block  
+\State $\text{NewIn} \gets$ meet all pred OutStates  
+\If{NewIn changed}  
+\State $\text{InState}[B] \gets \text{NewIn}$  
+\EndIf  
+\State $\text{NewOut} \gets \text{processBlock}(B, \text{InState}[B])$  
+\If{NewOut changed}  
+\State $\text{OutState}[B] \gets \text{NewOut}$  
+\State enqueue all successors  
+\EndIf  
+\EndWhile  
+\EndFunction
+
+\State $\phantom{x}$
+
+\Function{processBlock}{$B, InBits$}  
+\State $S \gets \text{InBits}$
+
+\For{element in B}  
+\If{is DeclStmt}  
+\For{Decl with init}  
+\State $S \gets \text{evalExpr}(\text{init}, S)$  
+\State mark var as initialized  
+\EndFor  
+\EndIf  
+\If{is Expr}  
+\State $S \gets \text{evalExpr}(\text{Expr}, S)$  
+\EndIf  
+\EndFor
+
+\State \Return $S$  
+\EndFunction
+
+\State $\phantom{x}$
+
+\Function{evalExpr}{$E, State$}  
+\If{DeclRefExpr read}  
+\If{not initialized}  
+\State report use-before-init  
+\EndIf  
+\EndIf
+
+\If{assignment}  
+\State eval RHS then mark LHS init  
+\EndIf
+
+\If{logical operator}  
+\State meet both branch states  
+\EndIf
+
+\State eval children recursively  
+\State \Return State  
+\EndFunction
+
+\end{algorithmic}  
+\end{algorithm}
+```
+
+
+
+
