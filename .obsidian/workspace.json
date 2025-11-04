@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Tempate/의사코드 탬플릿/의사코드 상세 황금률.md",
+                "file": "AI Tempate/의사코드 탬플릿/의사코드 간결 황금률.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "의사코드 상세 황금률"
+              "title": "의사코드 간결 황금률"
             }
           },
           {
@@ -189,9 +189,9 @@
   },
   "active": "814d2ee7923ac96e",
   "lastOpenFiles": [
-    "AI Tempate/의사코드 탬플릿/의사코드 상세 황금률.md",
     "AI Tempate/의사코드 탬플릿/의사코드 간결 황금률.md",
     "z.개발사항들/메모장.md",
+    "AI Tempate/의사코드 탬플릿/의사코드 상세 황금률.md",
     "기타 참조 사항들/Clang-구현예시.md",
     "z.개발사항들/Clang 과정.md",
     "z.개발사항들/체커그룹만들기(Checkers.td 수정).md",
