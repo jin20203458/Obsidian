@@ -4,66 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "5ce63d005f0d5ebb",
+        "id": "0c1f37a39282f213",
         "type": "tabs",
         "children": [
           {
-            "id": "9dc8fc8a4636b347",
+            "id": "192483452bc99706",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Tempate/의사코드 탬플릿/의사코드 간결 황금률.md",
+                "file": "LLVM/Clang-tidy/ClangT_Source/Clang-Tidy.cpp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "의사코드 간결 황금률"
+              "title": "Clang-Tidy.cpp"
             }
           },
           {
-            "id": "430114a3c70c836d",
+            "id": "8239b0830c8ce55b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "의사코드/lex-.md",
+                "file": "컴파일러 이론/기초/1. 어휘 분석(Lexical Analysis).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lex-"
+              "title": "1. 어휘 분석(Lexical Analysis)"
             }
           },
           {
-            "id": "97a1686e6086f4a6",
+            "id": "4e41c4f45a0b1228",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "의사코드/ast-.md",
+                "file": "컴파일러 이론/기초/2. 구문 분석 (Syntax Analysis).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ast-"
-            }
-          },
-          {
-            "id": "3c7f30626682cf9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "의사코드/cfg-.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cfg-"
+              "title": "2. 구문 분석 (Syntax Analysis)"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -214,14 +201,22 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "9dc8fc8a4636b347",
+  "active": "4e41c4f45a0b1228",
   "lastOpenFiles": [
-    "의사코드/cfg-.md",
+    "컴파일러 이론/기초/1. 어휘 분석(Lexical Analysis).md",
+    "컴파일러 이론/기초/2. 구문 분석 (Syntax Analysis).md",
+    "컴파일러 이론/기초",
+    "LLVM/Clang-tidy/ClangT_Source/Clang-Tidy.cpp.md",
+    "컴파일러 이론",
+    "LLVM/Clang-tidy/ClangT_Source/Clang-Tidy.cpp(Org).md",
+    "LLVM/Clang-tidy/파일 수정안'.tidy'.md",
+    "기타 참조 사항들/Clang-Tidy(Cache).md",
     "AI Tempate/의사코드 탬플릿/의사코드 간결 황금률.md",
-    "의사코드/ast-.md",
-    "의사코드/lex-.md",
+    "z.개발사항들/의사코드/cfg-.md",
+    "z.개발사항들/의사코드/ast-.md",
+    "z.개발사항들/의사코드/lex-.md",
     "z.개발사항들/메모장.md",
-    "의사코드",
+    "z.개발사항들/의사코드",
     "ast",
     "z.개발사항들/lex",
     "AI Tempate/의사코드 탬플릿/의사코드 상세 황금률.md",
@@ -234,7 +229,6 @@
     "AI Tempate/의사코드 탬플릿",
     "z.개발사항들/디버깅.md",
     "기타 참조 사항들/전통적 컴파일러 기법.md",
-    "기타 참조 사항들/Clang-Tidy(Cache).md",
     "기타 참조 사항들/Sema (Semantic Analyzer).md",
     "기타 참조 사항들/PCH (Precompiled Header).md",
     "기타 참조 사항들/Lexing(Lexical Analysis).md",
@@ -242,16 +236,9 @@
     "메모장.md",
     "Certificate of Enrollment.md",
     "LLVM/복습, 소개용/번외) Clang 컴파일 방식의 특징.md",
-    "LLVM/복습, 소개용/6. 경로민감분석.md",
-    "LLVM/복습, 소개용/1. LLVM(Low Level Virtual Machine).md",
-    "LLVM/복습, 소개용/2. Clang.md",
     "기타 참조 사항들",
-    "LLVM/Clang-tidy/ClangT_Source/ARQA_MODULES/CharArrayStringSizeCheck.md",
-    "LLVM/Clang-tidy/ClangT_Source/ARQA_MODULES/AlwaysConstantConditionCheck.md",
     "LLVM/Clang-tidy/ClangT_Source/My code file.cpp",
     "z.개발사항들",
-    "z.번외사항들",
-    "무기체계 소프트웨어 코딩 규칙/ai프롬프트 Rules",
     "기타_자료/Pasted image 20250708142713.png",
     "기타_자료/Pasted image 20250708141235.png",
     "기타_자료/Pasted image 20250708140925.png",
