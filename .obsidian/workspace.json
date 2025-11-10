@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z.개발사항들/메모장 1.md",
+                "file": "LLVM/Clang-tidy/ClangT_Source/Clang-Tidy.cpp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "메모장 1"
+              "title": "Clang-Tidy.cpp"
             }
           },
           {
@@ -202,10 +202,10 @@
   },
   "active": "192483452bc99706",
   "lastOpenFiles": [
+    "z.개발사항들/메모장 1.md",
     "z.번외사항들/메모1.md",
     "z.번외사항들/메모.md",
     "z.번외사항들/고려사항들(문제시 참조).md",
-    "z.개발사항들/메모장 1.md",
     "기타 참조 사항들/컴파일러 이론/기초/2. 구문 분석 (Syntax Analysis).md",
     "AI Tempate/AI template.md",
     "z.개발사항들/메모장.md",
