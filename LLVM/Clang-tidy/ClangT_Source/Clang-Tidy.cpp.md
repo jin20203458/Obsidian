@@ -165,15 +165,3 @@
 궁금한 부분, 예: 체크 클래스와 Consumer 내부 또는 AST 매처 동작 상세도 추가로 질문해주시면 곧바로 따라가드립니다!
 
 (더 세부적으로 각 객체/클래스의 연결 과정을 함수별로 단계별 소스/호출 흐름으로 파고들 수도 있습니다.)
-
-1. [https://llvm.org/LICENSE.txt](https://llvm.org/LICENSE.txt)
-2. [https://www.reddit.com/r/cpp/comments/7obg9p/how_do_you_use_clangtidy/](https://www.reddit.com/r/cpp/comments/7obg9p/how_do_you_use_clangtidy/)
-3. [https://nx006.tistory.com/37](https://nx006.tistory.com/37)
-4. [https://learn.microsoft.com/ko-kr/cpp/code-quality/clang-tidy?view=msvc-170](https://learn.microsoft.com/ko-kr/cpp/code-quality/clang-tidy?view=msvc-170)
-5. [https://learn.microsoft.com/ko-kr/shows/pure-virtual-cpp-2022/clang-tidy-in-visual-studio-code](https://learn.microsoft.com/ko-kr/shows/pure-virtual-cpp-2022/clang-tidy-in-visual-studio-code)
-6. [https://clang.llvm.org/extra/clang-tidy/](https://clang.llvm.org/extra/clang-tidy/)
-7. [https://jacking75.github.io/Cpp-1123/](https://jacking75.github.io/Cpp-1123/)
-8. [https://makurisgame190817.tistory.com/11](https://makurisgame190817.tistory.com/11)
-9. [https://del4u.tistory.com](https://del4u.tistory.com/)
-10. [https://blog.naver.com/kkj871001/221536226785](https://blog.naver.com/kkj871001/221536226785)
-11. [https://www.facebook.com/groups/cppkorea/posts/1887067864799507/](https://www.facebook.com/groups/cppkorea/posts/1887067864799507/)*
