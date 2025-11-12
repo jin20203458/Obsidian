@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z.번외사항들/개발 순서.md",
+                "file": "z.개발사항들/체커그룹만들기(Checkers.td 수정).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "개발 순서"
+              "title": "체커그룹만들기(Checkers.td 수정)"
             }
           },
           {
@@ -49,7 +49,8 @@
               "title": "AI template"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -200,12 +201,14 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "192483452bc99706",
+  "active": "3d472ccfb5c5d520",
   "lastOpenFiles": [
+    "z.개발사항들/체커그룹만들기(Checkers.td 수정).md",
+    "z.번외사항들/개발 순서.md",
+    "LLVM/Clang-tidy/ClangT_Source/Core/Clang-Tidy.cpp.md",
     "LLVM/Clang-tidy/ClangT_Source/Core/Clang-Tidy.cpp(Org).md",
     "LLVM/Clang-tidy/ClangT_Source/KCUtils.h.md",
     "LLVM/Clang-tidy/파일 수정안'.tidy'.md",
-    "LLVM/Clang-tidy/ClangT_Source/Core/Clang-Tidy.cpp.md",
     "LLVM/Clang-tidy/ClangT_Source/Core",
     "z.개발사항들/메모장 1.md",
     "z.번외사항들/메모1.md",
@@ -216,7 +219,6 @@
     "z.개발사항들/메모장.md",
     "z.개발사항들/디버깅.md",
     "z.번외사항들/무제.md",
-    "z.번외사항들/개발 순서.md",
     "z.번외사항들/구현 아이디어1.md",
     "기타 참조 사항들/컴파일러 이론/기초/번외) 링커(Linker).md",
     "z.번외사항들/구현 아이디어2.md",
@@ -229,7 +231,6 @@
     "기타 참조 사항들/용어/PCH (Precompiled Header).md",
     "기타 참조 사항들/용어/Lexing(Lexical Analysis).md",
     "기타 참조 사항들/전통적 컴파일러 기법, Clang.md",
-    "기타 참조 사항들/Clang-구현예시.md",
     "기타 참조 사항들/컴파일러 이론/기초",
     "기타 참조 사항들/컴파일러 이론",
     "z.개발사항들/의사코드",
