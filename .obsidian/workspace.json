@@ -63,7 +63,8 @@
               "title": "1. 스타일"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,13 +215,13 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "192483452bc99706",
+  "active": "3d472ccfb5c5d520",
   "lastOpenFiles": [
+    "z.개발사항들/11.12 활성화 체커.md",
     "LLVM/C-tidy/ClangT_Source/Core/Clang-Tidy.cpp.md",
     "z.개발사항들/체커그룹만들기(Checkers.td 수정).md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "LLVM/Clang 환경설정/AST dump 시험용.md",
-    "z.개발사항들/11.12 활성화 체커.md",
     "LLVM/Clang 환경설정/Clnag 명령어 모음.md",
     "z.번외사항들/개발 순서.md",
     "z.번외사항들/고려사항들(문제시 참조).md",
