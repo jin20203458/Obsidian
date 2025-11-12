@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z.개발사항들/11.12 활성화 체커.md",
+                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11.12 활성화 체커"
+              "title": "1. 스타일"
             }
           }
         ],
@@ -135,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5,
-    "collapsed": true
+    "width": 277.5
   },
   "right": {
     "id": "d26ae100fa3968f6",
@@ -232,8 +231,9 @@
   },
   "active": "75acff78dc12f9a1",
   "lastOpenFiles": [
-    "z.개발사항들/체커그룹만들기(Checkers.td 수정).md",
+    "LLVM/Clang 환경설정/AST dump 시험용.md",
     "z.개발사항들/11.12 활성화 체커.md",
+    "z.개발사항들/체커그룹만들기(Checkers.td 수정).md",
     "LLVM/Clang 환경설정/Clnag 명령어 모음.md",
     "z.번외사항들/개발 순서.md",
     "z.번외사항들/고려사항들(문제시 참조).md",
@@ -258,7 +258,6 @@
     "z.번외사항들/구현 아이디어1.md",
     "기타 참조 사항들/컴파일러 이론/기초/번외) 링커(Linker).md",
     "z.번외사항들/구현 아이디어2.md",
-    "기타 참조 사항들/컴파일러 이론/기초/1. 어휘 분석(Lexical Analysis).md",
     "기타 참조 사항들/용어",
     "기타 참조 사항들/컴파일러 이론/기초",
     "기타 참조 사항들/컴파일러 이론",
