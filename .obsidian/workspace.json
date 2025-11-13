@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z.개발사항들/11.12 활성화 체커.md",
+                "file": "LLVM/Clang 환경설정/Clnag 명령어 모음.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11.12 활성화 체커"
+              "title": "Clnag 명령어 모음"
             }
           },
           {
@@ -33,18 +33,6 @@
               },
               "icon": "lucide-file",
               "title": "AI template"
-            }
-          },
-          {
-            "id": "f138d4294ed44a1a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.10.3"
             }
           },
           {
@@ -75,8 +63,7 @@
               "title": "1. 스타일"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -227,11 +214,12 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "f138d4294ed44a1a",
+  "active": "192483452bc99706",
   "lastOpenFiles": [
+    "LLVM/C-tidy/Clang-tidy 실행 흐름.md",
     "z.개발사항들/11.12 활성화 체커.md",
-    "LLVM/C-tidy/ClangT_Source/Core/Clang-Tidy.cpp.md",
     "z.개발사항들/체커그룹만들기(Checkers.td 수정).md",
+    "LLVM/C-tidy/ClangT_Source/Core/Clang-Tidy.cpp.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "LLVM/Clang 환경설정/AST dump 시험용.md",
     "LLVM/Clang 환경설정/Clnag 명령어 모음.md",
@@ -255,7 +243,6 @@
     "z.개발사항들/메모장.md",
     "z.번외사항들/무제.md",
     "z.번외사항들/구현 아이디어1.md",
-    "기타 참조 사항들/컴파일러 이론/기초/번외) 링커(Linker).md",
     "기타 참조 사항들/용어",
     "기타 참조 사항들/컴파일러 이론/기초",
     "기타 참조 사항들/컴파일러 이론",
