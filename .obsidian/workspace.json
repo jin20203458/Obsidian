@@ -36,6 +36,18 @@
             }
           },
           {
+            "id": "f138d4294ed44a1a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.10.3"
+            }
+          },
+          {
             "id": "b8d8f3afd0ee5de9",
             "type": "leaf",
             "state": {
@@ -64,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -215,7 +227,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "3d472ccfb5c5d520",
+  "active": "f138d4294ed44a1a",
   "lastOpenFiles": [
     "z.개발사항들/11.12 활성화 체커.md",
     "LLVM/C-tidy/ClangT_Source/Core/Clang-Tidy.cpp.md",
