@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "67737dee67e873d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLVM/Clang 환경설정/ARQA Static 사용 설명서.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ARQA Static 사용 설명서"
+            }
+          },
+          {
             "id": "3d472ccfb5c5d520",
             "type": "leaf",
             "state": {
@@ -63,7 +77,8 @@
               "title": "1. 스타일"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,15 +229,21 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "192483452bc99706",
+  "active": "67737dee67e873d5",
   "lastOpenFiles": [
+    "기타_자료/Pasted image 20251114144842.png",
+    "기타_자료/Pasted image 20251114144802.png",
+    "기타_자료/Pasted image 20251114144729.png",
+    "기타_자료/Pasted image 20251114144644.png",
+    "기타_자료/Pasted image 20251114144620.png",
+    "LLVM/Clang 환경설정/Clnag 명령어 모음.md",
+    "LLVM/Clang 환경설정/ARQA Static 사용 설명서.md",
     "LLVM/C-tidy/Clang-tidy 실행 흐름.md",
     "z.개발사항들/11.12 활성화 체커.md",
     "z.개발사항들/체커그룹만들기(Checkers.td 수정).md",
     "LLVM/C-tidy/ClangT_Source/Core/Clang-Tidy.cpp.md",
     "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "LLVM/Clang 환경설정/AST dump 시험용.md",
-    "LLVM/Clang 환경설정/Clnag 명령어 모음.md",
     "z.번외사항들/개발 순서.md",
     "z.번외사항들/고려사항들(문제시 참조).md",
     "z.개발사항들/메모장 1.md",
@@ -241,8 +262,6 @@
     "z.번외사항들/메모.md",
     "기타 참조 사항들/컴파일러 이론/기초/2. 구문 분석 (Syntax Analysis).md",
     "z.개발사항들/메모장.md",
-    "z.번외사항들/무제.md",
-    "z.번외사항들/구현 아이디어1.md",
     "기타 참조 사항들/용어",
     "기타 참조 사항들/컴파일러 이론/기초",
     "기타 참조 사항들/컴파일러 이론",
