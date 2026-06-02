@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Antigravity 2.0/설정창 2.md",
+                "file": "UI/z.개발사항들/메모1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "설정창 2"
+              "title": "메모1"
             }
           },
           {
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,13 +215,13 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "202661161759dff5",
+  "active": "e98c29c7fb702c0d",
   "lastOpenFiles": [
-    "Antigravity 2.0/설정창 1.md",
-    "Antigravity 2.0/설정창 2.md",
-    "Antigravity 2.0/메인 화면.md",
-    "UI/z.개발사항들/메모2.md",
     "UI/z.개발사항들/메모1.md",
+    "UI/z.개발사항들/메모2.md",
+    "Antigravity 2.0/설정창 2.md",
+    "Antigravity 2.0/설정창 1.md",
+    "Antigravity 2.0/메인 화면.md",
     "LLVM/AI Tempate/AI template.md",
     "UI/clang-tidy 파일 탐색 규칙.md",
     "UI/기타.md",
