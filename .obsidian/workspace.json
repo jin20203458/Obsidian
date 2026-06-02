@@ -4,81 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "0c1f37a39282f213",
+        "id": "10f2a11b3d349858",
         "type": "tabs",
         "children": [
           {
-            "id": "192483452bc99706",
+            "id": "84aa4d56865716a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Clang 환경설정/Clnag 명령어 모음.md",
+                "file": "UI/z.개발사항들/메모1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clnag 명령어 모음"
+              "title": "메모1"
             }
           },
           {
-            "id": "67737dee67e873d5",
+            "id": "e98c29c7fb702c0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLVM/Clang 환경설정/ARQA Static 사용 설명서.md",
+                "file": "Antigravity 2.0/설정창 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ARQA Static 사용 설명서"
+              "title": "설정창 1"
             }
           },
           {
-            "id": "3d472ccfb5c5d520",
+            "id": "202661161759dff5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Tempate/AI template.md",
+                "file": "Antigravity 2.0/설정창 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI template"
+              "title": "설정창 2"
             }
           },
           {
-            "id": "b8d8f3afd0ee5de9",
+            "id": "8b7c86967f04ce1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z.개발사항들/체커그룹만들기(Checkers.td 수정).md",
+                "file": "UI/z.개발사항들/메모2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "체커그룹만들기(Checkers.td 수정)"
-            }
-          },
-          {
-            "id": "75acff78dc12f9a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. 스타일"
+              "title": "메모2"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -111,7 +97,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -122,7 +108,7 @@
             }
           },
           {
-            "id": "1920019f601a38b4",
+            "id": "71536254199211c9",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -229,51 +215,53 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "67737dee67e873d5",
+  "active": "202661161759dff5",
   "lastOpenFiles": [
-    "기타_자료/Pasted image 20251114144842.png",
-    "기타_자료/Pasted image 20251114144802.png",
-    "기타_자료/Pasted image 20251114144729.png",
-    "기타_자료/Pasted image 20251114144644.png",
-    "기타_자료/Pasted image 20251114144620.png",
+    "Antigravity 2.0/설정창 1.md",
+    "Antigravity 2.0/설정창 2.md",
+    "Antigravity 2.0/메인 화면.md",
+    "UI/z.개발사항들/메모2.md",
+    "UI/z.개발사항들/메모1.md",
+    "LLVM/AI Tempate/AI template.md",
+    "UI/clang-tidy 파일 탐색 규칙.md",
+    "UI/기타.md",
+    "UI/z.개발사항들/CWE 개발 순서.md",
+    "UI/z.개발사항들/CSA 체커들 매핑 테이블.md",
+    "UI/z.개발사항들/소스코드 매트릭.md",
+    "UI/z.개발사항들/체커들 옵션 정리.md",
+    "UI/z.개발사항들/디버깅.md",
+    "UI/z.개발사항들/주의 해야하는 CWE 룰들.md",
+    "LLVM/Clang 환경설정/CSA 옵션 정리.md",
     "LLVM/Clang 환경설정/Clnag 명령어 모음.md",
-    "LLVM/Clang 환경설정/ARQA Static 사용 설명서.md",
-    "LLVM/C-tidy/Clang-tidy 실행 흐름.md",
-    "z.개발사항들/11.12 활성화 체커.md",
-    "z.개발사항들/체커그룹만들기(Checkers.td 수정).md",
-    "LLVM/C-tidy/ClangT_Source/Core/Clang-Tidy.cpp.md",
-    "무기체계 소프트웨어 코딩 규칙/1. C,C++ 공통적용/1. 스타일.md",
     "LLVM/Clang 환경설정/AST dump 시험용.md",
-    "z.번외사항들/개발 순서.md",
-    "z.번외사항들/고려사항들(문제시 참조).md",
-    "z.개발사항들/메모장 1.md",
-    "z.개발사항들/디버깅.md",
-    "LLVM/CSA/CSA 흐름구조 예시/CSA 논리적인 흐름 구조(ExplodedGraph).md",
-    "LLVM/CSA/CSA 흐름구조 예시/CSA 논리적인 흐름 구조.md",
-    "LLVM/CSA/CSA 흐름구조 예시/Clang Static Analyzer 전체 분석 순서.md",
-    "AI Tempate/Clang Static Analyzer 소스코드 분석 가이드.md",
-    "AI Tempate/의사코드 탬플릿/의사코드 상세 황금률.md",
-    "AI Tempate/AI template.md",
-    "LLVM/C-tidy/ClangT_Source/Core/Clang-Tidy.cpp(Org).md",
-    "LLVM/C-tidy/ClangT_Source/KCUtils.h.md",
-    "LLVM/Clang-tidy/파일 수정안'.tidy'.md",
-    "LLVM/C-tidy/ClangT_Source/Core",
-    "z.번외사항들/메모1.md",
-    "z.번외사항들/메모.md",
-    "기타 참조 사항들/컴파일러 이론/기초/2. 구문 분석 (Syntax Analysis).md",
-    "z.개발사항들/메모장.md",
-    "기타 참조 사항들/용어",
-    "기타 참조 사항들/컴파일러 이론/기초",
-    "기타 참조 사항들/컴파일러 이론",
-    "z.개발사항들/의사코드",
-    "ast",
-    "z.개발사항들/lex",
-    "AI Tempate",
-    "AI Tempate/의사코드 탬플릿",
-    "기타 참조 사항들",
-    "기타_자료/Pasted image 20250708142713.png",
-    "기타_자료/Pasted image 20250708141235.png",
-    "기타_자료/Pasted image 20250708140925.png",
-    "기타_자료/Pasted image 20250708135351.png"
+    "LLVM/Clang 환경설정/Clang_Build.md",
+    "LLVM/AI Tempate/프로바이더 변환 탬플릿 상세.md",
+    "LLVM/복습, 소개용/4. AST 추상구문트리.md",
+    "기타_자료/Pasted image 20260527171516.png",
+    "기타_자료/Pasted image 20260527164026.png",
+    "기타_자료/Pasted image 20260527151749.png",
+    "기타_자료/Pasted image 20260527151013.png",
+    "기타_자료/Pasted image 20260527132106.png",
+    "기타_자료/Pasted image 20260527103641.png",
+    "기타 참조 사항들/ARQA 명세서/Clang Tidy 체커 명세서.md",
+    "기타_자료/Pasted image 20260527091526.png",
+    "UI/z.개발사항들/임시.md",
+    "UI/UI_TEST.md",
+    "UI/현재 구조.md",
+    "UI/기타) 0. 공부내용.md",
+    "UI/2. MVVM(Model-View-ViewModel).md",
+    "Antigravity 2.0",
+    "ARQA 명세서.zip",
+    "기타 참조 사항들/ARQA 명세서",
+    "기타_자료/Pasted image 20240604231207.png",
+    "기타_자료/Pasted image 20240604215525.png",
+    "임시 코딩 규칙",
+    "새 폴더",
+    "기타 참조 사항들/무기체계 소프트웨어 코딩 규칙/DRPA",
+    "기타 참조 사항들/CSTS",
+    "기타 참조 사항들/무기체계 소프트웨어 코딩 규칙/CWE",
+    "LLVM/CSA/CSA 공부",
+    "기타_자료/Pasted image 20251114194239.png",
+    "기타_자료/ArqaStatic_Installer.msi"
   ]
 }

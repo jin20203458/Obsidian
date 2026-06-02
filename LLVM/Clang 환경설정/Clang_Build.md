@@ -108,7 +108,6 @@ setx PATH "$($env:PATH);C:\Dev\llvm-project\build\bin\Release" /M
 
 
 
-
 ## 0) 디버그 모드 재 빌드
 
 ```shell
@@ -124,7 +123,6 @@ cd build
 cmake -G "Visual Studio 17 2022" -A x64 `
       -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra;compiler-rt;lld" `
       -DLLVM_TARGETS_TO_BUILD="X86" `
-      -DCMAKE_BUILD_TYPE=Debug `
       -DLLVM_ENABLE_ASSERTIONS=ON `
       ../llvm
 
@@ -149,7 +147,6 @@ cmake --build . --config Debug --parallel 8
 cmake -G "Visual Studio 17 2022" -A x64 `
       -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra;compiler-rt;lld" `
       -DLLVM_TARGETS_TO_BUILD="X86" `
-      -DCMAKE_BUILD_TYPE=Debug `
       -DLLVM_ENABLE_ASSERTIONS=ON `
       -DCMAKE_CXX_FLAGS="/utf-8" `
       -DCMAKE_C_FLAGS="/utf-8" `
@@ -159,16 +156,23 @@ cmake --build . --config Debug --parallel 8
 
 ```
 
-디버그,릴리즈 
-```shell
-cmake -G "Visual Studio 17 2022" -A x64 `
-      -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra;compiler-rt;lld" `
-      -DLLVM_TARGETS_TO_BUILD="X86" `
-      -DCMAKE_BUILD_TYPE=RelWithDebInfo `
-      -DLLVM_ENABLE_ASSERTIONS=ON `
-      -DCMAKE_CXX_FLAGS="/utf-8" `
-      -DCMAKE_C_FLAGS="/utf-8" `
-      ../llvm
-      
-cmake --build . --config RelWithDebInfo  --parallel 8
+
+
+### Z3 추가 빌드
 ```
+$env:PATH = "C:\Users\user\Documents\llvm-project\z3\bin;" + $env:PATH
+
+cmake -G "Visual Studio 17 2022" -A x64 `
+  -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra;compiler-rt;lld" `
+  -DLLVM_TARGETS_TO_BUILD="X86" `
+  -DLLVM_ENABLE_ASSERTIONS=ON `
+  -DCMAKE_CXX_FLAGS="/utf-8" `
+  -DCMAKE_C_FLAGS="/utf-8" `
+  -DLLVM_ENABLE_Z3_SOLVER=ON `
+  -DZ3_INCLUDE_DIR="C:/Users/user/Documents/llvm-project/z3/include" `
+  -DZ3_LIBRARIES="C:/Users/user/Documents/llvm-project/z3/bin/libz3.lib" `
+  ../llvm
+```
+이후 libz3.dll LLVM의 exe 파일들이 있는곳으로 복사붙혀넣기
+
+012346
