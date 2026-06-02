@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Antigravity 2.0/설정창 1.md",
+                "file": "Antigravity 2.0/메인 화면.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "설정창 1"
+              "title": "메인 화면"
             }
           },
           {
@@ -217,10 +217,10 @@
   },
   "active": "e98c29c7fb702c0d",
   "lastOpenFiles": [
+    "Antigravity 2.0/설정창 1.md",
     "UI/z.개발사항들/메모1.md",
     "UI/z.개발사항들/메모2.md",
     "Antigravity 2.0/설정창 2.md",
-    "Antigravity 2.0/설정창 1.md",
     "Antigravity 2.0/메인 화면.md",
     "LLVM/AI Tempate/AI template.md",
     "UI/clang-tidy 파일 탐색 규칙.md",
