@@ -37,10 +37,12 @@ Using XML tags to physically segregate prompt components (instructions, data, ex
 Failing to isolate data (user inputs, external texts) from instructions (rules, commands) within a prompt can lead to data being misinterpreted as instructions, causing hallucinations or exposing prompt injection vulnerabilities.
 
 ### Basis
-- [Source] "Defense Against Prompt Injection Attack" (ACL 2025, 44 citations)
-  → Identified as OWASP LLM security threat #1. The root cause is the lack of separation between instructions and data.
 - [Source] "How Not to Detect Prompt Injections with an LLM" (ACM AISec 2025 Workshop, 2025.10)
-  → LLM-based injection detection (KAD) has inherent architectural vulnerabilities (e.g., DataFlip attacks can reduce detection rate to 0%). Architectural isolation remains the only fundamentally effective defense strategy.
+  → LLM-based injection detection (KAD) has inherent architectural vulnerabilities (DataFlip attacks).
+- [Source] "Defense Against Prompt Injection Attack by Leveraging Attack Techniques" (ACL 2025)
+  → While XML isolation is a crucial first line of defense for single-prompt systems, it can still be bypassed by adaptive attacks. 
+- [Source] "Agent Privilege Separation in OpenClaw" (arXiv:2603.13424, 2026)
+  → For fully autonomous agent systems, multi-agent privilege separation (strictly separating a low-privilege data reader from a high-privilege action executor) is the only fundamentally secure architecture (ASR 0%).
 
 ### Practical Rules
 - Always wrap user input data in `<user_input>` or `<context>` tags.
@@ -246,16 +248,18 @@ Positive instructions ("Do X") are generally more reliable than negative ones ("
 ## 11. Multilingual (Korean) Prompt Considerations
 
 ### Principle
-Due to tokenization differences, CJK languages (Chinese, Japanese, Korean) consume 2 to 3 times more tokens than English for equivalent semantic content. Structural markers must be employed more explicitly.
+Contrary to outdated assumptions, modern tokenizers make CJK languages highly efficient. However, grammatically, Korean (as an SOV language) requires distinct prompt structuring, particularly utilizing explicit structural markers (postpositions/case markers) rather than relying solely on spacing.
 
 ### Basis
-- [Source] "Multilingual Prompt Engineering in Large Language Models: A Survey Across NLP Tasks" (arXiv:2505.11665, 2025.05)
-  → Surveyed 36 papers, 39 prompting techniques, and 250 languages. Explores the performance gap between high-resource languages (English, Chinese) and low-resource/non-English languages. Explores mitigation strategies like Prompt Adaptation, Translation-based prompting, and Cross-lingual few-shot prompting. Korean, as an SOV language, benefits from more explicit structural markers and prompt adaptation strategies.
+- [Source] Token Efficiency: "Is Sanskrit the most token-efficient language?" (arXiv:2601.06142, 2026)
+  → Refutes the "CJK consumes 2-3x more tokens" myth. Modern models (e.g., Qwen) leverage the high semantic density of logograms, sometimes using ~40% fewer tokens for CJK than English.
+- [Source] Structural Markers: "Towards harnessing the most of ChatGPT for Korean grammatical error correction" (Applied Sciences, 2024)
+  → Highlights that effective Korean prompting must strategically control postpositions and case markers to ensure the LLM correctly parses grammatical intent.
 
 ### Practical Rules (GRC Implementation)
 - System Instruction role/rules: Use Korean if the end-user interaction is in Korean. ✅
 - Tags and separators: Maintain XML tags in English (e.g., `<rules>`, `<output_format>`). ✅
-- Token efficiency: Minimize redundant phrasing to save tokens.
+- Token efficiency: CJK token penalties are largely resolved in modern models; focus on clarity rather than unnatural compression.
 - Explicit language target: Always include explicit output instructions (e.g., "Write the response in Korean."). ✅
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

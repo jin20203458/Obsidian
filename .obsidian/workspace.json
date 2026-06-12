@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "18cb925a5398b863",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Antigravity 2.0/AI_Prompt_Engineering_Guidelines.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AI_Prompt_Engineering_Guidelines"
-            }
-          },
-          {
             "id": "8b7c86967f04ce1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UI/z.개발사항들/메모2.md",
+                "file": "ai_agent_refs/ko/AI_Prompt_Engineering_Guidelines_KR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "메모2"
+              "title": "AI_Prompt_Engineering_Guidelines_KR"
             }
           }
         ]
@@ -186,10 +172,25 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "18cb925a5398b863",
+  "active": "8b7c86967f04ce1f",
   "lastOpenFiles": [
+    "ai_agent_refs/en/AI_Prompt_Engineering_Guidelines.md",
+    "ai_agent_refs/en/AI_Prompt_AntiPatterns_Guidelines.md",
+    "ai_agent_refs/ko/AI_Prompt_AntiPatterns_Guidelines_KR.md",
+    "ai_agent_refs/ko/wpf_architecture_reference_KR.md",
+    "ai_agent_refs/ko/AI_Prompt_Workflow_Guide_KR.md",
+    "ai_agent_refs/ko/AI_Prompt_Engineering_Guidelines_KR.md",
+    "ai_agent_refs/en/wpf_architecture_reference.md",
+    "ai_agent_refs/en/AI_Prompt_Workflow_Guide.md",
+    "ai_agent_refs/wpf_architecture_reference.md",
+    "ai_agent_refs/en",
+    "ai_agent_refs/ko",
+    "ai_agent_refs/AI_Prompt_Workflow_Guide.md",
+    "ai_agent_refs/AI_Prompt_Engineering_Guidelines.md",
+    "ai_agent_refs/AI_Prompt_AntiPatterns_Guidelines.md",
     "UI/z.개발사항들/메모2.md",
     "Antigravity 2.0/AI_Prompt_Engineering_Guidelines.md",
+    "ai_agent_refs",
     "UI/z.개발사항들/CWE 개발 순서.md",
     "Antigravity 2.0/기타.md",
     "Antigravity 2.0/설정창 2.md",
@@ -202,25 +203,13 @@
     "UI/기타.md",
     "UI/z.개발사항들/CSA 체커들 매핑 테이블.md",
     "UI/z.개발사항들/체커들 옵션 정리.md",
-    "UI/z.개발사항들/디버깅.md",
-    "UI/z.개발사항들/주의 해야하는 CWE 룰들.md",
-    "LLVM/Clang 환경설정/CSA 옵션 정리.md",
-    "LLVM/Clang 환경설정/Clnag 명령어 모음.md",
-    "LLVM/Clang 환경설정/AST dump 시험용.md",
-    "LLVM/Clang 환경설정/Clang_Build.md",
-    "LLVM/AI Tempate/프로바이더 변환 탬플릿 상세.md",
-    "LLVM/복습, 소개용/4. AST 추상구문트리.md",
     "기타_자료/Pasted image 20260527171516.png",
     "기타_자료/Pasted image 20260527164026.png",
     "기타_자료/Pasted image 20260527151749.png",
     "기타_자료/Pasted image 20260527151013.png",
     "기타_자료/Pasted image 20260527132106.png",
     "기타_자료/Pasted image 20260527103641.png",
-    "기타 참조 사항들/ARQA 명세서/Clang Tidy 체커 명세서.md",
     "기타_자료/Pasted image 20260527091526.png",
-    "UI/z.개발사항들/임시.md",
-    "UI/UI_TEST.md",
-    "UI/현재 구조.md",
     "Antigravity 2.0",
     "ARQA 명세서.zip",
     "기타 참조 사항들/ARQA 명세서",
@@ -230,9 +219,6 @@
     "새 폴더",
     "기타 참조 사항들/무기체계 소프트웨어 코딩 규칙/DRPA",
     "기타 참조 사항들/CSTS",
-    "기타 참조 사항들/무기체계 소프트웨어 코딩 규칙/CWE",
-    "LLVM/CSA/CSA 공부",
-    "기타_자료/Pasted image 20251114194239.png",
-    "기타_자료/ArqaStatic_Installer.msi"
+    "기타_자료/Pasted image 20251114194239.png"
   ]
 }
