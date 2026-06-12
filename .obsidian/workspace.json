@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UI/z.개발사항들/메모2.md",
+                "file": "Antigravity 2.0/AI_Prompt_Engineering_Guidelines.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "메모2"
+              "title": "AI_Prompt_Engineering_Guidelines"
             }
           },
           {
@@ -217,11 +217,11 @@
   },
   "active": "18cb925a5398b863",
   "lastOpenFiles": [
+    "UI/z.개발사항들/메모2.md",
     "Antigravity 2.0/AI_Prompt_Engineering_Guidelines.md",
     "Antigravity 2.0/기타.md",
     "Antigravity 2.0/설정창 2.md",
     "UI/z.개발사항들/소스코드 매트릭.md",
-    "UI/z.개발사항들/메모2.md",
     "Antigravity 2.0/설정창 1.md",
     "Antigravity 2.0/메인 화면.md",
     "UI/z.개발사항들/메모1.md",
