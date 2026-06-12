@@ -219,6 +219,7 @@
   "lastOpenFiles": [
     "UI/z.개발사항들/메모2.md",
     "Antigravity 2.0/AI_Prompt_Engineering_Guidelines.md",
+    "UI/z.개발사항들/CWE 개발 순서.md",
     "Antigravity 2.0/기타.md",
     "Antigravity 2.0/설정창 2.md",
     "UI/z.개발사항들/소스코드 매트릭.md",
@@ -228,7 +229,6 @@
     "LLVM/AI Tempate/AI template.md",
     "UI/clang-tidy 파일 탐색 규칙.md",
     "UI/기타.md",
-    "UI/z.개발사항들/CWE 개발 순서.md",
     "UI/z.개발사항들/CSA 체커들 매핑 테이블.md",
     "UI/z.개발사항들/체커들 옵션 정리.md",
     "UI/z.개발사항들/디버깅.md",
