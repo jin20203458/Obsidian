@@ -9,3 +9,6 @@
 # OS temporary files
 .DS_Store
 Thumbs.db
+
+# PixAI
+PixAI/
