@@ -11,13 +11,15 @@
 * **최종 진단 판정**: **❌ 미탐 (Silent / False Negative) - 아무런 경고도 감지되지 않음**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L187 ~ L190)
+> 파일 위치: `dapa_test_suite.cpp` (L207 ~ L212)
 
 ```cpp
- 187 | namespace Rule_13 {
- 188 |     char h1[4] = "Hello";  // ❌ 배열 크기 부족 (5글자 + 널 문자 필요)
- 189 |     char h2[5] = "Hello";  // ❌ 널 문자('\0') 저장 공간 없음
- 190 | }
+ 207 | namespace Rule_13 {
+ 208 | #if 0
+ 209 |     char h1[4] = "Hello";  // ❌ 배열 크기 부족 (5글자 + 널 문자 필요)
+ 210 |     char h2[5] = "Hello";  // ❌ 널 문자('\0') 저장 공간 없음
+ 211 | #endif
+ 212 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
@@ -32,24 +34,24 @@
 * **최종 진단 판정**: **✅ 정탐 (True Positive) - 의도된 결함 정확히 검출**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L196 ~ L203)
+> 파일 위치: `dapa_test_suite.cpp` (L218 ~ L225)
 
 ```cpp
- 196 | namespace Rule_14 {
- 197 |     void foo(void)
- 198 |     {
- 199 |         int i;
- 200 |         int j;
- 201 |         j = i + 2; // ❌ i는 초기화되지 않았음 → 정의되지 않은 동작
- 202 |     }
- 203 | }
+ 218 | namespace Rule_14 {
+ 219 |     void foo(void)
+ 220 |     {
+ 221 |         int i;
+ 222 |         int j;
+ 223 |         j = i + 2; // ❌ i는 초기화되지 않았음 → 정의되지 않은 동작
+ 224 |     }
+ 225 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
 | 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
 | :---: | :---: | :---: | :---: | :--- |
-| 201 | error | `uninitvar` | ✅ 정탐 경고 (Genuine) | Uninitialized variable: i |
-| 201 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'j' is assigned a value that is never used. |
+| 223 | error | `uninitvar` | ✅ 정탐 경고 (Genuine) | Uninitialized variable: i |
+| 223 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'j' is assigned a value that is never used. |
 
 ---
 
@@ -60,25 +62,25 @@
 * **최종 진단 판정**: **✅ 정탐 (True Positive) - 의도된 결함 정확히 검출**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L209 ~ L218)
+> 파일 위치: `dapa_test_suite.cpp` (L231 ~ L240)
 
 ```cpp
- 209 | namespace Rule_15 {
- 210 |     extern int foo(const int *p);
- 211 | 
- 212 |     void foo1(void)
- 213 |     {
- 214 |         int y;
- 215 |         int r;
- 216 |         r = foo(&y); // ❌ y는 초기화되지 않았음
- 217 |     }
- 218 | }
+ 231 | namespace Rule_15 {
+ 232 |     extern int foo(const int *p);
+ 233 | 
+ 234 |     void foo1(void)
+ 235 |     {
+ 236 |         int y;
+ 237 |         int r;
+ 238 |         r = foo(&y); // ❌ y는 초기화되지 않았음
+ 239 |     }
+ 240 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
 | 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
 | :---: | :---: | :---: | :---: | :--- |
-| 216 | error | `uninitvar` | ✅ 정탐 경고 (Genuine) | Uninitialized variable: &y |
-| 216 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'r' is assigned a value that is never used. |
+| 238 | error | `uninitvar` | ✅ 정탐 경고 (Genuine) | Uninitialized variable: &y |
+| 238 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'r' is assigned a value that is never used. |
 
 ---

@@ -13,8 +13,8 @@
 | | | |
 | **✅ 정탐 (True Positives)** | **29** | 규칙 의도에 정확히 부합하는 결함 검출 건수 |
 | **❌ 미탐 및 파생 경고 (Missed)** | **36** | 아예 탐지 못했거나, 엉뚱한 부수적 경고만 낸 건수 |
-| ↳ *완전 미탐 (Silent / False Negative)* | *20* | 아무런 경고도 출력되지 않은 건수 |
-| ↳ *파생 경고 (Collateral Only)* | *16* | `unreadVariable` 등 결함과 무관한 경고만 띄운 건수 |
+| ↳ *완전 미탐 (Silent / False Negative)* | *17* | 아무런 경고도 출력되지 않은 건수 |
+| ↳ *파생 경고 (Collateral Only)* | *19* | `unreadVariable` 등 결함과 무관한 경고만 띄운 건수 |
 | | | |
 | **💡 실제 결함 검출률 (Detection Rate)** | **44.6%** | `(정탐 / 실제 분석 대상) * 100` |
 | **📉 미탐/오탐률 (Miss Rate)** | **55.4%** | `(미탐 / 실제 분석 대상) * 100` |
@@ -31,9 +31,9 @@
 | Common_Cond | 5 | 2 | 3 | **40.0%** | 단순 조건식 논리 오류는 탐지하나 Float 비교, Switch 구조는 미탐 |
 | Common_Conv | 8 | 2 | 6 | **25.0%** | 기본 타입 검증은 약하나 printf/scanf 인수 매칭은 강력함 |
 | Common_PtrArray | 5 | 4 | 1 | **80.0%** | Null Pointer, Array Bound 등 **메모리 버그에 가장 강력함** |
-| Common_Expr | 9 | 4 | 5 | **44.4%** | 기본 연산 논리(Shift, Order)는 탐지하나 논리 연산자 엄격성 부족 |
+| Common_Expr | 9 | 5 | 4 | **55.6%** | 기본 연산 논리(Shift, Order)는 탐지하나 논리 연산자 엄격성 부족 |
 | C_Specific | 5 | 1 | 4 | **20.0%** | C 표준 구문 및 특정 함수 사이즈 연산에 대한 세밀함 부족 |
-| CPP_Specific | 15 | 11 | 4 | **73.3%** | new/delete, Use After Free는 매우 강력하나, 상속 및 캐스팅 제약(스타일)에 약함 |
+| CPP_Specific | 15 | 10 | 5 | **66.7%** | new/delete, Use After Free는 매우 강력하나, 상속 및 캐스팅 제약(스타일)에 약함 |
 
 ---
 

@@ -11,24 +11,24 @@
 * **최종 진단 판정**: **⚠️ 미탐 (파생 경고만 발생) - 결함은 미탐지하고 부수적 경고만 발생**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L495 ~ L503)
+> 파일 위치: `dapa_test_suite.cpp` (L524 ~ L532)
 
 ```cpp
- 495 | namespace Rule_33 {
- 496 |     #define NULL (void *)0
- 497 | 
- 498 |     void foo(int *p)
- 499 |     {
- 500 |         int r;
- 501 |         r = *p;  // ❌ p가 NULL일 경우 → 시스템 크래시 발생 가능
- 502 |     }
- 503 | }
+ 524 | namespace Rule_33 {
+ 525 |     // Removed duplicate NULL macro definition to compile on C++
+ 526 | 
+ 527 |     void foo(int *p)
+ 528 |     {
+ 529 |         int r;
+ 530 |         r = *p;  // ❌ p가 NULL일 경우 → 시스템 크래시 발생 가능
+ 531 |     }
+ 532 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
 | 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
 | :---: | :---: | :---: | :---: | :--- |
-| 501 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'r' is assigned a value that is never used. |
+| 530 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'r' is assigned a value that is never used. |
 
 ---
 
@@ -39,24 +39,24 @@
 * **최종 진단 판정**: **✅ 정탐 (True Positive) - 의도된 결함 정확히 검출**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L509 ~ L517)
+> 파일 위치: `dapa_test_suite.cpp` (L538 ~ L546)
 
 ```cpp
- 509 | namespace Rule_34 {
- 510 |     extern int *pi;
- 511 | 
- 512 |     void foo(void)
- 513 |     {
- 514 |         int a;
- 515 |         pi = &a;  // ❌ a는 foo 함수가 끝나면 사라짐 → pi는 댕글링 포인터가 됨
- 516 |     }
- 517 | }
+ 538 | namespace Rule_34 {
+ 539 |     extern int *pi;
+ 540 | 
+ 541 |     void foo(void)
+ 542 |     {
+ 543 |         int a;
+ 544 |         pi = &a;  // ❌ a는 foo 함수가 끝나면 사라짐 → pi는 댕글링 포인터가 됨
+ 545 |     }
+ 546 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
 | 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
 | :---: | :---: | :---: | :---: | :--- |
-| 515 | error | `danglingLifetime` | ✅ 정탐 경고 (Genuine) | Non-local variable 'pi' will use pointer to local variable 'a'. |
+| 544 | error | `danglingLifetime` | ✅ 정탐 경고 (Genuine) | Non-local variable 'pi' will use pointer to local variable 'a'. |
 
 ---
 
@@ -67,22 +67,22 @@
 * **최종 진단 판정**: **✅ 정탐 (True Positive) - 의도된 결함 정확히 검출**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L523 ~ L529)
+> 파일 위치: `dapa_test_suite.cpp` (L552 ~ L558)
 
 ```cpp
- 523 | namespace Rule_35 {
- 524 |     int *func(void)
- 525 |     {
- 526 |         int a = 0;
- 527 |         return &a;  // ❌ a는 함수 종료와 함께 사라짐 → 댕글링 포인터
- 528 |     }
- 529 | }
+ 552 | namespace Rule_35 {
+ 553 |     int *func(void)
+ 554 |     {
+ 555 |         int a = 0;
+ 556 |         return &a;  // ❌ a는 함수 종료와 함께 사라짐 → 댕글링 포인터
+ 557 |     }
+ 558 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
 | 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
 | :---: | :---: | :---: | :---: | :--- |
-| 527 | error | `returnDanglingLifetime` | ✅ 정탐 경고 (Genuine) | Returning pointer to local variable 'a' that will be invalid when returning. |
+| 556 | error | `returnDanglingLifetime` | ✅ 정탐 경고 (Genuine) | Returning pointer to local variable 'a' that will be invalid when returning. |
 
 ---
 
@@ -93,28 +93,28 @@
 * **최종 진단 판정**: **✅ 정탐 (True Positive) - 의도된 결함 정확히 검출**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L535 ~ L546)
+> 파일 위치: `dapa_test_suite.cpp` (L564 ~ L575)
 
 ```cpp
- 535 | namespace Rule_36 {
- 536 |     extern int a[10];
- 537 | 
- 538 |     extern int foo(void)
- 539 |     {
- 540 |         int r;
- 541 |         r = a[10];       // ❌ 유효한 인덱스는 0~9 → 범위 초과
- 542 |         a[10] = 0;       // ❌ 쓰기 접근도 위험
- 543 |         *(a + 10) = 0;   // ❌ 포인터 연산도 동일하게 위험
- 544 |         return r;
- 545 |     }
- 546 | }
+ 564 | namespace Rule_36 {
+ 565 |     extern int a[10];
+ 566 | 
+ 567 |     extern int foo(void)
+ 568 |     {
+ 569 |         int r;
+ 570 |         r = a[10];       // ❌ 유효한 인덱스는 0~9 → 범위 초과
+ 571 |         a[10] = 0;       // ❌ 쓰기 접근도 위험
+ 572 |         *(a + 10) = 0;   // ❌ 포인터 연산도 동일하게 위험
+ 573 |         return r;
+ 574 |     }
+ 575 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
 | 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
 | :---: | :---: | :---: | :---: | :--- |
-| 541 | error | `arrayIndexOutOfBounds` | ✅ 정탐 경고 (Genuine) | Array 'a[10]' accessed at index 10, which is out of bounds. |
-| 542 | error | `arrayIndexOutOfBounds` | ✅ 정탐 경고 (Genuine) | Array 'a[10]' accessed at index 10, which is out of bounds. |
+| 570 | error | `arrayIndexOutOfBounds` | ✅ 정탐 경고 (Genuine) | Array 'a[10]' accessed at index 10, which is out of bounds. |
+| 571 | error | `arrayIndexOutOfBounds` | ✅ 정탐 경고 (Genuine) | Array 'a[10]' accessed at index 10, which is out of bounds. |
 
 ---
 
@@ -125,27 +125,27 @@
 * **최종 진단 판정**: **✅ 정탐 (True Positive) - 의도된 결함 정확히 검출**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L552 ~ L562)
+> 파일 위치: `dapa_test_suite.cpp` (L581 ~ L591)
 
 ```cpp
- 552 | namespace Rule_37 {
- 553 |     #define NULL (void *)0
- 554 | 
- 555 |     void foo(int *q)
- 556 |     {
- 557 |         if (q == NULL)
- 558 |         {
- 559 |             ++q;  // ❌ NULL 포인터에 산술 연산 → 정의되지 않은 동작
- 560 |         }
- 561 |     }
- 562 | }
+ 581 | namespace Rule_37 {
+ 582 |     // Removed duplicate NULL macro definition to compile on C++
+ 583 | 
+ 584 |     void foo(int *q)
+ 585 |     {
+ 586 |         if (q == NULL)
+ 587 |         {
+ 588 |             ++q;  // ❌ NULL 포인터에 산술 연산 → 정의되지 않은 동작
+ 589 |         }
+ 590 |     }
+ 591 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
 | 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
 | :---: | :---: | :---: | :---: | :--- |
-| 559 | warning | `uselessAssignmentPtrArg` | ⚠️ 파생 경고 (Collateral) | Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? |
-| 559 | warning | `nullPointerArithmeticRedundantCheck` | ✅ 정탐 경고 (Genuine) | Either the condition 'q==(void*)0' is redundant or there is pointer arithmetic with NULL pointer. |
-| 559 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'q' is assigned a value that is never used. |
+| 588 | warning | `uselessAssignmentPtrArg` | ⚠️ 파생 경고 (Collateral) | Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? |
+| 588 | warning | `nullPointerArithmeticRedundantCheck` | ✅ 정탐 경고 (Genuine) | Either the condition 'q==NULL' is redundant or there is pointer arithmetic with NULL pointer. |
+| 588 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'q' is assigned a value that is never used. |
 
 ---

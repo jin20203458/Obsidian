@@ -11,22 +11,22 @@
 * **최종 진단 판정**: **✅ 정탐 (True Positive) - 의도된 결함 정확히 검출**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L568 ~ L573)
+> 파일 위치: `dapa_test_suite.cpp` (L597 ~ L602)
 
 ```cpp
- 568 | namespace Rule_38 {
- 569 |     extern void foo(void) {
- 570 |         int x = 7;
- 571 |         x = x++ * x++;  // ❌ 위반: x의 값을 두 번 이상 변경 + 순서 미정
- 572 |     }
- 573 | }
+ 597 | namespace Rule_38 {
+ 598 |     extern void foo(void) {
+ 599 |         int x = 7;
+ 600 |         x = x++ * x++;  // ❌ 위반: x의 값을 두 번 이상 변경 + 순서 미정
+ 601 |     }
+ 602 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
 | 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
 | :---: | :---: | :---: | :---: | :--- |
-| 571 | error | `unknownEvaluationOrder` | ✅ 정탐 경고 (Genuine) | Expression 'x++*x++' depends on order of evaluation of side effects |
-| 571 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'x' is assigned a value that is never used. |
+| 600 | error | `unknownEvaluationOrder` | ✅ 정탐 경고 (Genuine) | Expression 'x++*x++' depends on order of evaluation of side effects |
+| 600 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'x' is assigned a value that is never used. |
 
 ---
 
@@ -37,21 +37,21 @@
 * **최종 진단 판정**: **⚠️ 미탐 (파생 경고만 발생) - 결함은 미탐지하고 부수적 경고만 발생**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L579 ~ L584)
+> 파일 위치: `dapa_test_suite.cpp` (L608 ~ L613)
 
 ```cpp
- 579 | namespace Rule_39 {
- 580 |     void foo(int x, int n) {
- 581 |         int r;
- 582 |         r = x / n;  // ❌ n이 0일 경우 → 런타임 오류 (division by zero)
- 583 |     }
- 584 | }
+ 608 | namespace Rule_39 {
+ 609 |     void foo(int x, int n) {
+ 610 |         int r;
+ 611 |         r = x / n;  // ❌ n이 0일 경우 → 런타임 오류 (division by zero)
+ 612 |     }
+ 613 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
 | 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
 | :---: | :---: | :---: | :---: | :--- |
-| 582 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'r' is assigned a value that is never used. |
+| 611 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'r' is assigned a value that is never used. |
 
 ---
 
@@ -62,23 +62,23 @@
 * **최종 진단 판정**: **✅ 정탐 (True Positive) - 의도된 결함 정확히 검출**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L590 ~ L596)
+> 파일 위치: `dapa_test_suite.cpp` (L619 ~ L625)
 
 ```cpp
- 590 | namespace Rule_40 {
- 591 |     extern void foo(int index)
- 592 |     {
- 593 |         int r;
- 594 |         r = (2 * index) + index++;  // ❌ 위반: index를 읽고 동시에 변경
- 595 |     }
- 596 | }
+ 619 | namespace Rule_40 {
+ 620 |     extern void foo(int index)
+ 621 |     {
+ 622 |         int r;
+ 623 |         r = (2 * index) + index++;  // ❌ 위반: index를 읽고 동시에 변경
+ 624 |     }
+ 625 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
 | 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
 | :---: | :---: | :---: | :---: | :--- |
-| 594 | error | `unknownEvaluationOrder` | ✅ 정탐 경고 (Genuine) | Expression '(2*index)+index++' depends on order of evaluation of side effects |
-| 594 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'r' is assigned a value that is never used. |
+| 623 | error | `unknownEvaluationOrder` | ✅ 정탐 경고 (Genuine) | Expression '(2*index)+index++' depends on order of evaluation of side effects |
+| 623 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'r' is assigned a value that is never used. |
 
 ---
 
@@ -89,26 +89,26 @@
 * **최종 진단 판정**: **✅ 정탐 (True Positive) - 의도된 결함 정확히 검출**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L602 ~ L610)
+> 파일 위치: `dapa_test_suite.cpp` (L631 ~ L639)
 
 ```cpp
- 602 | namespace Rule_41 {
- 603 |     extern unsigned int uia;
- 604 | 
- 605 |     extern void foo(void)
- 606 |     {
- 607 |         uia = uia << -2;  // ❌ 음수 shift → 정의되지 않은 동작
- 608 |         uia = uia << 40;  // ❌ 데이터 타입 크기 초과 → 정의되지 않은 동작
- 609 |     }
- 610 | }
+ 631 | namespace Rule_41 {
+ 632 |     extern unsigned int uia;
+ 633 | 
+ 634 |     extern void foo(void)
+ 635 |     {
+ 636 |         uia = uia << -2;  // ❌ 음수 shift → 정의되지 않은 동작
+ 637 |         uia = uia << 40;  // ❌ 데이터 타입 크기 초과 → 정의되지 않은 동작
+ 638 |     }
+ 639 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
 | 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
 | :---: | :---: | :---: | :---: | :--- |
-| 607 | error | `shiftTooManyBits` | ✅ 정탐 경고 (Genuine) | Shifting 32-bit value by 4294967294 bits is undefined behaviour |
-| 608 | error | `shiftTooManyBits` | ✅ 정탐 경고 (Genuine) | Shifting 32-bit value by 40 bits is undefined behaviour |
-| 607 | warning | `signConversion` | ✅ 정탐 경고 (Genuine) | Expression '-2' has a negative value. That is converted to an unsigned value and used in an unsigned calculation. |
+| 636 | error | `shiftTooManyBits` | ✅ 정탐 경고 (Genuine) | Shifting 32-bit value by 4294967294 bits is undefined behaviour |
+| 637 | error | `shiftTooManyBits` | ✅ 정탐 경고 (Genuine) | Shifting 32-bit value by 40 bits is undefined behaviour |
+| 636 | warning | `signConversion` | ✅ 정탐 경고 (Genuine) | Expression '-2' has a negative value. That is converted to an unsigned value and used in an unsigned calculation. |
 
 ---
 
@@ -119,22 +119,22 @@
 * **최종 진단 판정**: **⚠️ 미탐 (파생 경고만 발생) - 결함은 미탐지하고 부수적 경고만 발생**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L616 ~ L622)
+> 파일 위치: `dapa_test_suite.cpp` (L645 ~ L651)
 
 ```cpp
- 616 | namespace Rule_42 {
- 617 |     void foo(unsigned char i)
- 618 |     {
- 619 |         long j;
- 620 |         j = -i;  // ❌ unsigned 타입에 음수 연산 → 의도와 다른 결과
- 621 |     }
- 622 | }
+ 645 | namespace Rule_42 {
+ 646 |     void foo(unsigned char i)
+ 647 |     {
+ 648 |         long j;
+ 649 |         j = -i;  // ❌ unsigned 타입에 음수 연산 → 의도와 다른 결과
+ 650 |     }
+ 651 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
 | 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
 | :---: | :---: | :---: | :---: | :--- |
-| 620 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'j' is assigned a value that is never used. |
+| 649 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'j' is assigned a value that is never used. |
 
 ---
 
@@ -145,26 +145,26 @@
 * **최종 진단 판정**: **✅ 정탐 (True Positive) - 의도된 결함 정확히 검출**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L628 ~ L637)
+> 파일 위치: `dapa_test_suite.cpp` (L657 ~ L666)
 
 ```cpp
- 628 | namespace Rule_43 {
- 629 |     long foo(int x)
- 630 |     {
- 631 |         long y;
- 632 |         unsigned long un;
- 633 |         y = x;
- 634 |         un = sizeof(++y);  // ❌ 위반: ++y는 side effect → 실행되지 않음
- 635 |         return y;
- 636 |     }
- 637 | }
+ 657 | namespace Rule_43 {
+ 658 |     long foo(int x)
+ 659 |     {
+ 660 |         long y;
+ 661 |         unsigned long un;
+ 662 |         y = x;
+ 663 |         un = sizeof(++y);  // ❌ 위반: ++y는 side effect → 실행되지 않음
+ 664 |         return y;
+ 665 |     }
+ 666 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
 | 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
 | :---: | :---: | :---: | :---: | :--- |
-| 634 | warning | `sizeofCalculation` | ✅ 정탐 경고 (Genuine) | Found calculation inside sizeof(). |
-| 634 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'un' is assigned a value that is never used. |
+| 663 | warning | `sizeofCalculation` | ✅ 정탐 경고 (Genuine) | Found calculation inside sizeof(). |
+| 663 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'un' is assigned a value that is never used. |
 
 ---
 
@@ -175,26 +175,26 @@
 * **최종 진단 판정**: **⚠️ 미탐 (파생 경고만 발생) - 결함은 미탐지하고 부수적 경고만 발생**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L643 ~ L652)
+> 파일 위치: `dapa_test_suite.cpp` (L672 ~ L681)
 
 ```cpp
- 643 | namespace Rule_44 {
- 644 |     int foo(int a, int b, int c, int d)
- 645 |     {
- 646 |         int x;
- 647 |         x = ~((a > b) && (b > 10));     // ❌ 비트 반전 연산자(~) 사용
- 648 |         x = (a > b) + (c > d);          // ❌ 논리값을 산술 덧셈에 사용
- 649 |         x = (a + b) > (c > d);          // ❌ 논리값을 산술 비교에 사용
- 650 |         return x;
- 651 |     }
- 652 | }
+ 672 | namespace Rule_44 {
+ 673 |     int foo(int a, int b, int c, int d)
+ 674 |     {
+ 675 |         int x;
+ 676 |         x = ~((a > b) && (b > 10));     // ❌ 비트 반전 연산자(~) 사용
+ 677 |         x = (a > b) + (c > d);          // ❌ 논리값을 산술 덧셈에 사용
+ 678 |         x = (a + b) > (c > d);          // ❌ 논리값을 산술 비교에 사용
+ 679 |         return x;
+ 680 |     }
+ 681 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
 | 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
 | :---: | :---: | :---: | :---: | :--- |
-| 648 | style | `redundantAssignment` | ⚠️ 파생 경고 (Collateral) | Variable 'x' is reassigned a value before the old one has been used. |
-| 649 | style | `redundantAssignment` | ⚠️ 파생 경고 (Collateral) | Variable 'x' is reassigned a value before the old one has been used. |
+| 677 | style | `redundantAssignment` | ⚠️ 파생 경고 (Collateral) | Variable 'x' is reassigned a value before the old one has been used. |
+| 678 | style | `redundantAssignment` | ⚠️ 파생 경고 (Collateral) | Variable 'x' is reassigned a value before the old one has been used. |
 
 ---
 
@@ -202,21 +202,29 @@
 
 * **세부 조항**: 아
 * **매핑 체커 (Clang-Tidy)**: `NoAssignmentInConditionCheck`
-* **최종 진단 판정**: **❌ 미탐 (Silent / False Negative) - 아무런 경고도 감지되지 않음**
+* **최종 진단 판정**: **✅ 정탐 (True Positive) - 의도된 결함 정확히 검출**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L658 ~ L662)
+> 파일 위치: `dapa_test_suite.cpp` (L687 ~ L696)
 
 ```cpp
- 658 | namespace Rule_45 {
- 659 |     if (var2 = var1) {
- 660 |         // ...
- 661 |     }
- 662 | }
+ 687 | namespace Rule_45 {
+ 688 |     void foo()
+ 689 |     {
+ 690 |         int var1 = 0;
+ 691 |         int var2 = 0;
+ 692 |         if (var2 = var1) {
+ 693 |             // ...
+ 694 |         }
+ 695 |     }
+ 696 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
-> ❌ **검출된 경고 없음 (Silent)**
+| 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
+| :---: | :---: | :---: | :---: | :--- |
+| 692 | style | `knownConditionTrueFalse` | ✅ 정탐 경고 (Genuine) | Condition 'var2=var1' is always false |
+| 692 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'var2' is assigned a value that is never used. |
 
 ---
 
@@ -227,21 +235,21 @@
 * **최종 진단 판정**: **⚠️ 미탐 (파생 경고만 발생) - 결함은 미탐지하고 부수적 경고만 발생**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L668 ~ L674)
+> 파일 위치: `dapa_test_suite.cpp` (L702 ~ L708)
 
 ```cpp
- 668 | namespace Rule_46 {
- 669 |     void foo(long sl)
- 670 |     {
- 671 |         long slr;
- 672 |         slr = sl << 4;  // ❌ sl이 음수일 경우 → 부호 비트가 밀려나며 예기치 않은 결과 발생
- 673 |     }
- 674 | }
+ 702 | namespace Rule_46 {
+ 703 |     void foo(long sl)
+ 704 |     {
+ 705 |         long slr;
+ 706 |         slr = sl << 4;  // ❌ sl이 음수일 경우 → 부호 비트가 밀려나며 예기치 않은 결과 발생
+ 707 |     }
+ 708 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
 | 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
 | :---: | :---: | :---: | :---: | :--- |
-| 672 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'slr' is assigned a value that is never used. |
+| 706 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'slr' is assigned a value that is never used. |
 
 ---

@@ -11,16 +11,18 @@
 * **최종 진단 판정**: **❌ 미탐 (Silent / False Negative) - 아무런 경고도 감지되지 않음**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L224 ~ L230)
+> 파일 위치: `dapa_test_suite.cpp` (L246 ~ L254)
 
 ```cpp
- 224 | namespace Rule_16 {
- 225 |     extern int foo(int value);
- 226 |     extern int number;
- 227 |     /* ... */
- 228 |     static int number;       // ❌ 외부에서 참조하겠다고 해놓고 내부 전용으로 선언
- 229 |     static int foo(int value); // ❌ 외부 함수라고 해놓고 내부 전용으로 선언
- 230 | }
+ 246 | namespace Rule_16 {
+ 247 |     extern int foo(int value);
+ 248 |     extern int number;
+ 249 |     /* ... */
+ 250 | #if 0
+ 251 |     static int number;       // ❌ 외부에서 참조하겠다고 해놓고 내부 전용으로 선언
+ 252 |     static int foo(int value); // ❌ 외부 함수라고 해놓고 내부 전용으로 선언
+ 253 | #endif
+ 254 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
@@ -35,18 +37,20 @@
 * **최종 진단 판정**: **❌ 미탐 (Silent / False Negative) - 아무런 경고도 감지되지 않음**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L236 ~ L244)
+> 파일 위치: `dapa_test_suite.cpp` (L260 ~ L270)
 
 ```cpp
- 236 | namespace Rule_17 {
- 237 |     // TU1.c
- 238 |     int press;
- 239 |     void foo(void) { }
- 240 | 
- 241 |     // TU2.c
- 242 |     float press;       // ❌ press가 중복 정의됨
- 243 |     void foo(int) { }  // ❌ foo가 다른 시그니처로 중복 정의됨
- 244 | }
+ 260 | namespace Rule_17 {
+ 261 |     // TU1.c
+ 262 |     int press;
+ 263 |     void foo(void) { }
+ 264 | 
+ 265 |     // TU2.c
+ 266 | #if 0
+ 267 |     float press;       // ❌ press가 중복 정의됨
+ 268 |     void foo(int) { }  // ❌ foo가 다른 시그니처로 중복 정의됨
+ 269 | #endif
+ 270 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
@@ -61,20 +65,22 @@
 * **최종 진단 판정**: **❌ 미탐 (Silent / False Negative) - 아무런 경고도 감지되지 않음**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L250 ~ L260)
+> 파일 위치: `dapa_test_suite.cpp` (L276 ~ L288)
 
 ```cpp
- 250 | namespace Rule_18 {
- 251 |     // TU1.c
- 252 |     extern int i;            // ❌ 실제로는 float인데 int로 선언
- 253 |     extern void foo(int);    // ❌ 실제로는 int 반환인데 void로 선언
- 254 | 
- 255 |     // TU2.c
- 256 |     float i = 0.0;
- 257 |     int foo(int x) {
- 258 |         return x + 1;
- 259 |     }
- 260 | }
+ 276 | namespace Rule_18 {
+ 277 |     // TU1.c
+ 278 | #if 0
+ 279 |     extern int i;            // ❌ 실제로는 float인데 int로 선언
+ 280 |     extern void foo(int);    // ❌ 실제로는 int 반환인데 void로 선언
+ 281 | #endif
+ 282 | 
+ 283 |     // TU2.c
+ 284 |     float i = 0.0;
+ 285 |     int foo(int x) {
+ 286 |         return x + 1;
+ 287 |     }
+ 288 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
@@ -89,28 +95,29 @@
 * **최종 진단 판정**: **✅ 정탐 (True Positive) - 의도된 결함 정확히 검출**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L266 ~ L278)
+> 파일 위치: `dapa_test_suite.cpp` (L294 ~ L307)
 
 ```cpp
- 266 | namespace Rule_19 {
- 267 |     void func(int a)
- 268 |     {
- 269 |         int variable = 6;
- 270 | 
- 271 |         if (a > 0) {
- 272 |             int variable;     // ❌ 같은 이름으로 재정의 (shadowing)
- 273 |             variable = 10;
- 274 |         }
- 275 | 
- 276 |         func2(variable);      // variable은 6 → 내부에서 10으로 바꾼 줄 착각할 수 있음
- 277 |     }
- 278 | }
+ 294 | namespace Rule_19 {
+ 295 |     void func2(int);
+ 296 |     void func(int a)
+ 297 |     {
+ 298 |         int variable = 6;
+ 299 | 
+ 300 |         if (a > 0) {
+ 301 |             int variable;     // ❌ 같은 이름으로 재정의 (shadowing)
+ 302 |             variable = 10;
+ 303 |         }
+ 304 | 
+ 305 |         func2(variable);      // variable은 6 → 내부에서 10으로 바꾼 줄 착각할 수 있음
+ 306 |     }
+ 307 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
 | 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
 | :---: | :---: | :---: | :---: | :--- |
-| 272 | style | `shadowVariable` | ✅ 정탐 경고 (Genuine) | Local variable 'variable' shadows outer variable |
-| 273 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'variable' is assigned a value that is never used. |
+| 301 | style | `shadowVariable` | ✅ 정탐 경고 (Genuine) | Local variable 'variable' shadows outer variable |
+| 302 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'variable' is assigned a value that is never used. |
 
 ---

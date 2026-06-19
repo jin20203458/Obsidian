@@ -11,12 +11,12 @@
 * **최종 진단 판정**: **⚪ 분석 제외 (정적분석 진단 범위 밖)**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L19 ~ L21)
+> 파일 위치: `dapa_test_suite.cpp` (L20 ~ L22)
 
 ```cpp
-  19 | namespace Rule_01 {
-  20 |     // Parse failed for this rule
-  21 | }
+  20 | namespace Rule_01 {
+  21 |     // Parse failed for this rule
+  22 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
@@ -28,31 +28,35 @@
 
 * **세부 조항**: 나
 * **매핑 체커 (Clang-Tidy)**: `SwitchStyleCheck`
-* **최종 진단 판정**: **❌ 미탐 (Silent / False Negative) - 아무런 경고도 감지되지 않음**
+* **최종 진단 판정**: **⚠️ 미탐 (파생 경고만 발생) - 결함은 미탐지하고 부수적 경고만 발생**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L27 ~ L41)
+> 파일 위치: `dapa_test_suite.cpp` (L28 ~ L43)
 
 ```cpp
-  27 | namespace Rule_02 {
-  28 |     void foo(int m)
-  29 |     {
-  30 |         switch (m)
-  31 |         {
-  32 |             n = n + 1; // ❌ 잘못된 위치: 어떤 case label보다 먼저 실행될 수 없음
-  33 |             case 1:
-  34 |                 --n;
-  35 |                 break;
-  36 |             default:
-  37 |                 ++n;
-  38 |                 break;
-  39 |         }
-  40 |     }
-  41 | }
+  28 | namespace Rule_02 {
+  29 |     void foo(int m)
+  30 |     {
+  31 |         int n = 0;
+  32 |         switch (m)
+  33 |         {
+  34 |             n = n + 1; // ❌ 잘못된 위치: 어떤 case label보다 먼저 실행될 수 없음
+  35 |             case 1:
+  36 |                 --n;
+  37 |                 break;
+  38 |             default:
+  39 |                 ++n;
+  40 |                 break;
+  41 |         }
+  42 |     }
+  43 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
-> ❌ **검출된 경고 없음 (Silent)**
+| 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
+| :---: | :---: | :---: | :---: | :--- |
+| 36 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'n' is assigned a value that is never used. |
+| 39 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'n' is assigned a value that is never used. |
 
 ---
 
@@ -63,15 +67,15 @@
 * **최종 진단 판정**: **❌ 미탐 (Silent / False Negative) - 아무런 경고도 감지되지 않음**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L47 ~ L52)
+> 파일 위치: `dapa_test_suite.cpp` (L49 ~ L54)
 
 ```cpp
-  47 | namespace Rule_03 {
-  48 |     auto x = 10;         // ❌ 타입이 명시되지 않음
-  49 |     auto foo() {         // ❌ 반환 타입 생략
-  50 |         return 42;
-  51 |     }
-  52 | }
+  49 | namespace Rule_03 {
+  50 |     auto x = 10;         // ❌ 타입이 명시되지 않음
+  51 |     auto foo() {         // ❌ 반환 타입 생략
+  52 |         return 42;
+  53 |     }
+  54 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
@@ -86,16 +90,16 @@
 * **최종 진단 판정**: **❌ 미탐 (Silent / False Negative) - 아무런 경고도 감지되지 않음**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L58 ~ L64)
+> 파일 위치: `dapa_test_suite.cpp` (L60 ~ L66)
 
 ```cpp
-  58 | namespace Rule_04 {
-  59 |     void foo(int x)
-  60 |     {
-  61 |         int n = 0;
-  62 |         n == x; // ❌ 의미 없는 비교: 결과를 사용하지 않음
-  63 |     }
-  64 | }
+  60 | namespace Rule_04 {
+  61 |     void foo(int x)
+  62 |     {
+  63 |         int n = 0;
+  64 |         n == x; // ❌ 의미 없는 비교: 결과를 사용하지 않음
+  65 |     }
+  66 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
@@ -110,28 +114,30 @@
 * **최종 진단 판정**: **✅ 정탐 (True Positive) - 의도된 결함 정확히 검출**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L70 ~ L82)
+> 파일 위치: `dapa_test_suite.cpp` (L72 ~ L86)
 
 ```cpp
-  70 | namespace Rule_05 {
-  71 |     int f1(int value) {
-  72 |         return;       // ❌ int를 반환해야 하는데 아무것도 반환하지 않음
-  73 |     }
-  74 | 
-  75 |     void f2(int value) {
-  76 |         return value; // ❌ void 함수는 값을 반환할 수 없음
-  77 |     }
-  78 | 
-  79 |     int f1(int value) {
-  80 |         // ❌ return 문이 없음 → 경고 또는 정의되지 않은 동작
-  81 |     }
-  82 | }
+  72 | namespace Rule_05 {
+  73 | #if 0
+  74 |     int f1(int value) {
+  75 |         return;       // ❌ int를 반환해야 하는데 아무것도 반환하지 않음
+  76 |     }
+  77 | 
+  78 |     void f2(int value) {
+  79 |         return value; // ❌ void 함수는 값을 반환할 수 없음
+  80 |     }
+  81 | #endif
+  82 | 
+  83 |     int f3(int value) {
+  84 |         // ❌ return 문이 없음 → 경고 또는 정의되지 않은 동작
+  85 |     }
+  86 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
 | 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
 | :---: | :---: | :---: | :---: | :--- |
-| 81 | error | `missingReturn` | ✅ 정탐 경고 (Genuine) | Found an exit path from function with non-void return type that has missing return statement |
+| 85 | error | `missingReturn` | ✅ 정탐 경고 (Genuine) | Found an exit path from function with non-void return type that has missing return statement |
 
 ---
 
@@ -142,17 +148,19 @@
 * **최종 진단 판정**: **❌ 미탐 (Silent / False Negative) - 아무런 경고도 감지되지 않음**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L88 ~ L95)
+> 파일 위치: `dapa_test_suite.cpp` (L92 ~ L101)
 
 ```cpp
-  88 | namespace Rule_06 {
-  89 |     int foo(void)
-  90 |     {
-  91 |         int r;
-  92 |         r = func(0); // ❌ func가 선언되지 않았음
-  93 |         return r;
-  94 |     }
-  95 | }
+  92 | namespace Rule_06 {
+  93 |     int foo(void)
+  94 |     {
+  95 |         int r = 0;
+  96 | #if 0
+  97 |         r = func(0); // ❌ func가 선언되지 않았음 (compiler error in C++)
+  98 | #endif
+  99 |         return r;
+ 100 |     }
+ 101 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
@@ -167,16 +175,16 @@
 * **최종 진단 판정**: **❌ 미탐 (Silent / False Negative) - 아무런 경고도 감지되지 않음**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L101 ~ L107)
+> 파일 위치: `dapa_test_suite.cpp` (L107 ~ L113)
 
 ```cpp
- 101 | namespace Rule_07 {
- 102 |     #define M1 5
- 103 | 
- 104 |     #if (M2 == 5) // ❌ M2는 정의되지 않았음
- 105 |     int y = 0;
- 106 |     #endif
- 107 | }
+ 107 | namespace Rule_07 {
+ 108 |     #define M1 5
+ 109 | 
+ 110 |     #if (M2 == 5) // ❌ M2는 정의되지 않았음
+ 111 |     int y = 0;
+ 112 |     #endif
+ 113 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
@@ -191,27 +199,29 @@
 * **최종 진단 판정**: **✅ 정탐 (True Positive) - 의도된 결함 정확히 검출**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L113 ~ L124)
+> 파일 위치: `dapa_test_suite.cpp` (L119 ~ L131)
 
 ```cpp
- 113 | namespace Rule_08 {
- 114 |     short test_1404(void)
- 115 |     {
- 116 |         if (abc > 10)
- 117 |         {
- 118 |             goto mylabel; // ❌ 흐름이 갑자기 점프함
- 119 |         }
- 120 |         abc++;
- 121 |     mylabel:
- 122 |         ...
- 123 |     }
- 124 | }
+ 119 | namespace Rule_08 {
+ 120 |     short test_1404(void)
+ 121 |     {
+ 122 |         int abc = 0;
+ 123 |         if (abc > 10)
+ 124 |         {
+ 125 |             goto mylabel; // ❌ 흐름이 갑자기 점프함
+ 126 |         }
+ 127 |         abc++;
+ 128 |     mylabel:
+ 129 |         return 0;
+ 130 |     }
+ 131 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
 | 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
 | :---: | :---: | :---: | :---: | :--- |
-| 120 | error | `missingReturn` | ✅ 정탐 경고 (Genuine) | Found an exit path from function with non-void return type that has missing return statement |
+| 123 | style | `knownConditionTrueFalse` | ✅ 정탐 경고 (Genuine) | Condition 'abc>10' is always false |
+| 127 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'abc' is assigned a value that is never used. |
 
 ---
 
@@ -222,22 +232,22 @@
 * **최종 진단 판정**: **❌ 미탐 (Silent / False Negative) - 아무런 경고도 감지되지 않음**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L130 ~ L142)
+> 파일 위치: `dapa_test_suite.cpp` (L137 ~ L149)
 
 ```cpp
- 130 | namespace Rule_09 {
- 131 |     int S16test_1407(void)
- 132 |     {
- 133 |         if (s16a > 0)
- 134 |         {
- 135 |             return 0;  // ❌ 첫 번째 exit point
- 136 |         }
- 137 |         else
- 138 |         {
- 139 |             return 1;  // ❌ 두 번째 exit point
- 140 |         }
- 141 |     }
- 142 | }
+ 137 | namespace Rule_09 {
+ 138 |     int S16test_1407(int s16a)
+ 139 |     {
+ 140 |         if (s16a > 0)
+ 141 |         {
+ 142 |             return 0;  // ❌ 첫 번째 exit point
+ 143 |         }
+ 144 |         else
+ 145 |         {
+ 146 |             return 1;  // ❌ 두 번째 exit point
+ 147 |         }
+ 148 |     }
+ 149 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
@@ -249,27 +259,34 @@
 
 * **세부 조항**: 차
 * **매핑 체커 (Clang-Tidy)**: `SwitchStyleCheck`
-* **최종 진단 판정**: **❌ 미탐 (Silent / False Negative) - 아무런 경고도 감지되지 않음**
+* **최종 진단 판정**: **⚠️ 미탐 (파생 경고만 발생) - 결함은 미탐지하고 부수적 경고만 발생**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L148 ~ L158)
+> 파일 위치: `dapa_test_suite.cpp` (L155 ~ L169)
 
 ```cpp
- 148 | namespace Rule_10 {
- 149 |     switch (s16a)
- 150 |     {
- 151 |     case 0:
- 152 |         x = 2;
- 153 |         break;
- 154 |     case 1:
- 155 |         x = 1;
- 156 |         break;
- 157 |     }  /* default 없음 */
- 158 | }
+ 155 | namespace Rule_10 {
+ 156 |     void foo(int s16a)
+ 157 |     {
+ 158 |         int x = 0;
+ 159 |         switch (s16a)
+ 160 |         {
+ 161 |         case 0:
+ 162 |             x = 2;
+ 163 |             break;
+ 164 |         case 1:
+ 165 |             x = 1;
+ 166 |             break;
+ 167 |         }  /* default 없음 */
+ 168 |     }
+ 169 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
-> ❌ **검출된 경고 없음 (Silent)**
+| 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
+| :---: | :---: | :---: | :---: | :--- |
+| 162 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'x' is assigned a value that is never used. |
+| 165 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'x' is assigned a value that is never used. |
 
 ---
 
@@ -277,19 +294,27 @@
 
 * **세부 조항**: 카
 * **매핑 체커 (Clang-Tidy)**: `MultiStatementPerLineCheck`
-* **최종 진단 판정**: **❌ 미탐 (Silent / False Negative) - 아무런 경고도 감지되지 않음**
+* **최종 진단 판정**: **⚠️ 미탐 (파생 경고만 발생) - 결함은 미탐지하고 부수적 경고만 발생**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L164 ~ L166)
+> 파일 위치: `dapa_test_suite.cpp` (L175 ~ L182)
 
 ```cpp
- 164 | namespace Rule_11 {
- 165 |     r = p; p++; // ❌ 두 개의 명령문이 한 줄에 있음
- 166 | }
+ 175 | namespace Rule_11 {
+ 176 |     void foo()
+ 177 |     {
+ 178 |         int r = 0;
+ 179 |         int p = 0;
+ 180 |         r = p; p++; // ❌ 두 개의 명령문이 한 줄에 있음
+ 181 |     }
+ 182 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
-> ❌ **검출된 경고 없음 (Silent)**
+| 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
+| :---: | :---: | :---: | :---: | :--- |
+| 180 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'r' is assigned a value that is never used. |
+| 180 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'p' is assigned a value that is never used. |
 
 ---
 
@@ -297,25 +322,33 @@
 
 * **세부 조항**: 타
 * **매핑 체커 (Clang-Tidy)**: `IfStyleCheck`
-* **최종 진단 판정**: **❌ 미탐 (Silent / False Negative) - 아무런 경고도 감지되지 않음**
+* **최종 진단 판정**: **⚠️ 미탐 (파생 경고만 발생) - 결함은 미탐지하고 부수적 경고만 발생**
 
 ### 💻 검증 소스코드
-> 파일 위치: `dapa_test_suite.cpp` (L172 ~ L181)
+> 파일 위치: `dapa_test_suite.cpp` (L188 ~ L201)
 
 ```cpp
- 172 | namespace Rule_12 {
- 173 |     if (s16a == 2)
- 174 |     {
- 175 |         r = 3;
- 176 |     }
- 177 |     else if (s16a == 3) // ❌ else 없음
- 178 |     {
- 179 |         r = 2;
- 180 |     }
- 181 | }
+ 188 | namespace Rule_12 {
+ 189 |     void foo(int s16a)
+ 190 |     {
+ 191 |         int r = 0;
+ 192 |         if (s16a == 2)
+ 193 |         {
+ 194 |             r = 3;
+ 195 |         }
+ 196 |         else if (s16a == 3) // ❌ else 없음
+ 197 |         {
+ 198 |             r = 2;
+ 199 |         }
+ 200 |     }
+ 201 | }
 ```
 
 ### 🔍 Cppcheck 진단 경고 로그 (Raw Output)
-> ❌ **검출된 경고 없음 (Silent)**
+| 라인 (Line) | 중요도 (Severity) | 경고 ID (Warning ID) | 분류 | 진단 메시지 (Message) |
+| :---: | :---: | :---: | :---: | :--- |
+| 191 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'r' is assigned a value that is never used. |
+| 194 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'r' is assigned a value that is never used. |
+| 198 | style | `unreadVariable` | ⚠️ 파생 경고 (Collateral) | Variable 'r' is assigned a value that is never used. |
 
 ---
